@@ -1,0 +1,571 @@
+{
+  "topic": "3. Subtraction as Removing or Comparing",
+  "sub_topics": [
+    {
+      "sub_topic": "Taking Away (Subtraction as Removal)",
+      "explanation": "Subtraction through taking away involves removing a specified quantity from a total, focusing on the remaining items. This concept is foundational for understanding differences between quantities and is best illustrated by visualizing or physically removing items from a group. It helps develop intuitive problem-solving skills by connecting concrete actions (removal) to abstract mathematical operations.",
+      "examples": [
+        {
+          "example": "There are 17 birds in a tree. A squirrel steals 6 of them. How many birds remain in the tree?",
+          "steps": [
+            "There are initially __17__ birds in the tree.",
+            "The squirrel takes away __6__ birds.",
+            "Subtract the stolen birds: __17__ - __6__ = __11__ birds remain."
+          ]
+        },
+        {
+          "example": "A pizza restaurant has 24 slices left after serving 10 customers. How many slices are still available?",
+          "steps": [
+            "The restaurant initially has __24__ pizza slices remaining after serving customers.",
+            "The restaurant served __10__ customers, so we subtract the slices given away.",
+            "Subtract __10__ from __24__: __24__ - __10__ = __14__ slices remaining."
+          ]
+        },
+        {
+          "example": "A library has 45 books on the shelf. 12 are checked out by students. How many books remain on display?",
+          "steps": [
+            "The library starts with __45__ books on the shelf.",
+            "Students check out __12__ books.",
+            "Subtract the checked-out books from the total: __45__ - __12__ = __33__ books remain on display."
+          ]
+        },
+        {
+          "example": "A bakery has 30 loaves of bread. They use 14 for sandwiches. How many loaves are left for sale?",
+          "steps": [
+            "The bakery starts with __30__ loaves of bread.",
+            "They use __14__ loaves for sandwiches.",
+            "Subtract the used loaves from the total: __30__ - __14__ = __16__ loaves remain.",
+            "These __16__ loaves are left for sale."
+          ]
+        },
+        {
+          "example": "A train has 56 passengers on board. 28 get off at the next station. How many passengers remain on the train?",
+          "steps": [
+            "The train starts with __56__ passengers on board.",
+            "At the next station, __28__ passengers get off.",
+            "Subtract the passengers who got off: __56__ - __28__ = __28__ passengers remain on the train."
+          ]
+        },
+        {
+          "example": "A farmer has 60 kg of wheat. He sells 25 kg to a mill. How much wheat is left?",
+          "steps": [
+            "The farmer starts with __60__ kg of wheat.",
+            "He sells __25__ kg of wheat to a mill.",
+            "Subtract the sold amount: __60__ - __25__ = __35__ kg of wheat remain."
+          ]
+        },
+        {
+          "example": "A classroom has 22 students. 9 join the group from another class. How many students are now in the room?",
+          "steps": [
+            "The classroom starts with __22__ students.",
+            "Then, __9__ more students join the group.",
+            "First, add the new students: __22__ + __9__ = __31__ students.",
+            "Now, the classroom has __31__ students in total."
+          ]
+        },
+        {
+          "example": "A grocery store has 75 apples. 30 are sold to customers. How many apples remain in stock?",
+          "steps": [
+            "The store starts with __75__ apples.",
+            "__30__ apples are sold to customers.",
+            "Subtract the sold apples from the total: __75__ - __30__ = __45__ apples remain."
+          ]
+        },
+        {
+          "example": "A construction crew has 40 tools. 15 are damaged and discarded. How many tools are still usable?",
+          "steps": [
+            "The crew starts with __40__ tools in total.",
+            "They discard __15__ damaged tools.",
+            "Subtract the discarded tools: __40__ - __15__ = __25__ tools remain usable."
+          ]
+        },
+        {
+          "example": "A marathon runner completes 38 laps. She stops after 12 laps. How many laps are left to finish?",
+          "steps": [
+            "The runner has completed a total of __38__ laps.",
+            "She stops after completing __12__ laps.",
+            "Subtract the completed laps from the total: __38__ - __12__ = __26__ laps remain."
+          ]
+        },
+        {
+          "example": "A bakery has 50 cupcakes. They give away 20 to friends. How many cupcakes are left?",
+          "steps": [
+            "The bakery starts with __50__ cupcakes.",
+            "They give away __20__ cupcakes to friends.",
+            "Subtract the given away cupcakes: __50__ - __20__ = __30__ cupcakes remain."
+          ]
+        },
+        {
+          "example": "A sports team has 16 players. 7 are injured and cannot play. How many players are available for the game?",
+          "steps": [
+            "The team starts with __16__ players in total.",
+            "Out of these, __7__ players are injured and cannot play.",
+            "Subtract the injured players from the total: __16__ - __7__ = __9__ players are available."
+          ]
+        },
+        {
+          "example": "A farmer has 80 eggs. Some hatch, leaving 35. How many eggs hatched?",
+          "steps": [
+            "The farmer starts with __80__ eggs.",
+            "Some eggs hatch, so the number decreases.",
+            "After hatching, there are __35__ eggs left.",
+            "To find how many hatched, subtract the remaining eggs from the original amount: __80__ - __35__ = __45__ eggs hatched."
+          ]
+        },
+        {
+          "example": "A library has 60 books. 25 are returned after being borrowed. How many books are still checked out?",
+          "steps": [
+            "Initially, there are __60__ books in the library.",
+            "Books checked out are not returned yet, so we start with __60__ books available.",
+            "After borrowing, __25__ books are no longer in the library (checked out).",
+            "Subtract the checked-out books from the total: __60__ - __25__ = __35__ books remain in the library.",
+            "Since the question asks for books still checked out, we assume the remaining __35__ are the ones that were returned."
+          ]
+        },
+        {
+          "example": "A train station has 40 passengers waiting. 18 board the train. How many passengers remain waiting?",
+          "steps": [
+            "There are initially __40__ passengers waiting at the train station.",
+            "The train picks up __18__ passengers.",
+            "Subtract the boarding passengers from the total: __40__ - __18__ = __22__ passengers remain waiting."
+          ]
+        },
+        {
+          "example": "A garden has 30 flowers. 10 are cut for bouquets. How many flowers are left in the garden?",
+          "steps": [
+            "There are initially __30__ flowers in the garden.",
+            "I remove __10__ flowers for bouquets.",
+            "Subtracting the removed flowers: __30__ - __10__ = __20__ flowers remain.",
+            "The remaining flowers in the garden are __20__."
+          ]
+        },
+        {
+          "example": "A construction site has 50 bricks. 15 are used for repairs. How many bricks are left?",
+          "steps": [
+            "The construction site starts with __50__ bricks.",
+            "__15__ bricks are used for repairs.",
+            "Subtract the used bricks from the total: __50__ - __15__ = __35__ bricks remain."
+          ]
+        },
+        {
+          "example": "A bakery has 25 cookies. They sell 8 to customers. How many cookies are left?",
+          "steps": [
+            "The bakery starts with __25__ cookies.",
+            "They sell __8__ cookies to customers.",
+            "Subtract the sold cookies from the total: __25__ - __8__ = __17__ cookies remain."
+          ]
+        },
+        {
+          "example": "A sports team has 28 players. 10 are traded away. How many players remain on the team?",
+          "steps": [
+            "The team starts with __28__ players.",
+            "The team loses __10__ players due to trades.",
+            "Subtract the traded players: __28__ - __10__ = __18__ players remain."
+          ]
+        },
+        {
+          "example": "A farmer has 70 kg of potatoes. He uses 22 kg for cooking. How many kg of potatoes are left?",
+          "steps": [
+            "The farmer starts with __70__ kg of potatoes.",
+            "He uses __22__ kg for cooking.",
+            "Subtract the used amount from the total: __70__ - __22__ = __48__ kg remain."
+          ]
+        }
+      ]
+    },
+    {
+      "sub_topic": "Stepping backward",
+      "explanation": "Stepping backward involves counting backward from a given number by a specified amount, reinforcing subtraction as a reverse counting process. This method is useful for understanding place value, arithmetic operations, and real-world scenarios where decrementing quantities is necessary. Visualizing steps on a number line or in a structured sequence enhances comprehension of the concept.",
+      "examples": [
+        {
+          "example": "Start at 50 and count back 12 steps. What number do you land on?",
+          "steps": [
+            "Begin at the number __50__.",
+            "Count back __1__ step: __50__ - __1__ = __49__.",
+            "Count back another __1__ step: __49__ - __1__ = __48__.",
+            "Count back another __1__ step: __48__ - __1__ = __47__.",
+            "Count back another __1__ step: __47__ - __1__ = __46__.",
+            "Count back another __1__ step: __46__ - __1__ = __45__.",
+            "Count back another __1__ step: __45__ - __1__ = __44__.",
+            "Count back another __1__ step: __44__ - __1__ = __43__.",
+            "Count back another __1__ step: __43__ - __1__ = __42__.",
+            "Count back another __1__ step: __42__ - __1__ = __41__.",
+            "Count back another __1__ step: __41__ - __1__ = __40__.",
+            "Count back another __1__ step: __40__ - __1__ = __39__.",
+            "Count back another __1__ step: __39__ - __1__ = __38__.",
+            "Count back another __1__ step: __38__ - __1__ = __37__.",
+            "Count back another __1__ step: __37__ - __1__ = __36__.",
+            "You have counted back __12__ steps in total. The final number is __38__."
+          ]
+        },
+        {
+          "example": "You are at the 18th level of an escalator. If you step back 9 levels, what is your new position?",
+          "steps": [
+            "You start at the __18__th level of the escalator.",
+            "You step back __9__ levels.",
+            "Subtract the steps taken from your starting position: __18__ - __9__ = __9__.",
+            "Your new position on the escalator is the __9__th level."
+          ]
+        },
+        {
+          "example": "A pizza costs $45. If you pay $28, count backward from 45 to find out how much change you should receive.",
+          "steps": [
+            "The pizza costs __45__ dollars.",
+            "You pay __28__ dollars.",
+            "Subtract the payment from the cost: __45__ - __28__ = __17__ (this is the amount you still owe).",
+            "To find the change, count backward from the cost by the amount paid: Start at __45__ and subtract __28__ step by step until you reach __28__.",
+            "The change you should receive is __17__ dollars."
+          ]
+        },
+        {
+          "example": "A marathon starts at 9:30 AM. If the race ends 1 hour and 45 minutes earlier, what time is it?",
+          "steps": [
+            "The marathon starts at __9:30 AM__.",
+            "Subtracting 1 hour from 9:30 AM gives __8:30 AM__.",
+            "Now subtract the remaining 45 minutes from 8:30 AM:",
+            "45 minutes before 8:30 AM is __8:25 AM__.",
+            "Therefore, the marathon ends at __8:25 AM__."
+          ]
+        },
+        {
+          "example": "You have 176 candies. If you share 56 with friends, count backward from 176 to determine how many you have left.",
+          "steps": [
+            "Start with __176__ candies.",
+            "You share __56__ candies with friends.",
+            "Subtract __56__ from __176__ to find out how many remain: __176__ - __56__ = __120__ candies left."
+          ]
+        },
+        {
+          "example": "A clock displays 11:40 AM. If you count back 15 minutes, what time does it show?",
+          "steps": [
+            "The current time is __11:40 AM__.",
+            "Counting back __15__ minutes from 40 minutes past the hour brings us to __25__ minutes past the hour.",
+            "Since 25 minutes is still in the same hour, the time becomes __11:25 AM__."
+          ]
+        },
+        {
+          "example": "A train departs at 4:20 PM. If it arrives 3 hours and 10 minutes earlier, what time does it arrive?",
+          "steps": [
+            "The train departs at __4:20 PM__.",
+            "Subtracting 3 hours from 4:20 PM gives us __11:20 AM__.",
+            "Now subtract the remaining 10 minutes from 11:20 AM: __11:10 AM__.",
+            "Therefore, the train arrives at __11:10 AM__."
+          ]
+        },
+        {
+          "example": "You are at the 3rd position in a relay race. If you step back 7 positions, where are you now?",
+          "steps": [
+            "You start at the __3__rd__ position in the relay race.",
+            "You step back __7__ positions from your starting point.",
+            "Subtract __7__ from your starting position: __3__ - __7__ = __-4__",
+            "A negative position means you are ahead of the starting line. You are now at the __-4__th position (or equivalently, __4__ positions before the start)."
+          ]
+        },
+        {
+          "example": "A bag contains 1,234 coins. If you remove 456 coins, count backward from 1,234 to find the remaining amount.",
+          "steps": [
+            "Start with the total number of coins: __1,234__.",
+            "Subtract the coins removed: __456__ from __1,234__.",
+            "Break down the subtraction: Start with 1,000 coins, leaving __1,234 - 1,000 = 234__ coins.",
+            "Subtract the next 400 coins: __234 - 400 = -166__ (since 400 is larger than 234, adjust by borrowing).",
+            "Now subtract the remaining 56 coins from the borrowed 100: __234 - 56 = 178__ (after borrowing 100 from the 200).",
+            "Add the borrowed 100 to the remaining coins: __178 + 100 = 278__.",
+            "Now add the remaining 60 coins: __278 + 60 = 338__ (since 456 - 400 - 56 = 60).",
+            "The remaining coins are now: __1,234 - 456 = 778__."
+          ]
+        },
+        {
+          "example": "A video game character starts at level 42. If it descends 14 levels, what is its new level?",
+          "steps": [
+            "The character starts at level __42__.",
+            "The character descends by __14__ levels.",
+            "Subtract the descended levels from the starting level: __42__ - __14__ = __28__.",
+            "The new level of the character is __28__."
+          ]
+        },
+        {
+          "example": "A recipe requires 2.5 liters of water. If you use 0.8 liters, count backward from 2.5 to find the remaining amount.",
+          "steps": [
+            "The recipe needs a total of __2.5__ liters of water.",
+            "You use __0.8__ liters of water.",
+            "Subtract the used water from the total: __2.5__ - __0.8__ = __1.7__ liters remain."
+          ]
+        },
+        {
+          "example": "You are at the 10th floor of a building. If you step back 6 floors, what floor are you on?",
+          "steps": [
+            "You start on the __10__th floor.",
+            "You step back __6__ floors.",
+            "Subtract __6__ from __10__: __10__ - __6__ = __4__",
+            "So you are now on the __4__th floor."
+          ]
+        },
+        {
+          "example": "A clock shows 12:00 noon. If you count back 2 hours and 30 minutes, what time is it?",
+          "steps": [
+            "The clock shows __12:00 noon__.",
+            "Counting back __2 hours__ from noon brings us to __10:00 AM__.",
+            "Now subtract __30 minutes__ from 10:00 AM: __10:00 AM - 30 minutes = __9:30 AM__.",
+            "So, the time after counting back 2 hours and 30 minutes is __9:30 AM__."
+          ]
+        },
+        {
+          "example": "A sports team starts with 15 players. If 4 players leave, count backward from 15 to find the remaining players.",
+          "steps": [
+            "The team begins with __15__ players.",
+            "The team loses __4__ players.",
+            "Subtract the players who left: __15__ - __4__ = __11__ players remain."
+          ]
+        },
+        {
+          "example": "A digital clock displays 8:55 AM. If you count back 25 minutes, what time does it show?",
+          "steps": [
+            "The current time is __8:55 AM__.",
+            "Counting back __25__ minutes from 8:55 AM:",
+            "Subtract __5__ minutes from 8:55 AM → __8:50 AM__.",
+            "Now subtract the remaining __20__ minutes from 8:50 AM:",
+            "8:50 AM minus __20__ minutes is __8:30 AM__.",
+            "The clock now shows __8:30 AM__."
+          ]
+        },
+        {
+          "example": "A library has 789 books. If 293 books are returned, count backward from 789 to find the remaining books.",
+          "steps": [
+            "Start with the total number of books: __789__.",
+            "Books returned: __293__.",
+            "Subtract the returned books from the total: __789__ - __293__ = __496__ remaining books."
+          ]
+        },
+        {
+          "example": "You are at the 25th position in a queue. If you step back 11 positions, where are you now?",
+          "steps": [
+            "You start at the __25__th position in the queue.",
+            "You move back __11__ positions from your starting point.",
+            "Subtract __11__ from __25__: __25__ - __11__ = __14__",
+            "You are now at the __14__th position in the queue."
+          ]
+        },
+        {
+          "example": "A train leaves at 11:15 AM. If it arrives 5 hours and 45 minutes earlier, what time does it arrive?",
+          "steps": [
+            "The train leaves at __11:15 AM__.",
+            "Subtracting 5 hours from 11:15 AM gives us __6:15 AM__ (since 11:15 - 5 hours = 6:15).",
+            "Now subtract the remaining 45 minutes from 6:15 AM: __6:15 AM - 45 minutes = __5:30 AM__.",
+            "Therefore, the train arrives at __5:30 AM__."
+          ]
+        },
+        {
+          "example": "A fruit basket has 3,456 apples. If you remove 1,234 apples, count backward from 3,456 to find the remaining apples.",
+          "steps": [
+            "Start with the total number of apples: __3,456__.",
+            "Subtract the number of apples removed: __3,456__ - __1,234__ = __2,222__ apples remaining.",
+            "Verify by counting backward step-by-step (optional): Start at 3,456 and subtract 1,234 in parts if needed (e.g., subtract 1,000 first, then 200, then 34)."
+          ]
+        },
+        {
+          "example": "A clock shows 3:15 PM. If you count back 1 hour and 10 minutes, what time is it?",
+          "steps": [
+            "The current time is __3:15 PM__.",
+            "Counting back __1 hour__ from 3:15 PM brings us to __11:15 PM__ (midnight).",
+            "Now subtract __10 minutes__ from 11:15 PM: __11:05 PM__.",
+            "The final time after counting back 1 hour and 10 minutes is __11:05 PM__."
+          ]
+        }
+      ]
+    },
+    {
+      "sub_topic": "Matching and Canceling",
+      "explanation": "Matching and canceling involves visualizing subtraction by pairing items to cancel out quantities, often using concrete representations like groups, pairs, or removed items. This reinforces the idea that subtraction removes equal quantities, helping students grasp the concept intuitively through tangible examples.",
+      "examples": [
+        {
+          "example": "You have 12 identical toy cars. Your brother takes 4 cars, and you match each taken car with a removed one from your collection. How many cars remain?",
+          "steps": [
+            "You start with __12__ toy cars in your collection.",
+            "Your brother takes __4__ cars from your collection.",
+            "You match each of the __4__ taken cars with one removed car from your collection.",
+            "Since you remove __4__ cars (one for each taken car), the remaining cars are initially __12__ - __4__ = __8__.",
+            "After removing the matched cars, you have __8__ cars left in your collection."
+          ]
+        },
+        {
+          "example": "A bakery has 24 cupcakes. They sell 6 cupcakes in pairs (2 per customer). How many cupcakes are left if each sold pair is matched with a removed one?",
+          "steps": [
+            "The bakery starts with __24__ cupcakes.",
+            "They sell cupcakes in pairs, so each pair removes __2__ cupcakes.",
+            "There are __6__ pairs sold, so __6__ × __2__ = __12__ cupcakes are sold.",
+            "Each sold pair is matched with a removed cupcake, meaning __12__ cupcakes are removed from the total.",
+            "Subtract the removed cupcakes from the original amount: __24__ - __12__ = __12__ cupcakes remain."
+          ]
+        },
+        {
+          "example": "A farmer has 18 apples. He gives 5 apples to each of 3 neighbors, matching each given apple with a removed one. How many apples does he have left?",
+          "steps": [
+            "The farmer starts with __18__ apples.",
+            "He gives 5 apples to the first neighbor. Apples remaining: __18__ - __5__ = __13__.",
+            "He gives 5 apples to the second neighbor. Apples remaining: __13__ - __5__ = __8__.",
+            "He gives 5 apples to the third neighbor. Apples remaining: __8__ - __5__ = __3__.",
+            "The farmer has __3__ apples left."
+          ]
+        },
+        {
+          "example": "A train has 36 passengers. It stops at 6 stations, with 3 passengers leaving at each station. If each leaving passenger is matched with a removed one, how many passengers remain?",
+          "steps": [
+            "The train starts with __36__ passengers.",
+            "At each station, __3__ passengers leave the train.",
+            "Since there are __6__ stations, calculate the total number of passengers leaving: __3__ × __6__ = __18__ passengers leave.",
+            "Subtract the leaving passengers from the initial number: __36__ - __18__ = __18__ passengers remain."
+          ]
+        },
+        {
+          "example": "A library has 40 books. 8 books are checked out in groups of 2 (one per person). How many books are left if each checked-out book is matched with a removed one?",
+          "steps": [
+            "The library starts with __40__ books.",
+            "There are __8__ groups of books checked out, with each group containing __2__ books.",
+            "Total checked-out books = __8__ groups × __2__ books/group = __16__ books checked out.",
+            "Each checked-out book is matched with a removed book from the library, so __16__ books are removed.",
+            "Books remaining after removal = __40__ - __16__ = __24__ books."
+          ]
+        },
+        {
+          "example": "A soccer team has 20 players. They lose 5 players in a match, and each loss is matched with a removed player. How many players are on the team after the match?",
+          "steps": [
+            "The team starts with __20__ players.",
+            "They lose __5__ players in the match.",
+            "Since each loss removes one player, subtract __5__ from the total: __20__ - __5__ = __15__ players remain."
+          ]
+        },
+        {
+          "example": "A grocery store has 30 bottles of juice. They sell 7 bottles in sets of 3 (one per customer). How many bottles remain if each sold bottle is matched with a removed one?",
+          "steps": [
+            "The store starts with __30__ bottles of juice.",
+            "They sell bottles in sets of 3, so each set removes __3__ bottles.",
+            "They sell __7__ sets, so they remove __7 × 3__ bottles.",
+            "Calculate the total removed: __7 × 3 = __ bottles removed.",
+            "Subtract the removed bottles from the total: __30__ - __ = __ bottles remain.",
+            "Each sold bottle is matched with a removed one, so the remaining count is the same as the total removed (since they are removed in pairs)."
+          ]
+        },
+        {
+          "example": "A classroom has 25 students. 5 students leave for a field trip, and each student is matched with a removed one.",
+          "steps": [
+            "There are initially __25__ students in the classroom.",
+            "The problem states that __5__ students leave for a field trip.",
+            "Since each of these 5 students is matched with one removed student, the number of students remaining after the trip is __25__ - __5__ = __20__.",
+            "The phrase 'each student is matched with a removed one' implies no additional students are added or subtracted beyond the initial subtraction of 5."
+          ]
+        },
+        {
+          "example": "A construction crew has 16 workers. They complete 4 tasks, with 2 workers leaving each task. How many workers remain if each leaving worker is matched with a removed one?",
+          "steps": [
+            "There are initially __16__ workers in the crew.",
+            "Each task removes __2__ workers. Since there are __4__ tasks, calculate the total number of workers removed: __2__ × __4__ = __8__ workers removed.",
+            "Subtract the removed workers from the initial number: __16__ - __8__ = __8__ workers remaining before matching.",
+            "Each leaving worker is matched with a removed one, meaning the __8__ removed workers are accounted for by the __8__ leaving workers (no additional subtraction needed).",
+            "Thus, the number of workers remaining is still __8__."
+          ]
+        },
+        {
+          "example": "A bakery has 15 loaves of bread. They sell 3 loaves in groups of 5 (one per customer). How many loaves are left if each sold loaf is matched with a removed one?",
+          "steps": [
+            "The bakery starts with __15__ loaves of bread.",
+            "They sell loaves in groups of 5, with 3 customers: __5__ loaves per customer × __3__ customers = __15__ loaves sold.",
+            "Each sold loaf is matched with a removed loaf, so __15__ loaves are removed in total.",
+            "Subtract the removed loaves from the original amount: __15__ - __15__ = __0__ loaves left."
+          ]
+        },
+        {
+          "example": "A zoo has 28 animals. 7 animals are moved to a new exhibit, and each is matched with a removed one.",
+          "steps": [
+            "The zoo starts with __28__ animals.",
+            "Seven animals are moved to a new exhibit: __7__ animals are removed.",
+            "Each removed animal is matched with one from the original group, so the removal is effectively __7__ animals taken out of the total.",
+            "Subtract the removed animals from the original count: __28__ - __7__ = __21__ animals remain."
+          ]
+        },
+        {
+          "example": "A farmer has 10 rows of corn with 4 plants each. If 2 plants are removed from each row, how many plants are left if each removed plant is matched with a removed one?",
+          "steps": [
+            "First, calculate the total number of plants initially: __10__ rows × __4__ plants per row = __40__ plants.",
+            "Next, determine how many plants are removed from each row: __2__ plants are removed from each of the __10__ rows.",
+            "Calculate the total number of plants removed: __2__ plants × __10__ rows = __20__ plants removed.",
+            "Subtract the removed plants from the total: __40__ plants - __20__ plants = __20__ plants remain.",
+            "The problem states that each removed plant is matched with a removed one, so the remaining plants are simply the ones left after removal: __20__ plants remain."
+          ]
+        },
+        {
+          "example": "A library has 32 books divided into 8 shelves with 4 books per shelf. If 3 books are removed from each shelf, how many books remain if each removed book is matched with a removed one?",
+          "steps": [
+            "First, check the total number of books: __32__ books in total.",
+            "Books are divided into __8__ shelves with __4__ books per shelf.",
+            "Calculate books removed from all shelves: __3__ books removed from each shelf × __8__ shelves = __24__ books removed.",
+            "Subtract removed books from total: __32__ - __24__ = __8__ books remain.",
+            "Each removed book is matched with another removed book (no addition or subtraction needed for this part)."
+          ]
+        },
+        {
+          "example": "A train has 24 passengers, with 6 groups of 4 passengers leaving. How many passengers remain if each leaving group is matched with a removed one?",
+          "steps": [
+            "There are __24__ passengers on the train initially.",
+            "Each of the 6 groups removes __4__ passengers.",
+            "Total passengers removed: __6__ groups × __4__ passengers/group = __24__ passengers removed.",
+            "Subtract the removed passengers from the total: __24__ - __24__ = __0__ passengers remain."
+          ]
+        },
+        {
+          "example": "A garden has 18 flowers in 3 rows with 6 flowers each. If 2 flowers are removed from each row, how many flowers are left if each removed flower is matched with a removed one?",
+          "steps": [
+            "First, confirm the total number of flowers: __18__ flowers in total.",
+            "There are __3__ rows with __6__ flowers each initially.",
+            "Calculate flowers removed per row: __2__ flowers removed from each row.",
+            "Total flowers removed: __3__ rows × __2__ flowers = __6__ flowers removed.",
+            "Subtract removed flowers from total: __18__ - __6__ = __12__ flowers remain.",
+            "Each removed flower is matched with another removed flower (no replacement), so no additional flowers are added."
+          ]
+        },
+        {
+          "example": "A bakery has 20 cookies in 5 bags with 4 cookies each. If 3 cookies are removed from each bag, how many cookies remain if each removed cookie is matched with a removed one?",
+          "steps": [
+            "First, check how many cookies are in total: __20__ cookies in the bakery.",
+            "There are __5__ bags, each initially containing __4__ cookies.",
+            "Calculate how many cookies are removed from each bag: __3__ cookies removed per bag.",
+            "Determine how many cookies are removed in total from all bags: __5__ bags × __3__ cookies = __15__ cookies removed.",
+            "Subtract the removed cookies from the total: __20__ - __15__ = __5__ cookies remain.",
+            "The problem states that each removed cookie is matched with another removed cookie, so the remaining cookies are still __5__ (no further changes needed)."
+          ]
+        },
+        {
+          "example": "A soccer team has 14 players, with 4 players leaving in pairs. How many players remain if each leaving pair is matched with a removed one?",
+          "steps": [
+            "The team starts with __14__ players.",
+            "Players leave in pairs, so __4__ players leave in groups of __2__ each.",
+            "Calculate how many pairs: __4__ ÷ __2__ = __2__ pairs leave.",
+            "Each pair removes __2__ players, so __2__ × __2__ = __4__ players leave in total.",
+            "Subtract the leaving players from the total: __14__ - __4__ = __10__ players remain."
+          ]
+        },
+        {
+          "example": "A classroom has 22 students, with 5 students leaving in groups of 2. How many students remain if each leaving group is matched with a removed one?",
+          "steps": [
+            "There are __22__ students in the classroom initially.",
+            "The 5 students leaving are split into groups of 2. Since 5 divided by 2 equals 2 full groups with __1__ student remaining unpaired.",
+            "Each of the 2 full groups removes __2__ students: __2 groups × __2__ students = __4__ students removed.",
+            "The remaining unpaired student (from step 2) is also removed, so total removed students = __4__ + __1__ = __5__ students.",
+            "Subtract the removed students from the total: __22__ - __5__ = __17__ students remain."
+          ]
+        },
+        {
+          "example": "A construction site has 12 workers, with 3 workers leaving in sets of 4. How many workers remain if each leaving set is matched with a removed one?",
+          "steps": [
+            "There are __12__ workers at the construction site.",
+            "The workers leave in sets of __4__: First set leaves, so __4__ workers leave.",
+            "Remaining workers after first set: __12__ - __4__ = __8__ workers remain.",
+            "Next set of __4__ workers leaves: __8__ - __4__ = __4__ workers remain.",
+            "The third set of __4__ workers leaves, but only __3__ workers are available (since 3 workers are leaving). So, __3__ workers leave from the remaining __4__.",
+            "Remaining workers after third set: __4__ - __3__ = __1__ worker remains.",
+            "Each leaving set is matched with a removed one, so the remaining __1__ worker stays."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "topic": "Counting as Action Tracking",
+    "sub_topics": [
+      {
+        "sub_topic": "Counting Touching Objects",
+        "explanation": "Counting touching objects involves using tactile methods—such as placing fingers, tapping, or arranging physical items—to visually and physically track quantities. This hands-on approach strengthens numerical intuition by linking counting to direct, observable interactions with materials. It is ideal for early learners to build foundational number sense through concrete manipulation.",
+        "examples": [
+          "Place 5 red pom-poms in a basket and ask: ‘If I remove two, how many will remain if I add three more?’",
+          "Use 8 wooden spoons and arrange them in a spiral on a tray, then count by touching each one to find the total if two are hidden under a cup.",
+          "Draw 15 dots on a large sheet of paper and ask: ‘If I connect every dot with a line, how many lines will you touch if you start at the first dot and move clockwise?’",
+          "Give a child 10 small plastic animals (e.g., frogs, snakes) and ask: ‘If I place them in a row and then stack 4 of them vertically, how many animals are touching the ground?’"
+        ]
+      }
+    ]
+  }
+]
