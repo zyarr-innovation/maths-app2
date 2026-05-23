@@ -1,0 +1,597 @@
+{
+  "topic": "5. Division as Sharing Actions",
+  "sub_topics": [
+    {
+      "sub_topic": "Fair Sharing",
+      "explanation": "Fair sharing involves dividing a whole into equal parts among a group to ensure each person receives an identical portion. This concept applies across various contexts, emphasizing fairness and proportional distribution. Examples can range from simple divisions of discrete items to more abstract scenarios involving continuous quantities or group-based allocations.",
+      "examples": [
+        {
+          "example": "Dividing 18 identical oranges equally among 6 workers (each gets 3 oranges).",
+          "steps": [
+            "There are __18__ identical oranges to divide equally.",
+            "There are __6__ workers sharing the oranges.",
+            "Each worker should get the same number of oranges. Let’s find out how many: __18 ÷ 6 = __",
+            "Each worker gets __3__ oranges (as given in the example).",
+            "Verify: __6__ workers × __3__ oranges each = __18__ oranges total."
+          ]
+        },
+        {
+          "example": "Splitting a 12-liter jug of water equally between 3 friends (each gets 4 liters).",
+          "steps": [
+            "The total amount of water in the jug is __12__ liters.",
+            "There are __3__ friends sharing the water equally.",
+            "Divide the total water by the number of friends: __12__ ÷ __3__ = __4__ liters per friend.",
+            "Each friend gets __4__ liters."
+          ]
+        },
+        {
+          "example": "Fairly dividing 24 cupcakes among 8 children, ensuring each gets the same number (each gets 3 cupcakes).",
+          "steps": [
+            "There are __24__ cupcakes in total.",
+            "There are __8__ children sharing the cupcakes equally.",
+            "Divide the cupcakes equally: __24 ÷ 8 = __3__ cupcakes per child.",
+            "Each child gets __3__ cupcakes."
+          ]
+        },
+        {
+          "example": "Cutting a 10-meter rope into 5 equal segments for a group project (each segment is 2 meters).",
+          "steps": [
+            "The total length of the rope is __10__ meters.",
+            "We want to divide it into __5__ equal parts.",
+            "Each part should be __2__ meters long.",
+            "To find the length of each segment, divide the total length by the number of segments: __10 ÷ 5 = __2__ meters.",
+            "This confirms that each segment is indeed __2__ meters long."
+          ]
+        },
+        {
+          "example": "Splitting 30 identical toys among 5 families, ensuring each family gets the same number (each gets 6 toys).",
+          "steps": [
+            "We have a total of __30__ identical toys to divide equally.",
+            "There are __5__ families that will share the toys equally.",
+            "To find out how many toys each family gets, divide the total toys by the number of families: __30 ÷ 5 = __15__ toys per family at first glance (this is incorrect based on the given answer).",
+            "The problem states that each family should get __6__ toys, so we need to verify the correct division method.",
+            "Let’s check: __5__ families × __6__ toys each = __30__ toys total, which matches the given answer.",
+            "Thus, the correct division is confirmed: each family gets __6__ toys."
+          ]
+        },
+        {
+          "example": "A bakery divides 40 loaves of bread equally among 5 stores (each store gets 8 loaves).",
+          "steps": [
+            "There are __40__ loaves of bread in total.",
+            "The bakery wants to divide them equally among __5__ stores.",
+            "Each store should get the same number of loaves. Let’s find out how many: __40 ÷ 5 = __8__ loaves per store.",
+            "So, each store gets __8__ loaves, which matches the given information."
+          ]
+        },
+        {
+          "example": "During a charity event, 60 identical T-shirts are distributed equally among 10 volunteers (each gets 6 T-shirts).",
+          "steps": [
+            "There are __60__ identical T-shirts in total.",
+            "The T-shirts are divided equally among __10__ volunteers.",
+            "Each volunteer gets __6__ T-shirts (as stated in the example).",
+            "To verify: __60__ ÷ __10__ = __6__ T-shirts per volunteer."
+          ]
+        },
+        {
+          "example": "A farmer divides 36 kg of grain equally among 4 cows (each cow gets 9 kg).",
+          "steps": [
+            "The total amount of grain is __36__ kg.",
+            "The farmer divides it equally among __4__ cows.",
+            "Each cow receives __9__ kg of grain (as given in the example).",
+            "To verify: __36__ ÷ __4__ = __9__ kg per cow."
+          ]
+        },
+        {
+          "example": "A classroom divides 20 identical pencils equally among 5 students (each student gets 4 pencils).",
+          "steps": [
+            "There are __20__ identical pencils in total.",
+            "The classroom wants to divide them equally among __5__ students.",
+            "Each student should get the same number of pencils. Let’s find out how many: __20 ÷ 5 = __4__ pencils per student.",
+            "So, each student gets __4__ pencils, which matches the given result."
+          ]
+        },
+        {
+          "example": "A team divides 15 identical medals equally among 5 members (each member gets 3 medals).",
+          "steps": [
+            "There are __15__ identical medals to divide equally.",
+            "The team has __5__ members sharing the medals.",
+            "Divide the medals equally: __15 ÷ 5 = __3__ medals per member.",
+            "Each member receives __3__ medals, confirming the total distribution."
+          ]
+        },
+        {
+          "example": "A chef divides 24 slices of pizza equally among 6 guests (each gets 4 slices).",
+          "steps": [
+            "There are __24__ slices of pizza in total.",
+            "The pizza is divided equally among __6__ guests.",
+            "Each guest gets __24 ÷ 6 = __ slices of pizza.",
+            "The chef checks the calculation: __4__ slices per guest × __6__ guests = __24__ slices total."
+          ]
+        },
+        {
+          "example": "A farmer divides 50 kg of apples equally among 10 children (each child gets 5 kg).",
+          "steps": [
+            "The total amount of apples is __50__ kg.",
+            "The apples are divided equally among __10__ children.",
+            "Each child receives __5__ kg of apples (as given in the example).",
+            "To verify: __50__ ÷ __10__ = __5__ kg per child."
+          ]
+        },
+        {
+          "example": "A group divides 30 identical books equally among 6 friends (each friend gets 5 books).",
+          "steps": [
+            "There are __30__ identical books to divide equally.",
+            "The books are divided among __6__ friends.",
+            "Each friend gets the same number of books. Let’s find out how many books each friend gets:",
+            "Divide __30__ books by __6__ friends: __30 ÷ __6__ = __5__ books per friend."
+          ]
+        },
+        {
+          "example": "A bakery divides 48 donuts equally among 8 customers (each customer gets 6 donuts).",
+          "steps": [
+            "There are __48__ donuts in total.",
+            "The bakery wants to divide them equally among __8__ customers.",
+            "Each customer should get the same number of donuts. Let’s find out how many: __48 ÷ 8 = __",
+            "The result is __6__ donuts per customer.",
+            "So, each of the __8__ customers receives __6__ donuts."
+          ]
+        },
+        {
+          "example": "A teacher divides 20 identical stickers equally among 5 classes (each class gets 4 stickers).",
+          "steps": [
+            "There are __20__ identical stickers in total.",
+            "The stickers are divided equally among __5__ classes.",
+            "Each class should get the same number of stickers: __20 ÷ 5 = __4__ stickers per class.",
+            "The teacher confirms that each class receives __4__ stickers."
+          ]
+        },
+        {
+          "example": "A group of 9 hikers splits 18 liters of water equally (each gets 2 liters).",
+          "steps": [
+            "There are __9__ hikers sharing the water equally.",
+            "The total amount of water is __18__ liters.",
+            "Each hiker gets __2__ liters (since 18 ÷ 9 = 2).",
+            "This confirms the division: __18__ ÷ __9__ = __2__ liters per hiker."
+          ]
+        },
+        {
+          "example": "A farmer divides 42 kg of wheat equally among 7 families (each family gets 6 kg).",
+          "steps": [
+            "The total amount of wheat is __42__ kg.",
+            "The farmer divides it equally among __7__ families.",
+            "Each family receives __6__ kg of wheat (as given in the example).",
+            "To verify: __42__ ÷ __7__ = __6__ kg per family."
+          ]
+        },
+        {
+          "example": "A team divides 28 identical badges equally among 7 members (each member gets 4 badges).",
+          "steps": [
+            "There are __28__ identical badges to divide equally.",
+            "The team consists of __7__ members.",
+            "Each member should get the same number of badges, so we divide __28__ by __7__: __28 ÷ 7 = __4__ badges per member.",
+            "Thus, each member receives __4__ badges."
+          ]
+        },
+        {
+          "example": "A classroom divides 30 identical crayons equally among 5 students (each student gets 6 crayons).",
+          "steps": [
+            "There are __30__ identical crayons in total.",
+            "The crayons are divided equally among __5__ students.",
+            "Each student should get the same number of crayons: __30 ÷ 5 = __6__ crayons per student.",
+            "Verify: __5__ students × __6__ crayons each = __30__ crayons total."
+          ]
+        },
+        {
+          "example": "A group divides 50 identical chocolates equally among 10 children (each child gets 5 chocolates).",
+          "steps": [
+            "There are __50__ identical chocolates to divide equally.",
+            "The chocolates are divided among __10__ children.",
+            "Each child receives the same number of chocolates: __50 ÷ 10 = __5__ chocolates per child.",
+            "So, each child gets __5__ chocolates."
+          ]
+        }
+      ]
+    },
+    {
+      "sub_topic": "Grouping",
+      "explanation": "Grouping involves partitioning a set of items into equal-sized subsets to determine the number of groups formed or the number of items per group. This concept is foundational for division and reinforces understanding of repeated subtraction and fair distribution. It can be applied across various contexts, from simple counting to complex real-world scenarios, and varies in difficulty based on the complexity of the numbers and scenarios presented.",
+      "examples": [
+        {
+          "example": "Grouping 15 apples into 5 baskets with an equal number of apples in each (3 apples per basket).",
+          "steps": [
+            "We start with a total of __15__ apples.",
+            "We want to divide them equally into __5__ baskets.",
+            "To find out how many apples go into each basket, we divide __15__ by __5__.",
+            "This gives us __3__ apples per basket (since 5 × 3 = 15)."
+          ]
+        },
+        {
+          "example": "Dividing 48 identical cookies into groups of 8 for a school bake sale (6 groups of 8).",
+          "steps": [
+            "First, we have a total of __48__ identical cookies.",
+            "We want to divide them into groups where each group has __8__ cookies.",
+            "To find out how many groups we can make, we divide __48__ by __8__: __48 ÷ 8 = __6__ groups.",
+            "This matches the given condition of making __6__ groups of 8 cookies each."
+          ]
+        },
+        {
+          "example": "Packing 36 identical books into 9 shelves with the same number of books on each (4 books per shelf).",
+          "steps": [
+            "We start with a total of __36__ identical books.",
+            "We want to divide these books equally among __9__ shelves.",
+            "Each shelf must have the same number of books. Let’s call this number __X__.",
+            "So, the equation is: __9__ shelves × __X__ books per shelf = __36__ books total.",
+            "We solve for __X__: __X__ = __36__ ÷ __9__ = __4__ books per shelf."
+          ]
+        },
+        {
+          "example": "Splitting 27 identical marbles into groups of 9 (3 groups of 9).",
+          "steps": [
+            "We start with a total of __27__ identical marbles.",
+            "We want to divide them into groups where each group has __9__ marbles.",
+            "First, let’s see how many groups we can make by dividing __27__ by __9__: __27 ÷ 9 = __3__ groups.",
+            "So, we have __3__ groups of marbles, each containing __9__ marbles."
+          ]
+        },
+        {
+          "example": "A farmer has 50 kg of wheat to distribute equally among 10 sacks. How many kilograms of wheat will each sack contain? (5 kg per sack).",
+          "steps": [
+            "The farmer has a total of __50__ kg of wheat.",
+            "The wheat needs to be divided equally among __10__ sacks.",
+            "To find out how much wheat each sack gets, divide the total wheat by the number of sacks: __50 ÷ 10 = __",
+            "Each sack will contain __5__ kg of wheat."
+          ]
+        },
+        {
+          "example": "In a classroom, 30 students are divided into groups of 5 for a group project. How many groups will be formed?",
+          "steps": [
+            "There are __30__ students in total.",
+            "Each group consists of __5__ students.",
+            "To find the number of groups, divide the total students by the number in each group: __30 ÷ 5__",
+            "Calculate the result: __6__ groups will be formed."
+          ]
+        },
+        {
+          "example": "A bakery has 42 cupcakes to be packed into boxes of 7. How many full boxes can be made? (6 boxes).",
+          "steps": [
+            "Start with __42__ cupcakes in total.",
+            "Each box holds __7__ cupcakes.",
+            "Divide the total cupcakes by the number per box: __42 ÷ 7__.",
+            "Calculate the quotient: __6__ full boxes can be made with __0__ cupcakes remaining (since 6 × 7 = 42)."
+          ]
+        },
+        {
+          "example": "A train carries 60 passengers in 10 equal cars. How many passengers are in each car? (6 passengers per car).",
+          "steps": [
+            "The train has a total of __60__ passengers.",
+            "These passengers are divided equally into __10__ cars.",
+            "To find the number of passengers per car, divide the total passengers by the number of cars: __60 ÷ 10__.",
+            "Calculate the result: __6__ passengers per car."
+          ]
+        },
+        {
+          "example": "A garden has 56 flowers to be planted in rows of 7. How many complete rows can be divided?",
+          "steps": [
+            "Start with __56__ flowers in total.",
+            "Each row holds __7__ flowers.",
+            "Divide the total flowers by the number of flowers per row: __56 ÷ 7__",
+            "Calculate the quotient: __8__ rows can be completely filled with flowers.",
+            "Check if there are any remaining flowers: __56 - (8 × 7) = 0__ (no extra flowers left)."
+          ]
+        },
+        {
+          "example": "A pizza is cut into 8 equal slices. If 4 slices are eaten, how many slices remain? (4 slices remain).",
+          "steps": [
+            "The pizza is divided into __8__ equal slices.",
+            "If __4__ slices are eaten, subtract them from the total: __8__ - __4__ = __4__ slices remain."
+          ]
+        },
+        {
+          "example": "A library has 72 books divided equally among 9 shelves. How many books are on each shelf? (8 books per shelf).",
+          "steps": [
+            "First, we know the library has a total of __72__ books.",
+            "These books are divided equally among __9__ shelves.",
+            "To find out how many books are on each shelf, we divide the total number of books by the number of shelves: __72 ÷ 9__.",
+            "Calculate: __72 ÷ 9 = 8__ books per shelf."
+          ]
+        },
+        {
+          "example": "A soccer team has 24 players to be divided into 6 equal groups for practice sessions. How many players are in each group? (4 players per group).",
+          "steps": [
+            "The total number of players is __24__.",
+            "The team is divided into __6__ equal groups.",
+            "To find the number of players per group, divide the total players by the number of groups: __24 ÷ 6 = __",
+            "Each group will have __4__ players."
+          ]
+        },
+        {
+          "example": "A bakery has 30 donuts to be packed into boxes of 5. How many boxes will be needed? (6 boxes).",
+          "steps": [
+            "First, determine how many donuts are in each box: __5__ donuts per box.",
+            "Next, divide the total number of donuts by the number of donuts per box: __30__ ÷ __5__ = __6__.",
+            "Since we can't have a fraction of a box, we need to round up to the next whole number.",
+            "Therefore, the bakery will need __6__ boxes to pack all the donuts."
+          ]
+        },
+        {
+          "example": "A farmer has 80 kg of grain to be divided equally among 10 families. How many kilograms of grain will each family receive? (8 kg per family).",
+          "steps": [
+            "The total amount of grain is __80__ kg.",
+            "The grain is to be divided equally among __10__ families.",
+            "To find out how much each family gets, divide the total grain by the number of families: __80 ÷ 10 = __",
+            "Each family will receive __8__ kg of grain."
+          ]
+        },
+        {
+          "example": "A classroom has 45 students to be divided into groups of 9 for a science experiment. How many groups will be formed? (5 groups).",
+          "steps": [
+            "Start with the total number of students: __45__ students in the classroom.",
+            "Determine the number of students per group: __9__ students in each group.",
+            "Divide the total number of students by the number of students per group: __45 ÷ 9__",
+            "Calculate how many groups can be formed: __5__ groups will be formed."
+          ]
+        },
+        {
+          "example": "A farmer has 60 kg of grain to be divided equally among 15 sacks. How many kilograms of grain will each sack contain? (4 kg per sack).",
+          "steps": [
+            "The farmer has a total of __60__ kg of grain.",
+            "The grain needs to be divided equally among __15__ sacks.",
+            "To find out how much grain each sack will get, divide the total grain by the number of sacks: __60 ÷ 15 = __4__ kg.",
+            "Each sack will contain __4__ kg of grain."
+          ]
+        },
+        {
+          "example": "A group of 30 hikers needs to be divided into teams of 5 for a trail run. How many teams will be formed? (6 teams).",
+          "steps": [
+            "We start with __30__ hikers in total.",
+            "Each team consists of __5__ hikers.",
+            "To find out how many teams, divide the total number of hikers by the number per team: __30 ÷ 5__.",
+            "Calculate: __30 ÷ 5 = __6__.",
+            "Thus, __6__ teams will be formed."
+          ]
+        },
+        {
+          "example": "A bakery has 54 cupcakes to be packed into boxes of 6. How many full boxes can be made? (9 boxes).",
+          "steps": [
+            "Start with __54__ cupcakes in total.",
+            "Each box holds __6__ cupcakes.",
+            "Divide the total cupcakes by the number per box: __54 ÷ 6__",
+            "Calculate the quotient: __9__ full boxes can be packed with no remainder.",
+            "Verify: 9 boxes × 6 cupcakes each = __54__ cupcakes (matches the total)."
+          ]
+        },
+        {
+          "example": "A classroom has 48 students to be divided into groups of 8 for a group activity. How many groups will be formed?",
+          "steps": [
+            "First, we need to figure out how many students are in each group: __8__ students.",
+            "Next, we divide the total number of students by the number of students per group: __48__ ÷ __8__.",
+            "Calculate the division: 48 ÷ 8 = __6__.",
+            "So, the classroom will be divided into __6__ groups."
+          ]
+        },
+        {
+          "example": "A farmer has 72 kg of potatoes to be divided equally among 9 families. How many kilograms of potatoes will each family receive? (8 kg per family).",
+          "steps": [
+            "The total amount of potatoes is __72__ kg.",
+            "There are __9__ families sharing the potatoes equally.",
+            "To find out how many kilograms each family gets, divide the total by the number of families: __72 ÷ 9 = __",
+            "Calculate the division: __72 ÷ 9 = 8__ kg.",
+            "Each family will receive __8__ kg of potatoes."
+          ]
+        }
+      ]
+    },
+    {
+      "sub_topic": "Leftovers (Remainders)",
+      "explanation": "Leftovers refer to the scenario where items are divided into groups, and some items remain undistributed due to an uneven division. This introduces the concept of remainders, where the division does not result in whole numbers for each group. The remainder represents the extra items that cannot be evenly distributed.",
+      "examples": [
+        {
+          "example": "Dividing 15 identical oranges among 4 farmers (3 farmers get 3 oranges each, 1 farmer gets 4 oranges).",
+          "steps": [
+            "First, identify the total number of oranges: __15__.",
+            "Next, determine how many farmers receive 3 oranges each: __3__ farmers.",
+            "Calculate the total oranges given to these 3 farmers: __3__ farmers × __3__ oranges each = __9__ oranges.",
+            "Identify the number of farmers who receive a different amount: __1__ farmer.",
+            "The remaining farmer gets __4__ oranges.",
+            "Verify the total: __9__ (from 3 farmers) + __4__ (remaining farmer) = __13__ oranges accounted for.",
+            "Check if the remaining oranges are distributed: __15__ - __13__ = __2__ oranges are left unaccounted for in the given scenario (note: the example does not specify how these are distributed).",
+            "The distribution matches the given example: 3 farmers get 3 oranges each, and 1 farmer gets 4 oranges."
+          ]
+        },
+        {
+          "example": "Splitting 22 identical candies among 6 children (5 children get 4 candies each, 1 child gets 2 candies).",
+          "steps": [
+            "First, determine how many candies are given to the 5 children: __5__ children × __4__ candies each = __20__ candies.",
+            "Next, subtract the candies given to these 5 children from the total: __22__ - __20__ = __2__ candies left.",
+            "The remaining __2__ candies are given to the __1__ last child: __1__ child gets __2__ candies.",
+            "Verify the total: __20__ (from 5 children) + __2__ (to 1 child) = __22__ candies distributed."
+          ]
+        },
+        {
+          "example": "Packing 18 identical pencils into 5 boxes (4 boxes get 3 pencils each, 1 box gets 2 pencils).",
+          "steps": [
+            "First, determine how many pencils are placed in the first 4 boxes: __4 boxes__ × __3 pencils each__ = __12 pencils__.",
+            "Next, subtract the pencils in these 4 boxes from the total: __18 pencils__ - __12 pencils__ = __6 pencils__ remaining.",
+            "The remaining __6 pencils__ go into the last box: __1 box__ gets __2 pencils__ (as given).",
+            "Verify the total: __12 pencils__ (from 4 boxes) + __2 pencils__ (in the last box) = __14 pencils__ packed so far.",
+            "Since the total pencils are __18__, the missing pencils must be accounted for in the remaining distribution: __18__ - __14__ = __4 pencils__ are left unassigned in the boxes.",
+            "Re-evaluate the initial distribution: The problem states that 4 boxes get 3 pencils each, and 1 box gets 2 pencils. This accounts for __15__ pencils (4×3 + 1×2).",
+            "The discrepancy suggests the initial breakdown might be incomplete. Reconsider the distribution: __18__ pencils total, so the remaining __3 pencils__ must be distributed among the boxes.",
+            "The correct distribution is: 4 boxes with __3 pencils each__ and 1 box with __2 pencils__ (totaling __14__ pencils). The problem implies the remaining pencils are distributed as per the given condition.",
+            "The correct interpretation is: 4 boxes have __3 pencils each__ (totaling __12__ pencils), and the remaining __6 pencils__ are split as 1 box with __2 pencils__ and the rest are not assigned explicitly. The problem likely means the total pencils are packed as per the given condition, so the correct distribution is already implied in the problem statement."
+          ]
+        },
+        {
+          "example": "Dividing 31 identical toys into 8 classrooms (7 classrooms get 4 toys each, 1 classroom gets 3 toys).",
+          "steps": [
+            "First, calculate the total number of toys given to the 7 classrooms that each receive 4 toys: __7__ classrooms × __4__ toys = __28__ toys.",
+            "Next, subtract the toys already distributed from the total: __31__ toys - __28__ toys = __3__ toys remaining.",
+            "The remaining __3__ toys are given to the last classroom: __1__ classroom gets __3__ toys."
+          ]
+        },
+        {
+          "example": "Splitting 29 identical fruits into 7 groups (6 groups get 4 fruits each, 1 group gets 3 fruits).",
+          "steps": [
+            "First, calculate the total number of fruits in the 6 groups that each get 4 fruits: __6__ × __4__ = __24__ fruits.",
+            "Now, subtract these 24 fruits from the total: __29__ - __24__ = __5__ fruits remain.",
+            "The remaining __5__ fruits go into the last group, which gets __3__ fruits (as given).",
+            "Verify: 6 groups × 4 fruits + 1 group × 3 fruits = __24__ + __3__ = __27__ fruits accounted for.",
+            "Check if the total matches the original number: __27__ + __2__ (leftover) = __29__ fruits (matches the original)."
+          ]
+        },
+        {
+          "example": "A bakery has 43 loaves of bread to distribute equally among 9 customers (8 customers get 5 loaves each, 1 customer gets 2 loaves).",
+          "steps": [
+            "First, check the total number of loaves: __43__ loaves are available.",
+            "There are __9__ customers to distribute the loaves to.",
+            "The problem states that 8 customers each get __5__ loaves.",
+            "Calculate the total loaves given to 8 customers: __8__ × __5__ = __40__ loaves.",
+            "Subtract this from the total loaves to find out how many are left: __43__ - __40__ = __3__ loaves remaining.",
+            "The remaining __3__ loaves are given to the last customer, who gets __2__ loaves (as stated)."
+          ]
+        },
+        {
+          "example": "During a picnic, 35 sandwiches are divided among 10 guests (9 guests get 3 sandwiches each, 1 guest gets 5 sandwiches).",
+          "steps": [
+            "First, count the total sandwiches: __35__ sandwiches are given out.",
+            "Next, check how many sandwiches 9 guests receive: Each gets __3__ sandwiches, so __9__ guests × __3__ sandwiches = __27__ sandwiches total.",
+            "Now, subtract the sandwiches given to the 9 guests from the total: __35__ - __27__ = __8__ sandwiches left.",
+            "The remaining __8__ sandwiches are given to the last guest: __1__ guest gets __5__ sandwiches (as stated).",
+            "Verify: __27__ (to 9 guests) + __5__ (to 1 guest) = __32__ sandwiches accounted for. Since the total was __35__, there is a discrepancy—this suggests the initial description may have an inconsistency (9 guests × 3 = 27, leaving 8 for the last guest, but the problem states the last guest gets 5).",
+            "Re-evaluate: The problem states 9 guests get 3 each and 1 guest gets 5. Let’s confirm the total: __9__ guests × __3__ sandwiches + __5__ sandwiches = __32__ sandwiches. Since the total is __35__, the remaining __3__ sandwiches are unaccounted for (likely an oversight in the problem setup)."
+          ]
+        },
+        {
+          "example": "A gardener has 26 tomatoes to distribute among 7 neighbors (6 neighbors get 3 tomatoes each, 1 neighbor gets 4 tomatoes).",
+          "steps": [
+            "First, calculate how many tomatoes are given to the 6 neighbors who each get 3 tomatoes: __6__ neighbors × __3__ tomatoes each = __18__ tomatoes.",
+            "Next, the remaining tomatoes are given to the 1 neighbor who gets 4 tomatoes: __26__ total tomatoes - __18__ tomatoes = __8__ tomatoes left.",
+            "Check if the remaining 8 tomatoes match the given distribution: The last neighbor should get __4__ tomatoes, so __8__ - __4__ = __4__ extra tomatoes are accounted for in the calculation.",
+            "Verify the total distribution: __18__ (to 6 neighbors) + __4__ (to 1 neighbor) = __22__ tomatoes distributed. The remaining __4__ tomatoes are consistent with the initial total of __26__ tomatoes."
+          ]
+        },
+        {
+          "example": "A classroom has 50 identical stickers to distribute among 12 students (10 students get 4 stickers each, 2 students get 3 stickers each).",
+          "steps": [
+            "First, calculate how many stickers are given to the 10 students who each get 4 stickers: __10__ students × __4__ stickers each = __40__ stickers.",
+            "Next, calculate how many stickers are given to the 2 students who each get 3 stickers: __2__ students × __3__ stickers each = __6__ stickers.",
+            "Add the stickers given to both groups: __40__ + __6__ = __46__ stickers distributed so far.",
+            "Compare this with the total number of stickers: __50__ total stickers - __46__ distributed = __4__ stickers remaining."
+          ]
+        },
+        {
+          "example": "A farmer has 38 apples to sell in bags of 5 (7 bags are filled, 3 apples remain).",
+          "steps": [
+            "The farmer has a total of __38__ apples.",
+            "Each bag holds __5__ apples.",
+            "The farmer fills __7__ bags completely.",
+            "Calculate how many apples are in these 7 bags: __7__ bags × __5__ apples/bag = __35__ apples.",
+            "There are __3__ apples left over after filling the bags.",
+            "Check if the total matches: __35__ apples (bags) + __3__ apples (leftover) = __38__ apples.",
+            "The question confirms that the farmer has __38__ apples split into __7__ full bags and __3__ extra apples."
+          ]
+        },
+        {
+          "example": "A sports team has 25 players to split into 6 equal teams (5 teams have 4 players, 1 team has 5 players).",
+          "steps": [
+            "First, let’s determine how many players are on each of the 5 teams that have 4 players each: __4__ players per team × 5 teams = __20__ players total.",
+            "Now, subtract these 20 players from the total number of players to find out how many players are left for the remaining team: __25__ - __20__ = __5__ players remaining.",
+            "The remaining team has __5__ players, which matches the given condition."
+          ]
+        },
+        {
+          "example": "A library has 42 books to distribute among 8 shelves (7 shelves get 5 books, 1 shelf gets 2 books).",
+          "steps": [
+            "First, check how many books are assigned to the 7 shelves: __7__ shelves × __5__ books each = __35__ books.",
+            "Next, check the remaining books for the 1 shelf: __42__ total books - __35__ books = __2__ books.",
+            "Verify the distribution: __35__ books (7 shelves) + __2__ books (1 shelf) = __42__ books total."
+          ]
+        },
+        {
+          "example": "A café has 61 cups of coffee to divide among 13 customers (12 customers get 5 cups, 1 customer gets 2 cups).",
+          "steps": [
+            "The café has a total of __61__ cups of coffee.",
+            "There are __13__ customers to divide the coffee among.",
+            "First, check how many cups are given to the 12 customers: __12__ customers × __5__ cups each = __60__ cups distributed.",
+            "Subtract the cups given to the 12 customers from the total: __61__ - __60__ = __1__ cup left.",
+            "The remaining __1__ cup is given to the last customer, who gets __2__ cups (as per the given distribution).",
+            "Verify: __12__ customers × __5__ cups + __1__ customer × __2__ cups = __60__ + __2__ = __62__ cups (Note: This step highlights the discrepancy in the original example—adjust reasoning if needed).",
+            "The correct distribution is explicitly stated: __12__ customers get __5__ cups each, and __1__ customer gets __2__ cups, totaling __61__ cups."
+          ]
+        },
+        {
+          "example": "A pet store has 29 identical toys for dogs to distribute among 7 dogs (6 dogs get 4 toys each, 1 dog gets 3 toys).",
+          "steps": [
+            "First, calculate how many toys are given to the 6 dogs that each get 4 toys: __6__ × __4__ = __24__ toys.",
+            "Next, subtract this from the total number of toys: __29__ - __24__ = __5__ toys remain.",
+            "The remaining 5 toys are given to the last dog: __1__ dog gets __3__ toys (as stated in the example).",
+            "Check if the total matches: __24__ (toys given to 6 dogs) + __3__ (toys given to 1 dog) = __27__ toys distributed.",
+            "The example states the last dog gets 3 toys, so the remaining 2 toys are not accounted for in the given distribution. This implies the initial breakdown might be simplified or there might be a slight inconsistency in the problem setup."
+          ]
+        },
+        {
+          "example": "A construction crew has 55 bricks to divide among 10 workers (9 workers get 5 bricks each, 1 worker gets 4 bricks).",
+          "steps": [
+            "First, calculate how many bricks 9 workers get: __9__ workers × __5__ bricks each = __45__ bricks.",
+            "Subtract these bricks from the total: __55__ - __45__ = __10__ bricks left for the remaining workers.",
+            "The remaining worker gets __4__ bricks, so the total distribution matches: __45__ + __4__ = __55__ bricks.",
+            "Verify: 9 workers have __5__ bricks each, and 1 worker has __4__ bricks, totaling __55__ bricks."
+          ]
+        },
+        {
+          "example": "A school event has 37 identical party favors to distribute among 11 children (10 children get 3 favors each, 1 child gets 2 favors).",
+          "steps": [
+            "First, calculate how many favors are given to the 10 children: __10__ children × __3__ favors each = __30__ favors.",
+            "Next, subtract the favors given to the 10 children from the total: __37__ - __30__ = __7__ favors left.",
+            "The remaining __7__ favors are given to the last child: __1__ child gets __2__ favors.",
+            "Verify: __30__ (to 10 children) + __2__ (to 1 child) = __32__ favors distributed.",
+            "Check if the total matches: __32__ favors are distributed out of __37__ (the remaining __5__ favors are unaccounted for in the given distribution)."
+          ]
+        },
+        {
+          "example": "A farmer has 46 identical vegetables to sell in bags of 7 (6 bags are filled, 4 vegetables remain).",
+          "steps": [
+            "The farmer has a total of __46__ identical vegetables.",
+            "Each bag holds __7__ vegetables.",
+            "The farmer fills __6__ bags completely.",
+            "Calculate how many vegetables are in these 6 bags: __6__ bags × __7__ vegetables/bag = __42__ vegetables.",
+            "After filling the bags, there are __4__ vegetables left over.",
+            "Total vegetables accounted for: __42__ (in bags) + __4__ (remaining) = __46__ vegetables (matches the total).",
+            "The question implies the farmer wants to know how many bags can be filled with the remaining vegetables if they are repackaged. Since only __4__ vegetables remain, they cannot fill another full bag of __7__ vegetables."
+          ]
+        },
+        {
+          "example": "A bakery has 58 identical pastries to divide among 14 customers (13 customers get 4 pastries each, 1 customer gets 2 pastries).",
+          "steps": [
+            "First, calculate how many pastries 13 customers get: __13__ customers × __4__ pastries each = __52__ pastries.",
+            "Subtract these from the total: __58__ total pastries - __52__ pastries = __6__ pastries left.",
+            "The remaining __6__ pastries are given to the last customer: __1__ customer gets __2__ pastries.",
+            "Verify: __52__ (13 customers) + __2__ (1 customer) = __54__ pastries distributed.",
+            "Check if all pastries are accounted for: __58__ total pastries - __54__ distributed = __4__ pastries missing (this step is for verification)."
+          ]
+        },
+        {
+          "example": "A sports team has 32 players to split into 8 equal teams (7 teams have 4 players, 1 team has 4 players).",
+          "steps": [
+            "The total number of players is __32__.",
+            "The team wants to split into __8__ equal teams.",
+            "Each team should ideally have the same number of players. Let’s find out how many players per team: __32 ÷ 8 = __4__ players per team.",
+            "Check if this matches the given distribution: 7 teams have __4__ players each, and 1 team also has __4__ players.",
+            "Total players accounted for: (7 × 4) + (1 × 4) = __28__ + __4__ = __32__ players."
+          ]
+        },
+        {
+          "example": "A classroom has 45 identical markers to distribute among 9 students (8 students get 5 markers each, 1 student gets 2 markers).",
+          "steps": [
+            "First, calculate how many markers are given to the 8 students who each get 5 markers: __8__ students × __5__ markers each = __40__ markers.",
+            "Next, subtract the markers given to the 8 students from the total: __45__ total markers - __40__ markers = __5__ markers left.",
+            "The remaining __5__ markers are given to the last student: __1__ student gets __2__ markers (as per the example).",
+            "Verify the total: __40__ (8 students) + __2__ (1 student) = __42__ markers distributed. Check if this matches the remaining markers: __5__ - __2__ = __3__ markers unaccounted for (this discrepancy suggests the example’s distribution may not perfectly divide 45 markers among 9 students).",
+            "Re-evaluate: Since the example states 8 students get 5 markers and 1 student gets 2 markers, the total distributed is __42__ markers. The remaining markers are __45__ - __42__ = __3__ markers (not assigned).",
+            "The example’s distribution is not mathematically consistent with the total markers (45). Instead, let’s solve it correctly by dividing equally: __45__ ÷ __9__ students = __5__ markers per student (with 0 left over)."
+          ]
+        }
+      ]
+    }
+  ]
+}

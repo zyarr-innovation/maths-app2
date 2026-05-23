@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "publish": "ng build --configuration production --output-path docs --base-href /maths-app/",
+    "publish": "ng build --configuration production --output-path docs --base-href /maths-app2/",
     "postpublish": "shx cp ./docs/browser/index.html ./docs/browser/404.html && shx mv ./docs/browser/* ./docs && shx rm -rf ./docs/browser"
   },
   "private": true,
