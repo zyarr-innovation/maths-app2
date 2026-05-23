@@ -189,32 +189,22 @@ export class SampleComponent implements OnInit, OnChanges {
   }
 
   onKeyup(id: number) {
-
     const blank = this.blanks[id];
-
     if (!blank) return;
 
     const input = blank.userValue.trim();
-
     const target = blank.correctValue;
-
     if (target === '') {
-
       blank.status = input ? 'correct' : 'empty';
-
       return;
     }
 
     if (input === '') {
-
       blank.status = 'empty';
     }
-
     else if (input === target) {
-
       blank.status = 'correct';
     }
-
     else {
 
       blank.status = 'incorrect';

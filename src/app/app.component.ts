@@ -46,7 +46,7 @@ export class AppComponent implements OnInit {
 
   loadJsonFileList() {
     this.http
-    .get<string[]>('/assets/json/files.json')
+    .get<string[]>('assets/json/files.json')
     .subscribe({
       next: (files) => {
         this.jsonFiles = files.sort((a, b) => {

@@ -54,19 +54,33 @@
 
                 <div class="input-wrapper">
 
-                  <mat-form-field appearance="outline" class="math-input-field" [style.width]="part.charLen + 'ch'"
-                    [class.is-correct]="blanks[part.inputId!].status === 'correct'"
-                    [class.is-incorrect]="blanks[part.inputId!].status === 'incorrect'">
+                  <mat-form-field
+                    appearance="outline"
+                    class="math-input-field"
 
-                    <input matInput [(ngModel)]="blanks[part.inputId!].userValue" (keyup)="onKeyup(part.inputId!)"
-                      autocomplete="off">
+                    [style.width]="part.charLen + 'ch'"
+
+                    [ngClass]="{
+                      'is-correct': blanks[part.inputId!]?.status === 'correct',
+                      'mat-form-field-invalid': blanks[part.inputId!]?.status === 'incorrect'
+                    }"
+                  >
+
+                    <input
+                      matInput
+                      [(ngModel)]="blanks[part.inputId!].userValue"
+                      (keyup)="onKeyup(part.inputId!)"
+                      autocomplete="off"
+                    />
+
+                    @if (blanks[part.inputId!]?.status === 'incorrect') {
+                      <mat-hint class="error-hint">✗</mat-hint>
+                    }
 
                   </mat-form-field>
 
-                  <div class="hint-circle" [matTooltip]="blanks[part.inputId!].hint">
-
+                  <div class="hint-circle" [matTooltip]="blanks[part.inputId!]?.hint">
                     ?
-
                   </div>
 
                 </div>

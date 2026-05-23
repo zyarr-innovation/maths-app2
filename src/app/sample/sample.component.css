@@ -3,13 +3,7 @@
 :host {
   display: block;
   min-height: 100vh;
-  background:
-    linear-gradient(
-      135deg,
-      #eef2ff 0%,
-      #f5f3ff 40%,
-      #fdf2f8 100%
-    );
+  background: linear-gradient(135deg, #eef2ff 0%, #f5f3ff 40%, #fdf2f8 100%);
   padding: 24px;
   box-sizing: border-box;
 }
@@ -78,12 +72,7 @@
   max-width: 700px;
   border-radius: 18px !important;
   overflow: hidden;
-  background:
-    linear-gradient(
-      145deg,
-      #ffffff,
-      #f8fafc
-    );
+  background: linear-gradient(145deg, #ffffff, #f8fafc);
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
   transition: all 0.3s ease;
 }
@@ -94,12 +83,7 @@
 }
 
 mat-card-header {
-  background:
-    linear-gradient(
-      135deg,
-      #ec4899,
-      #8b5cf6
-    );
+  background: linear-gradient(135deg, #ec4899, #8b5cf6);
   padding: 18px !important;
 }
 
@@ -134,6 +118,16 @@ mat-card-content {
   font-weight: 500;
 }
 
+/* INPUT WRAPPER */
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+  top: -10px;
+}
+
+/* INPUT FIELD */
 .math-input-field {
   margin-bottom: -1.25em;
   display: flex;
@@ -146,92 +140,7 @@ mat-card-content {
   font-size: 1rem;
 }
 
-::ng-deep .mat-mdc-form-field-subscript-wrapper {
-  display: none !important;
-}
-
-::ng-deep .mat-mdc-text-field-wrapper {
-  background: white;
-}
-
-::ng-deep .mat-mdc-form-field-infix {
-  min-height: 42px !important;
-  padding-top: 8px !important;
-  padding-bottom: 8px !important;
-}
-
-::ng-deep .mat-mdc-form-field-flex {
-  align-items: center !important;
-}
-
-.is-correct {
-  --mdc-outlined-text-field-outline-color: #16a34a;
-  --mdc-outlined-text-field-focus-outline-color: #16a34a;
-}
-
-.is-correct input {
-  color: #16a34a !important;
-}
-
-.is-incorrect {
-  --mdc-outlined-text-field-outline-color: #dc2626;
-  --mdc-outlined-text-field-focus-outline-color: #dc2626;
-}
-
-.is-incorrect input {
-  color: #dc2626 !important;
-}
-
-@media (max-width: 900px) {
-
-  .examples-grid {
-    flex-direction: column;
-  }
-
-  .example-card {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .topic-banner {
-    font-size: 1.5rem;
-    padding: 18px;
-  }
-
-}
-
-@media (max-width: 600px) {
-
-  :host {
-    padding: 12px;
-  }
-
-  .section-description {
-    padding: 16px;
-  }
-
-  .examples-grid {
-    padding: 16px;
-  }
-
-  mat-card-content {
-    padding: 16px !important;
-  }
-
-  .math-text {
-    font-size: 0.95rem;
-  }
-
-}
-
-.input-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  position: relative;
-  top: -10px;
-}
-
+/* HINT */
 .hint-circle {
   width: 18px;
   height: 18px;
@@ -252,4 +161,100 @@ mat-card-content {
 .hint-circle:hover {
   transform: scale(1.1);
   background: #7c3aed;
+}
+
+/* HIDE MAT SUBSCRIPT */
+::ng-deep .mat-mdc-form-field-subscript-wrapper {
+  display: none !important;
+}
+
+::ng-deep .mat-mdc-form-field-flex {
+  align-items: center !important;
+}
+
+::ng-deep .mat-mdc-form-field-infix {
+  min-height: 42px !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
+::ng-deep .mat-mdc-text-field-wrapper {
+  background: white;
+}
+
+/* ===========================
+   ✅ CORRECT STATE
+=========================== */
+::ng-deep .math-input-field.is-correct .mdc-text-field--outlined {
+  --mdc-outlined-text-field-outline-color: #16a34a !important;
+  --mdc-outlined-text-field-focus-outline-color: #16a34a !important;
+}
+
+::ng-deep .math-input-field.is-correct input {
+  color: #16a34a !important;
+}
+
+/* ===========================
+   ❌ INCORRECT STATE (FIXED)
+=========================== */
+::ng-deep .math-input-field.mat-form-field-invalid .mdc-text-field--outlined {
+  --mdc-outlined-text-field-outline-color: #dc2626 !important;
+  --mdc-outlined-text-field-focus-outline-color: #dc2626 !important;
+}
+
+::ng-deep .math-input-field.mat-form-field-invalid input {
+  color: #dc2626 !important;
+}
+
+/* OPTIONAL: stronger override for stubborn cases */
+::ng-deep .math-input-field.mat-form-field-invalid .mdc-notched-outline__leading,
+::ng-deep .math-input-field.mat-form-field-invalid .mdc-notched-outline__notch,
+::ng-deep .math-input-field.mat-form-field-invalid .mdc-notched-outline__trailing {
+  border-color: #dc2626 !important;
+}
+
+/* ERROR HINT */
+.error-hint {
+  color: red;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .examples-grid {
+    flex-direction: column;
+  }
+
+  .example-card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .topic-banner {
+    font-size: 1.5rem;
+    padding: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  :host {
+    padding: 12px;
+  }
+
+  .section-description {
+    padding: 16px;
+  }
+
+  .examples-grid {
+    padding: 16px;
+  }
+
+  mat-card-content {
+    padding: 16px !important;
+  }
+
+  .math-text {
+    font-size: 0.95rem;
+  }
 }
