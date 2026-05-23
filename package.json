@@ -1,21 +1,24 @@
 {
-  "name": "math-app",
+  "name": "workbook",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development"
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "publish": "ng build --configuration production --output-path docs --base-href /maths-app/",
+    "postpublish": "shx cp ./docs/browser/index.html ./docs/browser/404.html && shx mv ./docs/browser/* ./docs && shx rm -rf ./docs/browser"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "^19.0.0",
-    "@angular/cdk": "^19.0.0",
+    "@angular/cdk": "^19.2.19",
     "@angular/common": "^19.0.0",
     "@angular/compiler": "^19.0.0",
     "@angular/core": "^19.0.0",
     "@angular/forms": "^19.0.0",
-    "@angular/material": "^19.0.0",
+    "@angular/material": "^19.2.19",
     "@angular/platform-browser": "^19.0.0",
     "@angular/platform-browser-dynamic": "^19.0.0",
     "@angular/router": "^19.0.0",
@@ -27,6 +30,15 @@
     "@angular-devkit/build-angular": "^19.0.0",
     "@angular/cli": "^19.0.0",
     "@angular/compiler-cli": "^19.0.0",
-    "typescript": "~5.6.0"
+    "@types/jasmine": "~5.1.0",
+    "copy-files": "^0.1.0",
+    "jasmine-core": "~5.4.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "shx": "^0.4.0",
+    "typescript": "~5.6.2"
   }
 }

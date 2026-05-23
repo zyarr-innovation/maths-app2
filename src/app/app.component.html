@@ -1,0 +1,109 @@
+<!-- app.component.html -->
+
+<mat-sidenav-container class="layout-container">
+
+  <mat-sidenav
+    #drawer
+    class="side-nav"
+    [mode]="'side'"
+    [opened]="menuOpened">
+
+    <div class="menu-header">
+
+      <div class="menu-title">
+        Maths App
+      </div>
+
+      <button
+        mat-icon-button
+        class="pin-btn"
+        (click)="drawer.toggle()">
+
+        <mat-icon>
+          push_pin
+        </mat-icon>
+
+      </button>
+
+    </div>
+
+    <div class="menu-list">
+
+      @for (file of jsonFiles; track file) {
+
+        <div
+          class="menu-item"
+          [class.active]="selectedFile === file"
+          (click)="selectFile(file)">
+
+          <mat-icon class="menu-icon">
+            menu_book
+          </mat-icon>
+
+          <span>
+            {{ getDisplayName(file) }}
+          </span>
+
+        </div>
+
+      }
+
+    </div>
+
+  </mat-sidenav>
+
+  <mat-sidenav-content class="content-area">
+
+    <mat-toolbar class="top-toolbar">
+
+      <button
+        mat-icon-button
+        (click)="drawer.toggle()">
+
+        <mat-icon>
+          menu
+        </mat-icon>
+
+      </button>
+
+      <div class="toolbar-title">
+
+        @if (selectedFile) {
+          {{ getDisplayName(selectedFile) }}
+        }
+
+      </div>
+
+    </mat-toolbar>
+
+    <div class="content-wrapper">
+
+      @if (selectedFile) {
+
+        <app-sample
+          [filePath]="'assets/json/' + selectedFile">
+        </app-sample>
+
+      } @else {
+
+        <div class="loading-container">
+
+          <mat-icon class="loading-icon">
+            hourglass_top
+          </mat-icon>
+
+          <div class="loading-text">
+            Loading workbook...
+          </div>
+
+        </div>
+
+      }
+
+    </div>
+
+  </mat-sidenav-content>
+
+</mat-sidenav-container>
+
+<router-outlet />

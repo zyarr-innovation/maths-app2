@@ -1,0 +1,732 @@
+{
+  "topic": "4. Multiplication as Repeated Grouping",
+  "sub_topics": [
+    {
+      "sub_topic": "Equal Groups",
+      "explanation": "Equal Groups involves partitioning identical items into groups of equal size. Multiplication is derived from this concept by counting the total items as the product of the number of groups and items per group. This helps in understanding multiplication as repeated addition through grouping.",
+      "examples": [
+        {
+          "example": "Eighteen identical marbles divided into 9 equal jars (2 marbles per jar)",
+          "steps": [
+            "There are __18__ marbles in total.",
+            "The marbles are divided equally into __9__ jars.",
+            "Each jar contains __2__ marbles (since 18 ÷ 9 = 2).",
+            "Verify: __9__ jars × __2__ marbles per jar = __18__ marbles total."
+          ]
+        },
+        {
+          "example": "A bakery sells 36 cupcakes equally among 6 customers (6 cupcakes per customer)",
+          "steps": [
+            "There are __36__ cupcakes in total in the bakery.",
+            "The bakery divides these cupcakes equally among __6__ customers.",
+            "Each customer gets __6__ cupcakes (since 36 ÷ 6 = 6).",
+            "Verify: __6__ customers × __6__ cupcakes each = __36__ cupcakes total."
+          ]
+        },
+        {
+          "example": "A farmer plants 42 rows of tomatoes, with each row having 7 plants (total plants = 42 × 7)",
+          "steps": [
+            "The farmer plants __42__ rows of tomatoes.",
+            "Each row contains __7__ tomato plants.",
+            "To find the total number of plants, multiply the number of rows by the number of plants per row: __42__ × __7__.",
+            "Calculate the multiplication: __42__ × __7__ = __294__ tomato plants."
+          ]
+        },
+        {
+          "example": "A classroom has 20 students, divided into 5 equal teams (4 students per team)",
+          "steps": [
+            "There are __20__ students in total in the classroom.",
+            "The students are split into __5__ equal teams.",
+            "Each team has __4__ students.",
+            "To find out how many students are in one team, divide __20__ by __5__: __20 ÷ 5 = __4__ students per team.",
+            "This matches the given information that each team has 4 students."
+          ]
+        },
+        {
+          "example": "A pizza is cut into 8 equal slices, and each friend gets 2 slices (total slices = 8 × 2)",
+          "steps": [
+            "The pizza is divided into __8__ equal slices.",
+            "Each friend receives __2__ slices.",
+            "To find the total slices given to all friends, multiply the number of slices per friend by the number of friends: __8__ × __2__ = __16__ slices."
+          ]
+        },
+        {
+          "example": "A garden has 15 rows of sunflowers, with each row containing 4 sunflowers (total sunflowers = 15 × 4)",
+          "steps": [
+            "There are __15__ rows of sunflowers in the garden.",
+            "Each row has __4__ sunflowers.",
+            "First, count the total sunflowers in one row: __4__ sunflowers.",
+            "Now, multiply the number of rows by the number of sunflowers per row: __15__ × __4__ = __60__ sunflowers in total."
+          ]
+        },
+        {
+          "example": "A toy store has 30 action figures, each in 5 equal boxes (6 action figures per box)",
+          "steps": [
+            "First, determine how many action figures are in each box: __6__ figures per box.",
+            "There are __5__ boxes in total.",
+            "Calculate the total number of action figures by multiplying: __6__ × __5__ = __30__ action figures.",
+            "The store has __30__ action figures in total, which matches the given information."
+          ]
+        },
+        {
+          "example": "A train travels 60 kilometers every hour, covering 10 equal segments of distance (6 kilometers per segment)",
+          "steps": [
+            "The train travels at a speed of __60__ kilometers per hour.",
+            "The total distance covered is divided into __10__ equal parts.",
+            "Each segment is __6__ kilometers long (since 60 ÷ 10 = 6).",
+            "If we want to confirm: __60 ÷ __10__ = __6__ kilometers per segment."
+          ]
+        },
+        {
+          "example": "A bakery has 24 cookies, divided equally among 8 children (3 cookies per child)",
+          "steps": [
+            "There are __24__ cookies in total in the bakery.",
+            "The cookies are divided equally among __8__ children.",
+            "Each child gets __3__ cookies (since 24 ÷ 8 = 3).",
+            "So, each child has __3__ cookies."
+          ]
+        },
+        {
+          "example": "A soccer team has 11 players, split into 2 equal groups for practice (5.5 players per group, adjusted to 5 and 6 for practicality)",
+          "steps": [
+            "The team has a total of __11__ players.",
+            "To split them equally, divide __11__ by __2__ to get __5.5__ players per group (this is not possible in reality).",
+            "Since we can’t have half players, we adjust the groups to __5__ and __6__ players instead.",
+            "Now, one group has __5__ players, and the other has __6__ players.",
+            "The total number of players in both groups is __5__ + __6__ = __11__ players again."
+          ]
+        },
+        {
+          "example": "A farmer has 56 identical bags of wheat, each weighing 7 kg (total weight = 56 × 7 kg)",
+          "steps": [
+            "The farmer has __56__ bags of wheat.",
+            "Each bag weighs __7__ kilograms.",
+            "First, calculate the total weight by multiplying the number of bags by the weight of one bag: __56__ × __7__ = __392__ kg.",
+            "So, the total weight of all the wheat is __392__ kilograms."
+          ]
+        },
+        {
+          "example": "A classroom has 30 students, divided into 5 equal groups for a project (6 students per group)",
+          "steps": [
+            "There are __30__ students in total in the classroom.",
+            "The students are divided into __5__ equal groups.",
+            "Each group should have the same number of students. Let’s find out how many students are in one group.",
+            "Divide the total number of students by the number of groups: __30 ÷ __5__ = __6__ students per group.",
+            "So, each group has __6__ students."
+          ]
+        },
+        {
+          "example": "A bakery sells 48 donuts equally among 12 customers (4 donuts per customer)",
+          "steps": [
+            "The bakery has a total of __48__ donuts.",
+            "These donuts are divided equally among __12__ customers.",
+            "Each customer gets __4__ donuts (since 48 ÷ 12 = 4).",
+            "So, each of the 12 customers receives __4__ donuts."
+          ]
+        },
+        {
+          "example": "A farmer plants 35 rows of wheat, with each row containing 5 plants (total plants = 35 × 5)",
+          "steps": [
+            "The farmer plants __35__ rows of wheat.",
+            "Each row has __5__ wheat plants.",
+            "To find the total number of plants, multiply the number of rows by the number of plants per row: __35__ × __5__ = ______ plants."
+          ]
+        },
+        {
+          "example": "A group of 25 friends splits 50 identical candies equally (2 candies per friend)",
+          "steps": [
+            "There are __50__ identical candies to share equally among __25__ friends.",
+            "Each friend gets __2__ candies because __50 ÷ __25__ = __2__ candies per friend.",
+            "So, each friend receives exactly __2__ candies."
+          ]
+        },
+        {
+          "example": "A train travels 90 kilometers in 3 equal hours (30 kilometers per hour)",
+          "steps": [
+            "The train travels a total of __90__ kilometers.",
+            "This distance is covered in __3__ equal time intervals.",
+            "Each interval takes __1__ hour (since 3 hours ÷ 3 intervals = __1__ hour per interval).",
+            "The speed is calculated as distance divided by time: __90__ km ÷ __3__ hours = __30__ kilometers per hour.",
+            "Thus, the train travels __30__ kilometers every hour."
+          ]
+        },
+        {
+          "example": "A classroom has 18 students, divided into 3 equal groups for a debate (6 students per group)",
+          "steps": [
+            "There are __18__ students in total in the classroom.",
+            "The students are divided into __3__ equal groups.",
+            "Each group should have the same number of students. Let’s find out how many students are in one group.",
+            "Divide the total number of students by the number of groups: __18 ÷ 3 = __6__ students per group."
+          ]
+        },
+        {
+          "example": "A farmer has 40 identical bags of rice, each weighing 5 kg (total weight = 40 × 5 kg)",
+          "steps": [
+            "The farmer has __40__ bags of rice.",
+            "Each bag weighs __5__ kilograms.",
+            "First, calculate the total weight by multiplying the number of bags by the weight of one bag: __40__ × __5__ = __200__ kilograms."
+          ]
+        },
+        {
+          "example": "A group of 12 children shares 24 identical toys equally (2 toys per child)",
+          "steps": [
+            "There are __12__ children sharing toys.",
+            "Each child gets __2__ toys.",
+            "First, calculate how many toys are needed for all children: __12__ × __2__ = __24__ toys.",
+            "Since there are exactly __24__ toys available, they can be shared equally without any leftovers."
+          ]
+        },
+        {
+          "example": "A bakery sells 60 cupcakes equally among 10 customers (6 cupcakes per customer)",
+          "steps": [
+            "The bakery has a total of __60__ cupcakes.",
+            "These cupcakes are divided equally among __10__ customers.",
+            "Each customer receives __6__ cupcakes (since 60 ÷ 10 = 6).",
+            "Verify: __10__ customers × __6__ cupcakes each = __60__ cupcakes total."
+          ]
+        }
+      ]
+    },
+    {
+      "sub_topic": "Skip Counting",
+      "explanation": "Skip counting is a method of counting by a fixed number repeatedly to understand multiplication as repeated addition. It helps visualize how multiplying a number by another involves adding the same number multiple times in sequence. This builds foundational skills for arithmetic operations, particularly multiplication and division.",
+      "examples": [
+        {
+          "example": "Counting by 3s: 3, 6, 9, 12, 15, ... If you have 4 bags with 3 apples each, how many apples do you have in total?",
+          "steps": [
+            "First, count how many apples are in one bag: __3__ apples.",
+            "Since there are 4 bags, multiply the number of apples in one bag by the number of bags: __3__ × __4__.",
+            "Calculate the total: __3__ × __4__ = __12__ apples."
+          ]
+        },
+        {
+          "example": "Counting by 4s: 4, 8, 12, 16, 20, ... A farmer plants 5 rows of tomatoes, with 4 plants in each row. How many tomato plants does the farmer have?",
+          "steps": [
+            "The counting sequence shows multiples of 4: 4, 8, 12, 16, 20, ...",
+            "Each row has __4__ tomato plants.",
+            "The farmer plants __5__ rows of tomatoes.",
+            "To find the total, multiply the number of plants per row by the number of rows: __4__ × __5__ = __20__ tomato plants."
+          ]
+        },
+        {
+          "example": "Counting by 5s: 5, 10, 15, 20, 25, ... If you have 6 packs of pencils, with 5 pencils in each pack, how many pencils do you have altogether?",
+          "steps": [
+            "First, identify the number of pencils in one pack: __5__ pencils.",
+            "You have __6__ packs of pencils.",
+            "Count how many pencils are in each pack by adding 5 repeatedly: 5, 10, 15, 20, 25, 30, 35.",
+            "Now, add the total pencils from all packs: __35__ pencils altogether."
+          ]
+        },
+        {
+          "example": "Counting by 2s: 2, 4, 6, 8, 10, ... A bakery sells 7 loaves of bread every hour. How many loaves will they sell in 3 hours?",
+          "steps": [
+            "The bakery sells __7__ loaves of bread each hour.",
+            "They want to know how many loaves they sell in __3__ hours.",
+            "First, calculate loaves sold in one hour: __7__ loaves.",
+            "Multiply by the number of hours: __7__ × __3__ = __21__ loaves."
+          ]
+        },
+        {
+          "example": "Counting by 10s: 10, 20, 30, 40, 50, ... A book has 8 chapters, with 10 pages per chapter. How many pages are in the book?",
+          "steps": [
+            "Each chapter has __10__ pages.",
+            "Count the number of chapters: __8__ chapters.",
+            "Multiply the pages per chapter by the number of chapters: __10__ × __8__ = __80__ pages."
+          ]
+        },
+        {
+          "example": "Counting by 7s: 7, 14, 21, 28, 35, ... If you have 5 boxes of crayons, with 7 crayons in each box, how many crayons do you have?",
+          "steps": [
+            "First, identify the number of crayons in one box: __7__ crayons.",
+            "You have __5__ boxes of crayons.",
+            "To find the total number of crayons, multiply the number of crayons per box by the number of boxes: __7__ × __5__ = __35__ crayons."
+          ]
+        },
+        {
+          "example": "Counting by 6s: 6, 12, 18, 24, 30, ... A pizza is cut into 6 slices. If you eat 4 slices, how many slices are left if there were 5 pizzas?",
+          "steps": [
+            "Each pizza is cut into __6__ slices.",
+            "There are __5__ pizzas, so initially there are __5__ × __6__ = __30__ slices in total.",
+            "You eat __4__ slices.",
+            "Subtract the eaten slices: __30__ - __4__ = __26__ slices remain."
+          ]
+        },
+        {
+          "example": "Counting by 9s: 9, 18, 27, 36, 45, ... A train travels 3 stops every 9 minutes. How many stops will it reach in 1 hour?",
+          "steps": [
+            "The pattern shows that every 9 minutes, the train reaches an additional __9__ stops (9, 18, 27, etc.).",
+            "The question states the train travels __3__ stops every 9 minutes. This means the train covers __3__ stops per 9-minute interval.",
+            "First, calculate how many 9-minute intervals are in 1 hour (60 minutes): __60 ÷ 9 = __5__ intervals.",
+            "Since the train travels __3__ stops in each interval, multiply __3__ stops × __5__ intervals = __15__ stops.",
+            "Therefore, in 1 hour, the train will reach __15__ stops."
+          ]
+        },
+        {
+          "example": "Counting by 11s: 11, 22, 33, 44, 55, ... If a recipe requires 4 batches of 11 cups of flour, how many cups of flour are needed in total?",
+          "steps": [
+            "Understand that each batch requires __11__ cups of flour.",
+            "Count how many batches are needed: __4__ batches.",
+            "Multiply the number of cups per batch by the number of batches: __11__ × __4__ = __44__ cups of flour."
+          ]
+        },
+        {
+          "example": "Counting by 12s: 12, 24, 36, 48, 60, ... A clock has 12 hours. If you count every 12 minutes, how many minutes will pass in 2 hours?",
+          "steps": [
+            "A clock has __12__ hours marked.",
+            "Counting every __12__ minutes means each hour represents __12__ minutes.",
+            "There are __2__ hours in the question.",
+            "Multiply the number of hours by the minutes per hour: __2__ × __12__ = __24__ minutes."
+          ]
+        },
+        {
+          "example": "Counting by 8s: 8, 16, 24, 32, 40, ... A toy car costs $5 each. If you save $8 every week, how many weeks will it take to save enough for 3 cars?",
+          "steps": [
+            "First, calculate the total cost for 3 cars: __5__ cars × __5__ dollars each = __25__ dollars needed.",
+            "You save __8__ dollars every week.",
+            "Determine how many weeks it takes to save $25 by dividing __25__ by __8__: __25 ÷ __8__ = __3__ weeks (with some money left over).",
+            "Since you can't save a fraction of a week, you need to round up to the next whole week: __4__ weeks total."
+          ]
+        },
+        {
+          "example": "Counting by 13s: 13, 26, 39, 52, 65, ... A soccer team plays 5 matches every 13 days. How many matches will they play in 2 months (assuming 4 weeks/month)?",
+          "steps": [
+            "A match is played every __13__ days.",
+            "The team plays __5__ matches in one cycle of 13 days.",
+            "One month has __4__ weeks (so __4 × 7 = __28__ days).",
+            "Two months would be __2 × 28 = __56__ days.",
+            "Determine how many full 13-day cycles fit into 56 days: __56 ÷ 13 = __4__ cycles.",
+            "Each cycle includes __5__ matches, so __4 × 5 = __20__ matches in 2 months."
+          ]
+        },
+        {
+          "example": "Counting by 20s: 20, 40, 60, 80, 100, ... A factory produces 3 cars every 20 minutes. How many cars will be produced in 4 hours?",
+          "steps": [
+            "First, convert 4 hours into minutes: __4__ hours × __60__ minutes/hour = __240__ minutes.",
+            "The factory produces __3__ cars every __20__ minutes.",
+            "Calculate how many 20-minute intervals are in 240 minutes: __240__ ÷ __20__ = __12__ intervals.",
+            "Multiply the number of intervals by cars produced per interval: __12__ × __3__ cars = __36__ cars."
+          ]
+        },
+        {
+          "example": "Counting by 15s: 15, 30, 45, 60, 75, ... A garden has 6 rows of flowers, with 15 flowers in each row. How many flowers are there in total?",
+          "steps": [
+            "The counting pattern shows that each step adds __15__ flowers.",
+            "There are __6__ rows of flowers in the garden.",
+            "Each row has __15__ flowers, so we multiply __6__ rows × __15__ flowers per row.",
+            "Calculate: __6__ × __15__ = __90__ flowers in total."
+          ]
+        },
+        {
+          "example": "Counting by 17s: 17, 34, 51, 68, 85, ... If a pizza is cut into 17 slices and you eat 3 slices, how many slices are left if there were 4 pizzas?",
+          "steps": [
+            "First, calculate the total number of slices from 4 pizzas: __4__ pizzas × __17__ slices per pizza = __68__ slices total.",
+            "You eat __3__ slices, so subtract them from the total: __68__ - __3__ = __65__ slices left."
+          ]
+        },
+        {
+          "example": "Counting by 25s: 25, 50, 75, 100, 125, ... A classroom has 4 desks with 5 students per desk. How many students are there if each desk has 25 seats?",
+          "steps": [
+            "First, note that each desk has __25__ seats.",
+            "There are __5__ students per desk.",
+            "Calculate how many students fit in one desk: __25__ seats × __5__ students = __125__ students (if all seats are occupied).",
+            "The classroom has __4__ desks.",
+            "Multiply the number of students per desk by the number of desks: __125__ students × __4__ desks = __500__ students total."
+          ]
+        },
+        {
+          "example": "Counting by 30s: 30, 60, 90, 120, 150, ... A marathon is 26.2 miles. If you run 30 miles in a day, how many days will it take to run 5 marathons?",
+          "steps": [
+            "A marathon is __26.2__ miles long.",
+            "You want to run __5__ marathons, so first calculate the total distance: __5__ × __26.2__ = __131__ miles.",
+            "You run __30__ miles each day.",
+            "To find out how many days you need, divide the total distance by the daily distance: __131__ ÷ __30__ = __4.366...__ days.",
+            "Since you can't run a fraction of a day, you need to round up to the next whole number: __5__ days."
+          ]
+        },
+        {
+          "example": "Counting by 14s: 14, 28, 42, 56, 70, ... A pack of cards has 14 cards. If you have 7 packs, how many cards are there in total?",
+          "steps": [
+            "A single pack contains __14__ cards.",
+            "Counting by 14s: 14, 28, 42, 56, 70, ...",
+            "You have __7__ packs.",
+            "Multiply the number of cards in one pack by the number of packs: __14__ × __7__ = __98__ cards in total."
+          ]
+        },
+        {
+          "example": "Counting by 22s: 22, 44, 66, 88, 110, ... A train travels 22 km every 2 hours. How far will it travel in 5 hours?",
+          "steps": [
+            "The train travels __22__ kilometers every 2 hours.",
+            "Count how many 2-hour intervals are in 5 hours: __5__ ÷ __2__ = __2.5__ intervals.",
+            "Since the train travels 22 km per full 2-hour interval, calculate for 2 intervals: __22__ × __2__ = __44__ km.",
+            "For the half interval (0.5 hours), the train travels half of 22 km: __22__ ÷ __2__ = __11__ km.",
+            "Add the distances: __44__ km + __11__ km = __55__ kilometers total."
+          ]
+        },
+        {
+          "example": "Counting by 35s: 35, 70, 105, 140, 175, ... A bakery sells 35 cupcakes every hour. How many cupcakes will they sell in 3 days (assuming 24 hours/day)?",
+          "steps": [
+            "The bakery sells __35__ cupcakes per hour.",
+            "There are __24__ hours in one day.",
+            "Calculate how many hours in 3 days: __24__ × __3__ = __72__ hours.",
+            "Multiply the number of cupcakes per hour by the total hours: __35__ × __72__ = __2520__ cupcakes."
+          ]
+        }
+      ]
+    },
+    {
+      "sub_topic": "Arrays",
+      "explanation": "Arrays are structured arrangements of items in rows and columns, where each row and column represents a group. The total number of items is calculated by multiplying the number of rows by the number of columns, illustrating multiplication as repeated grouping. Arrays help visualize quantities in real-world contexts through systematic organization.",
+      "examples": [
+        {
+          "example": "A 2×8 arrangement of soccer balls (2 rows, 8 columns = 16 balls)",
+          "steps": [
+            "There are __2__ rows of soccer balls.",
+            "Each row has __8__ soccer balls.",
+            "Count the total number of soccer balls in one row: __8__ soccer balls.",
+            "Since there are __2__ rows, multiply the number of balls in one row by the number of rows: __8__ × __2__ = __16__ soccer balls."
+          ]
+        },
+        {
+          "example": "A 9×4 display of notebooks (9 rows, 4 columns = 36 notebooks)",
+          "steps": [
+            "There are __9__ rows of notebooks.",
+            "Each row has __4__ notebooks.",
+            "Count the total notebooks by multiplying: __9__ × __4__ = __36__ notebooks in total."
+          ]
+        },
+        {
+          "example": "A 6×5 grid of pizza slices (6 rows, 5 columns = 30 slices)",
+          "steps": [
+            "A grid has __6__ rows and __5__ columns.",
+            "Each row contains __5__ pizza slices.",
+            "Count the total slices in one row: __5__ slices.",
+            "Since there are __6__ rows, multiply __5__ × __6__ to find the total slices.",
+            "Calculate: __5__ × __6__ = __30__ pizza slices in total."
+          ]
+        },
+        {
+          "example": "A 1×10 line of train tickets (1 row, 10 columns = 10 tickets)",
+          "steps": [
+            "Visualize a single row of train tickets as a straight line with __10__ individual seats.",
+            "Count the total number of tickets in this line: __10__ tickets are present.",
+            "Each ticket represents one passenger spot in the line."
+          ]
+        },
+        {
+          "example": "A 7×3 arrangement of crayons (7 rows, 3 columns = 21 crayons)",
+          "steps": [
+            "There are __7__ rows of crayons.",
+            "Each row has __3__ crayons.",
+            "Count the total crayons by multiplying: __7__ × __3__ = __21__ crayons in total."
+          ]
+        },
+        {
+          "example": "A 4×6 layout of garden plots (4 rows, 6 columns = 24 plots)",
+          "steps": [
+            "A garden layout has __4__ rows.",
+            "Each row has __6__ plots in it.",
+            "To find the total number of plots, multiply the number of rows by the number of plots in each row: __4__ × __6__ = __24__ plots."
+          ]
+        },
+        {
+          "example": "A 5×2 arrangement of water bottles (5 rows, 2 columns = 10 bottles)",
+          "steps": [
+            "There are __5__ rows of water bottles.",
+            "Each row has __2__ water bottles.",
+            "Count the total number of bottles in one row: __2__ bottles.",
+            "Multiply the number of rows by bottles per row: __5__ × __2__ = __10__ bottles."
+          ]
+        },
+        {
+          "example": "A 12×1 array of coins (12 rows, 1 column = 12 coins)",
+          "steps": [
+            "The array has __12__ rows with __1__ coin in each row.",
+            "Counting all coins: __12__ × __1__ = __12__ coins total.",
+            "Each coin is placed in a single column, so the total is simply __12__ coins in a vertical line."
+          ]
+        },
+        {
+          "example": "A 3×7 display of apples (3 rows, 7 columns = 21 apples)",
+          "steps": [
+            "There are 3 rows of apples.",
+            "Each row has 7 apples.",
+            "Count the total apples in one row: __7__ apples.",
+            "Since there are 3 rows, multiply __7__ by __3__ to find the total: __7__ × __3__ = __21__ apples."
+          ]
+        },
+        {
+          "example": "A 10×1 arrangement of books on a shelf (10 rows, 1 column = 10 books)",
+          "steps": [
+            "A single row of books is arranged in __1__ column.",
+            "Each row has __10__ books placed vertically.",
+            "Counting all rows: __10__ rows × __1__ book per row = __10__ books total."
+          ]
+        },
+        {
+          "example": "A 8×2 grid of chairs (8 rows, 2 columns = 16 chairs)",
+          "steps": [
+            "A grid has __8__ rows of chairs.",
+            "Each row has __2__ columns of chairs.",
+            "To find the total number of chairs, multiply the number of rows by the number of columns: __8__ × __2__ = __16__ chairs."
+          ]
+        },
+        {
+          "example": "A 5×4 arrangement of tiles in a mosaic (5 rows, 4 columns = 20 tiles)",
+          "steps": [
+            "A mosaic has __5__ rows of tiles.",
+            "Each row contains __4__ tiles.",
+            "To find the total number of tiles, multiply the number of rows by the number of columns: __5__ × __4__ = __20__ tiles."
+          ]
+        },
+        {
+          "example": "A 9×1 line of flags (9 rows, 1 column = 9 flags)",
+          "steps": [
+            "A single column of flags means each row has __1__ flag.",
+            "There are __9__ rows in total.",
+            "Counting all flags: __9__ rows × __1__ flag per row = __9__ flags in total."
+          ]
+        },
+        {
+          "example": "A 6×3 display of cupcakes (6 rows, 3 columns = 18 cupcakes)",
+          "steps": [
+            "A display has __6__ rows of cupcakes.",
+            "Each row has __3__ cupcakes.",
+            "Count the total number of cupcakes in one row: __3__ cupcakes.",
+            "Multiply the number of rows by the number of cupcakes per row: __6__ × __3__ = __18__ cupcakes."
+          ]
+        },
+        {
+          "example": "A 1×9 array of pencils (1 row, 9 columns = 9 pencils)",
+          "steps": [
+            "A single row contains __9__ pencils arranged in columns.",
+            "Counting all pencils in this 1×9 array gives us __9__ pencils in total."
+          ]
+        },
+        {
+          "example": "A 4×5 arrangement of oranges (4 rows, 5 columns = 20 oranges)",
+          "steps": [
+            "There are 4 rows of oranges.",
+            "Each row has 5 oranges.",
+            "Count the total oranges in one row: __5__ oranges.",
+            "Since there are 4 rows, multiply __5__ by __4__ to find the total: __5__ × __4__ = __20__ oranges."
+          ]
+        },
+        {
+          "example": "A 11×2 grid of backpacks (11 rows, 2 columns = 22 backpacks)",
+          "steps": [
+            "A grid has __11__ rows of backpacks.",
+            "Each row contains __2__ backpacks.",
+            "To find the total number of backpacks, multiply the number of rows by the number of backpacks per row: __11__ × __2__ = __22__ backpacks."
+          ]
+        },
+        {
+          "example": "A 7×4 display of books in a library (7 rows, 4 columns = 28 books)",
+          "steps": [
+            "There are __7__ rows of books in the library.",
+            "Each row has __4__ books in it.",
+            "First, count the total books in one row: __4__ books.",
+            "Now, multiply the number of rows by the number of books per row: __7__ × __4__ = __28__ books."
+          ]
+        },
+        {
+          "example": "A 3×6 arrangement of flowers in a vase (3 rows, 6 columns = 18 flowers)",
+          "steps": [
+            "A vase has __3__ rows of flowers.",
+            "Each row contains __6__ flowers.",
+            "Count the flowers in one row: __6__ flowers.",
+            "Since there are __3__ rows, multiply __6__ × __3__ to find the total: __6__ × __3__ = __18__ flowers."
+          ]
+        },
+        {
+          "example": "A 10×3 grid of tiles in a bathroom (10 rows, 3 columns = 30 tiles)",
+          "steps": [
+            "A grid has __10__ rows and __3__ columns.",
+            "Each row contains __3__ tiles, so the total number of tiles in one row is __3__.",
+            "To find the total number of tiles in the grid, multiply the number of rows by the number of tiles in each row: __10__ × __3__ = __30__ tiles."
+          ]
+        }
+      ]
+    },
+    {
+      "sub_topic": "Visual: Rows and Columns",
+      "explanation": "Visualizing multiplication through rows and columns reinforces the concept of repeated addition as grouping. Drawing or imagining arrangements of items in rows and columns helps students understand how the total count is derived from the arrangement of items in a grid-like structure. This method bridges abstract multiplication with concrete visual representation, improving comprehension and retention.",
+      "examples": [
+        {
+          "example": "Imagine arranging 7 groups of 6 pencils each in neat rows and columns to find the total number of pencils (total = 7 × 6).",
+          "steps": [
+            "There are __7__ groups of pencils.",
+            "Each group contains __6__ pencils.",
+            "To find the total, multiply the number of groups by the number of pencils in each group: __7__ × __6__.",
+            "Calculate the multiplication: __7__ × __6__ = __42__ pencils in total."
+          ]
+        },
+        {
+          "example": "Draw 9 rows of 5 flowers planted in each row to determine how many flowers are planted in total (total flowers = 9 × 5).",
+          "steps": [
+            "Imagine drawing __9__ rows of flowers.",
+            "Each row has __5__ flowers planted in it.",
+            "Count the flowers in one row: __5__ flowers.",
+            "Since there are __9__ rows, multiply the flowers in one row by the number of rows: __5__ × __9__ = ____ flowers in total."
+          ]
+        },
+        {
+          "example": "A bakery arranges 4 trays with 8 cupcakes on each tray. How many cupcakes are there in total if they are arranged in rows and columns? (total cupcakes = 4 × 8).",
+          "steps": [
+            "There are __4__ trays in total.",
+            "Each tray has __8__ cupcakes.",
+            "To find the total number of cupcakes, multiply the number of trays by the number of cupcakes per tray: __4__ × __8__ = ?",
+            "Calculate the multiplication: __4__ × __8__ = __32__",
+            "So, there are __32__ cupcakes in total."
+          ]
+        },
+        {
+          "example": "A farmer plants 6 rows of tomatoes with 12 plants in each row. How many tomato plants are there in total? (total plants = 6 × 12).",
+          "steps": [
+            "There are __6__ rows of tomatoes planted.",
+            "Each row has __12__ tomato plants.",
+            "To find the total number of plants, multiply the number of rows by the number of plants in each row: __6__ × __12__.",
+            "Calculate the multiplication: __6__ × __12__ = __72__ tomato plants in total."
+          ]
+        },
+        {
+          "example": "A classroom has 5 desks, each with 3 students sitting in rows of 2. How many students are there in total? (total students = 5 × 2).",
+          "steps": [
+            "There are __5__ desks in the classroom.",
+            "Each desk has __3__ students sitting in rows of 2.",
+            "First, count the students per desk: __3__ students ÷ __2__ students per row = __1.5__ rows (but since we can't have half a row, we focus on the total students per desk as given: __3__ students).",
+            "Now, multiply the number of desks by the number of students per desk: __5__ desks × __3__ students per desk = __15__ students total."
+          ]
+        },
+        {
+          "example": "A pizza shop slices 3 pizzas into 8 equal slices each. If they are arranged in rows and columns, how many slices are there in total? (total slices = 3 × 8).",
+          "steps": [
+            "There are __3__ pizzas, each cut into __8__ equal slices.",
+            "To find the total number of slices, multiply the number of pizzas by the number of slices per pizza: __3__ × __8__ = _____ slices."
+          ]
+        },
+        {
+          "example": "A farmer has 7 fields, each with 9 rows of wheat plants. If each row has 4 plants, how many wheat plants are there in total? (total plants = 7 × 4).",
+          "steps": [
+            "The farmer has __7__ fields.",
+            "Each field has __9__ rows of wheat plants.",
+            "Each row contains __4__ wheat plants.",
+            "First, calculate the total plants per field: __9__ rows × __4__ plants/row = __36__ plants per field.",
+            "Now, multiply the plants per field by the number of fields: __36__ plants × __7__ fields = __252__ wheat plants in total."
+          ]
+        },
+        {
+          "example": "A library has 10 shelves, each holding 6 books in rows of 3. How many books are there in total? (total books = 10 × 3).",
+          "steps": [
+            "First, count how many books are on one shelf: __6__ books are in rows of 3.",
+            "Now, think about how many books are on each shelf: __6__ books per shelf.",
+            "The library has __10__ shelves in total.",
+            "Multiply the number of books per shelf by the number of shelves: __10__ × __6__ = __60__ books."
+          ]
+        },
+        {
+          "example": "A bakery arranges 12 bags of cookies, each containing 5 rows of 4 cookies. How many cookies are there in total? (total cookies = 12 × 4).",
+          "steps": [
+            "First, count the number of cookies in one bag: __5__ rows × __4__ cookies per row = __20__ cookies.",
+            "Now, multiply the total cookies per bag by the number of bags: __12__ bags × __20__ cookies per bag = __240__ cookies."
+          ]
+        },
+        {
+          "example": "A farmer plants 8 rows of carrots with 15 plants in each row. How many carrots are there in total? (total carrots = 8 × 15).",
+          "steps": [
+            "There are __8__ rows of carrots planted.",
+            "Each row has __15__ carrots planted.",
+            "To find the total number of carrots, multiply the number of rows by the number of plants per row: __8__ × __15__.",
+            "Calculate the multiplication: __8__ × __15__ = __120__.",
+            "So, there are __120__ carrots in total."
+          ]
+        },
+        {
+          "example": "A classroom has 15 students, each sitting in groups of 5 in rows of 3. How many students are there in total? (total students = 15 × 3).",
+          "steps": [
+            "The classroom has __15__ students in total.",
+            "Each student is counted in groups of __5__ students.",
+            "The students are arranged in rows of __3__ students each.",
+            "To find the total number of students, multiply the number of students by the number of rows: __15__ × __3__ = __45__ students."
+          ]
+        },
+        {
+          "example": "A toy store arranges 10 boxes of toys, each containing 7 rows of 6 toys. How many toys are there in total? (total toys = 10 × 6).",
+          "steps": [
+            "First, count the number of toys in one row: __6__ toys.",
+            "Next, determine how many rows are in one box: __7__ rows.",
+            "Calculate the total toys in one box by multiplying rows by toys per row: __7__ × __6__ = __42__ toys per box.",
+            "Now, count the total number of boxes: __10__ boxes.",
+            "Multiply the number of toys per box by the total number of boxes: __42__ × __10__ = __420__ toys in total."
+          ]
+        },
+        {
+          "example": "A farmer has 14 fields, each with 6 rows of 10 apple trees. How many apple trees are there in total? (total trees = 14 × 10).",
+          "steps": [
+            "First, count the number of apple trees in one field: __6__ rows × __10__ trees per row = __60__ trees.",
+            "Now, multiply the number of trees in one field by the total number of fields: __14__ fields × __60__ trees per field = __840__ trees."
+          ]
+        },
+        {
+          "example": "A bakery arranges 20 trays of donuts, each with 4 rows of 5 donuts. How many donuts are there in total? (total donuts = 20 × 5).",
+          "steps": [
+            "First, count the number of donuts in one tray: __4__ rows × __5__ donuts per row = __20__ donuts.",
+            "Now, there are __20__ trays, each with __20__ donuts.",
+            "Multiply the total donuts per tray by the number of trays: __20__ × __5__ = __100__ donuts."
+          ]
+        },
+        {
+          "example": "A classroom has 25 students, each sitting in groups of 5 in rows of 4. How many students are there in total? (total students = 25 × 4).",
+          "steps": [
+            "There are __25__ students in total in the classroom.",
+            "Each student is part of a group of __5__ students.",
+            "The students are arranged in rows, and each row has __4__ students.",
+            "To find the total number of students in one row, divide the number of students by the number of students per group: __25 ÷ 5 = __10__ rows.",
+            "Now, multiply the number of rows by the number of students per row: __10__ rows × __4__ students per row = __36__ students in total."
+          ]
+        },
+        {
+          "example": "A farmer plants 18 rows of sunflowers with 8 plants in each row. How many sunflowers are there in total? (total sunflowers = 18 × 8).",
+          "steps": [
+            "The farmer plants __18__ rows of sunflowers.",
+            "Each row has __8__ sunflower plants.",
+            "To find the total number of sunflowers, multiply the number of rows by the number of plants per row: __18__ × __8__ = ?",
+            "Calculate the multiplication: __18__ × __8__ = __144__",
+            "So, there are __144__ sunflowers in total."
+          ]
+        },
+        {
+          "example": "A toy store arranges 15 boxes of dolls, each with 6 rows of 7 dolls. How many dolls are there in total? (total dolls = 15 × 7).",
+          "steps": [
+            "First, count the number of dolls in one box: __6__ rows × __7__ dolls per row = __42__ dolls.",
+            "Now, multiply the dolls per box by the total number of boxes: __15__ boxes × __42__ dolls per box = __630__ dolls."
+          ]
+        },
+        {
+          "example": "A bakery arranges 30 bags of muffins, each containing 3 rows of 10 muffins. How many muffins are there in total? (total muffins = 30 × 10).",
+          "steps": [
+            "First, count the muffins in one bag: __3__ rows × __10__ muffins per row = __30__ muffins.",
+            "Now, there are __30__ bags, each with __30__ muffins.",
+            "Multiply the total muffins per bag by the number of bags: __30__ × __30__ = __900__ muffins in total."
+          ]
+        },
+        {
+          "example": "A farmer has 24 fields, each with 5 rows of 12 corn plants. How many corn plants are there in total? (total plants = 24 × 12).",
+          "steps": [
+            "First, count the number of corn plants in one field: __5__ rows × __12__ plants per row = __60__ plants.",
+            "Now, multiply the total plants per field by the number of fields: __24__ fields × __60__ plants per field = __1,440__ total corn plants."
+          ]
+        },
+        {
+          "example": "A classroom has 30 students, each sitting in groups of 6 in rows of 5. How many students are there in total? (total students = 30 × 5).",
+          "steps": [
+            "The classroom has __30__ students in total.",
+            "Each student is counted in groups of 5 rows (since 5 rows × 6 students per row = total students).",
+            "The question states the total students are calculated as __30__ × __5__.",
+            "First, calculate the number of students per row: __6__ students per row.",
+            "Now, multiply the number of students by the number of rows: __30__ students × __5__ rows = __150__ students in total."
+          ]
+        }
+      ]
+    }
+  ]
+}

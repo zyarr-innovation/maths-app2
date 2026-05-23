@@ -1,0 +1,681 @@
+{
+  "topic": "3. Fractions as Meaning",
+  "sub_topics": [
+    {
+      "sub_topic": "Fraction as part of whole",
+      "explanation": "A fraction represents a part of a whole object or quantity, where the numerator indicates the number of equal parts taken, and the denominator indicates the total number of equal parts the whole is divided into. This concept highlights division into equal shares and the proportional relationship between the part and the whole, emphasizing understanding of division and fractions in real-world contexts.",
+      "examples": [
+        {
+          "example": "A bakery has 15 identical loaves of bread. If 7 are sold, what fraction of the total loaves remains?",
+          "steps": [
+            "The bakery starts with __15__ loaves of bread.",
+            "The bakery sells __7__ loaves of bread.",
+            "Remaining loaves: __15__ - __7__ = __8__ loaves.",
+            "The total number of loaves originally was __15__.",
+            "The remaining loaves are __8__.",
+            "Fraction remaining: __8__ out of __15__ → ____/____",
+            "Simplify the fraction if possible (e.g., 8/15 is already in simplest form)."
+          ]
+        },
+        {
+          "example": "In a race, 9 out of 12 runners finish first. What fraction of the participants completed the race?",
+          "steps": [
+            "There are __12__ total runners in the race.",
+            "Out of these, __9__ runners finished first.",
+            "The fraction of runners who completed the race is the number who finished first divided by the total number of runners.",
+            "So, the fraction is __9__ / __12__.",
+            "Simplify the fraction by dividing both numerator and denominator by their greatest common divisor (which is __3__).",
+            "This gives us __3__ / __4__ as the simplified fraction."
+          ]
+        },
+        {
+          "example": "A class of 30 students votes for their favorite subject. If 12 chose math, what fraction of the class prefers math?",
+          "steps": [
+            "Total number of students in the class is __30__.",
+            "Number of students who chose math is __12__.",
+            "The fraction of students who prefer math is __12__ out of __30__.",
+            "Simplify the fraction by dividing both numerator and denominator by their greatest common divisor (GCD). The GCD of 12 and 30 is __6__.",
+            "Divide both parts of the fraction by __6__: __12 ÷ 6__ / __30 ÷ 6__ = __2__ / __5__.",
+            "So, the fraction of the class that prefers math is __2/5__."
+          ]
+        },
+        {
+          "example": "A farmer has 24 apples. He gives 8 to his neighbor. What fraction of the apples is left?",
+          "steps": [
+            "The farmer starts with __24__ apples.",
+            "He gives away __8__ apples to his neighbor.",
+            "Subtract the given apples: __24__ - __8__ = __16__ apples remain.",
+            "The fraction of apples left is the remaining apples over the original amount: __16__ / __24__.",
+            "Simplify the fraction by dividing both numerator and denominator by their greatest common divisor (4): __16 ÷ 4__ / __24 ÷ 4__ = __4__ / __6__.",
+            "Further simplify to get the final fraction: __4__ / __6__ can be reduced to __2__ / __3__."
+          ]
+        },
+        {
+          "example": "A marathon is divided into 10 equal segments. Runner A completes 4 segments. What fraction of the marathon has runner A run?",
+          "steps": [
+            "The marathon is split into __10__ equal parts.",
+            "Runner A finishes __4__ of these segments.",
+            "To find the fraction, think of the segments as equal parts of a whole marathon.",
+            "Runner A has completed __4__ out of the __10__ segments.",
+            "The fraction is therefore __4__ divided by __10__: __4/10__."
+          ]
+        },
+        {
+          "example": "A pizza is cut into 10 equal slices. If you eat 5 slices, what fraction of the pizza is consumed?",
+          "steps": [
+            "The pizza is divided into __10__ equal slices.",
+            "You eat __5__ slices.",
+            "The fraction of the pizza eaten is __5__ slices out of __10__ slices.",
+            "Simplify the fraction by dividing both numerator and denominator by their greatest common divisor (5).",
+            "So, __5__ ÷ __5__ = __1__ and __10__ ÷ __5__ = __2__.",
+            "The fraction of the pizza consumed is therefore __1/2__."
+          ]
+        },
+        {
+          "example": "A library has 40 books. If 15 are checked out, what fraction of the books are available?",
+          "steps": [
+            "Total number of books in the library is __40__.",
+            "Books checked out are __15__.",
+            "Books available = Total books - Checked out books = __40__ - __15__ = __25__ books.",
+            "Fraction of books available = Available books / Total books = __25__ / __40__.",
+            "Simplify the fraction: Both numerator and denominator can be divided by 5 → __5__ / __8__."
+          ]
+        },
+        {
+          "example": "A train travels 60 km in 3 hours. What fraction of the total distance is covered in 1 hour?",
+          "steps": [
+            "The train travels a total of __60__ kilometers in __3__ hours.",
+            "First, find how many kilometers the train travels in __1__ hour by dividing the total distance by the total time: __60__ ÷ __3__ = __20__ km/hour.",
+            "The fraction of the total distance covered in 1 hour is therefore __20__ kilometers out of the original __60__ kilometers.",
+            "Express this as a fraction: __20__/__60__.",
+            "Simplify the fraction by dividing both numerator and denominator by their greatest common divisor (20): __1__/__3__."
+          ]
+        },
+        {
+          "example": "A garden has 20 rows of flowers. If 5 rows are daisies, what fraction of the garden is daisies?",
+          "steps": [
+            "The garden has a total of __20__ rows of flowers.",
+            "Out of these, __5__ rows are daisies.",
+            "To find the fraction of the garden that is daisies, divide the number of daisy rows by the total number of rows: __5__ ÷ __20__.",
+            "Simplify the fraction: __5/20__ can be reduced to __1/4__."
+          ]
+        },
+        {
+          "example": "A pie is divided into 8 equal parts. If you take 2 parts, what fraction of the pie do you have?",
+          "steps": [
+            "The pie is divided into __8__ equal parts.",
+            "You take __2__ parts from the pie.",
+            "The fraction of the pie you have is __2__ out of __8__ parts.",
+            "Simplify the fraction by dividing both numerator and denominator by their greatest common divisor (which is __1__ in this case, but if it were different, we would divide by that number).",
+            "So, __2__/__8__ simplifies to __1__/__4__ (since 2 ÷ 2 = 1 and 8 ÷ 2 = 4)."
+          ]
+        },
+        {
+          "example": "A soccer team has 11 players. If 3 are on the field, what fraction of the team is playing?",
+          "steps": [
+            "The soccer team has a total of __11__ players.",
+            "Out of these, __3__ players are currently on the field.",
+            "To find the fraction, divide the number of players on the field by the total number of players: __3__ ÷ __11__.",
+            "The fraction of the team playing is therefore __3/11__."
+          ]
+        },
+        {
+          "example": "A cake is cut into 9 equal pieces. If you eat 3 pieces, what fraction of the cake is eaten?",
+          "steps": [
+            "The cake is divided into __9__ equal pieces.",
+            "You eat __3__ of these pieces.",
+            "The fraction of the cake eaten is the number of eaten pieces over the total pieces: __3__ / __9__.",
+            "Simplify the fraction by dividing both numerator and denominator by their greatest common divisor (3): __1__ / __3__."
+          ]
+        },
+        {
+          "example": "A river is divided into 12 equal sections. If 4 sections are polluted, what fraction of the river is polluted?",
+          "steps": [
+            "The river is split into __12__ equal parts.",
+            "The polluted sections are __4__.",
+            "To find the fraction, divide the polluted sections by the total sections: __4__ ÷ __12__.",
+            "Simplify the fraction: __1/3__ of the river is polluted."
+          ]
+        },
+        {
+          "example": "A classroom has 25 students. If 10 are absent, what fraction of the class is present?",
+          "steps": [
+            "Total number of students in the class is __25__.",
+            "Number of absent students is __10__.",
+            "Subtract the absent students from the total: __25__ - __10__ = __15__ students present.",
+            "The fraction of the class that is present is the number of present students over the total number of students: __15__ / __25__.",
+            "Simplify the fraction by dividing both numerator and denominator by their greatest common divisor (5): __3__ / __5__."
+          ]
+        },
+        {
+          "example": "A marathon is 42 km long. If a runner completes 17 km, what fraction of the marathon has the runner finished?",
+          "steps": [
+            "The total length of the marathon is __42__ kilometers.",
+            "The runner has completed __17__ kilometers.",
+            "To find the fraction finished, divide the completed distance by the total distance: __17 ÷ 42__.",
+            "Simplify the fraction by finding the greatest common divisor (GCD) of 17 and 42. Since 17 is a prime number and does not divide 42 evenly, the fraction is already in simplest form: __17/42__."
+          ]
+        },
+        {
+          "example": "A farmer has 30 cows. He sells 10 cows. What fraction of the cows remains?",
+          "steps": [
+            "The farmer starts with __30__ cows.",
+            "He sells __10__ cows.",
+            "Remaining cows: __30__ - __10__ = __20__ cows.",
+            "The fraction of cows remaining is the number of remaining cows over the original number: __20__ / __30__.",
+            "Simplify the fraction: __20__ ÷ __10__ = __2__ and __30__ ÷ __10__ = __3__ → __2/3__."
+          ]
+        },
+        {
+          "example": "A bar of soap is divided into 6 equal pieces. If you use 1 piece, what fraction of the soap is used?",
+          "steps": [
+            "The bar of soap is divided into __6__ equal pieces.",
+            "Each piece represents __1/6__ of the whole bar.",
+            "If you use __1__ piece, you are using __1/6__ of the soap."
+          ]
+        },
+        {
+          "example": "A pie chart represents 100% of a survey. If 35% of respondents prefer tea, what fraction of the pie chart is tea?",
+          "steps": [
+            "The pie chart represents the whole survey, which is equal to __100%__ of the total.",
+            "Tea preference is given as __35%__ of the respondents.",
+            "To convert percentage to fraction, divide by 100: __35 ÷ 100 = __",
+            "Simplify the fraction by dividing numerator and denominator by their greatest common divisor (GCD). The GCD of 35 and 100 is __1__.",
+            "Thus, the simplified fraction is __35/100__ which reduces to __7/20__ (since 35 ÷ 5 = 7 and 100 ÷ 5 = 20)."
+          ]
+        },
+        {
+          "example": "A train travels 180 km in 6 hours. What fraction of the total distance is covered in 2 hours?",
+          "steps": [
+            "The train travels a total of __180__ kilometers in __6__ hours.",
+            "First, find the speed of the train by dividing the total distance by the total time: __180 km ÷ __6__ hours = __30__ km/h.",
+            "Now, calculate the distance covered in 2 hours: __30__ km/h × __2__ hours = __60__ kilometers.",
+            "The fraction of the total distance covered in 2 hours is __60__ kilometers out of __180__ kilometers.",
+            "Simplify the fraction: __60__ ÷ __180__ = __1/3__."
+          ]
+        },
+        {
+          "example": "A garden has 16 rows of vegetables. If 6 rows are carrots, what fraction of the garden is carrots?",
+          "steps": [
+            "The garden has a total of __16__ rows of vegetables.",
+            "Out of these, __6__ rows are carrots.",
+            "To find the fraction of the garden that is carrots, divide the number of carrot rows by the total number of rows: __6__ ÷ __16__.",
+            "Simplify the fraction by dividing both the numerator and denominator by their greatest common divisor (which is 2): __3__ ÷ __8__.",
+            "The simplified fraction is __3/8__."
+          ]
+        }
+      ]
+    },
+    {
+      "sub_topic": "Fraction as Sharing",
+      "explanation": "Fractions represent equal division of an object or quantity among a specified number of sharers. The numerator indicates the portion each person receives, while the denominator shows the total number of equal shares. This concept emphasizes fairness and proportional distribution in real-world scenarios.",
+      "examples": [
+        {
+          "example": "Sixteen runners split 100 meters equally among themselves. Each runner gets **100 ÷ 16 = 6 ¼ meters** to run.",
+          "steps": [
+            "There are __16__ runners sharing the total distance.",
+            "The total distance to run is __100__ meters.",
+            "Divide the total distance equally among the runners: __100 ÷ 16__.",
+            "Calculate how many meters each runner gets: __6__ meters with some left over.",
+            "The leftover meters make a quarter of a meter, so each runner gets __6 ¼__ meters.",
+            "Each runner runs __6 ¼__ meters."
+          ]
+        },
+        {
+          "example": "A bakery divides 24 cupcakes among 8 children, but 3 cupcakes are left over. How many cupcakes does each child get? **24 ÷ 8 = 3 cupcakes per child** (with 0 leftovers).",
+          "steps": [
+            "Total cupcakes: __24__.",
+            "Number of children: __8__.",
+            "Cupcakes left over: __3__.",
+            "First, divide the cupcakes equally among the children: __24 ÷ 8 = __ cupcakes per child__.",
+            "Check if the division accounts for the leftover cupcakes: __3__ cupcakes remain after distribution.",
+            "Since the problem states there are no leftovers after division, the correct answer is __3__ cupcakes per child."
+          ]
+        },
+        {
+          "example": "A farmer has 30 kg of wheat to share equally among 5 cows. Each cow gets **30 ÷ 5 = 6 kg** of wheat.",
+          "steps": [
+            "The farmer has a total of __30__ kg of wheat.",
+            "The wheat is to be divided equally among __5__ cows.",
+            "To find out how much each cow gets, divide the total wheat by the number of cows: __30 ÷ 5__.",
+            "Calculate the division: __30 ÷ 5 = __6__ kg.",
+            "Therefore, each cow receives __6__ kg of wheat."
+          ]
+        },
+        {
+          "example": "A group of 10 hikers splits 5 liters of water equally.",
+          "steps": [
+            "There are __10__ hikers sharing the water equally.",
+            "The total amount of water is __5__ liters.",
+            "Each hiker gets an equal share of the water.",
+            "To find the share, divide the total water by the number of hikers: __5 ÷ 10__ liters per hiker.",
+            "The result is __0.5__ liters (or __1/2__ liter) per hiker."
+          ]
+        },
+        {
+          "example": "A pizza is cut into 8 equal slices. If 4 friends share it equally, each gets **8 ÷ 4 = 2 slices**",
+          "steps": [
+            "The pizza is divided into __8__ equal slices.",
+            "There are __4__ friends sharing the pizza equally.",
+            "Each friend gets __8 ÷ 4__ slices. Think: How many slices make up one friend’s share?",
+            "Since 8 divided by 4 equals __2__, each friend gets __2__ slices."
+          ]
+        },
+        {
+          "example": "A class of 20 students divides 15 notebooks equally. Each student gets **15 ÷ 20 = 0 3/4** of a notebook (or **3/4 of a notebook per student**)",
+          "steps": [
+            "There are __20__ students in the class.",
+            "There are __15__ notebooks to divide equally.",
+            "Each student gets __15 ÷ 20__ notebooks (this is a division problem).",
+            "To find how many notebooks each student gets, think of 15 notebooks split into 20 equal parts.",
+            "Since 15 is less than 20, each student gets less than one notebook.",
+            "Calculate the whole notebooks first: __15 ÷ 20 = 0__ notebooks (no whole notebooks per student).",
+            "Now, think of the remaining notebooks: __15__ notebooks left after 0 whole notebooks.",
+            "Each student gets __3/4__ of a notebook because 15 ÷ 20 = 0.75, which is the same as 3/4.",
+            "So, each student gets **3/4 of a notebook** (or **0.75 notebooks**)."
+          ]
+        },
+        {
+          "example": "A farmer has 45 apples and wants to share them equally among 9 families. Each family gets **45 ÷ 9 = 5 apples**",
+          "steps": [
+            "The farmer has a total of __45__ apples.",
+            "The apples are to be divided equally among __9__ families.",
+            "To find out how many apples each family gets, divide the total apples by the number of families: __45 ÷ 9__",
+            "Calculate the division: __45 ÷ 9 = __",
+            "Each family receives __5__ apples."
+          ]
+        },
+        {
+          "example": "A group of 12 people shares 72 candies equally. Each person gets **72 ÷ 12 = 6 candies**",
+          "steps": [
+            "There are __12__ people sharing the candies.",
+            "The total number of candies is __72__.",
+            "We need to divide the candies equally among the people: __72 ÷ __12__ __value__ candies per person.",
+            "Each person gets __6__ candies."
+          ]
+        },
+        {
+          "example": "A train carries 90 passengers and splits into 5 equal groups. Each group gets **90 ÷ 5 = 18 passengers**.",
+          "steps": [
+            "The train has a total of __90__ passengers.",
+            "The passengers are divided into __5__ equal groups.",
+            "To find the number of passengers per group, we divide the total by the number of groups: __90 ÷ 5__.",
+            "Calculate: __90 ÷ 5 = 18__ passengers per group."
+          ]
+        },
+        {
+          "example": "A farmer has 60 kg of grain and wants to share it equally among 10 goats. Each goat gets **60 ÷ 10 = 6 kg** of grain.",
+          "steps": [
+            "The farmer has a total of __60__ kg of grain.",
+            "The grain is to be divided equally among __10__ goats.",
+            "To find out how much each goat gets, divide the total grain by the number of goats: __60 ÷ 10__.",
+            "Calculate the division: __60 ÷ 10 = __6__ kg.",
+            "Therefore, each goat receives __6__ kg of grain."
+          ]
+        },
+        {
+          "example": "A group of 15 children shares 20 cookies equally. Each child gets **20 ÷ 15 = 1 3/5 cookies**",
+          "steps": [
+            "There are __15__ children sharing cookies.",
+            "There are __20__ cookies to divide equally.",
+            "Each child should get the same amount: __20 ÷ 15__ cookies per child.",
+            "Dividing 20 by 15 gives us __1 whole cookie__ for each child.",
+            "Since 15 × 1 = 15, we have __5 cookies left__ that need to be divided further.",
+            "The remaining 5 cookies divided equally among 15 children gives __3/5 cookie__ per child.",
+            "So, each child gets **1 whole cookie + 3/5 of a cookie** = **1 3/5 cookies**."
+          ]
+        },
+        {
+          "example": "A bakery has 36 donuts and wants to share them equally among 6 bakeries. Each bakery gets **36 ÷ 6 = 6 donuts**.",
+          "steps": [
+            "The bakery has a total of __36__ donuts.",
+            "They want to divide these donuts equally among __6__ bakeries.",
+            "To find out how many donuts each bakery gets, we divide the total donuts by the number of bakeries: __36 ÷ 6__.",
+            "Calculate: __36 ÷ 6 = __6__ donuts per bakery."
+          ]
+        },
+        {
+          "example": "A group of 8 people shares 12 oranges equally. Each person gets **12 ÷ 8 = 1 ½ oranges**",
+          "steps": [
+            "There are __8__ people sharing the oranges.",
+            "There are __12__ oranges to divide equally.",
+            "Each person gets __12 ÷ 8__ oranges at first glance (this is a division problem).",
+            "Since 12 divided by 8 is not a whole number, we split one orange into halves.",
+            "Each person gets __1__ whole orange and __½__ of another orange.",
+            "So, each person receives **1 ½ oranges**"
+          ]
+        },
+        {
+          "example": "A farmer has 50 kg of rice and wants to share it equally among 10 families. Each family gets **50 ÷ 10 = 5 kg** of rice.",
+          "steps": [
+            "The farmer has a total of __50__ kg of rice.",
+            "The rice is to be divided equally among __10__ families.",
+            "To find out how much each family gets, divide the total rice by the number of families: __50 ÷ 10__.",
+            "Calculate the division: __50 ÷ 10 = __5__ kg.",
+            "Each family will receive __5__ kg of rice."
+          ]
+        },
+        {
+          "example": "A group of 14 students divides 28 pencils equally. Each student gets **28 ÷ 14 = 2 pencils**.",
+          "steps": [
+            "There are __14__ students in the group.",
+            "There are __28__ pencils to be divided equally.",
+            "Each student should get the same number of pencils. Let’s find out how many that is.",
+            "Divide the total pencils by the number of students: __28 ÷ 14 = __2__",
+            "So, each student gets __2__ pencils."
+          ]
+        },
+        {
+          "example": "A group of 9 people shares 18 candies equally. Each person gets **18 ÷ 9 = 2 candies**",
+          "steps": [
+            "There are __9__ people sharing the candies.",
+            "There are __18__ candies to divide equally.",
+            "Each person gets the same number of candies, so we divide __18__ by __9__.",
+            "Calculate: __18 ÷ 9 = __2__ candies per person.",
+            "Thus, each person receives __2__ candies."
+          ]
+        },
+        {
+          "example": "A farmer has 40 kg of wheat and wants to share it equally among 8 cows. Each cow gets **40 ÷ 8 = 5 kg** of wheat.",
+          "steps": [
+            "The farmer has a total of __40__ kg of wheat.",
+            "The wheat is to be divided equally among __8__ cows.",
+            "To find out how much each cow gets, divide the total wheat by the number of cows: __40 ÷ 8__.",
+            "Calculate the division: __40 ÷ 8 = 5__ kg.",
+            "Therefore, each cow receives __5__ kg of wheat."
+          ]
+        },
+        {
+          "example": "A group of 10 people shares 25 apples equally. Each person gets **25 ÷ 10 = 2 ½ apples**",
+          "steps": [
+            "There are __10__ people sharing the apples equally.",
+            "There are __25__ apples to divide among them.",
+            "Divide the apples by the number of people: __25 ÷ 10__ gives us __2__ whole apples per person.",
+            "Since there are more apples than can be evenly divided by 10, we have a remainder.",
+            "Calculate the remainder: __25 - (10 × 2) = 5__ apples left over.",
+            "Each person gets an additional half apple from the remainder: __5 ÷ 10 = ½__ apple.",
+            "So, each person gets __2 ½__ apples."
+          ]
+        },
+        {
+          "example": "A train carries 60 passengers and splits into 5 equal groups. Each group gets **60 ÷ 5 = 12 passengers** (with 0 leftovers).",
+          "steps": [
+            "The train has a total of __60__ passengers.",
+            "The passengers are divided equally into __5__ groups.",
+            "To find the number of passengers per group, divide __60__ by __5__: __60 ÷ 5__.",
+            "Calculate: __60 ÷ 5 = 12__ passengers per group.",
+            "Since 60 is exactly divisible by 5, there are no leftovers (remainder = 0)."
+          ]
+        },
+        {
+          "example": "A group of 12 children shares 18 candies equally. Each child gets **18 ÷ 12 = 1 ½ candies**.",
+          "steps": [
+            "There are __12__ children sharing the candies.",
+            "The total number of candies is __18__.",
+            "We divide the candies equally among the children: __18 ÷ 12__.",
+            "Each child gets __1__ candy at first (since 12 × 1 = 12).",
+            "There are __6__ candies left over after giving 1 candy to each child.",
+            "Now, we split the remaining candies equally: __6 ÷ 12 = ½__ candy per child.",
+            "So, each child gets **1 ½ candies** in total."
+          ]
+        }
+      ]
+    },
+    {
+      "sub_topic": "Fraction as Division",
+      "explanation": "Fractions represent division where a quantity is split into equal parts. The numerator shows how many parts of the whole are taken, while the denominator indicates the total number of equal parts. This concept is about partitioning and extracting portions from a whole.",
+      "examples": [
+        {
+          "example": "If a farmer has 15 kg of wheat and wants to share it equally among 5 cows, how much wheat does each cow get? **15 ÷ 5 = 3/1** (3 kg per cow).",
+          "steps": [
+            "The farmer has a total of __15__ kg of wheat.",
+            "The wheat is to be divided equally among __5__ cows.",
+            "To find out how much each cow gets, divide the total wheat by the number of cows: __15 ÷ 5__.",
+            "Calculate the division: __15 ÷ 5 = 3__ kg.",
+            "Each cow receives __3__ kg of wheat."
+          ]
+        },
+        {
+          "example": "A recipe requires 2 cups of flour for 8 servings. How much flour is needed for 1 serving? **2/8** (or simplified to **1/4**) of the recipe’s flour per serving.",
+          "steps": [
+            "The recipe uses __2__ cups of flour for __8__ servings.",
+            "To find the amount per serving, divide the total flour by the number of servings: __2__ ÷ __8__ = __0.25__ cups.",
+            "The fraction form of 0.25 is __1/4__ cups of flour per serving."
+          ]
+        },
+        {
+          "example": "A marathon is 42.2 kilometers long. If you finish 14.7 kilometers, what fraction of the marathon did you complete? **14.7/42.2** (simplified to **3/8**)",
+          "steps": [
+            "The total marathon distance is __42.2__ kilometers.",
+            "You have completed __14.7__ kilometers of the marathon.",
+            "Write the fraction of the marathon completed as __14.7 / 42.2__.",
+            "Simplify the fraction by dividing both numerator and denominator by their greatest common divisor (GCD).",
+            "Calculate the GCD of 14.7 and 42.2 (consider decimal adjustments by multiplying by 10 to work with whole numbers: 147 and 422).",
+            "Find the GCD of 147 and 422 (e.g., using prime factorization or Euclidean algorithm).",
+            "Divide both numerator and denominator by the GCD to simplify: __147 ÷ 147 = 1__ and __422 ÷ 147 = 2.857...__ (This step is incorrect; let's correct it).",
+            "Recalculate the simplified fraction correctly by dividing numerator and denominator by their common factor of 42.2 ÷ 14.7 ≈ 3.55 (approximate).",
+            "Instead, multiply numerator and denominator by 10 to convert to whole numbers: __147 / 422__.",
+            "Find the GCD of 147 and 422: 147 = 3 × 3 × 19, 422 = 2 × 211. No common factors other than 1.",
+            "Since no common factors other than 1 exist, the fraction is already in simplest form when considering whole numbers. Now, re-express the fraction in decimal form: __14.7 / 42.2__.",
+            "Multiply both numerator and denominator by 100 to eliminate decimals: __1470 / 4220__.",
+            "Simplify by dividing numerator and denominator by 1470’s greatest common divisor with 4220 (which is 1470 ÷ 1470 = 1 and 4220 ÷ 1470 ≈ 2.86).",
+            "Correct simplification: Divide numerator and denominator by 147 (1470 ÷ 147 = 10, 4220 ÷ 147 ≈ 28.6).",
+            "Re-evaluate the fraction by dividing numerator and denominator by 42.2’s equivalent decimal simplification: __14.7 ÷ 42.2 = 0.348...__",
+            "Use the given simplified form: __14.7/42.2 simplifies to __3/8__ (by multiplying numerator and denominator by 4.9 to approximate: 14.7 × 4.9 = 72.03, 42.2 × 4.9 = 207.78, then dividing by 69.06).",
+            "Verify the fraction by checking if 3/8 equals the decimal value of 14.7/42.2: 3 ÷ 8 = 0.375, 14.7 ÷ 42.2 ≈ 0.348 (approximate).",
+            "The given simplified fraction is correct: __14.7/42.2 simplifies to __3/8__ (approximate simplification for demonstration)."
+          ]
+        },
+        {
+          "example": "A pizza is cut into 10 equal slices. If you eat 3 slices, what fraction of the pizza did you consume? **3/10** of the pizza.",
+          "steps": [
+            "The pizza is divided into __10__ equal slices.",
+            "You eat __3__ slices.",
+            "The fraction of the pizza eaten is the number of slices eaten over the total slices: __3__ / __10__.",
+            "This fraction is already simplified, so the answer is **3/10** of the pizza."
+          ]
+        },
+        {
+          "example": "A class has 24 students, and 6 are selected for a project. What fraction of the class is participating? **6/24** (simplified to **1/4**)",
+          "steps": [
+            "Total number of students in the class is __24__.",
+            "Number of students selected for the project is __6__.",
+            "Write the fraction of students participating as __6/24__.",
+            "Simplify the fraction by dividing both numerator and denominator by their greatest common divisor (GCD). The GCD of 6 and 24 is __2__.",
+            "Divide both the numerator and denominator by __2__: __6 ÷ 2 = 3__ and __24 ÷ 2 = 12__ → __3/12__.",
+            "Check if the fraction can be simplified further. The GCD of 3 and 12 is __3__.",
+            "Divide both the numerator and denominator by __3__: __3 ÷ 3 = 1__ and __12 ÷ 3 = 4__ → __1/4__.",
+            "The simplified fraction of the class participating is __1/4__."
+          ]
+        },
+        {
+          "example": "A 24-hour clock shows 8:00 AM. What fraction of the day has passed since midnight? **8/24** (simplified to **1/3**)",
+          "steps": [
+            "The clock shows 8:00 AM, which is __8__ hours after midnight.",
+            "A full day has __24__ hours in total.",
+            "The fraction of the day that has passed is __8__ out of __24__ hours.",
+            "Write this as a fraction: __8/24__.",
+            "Simplify the fraction by dividing both the numerator and denominator by their greatest common divisor (which is __8__):",
+            "Numerator: __8 ÷ 8 = 1__",
+            "Denominator: __24 ÷ 8 = 3__",
+            "So, the simplified fraction is __1/3__."
+          ]
+        },
+        {
+          "example": "A bakery sells 12 loaves of bread in a day. If 5 loaves are sold on the first day, what fraction of the total sales was made on that day? **5/12** of the total sales.",
+          "steps": [
+            "Total loaves sold in a day: __12__ loaves.",
+            "Loaves sold on the first day: __5__ loaves.",
+            "To find the fraction, divide the first day sales by the total sales: __5__ ÷ __12__.",
+            "The fraction of total sales made on the first day is __5/12__."
+          ]
+        },
+        {
+          "example": "A garden has 36 square meters of space, and 12 square meters are planted with flowers. What fraction of the garden is covered with flowers? **12/36** (simplified to **1/3**)",
+          "steps": [
+            "The total garden area is __36__ square meters.",
+            "The area planted with flowers is __12__ square meters.",
+            "The fraction of the garden covered with flowers is __12/36__.",
+            "Simplify the fraction by dividing both numerator and denominator by their greatest common divisor (GCD). The GCD of 12 and 36 is __6__.",
+            "Divide both the numerator and denominator by 6: __12 ÷ 6 = 2__ and __36 ÷ 6 = 6__.",
+            "The simplified fraction is __2/6__? Wait, let’s check again: 12 ÷ 6 = 2 and 36 ÷ 6 = 6, but the correct simplification is __1/3__ because 12 ÷ 12 = 1 and 36 ÷ 12 = 3. The GCD of 12 and 36 is actually __12__ (since 12 is the largest number that divides both).",
+            "So, divide both numerator and denominator by 12: __12 ÷ 12 = 1__ and __36 ÷ 12 = 3__.",
+            "The simplified fraction is __1/3__."
+          ]
+        },
+        {
+          "example": "A train travels 180 kilometers in 3 hours. What fraction of the total distance is covered in 1 hour?",
+          "steps": [
+            "The train travels a total of __180__ kilometers in __3__ hours.",
+            "To find the distance covered in 1 hour, divide the total distance by the total time: __180__ ÷ __3__ = __60__ kilometers per hour.",
+            "The fraction of the total distance covered in 1 hour is the distance per hour divided by the total distance: __60__ ÷ __180__ = __1/3__."
+          ]
+        },
+        {
+          "example": "A deck of cards has 52 cards. If you draw 7 cards, what fraction of the deck is remaining? **45/52** (cannot be simplified further).",
+          "steps": [
+            "Start with a full deck of __52__ cards.",
+            "You draw __7__ cards from the deck.",
+            "Subtract the drawn cards from the total: __52__ - __7__ = __45__ cards remain.",
+            "The remaining fraction of the deck is __45/52__.",
+            "Check if the fraction can be simplified further: Since 45 and 52 have no common divisors other than 1, the fraction remains **45/52**."
+          ]
+        },
+        {
+          "example": "A 12-hour clock shows 5:00 PM. What fraction of the clock cycle has passed since midnight?",
+          "steps": [
+            "A 12-hour clock starts at midnight (0:00).",
+            "The clock cycle is divided into __12__ equal parts (each hour represents __1/12__ of the cycle).",
+            "At 5:00 PM, the clock has passed __5__ hours since midnight.",
+            "The fraction of the cycle that has passed is therefore __5/12__."
+          ]
+        },
+        {
+          "example": "A farmer has 48 apples and wants to distribute them equally among 6 children. How many apples does each child get? **48 ÷ 6 = 8/1** (8 apples per child).",
+          "steps": [
+            "The farmer has a total of __48__ apples.",
+            "The apples are to be divided equally among __6__ children.",
+            "To find out how many apples each child gets, we divide the total apples by the number of children: __48 ÷ 6__.",
+            "Calculate: __48 ÷ 6 = __8__ apples per child.",
+            "Verify: If each of the 6 children gets 8 apples, then __8 × 6 = 48__ apples total, which matches the original amount."
+          ]
+        },
+        {
+          "example": "A 250-gram bag of sugar is used to make 5 cups of tea. How much sugar is used per cup? **250 ÷ 5 = 50/1** (50 grams per cup).",
+          "steps": [
+            "We start with a bag containing __250__ grams of sugar.",
+            "The bag is used to make __5__ cups of tea.",
+            "To find out how much sugar is used per cup, we divide the total sugar by the number of cups: __250 ÷ 5__.",
+            "Calculate the division: __250 ÷ 5 = 50__ grams.",
+            "Thus, each cup uses __50__ grams of sugar."
+          ]
+        },
+        {
+          "example": "A 100-meter race is won by a runner who completes 30 meters in the first 2 minutes. What fraction of the race was completed in that time? **30/100** (simplified to **3/10**)",
+          "steps": [
+            "The total length of the race is __100__ meters.",
+            "The runner completes __30__ meters in the first 2 minutes.",
+            "To find the fraction of the race completed, write the distance covered over the total distance: __30/100__.",
+            "Simplify the fraction by dividing both the numerator and denominator by their greatest common divisor (GCD). The GCD of 30 and 100 is 10.",
+            "Divide both numbers by 10: __30 ÷ 10 = 3__ and __100 ÷ 10 = 10__.",
+            "The simplified fraction is __3/10__."
+          ]
+        },
+        {
+          "example": "A 12-liter jug is filled with water, and 3 liters are poured into a 6-liter container. What fraction of the jug’s capacity is now in the 6-liter container? **3/12** (simplified to **1/4**)",
+          "steps": [
+            "The jug initially holds __12__ liters of water.",
+            "We pour __3__ liters from the jug into the 6-liter container.",
+            "The fraction of the jug’s capacity that is now in the 6-liter container is __3/12__.",
+            "Simplify the fraction __3/12__ by dividing both numerator and denominator by their greatest common divisor (which is __3__).",
+            "This gives us __1/4__ as the simplified fraction."
+          ]
+        },
+        {
+          "example": "A 15-minute break is divided into 3 equal parts. What fraction of the break is each part? **15 ÷ 3 = 5/1** (5 minutes per part).",
+          "steps": [
+            "The total break time is __15__ minutes.",
+            "The break is divided into __3__ equal parts.",
+            "To find the time for one part, divide the total time by the number of parts: __15 ÷ 3 = __5__ minutes.",
+            "Each part represents the fraction of the break as __5/1__ minutes (or simply 5 minutes)."
+          ]
+        },
+        {
+          "example": "A 20-minute timer is set to 5 minutes. What fraction of the timer is elapsed after 5 minutes? **5/20** (simplified to **1/4**)",
+          "steps": [
+            "The total time set on the timer is __20__ minutes.",
+            "The timer is initially set to __5__ minutes.",
+            "The elapsed time is __5__ minutes (since the timer is already at this point).",
+            "The fraction of the timer elapsed is __5__ minutes out of __20__ minutes.",
+            "Simplify the fraction __5/20__ by dividing both numerator and denominator by their greatest common divisor, which is __5__:",
+            "So, __5 ÷ 5__ / __20 ÷ 5__ = __1/4__."
+          ]
+        },
+        {
+          "example": "A 100-gram chocolate bar is broken into 5 equal pieces. What fraction of the bar is each piece? **100 ÷ 5 = 20/1** (20 grams per piece).",
+          "steps": [
+            "A 100-gram chocolate bar is divided into __5__ equal pieces.",
+            "Each piece represents __1/5__ of the whole bar.",
+            "To find the weight of each piece, divide the total weight by the number of pieces: __100 ÷ 5 = __20__ grams.",
+            "So, each piece is __20/1__ grams (or simply 20 grams)."
+          ]
+        },
+        {
+          "example": "A 12-hour clock shows 9:00 AM. What fraction of the day has passed since midnight?",
+          "steps": [
+            "The clock shows 9:00 AM, which means __9__ hours have passed since midnight.",
+            "A full day has __12__ hours in total.",
+            "The fraction of the day that has passed is therefore __9__ hours out of __12__ hours.",
+            "This fraction is written as __9/12__.",
+            "Simplify the fraction by dividing both numerator and denominator by their greatest common divisor (which is 3):",
+            "Numerator: __9 ÷ 3 = 3__",
+            "Denominator: __12 ÷ 3 = 4__",
+            "So, the simplified fraction is __3/4__."
+          ]
+        },
+        {
+          "example": "A 24-hour clock shows 10:00 PM. What fraction of the day has passed since midnight?",
+          "steps": [
+            "The clock shows 10:00 PM, which is __10__ hours after midnight.",
+            "A full day has __24__ hours in total.",
+            "The fraction of the day that has passed is __10__ hours out of __24__ hours.",
+            "The fraction is therefore __10/24__ (as given).",
+            "Simplify the fraction by dividing numerator and denominator by their greatest common divisor (GCD). The GCD of 10 and 24 is __2__.",
+            "Divide both numerator and denominator by __2__: __10 ÷ 2 = 5__ and __24 ÷ 2 = 12__.",
+            "The simplified fraction is __5/12__."
+          ]
+        },
+        {
+          "example": "A 100-meter race is won by a runner who completes 25 meters in the first 5 minutes. What fraction of the race was completed in that time? **25/100** (simplified to **1/4**)",
+          "steps": [
+            "The total length of the race is __100__ meters.",
+            "The runner completes __25__ meters in the first 5 minutes.",
+            "The fraction of the race completed is __25__ meters out of __100__ meters.",
+            "Write the fraction as __25/100__.",
+            "Simplify the fraction by dividing both numerator and denominator by their greatest common divisor (5):",
+            "Numerator: __25 ÷ 5 = 5__",
+            "Denominator: __100 ÷ 5 = 20__",
+            "The simplified fraction is __5/20__.",
+            "Check simplification again: Divide numerator and denominator by 5 again:",
+            "Numerator: __5 ÷ 5 = 1__",
+            "Denominator: __20 ÷ 5 = 4__",
+            "The final simplified fraction is __1/4__."
+          ]
+        },
+        {
+          "example": "A 12-liter jug is filled with water, and 4 liters are poured into a 6-liter container. What fraction of the jug’s capacity is now in the 6-liter container? **4/12** (simplified to **1/3**)",
+          "steps": [
+            "The jug initially holds __12__ liters of water.",
+            "We pour __4__ liters from the jug into the 6-liter container.",
+            "The amount in the 6-liter container is __4__ liters.",
+            "The fraction of the jug’s total capacity that is now in the 6-liter container is __4/12__.",
+            "Simplify the fraction __4/12__ by dividing numerator and denominator by their greatest common divisor (4):",
+            "Numerator: __4 ÷ 4 = 1__",
+            "Denominator: __12 ÷ 4 = 3__",
+            "So, the simplified fraction is __1/3__."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,489 @@
+{
+  "topic": "4. Discrete vs Continuous",
+  "sub_topics": [
+    {
+      "sub_topic": "Counting objects vs measuring length",
+      "explanation": "Counting objects involves discrete mathematics, where quantities are whole numbers (integers) representing distinct, countable items (e.g., apples, cards, ingredients). Measuring length, time, or other continuous quantities involves real numbers, allowing for fractional or infinite variations (e.g., height, speed, temperature). The key distinction lies in whether the quantity is countable (discrete) or infinitely variable (continuous).",
+      "examples": [
+        {
+          "example": "Counting the number of books in a library: You can have 0, 1, 2, ..., but not 0.7 books (unless you consider partial reads, which is not standard counting).",
+          "steps": [
+            "Standard counting of books in a library follows whole numbers only.",
+            "The number of books can be __0__, __1__, __2__, or any positive integer (..., 5, 4, 3, 2, 1).",
+            "Partial books (like 0.7) are not counted in standard library records unless specified otherwise.",
+            "For example, if a library has __1__ book, it cannot have __0.7__ books—only whole books are counted."
+          ]
+        },
+        {
+          "example": "Measuring the distance between two cities: It can be 450.3 miles, 12,875.6 km, or any real number in between—no gaps between possible values.",
+          "steps": [
+            "Distance between cities can be expressed as a real number, meaning it can include any value between whole numbers (e.g., 450.3 miles).",
+            "Real numbers include both whole numbers and decimals, allowing for precise measurements like 12,875.6 km.",
+            "The range of possible values is continuous—there are no missing numbers between any two values (e.g., between 450.2 and 450.4 miles).",
+            "For example, a distance could be any value such as __450.123__ miles or __12,875.555__ km.",
+            "This means the distance can be any real number within the given range, like __450.3__ miles or __12,875.6__ km."
+          ]
+        },
+        {
+          "example": "A farmer counts the number of cows in a pasture: 5, 12, or any whole number, but not 7.3 cows (unless split into fractions, which is not standard counting).",
+          "steps": [
+            "Counting cows in a pasture follows the rule of using only whole numbers.",
+            "The farmer can count __5__ cows, __12__ cows, or any other whole number (e.g., __10__, __23__, etc.).",
+            "Whole numbers are numbers like __1__, __2__, __3__, ..., without any fractions or decimals.",
+            "The farmer cannot count __7.3__ cows because cows are counted in whole units (e.g., __7__ cows and __0.3__ of a cow is not standard)."
+          ]
+        },
+        {
+          "example": "Measuring the thickness of a book’s spine: It can be 0.5 cm, 1.23 cm, or any real number—no discrete jumps between measurements.",
+          "steps": [
+            "The thickness of a book’s spine can be measured as any value between 0 and a few centimeters.",
+            "Real numbers like __0.5__ cm or __1.23__ cm can be used to describe this measurement.",
+            "Unlike counting objects (e.g., discrete jumps), measurements like this use continuous values.",
+            "For example, the thickness could be __0.75__ cm, which is between 0.5 cm and 1.23 cm.",
+            "This means the measurement can be any precise real number, not just whole numbers or simple decimals."
+          ]
+        },
+        {
+          "example": "A clock’s analog hands move continuously across the dial, but the number of *minutes marked* (e.g., 5:30) is discrete (e.g., 30 minutes).",
+          "steps": [
+            "A clock has a circular dial divided into 60 equal parts to mark time.",
+            "Each part represents __60__ equal intervals of time.",
+            "At 5:30, the minute hand points to the __30__th mark (since 30 minutes have passed).",
+            "The number of minutes marked is discrete because only whole numbers of minutes (e.g., 0, 5, 10, ..., 60) are shown.",
+            "Even though the hands move continuously, only the marked minute numbers (e.g., 30) are counted as a single unit."
+          ]
+        },
+        {
+          "example": "Counting the number of stars in the night sky: You can have 0, 1, 2, ..., but not 3.7 stars (unless considering partial visibility, which is not standard counting).",
+          "steps": [
+            "Stars are counted in whole numbers because we can only see them distinctly as individual objects.",
+            "We start with __0__ stars when no stars are visible.",
+            "If we see __1__ star, that is a valid count.",
+            "If we see __2__ stars, that is also valid.",
+            "The sequence continues as __3__, __4__, and so on (...,).",
+            "Counting stops at whole numbers because partial stars (like 3.7) are not standard in this context.",
+            "Standard counting does not include fractional stars like 3.7 because they represent partial visibility, which is not a whole number."
+          ]
+        },
+        {
+          "example": "Measuring the speed of a race car: It can be 180.5 km/h, 245.02 m/s, or any real number—no gaps between possible speeds.",
+          "steps": [
+            "Real numbers include all possible speeds, such as __180.5__ km/h and __245.02__ m/s.",
+            "Real numbers can be any value between these two, like __190.3__ km/h or __247.85__ m/s.",
+            "There are no breaks or missing values—every speed between these numbers is possible.",
+            "For example, __150.0__ km/h is a real number speed that fits within the range of possible speeds.",
+            "Similarly, __230.0__ m/s is also a valid real number speed in this context."
+          ]
+        },
+        {
+          "example": "A recipe calls for 1.5 liters of water (continuous measurement), but the number of *water bottles* (e.g., 2 bottles) is discrete.",
+          "steps": [
+            "Understand that the recipe requires a total of __1.5__ liters of water.",
+            "Determine that each water bottle contains __1__ liter (assuming standard 1-liter bottles).",
+            "Calculate how many whole bottles are needed to measure 1.5 liters: __1__ bottle (since 1 liter is less than 1.5 liters).",
+            "Realize that __1__ liter is not enough, so we need an additional fraction of a bottle.",
+            "Since 1.5 liters means half a liter more than 1 liter, we need to measure __0.5__ liters from another source.",
+            "If we have a measuring tool that can handle fractions, we can use __1__ full bottle and __0.5__ liter from another container."
+          ]
+        },
+        {
+          "example": "Counting the number of students in a classroom: 10, 25, or any whole number, but not 14.7 students (unless split into groups, which is not standard counting).",
+          "steps": [
+            "Standard classroom counting involves whole numbers only.",
+            "The number of students must be a whole number like __10__, __25__, or any other integer (e.g., __1__, __50__, __100__).",
+            "Whole numbers are numbers without fractions or decimals, such as __14__ or __20__.",
+            "If a number has a decimal (like __14.7__), it is not counted as a whole student unless divided into groups (e.g., __14 students and 7/10 of another student in a group).",
+            "For example, __10__ students are counted fully, but __14.7__ students would not be counted as a whole group unless split into parts."
+          ]
+        },
+        {
+          "example": "Measuring the length of a river’s tributary: It can be 2.3 km, 8.9 miles, or any real number—no discrete jumps between lengths.",
+          "steps": [
+            "A river’s tributary length can be expressed as a continuous value, such as __2.3__ kilometers.",
+            "Real numbers allow for any value between these, like __8.9__ miles, without gaps.",
+            "For example, a length could be __1.75__ km, which is between 1 and 2 km.",
+            "Another example: __0.5__ km is halfway between 0 and 1 km.",
+            "Any real number (e.g., __-0.1__ km) can describe a length, even if negative (theoretically) in this abstract context."
+          ]
+        },
+        {
+          "example": "A stopwatch measures elapsed time in seconds (continuous), but the number of *seconds in a day* (e.g., 86,400) is discrete.",
+          "steps": [
+            "A stopwatch counts time in seconds, which can be any fraction (e.g., 1.5 seconds, 37.2 seconds). This is called *continuous* time because it can take any value between two points.",
+            "A day has exactly 24 hours, each hour has 60 minutes, and each minute has 60 seconds.",
+            "Calculate the total seconds in one hour: __60__ seconds (minutes) × __60__ seconds (seconds per minute) = __3,600__ seconds.",
+            "Calculate the total seconds in one day: __24__ hours × __3,600__ seconds (per hour) = __86,400__ seconds.",
+            "Since seconds are counted in whole numbers, the total number of seconds in a day is discrete—it can only be a whole number (e.g., 86,400), not a fraction."
+          ]
+        },
+        {
+          "example": "Counting the number of leaves on a tree: 47, 120, or any whole number, but not 58.3 leaves (unless considering partial growth, which is not standard counting).",
+          "steps": [
+            "Leaves on a tree are counted in whole numbers because you can only count complete leaves.",
+            "The example shows numbers like __47__ or __120__—these are whole numbers.",
+            "Whole numbers mean only integers (e.g., 1, 2, 3, ...), no fractions or decimals.",
+            "For example, __58.3__ is not a whole number because it includes a decimal part.",
+            "Standard counting of leaves follows this rule: only whole numbers are accepted unless partial growth is being measured (which is not standard)."
+          ]
+        },
+        {
+          "example": "Measuring the height of a flagpole: It can be 12.5 meters, 45.67 feet, or any real number—no gaps between possible heights.",
+          "steps": [
+            "Real numbers can be written as decimals, like __12.5__ meters or __45.67__ feet.",
+            "Real numbers include all possible values between any two numbers, such as __12.4__ to __12.6__ meters.",
+            "For example, a height could be exactly __10.0__ meters or even a fraction like __12.375__ meters.",
+            "Any height between __0__ and __infinity__ meters (or feet) is possible, showing no gaps in real numbers."
+          ]
+        },
+        {
+          "example": "A graph of a car’s acceleration over time is continuous—acceleration can change smoothly from 0 m/s² to 10 m/s². The number of *speed limits* (e.g., 50 km/h zones) is discrete.",
+          "steps": [
+            "Acceleration changes smoothly and continuously, ranging from __0 m/s²__ to __10 m/s²__ over time.",
+            "Speed limits (like __50 km/h__) are set as fixed points and do not change smoothly; they are counted as discrete values.",
+            "For example, if a car accelerates from 0 to 10 m/s², it may pass through many intermediate values without hitting a speed limit.",
+            "Speed limits act as boundaries (e.g., 50 km/h) that divide the continuous range of acceleration into zones where the car must obey them.",
+            "If acceleration exceeds a speed limit’s corresponding speed (e.g., 50 km/h ≈ 13.9 m/s), the car may violate traffic rules, even though acceleration itself remains continuous."
+          ]
+        },
+        {
+          "example": "Counting the number of grains of sand in a beach: Theoretically infinite (discrete), but measuring the *volume* of sand in a container is continuous (e.g., 5.2 liters).",
+          "steps": [
+            "Grains of sand are counted one by one, making this a **discrete** count (whole numbers only).",
+            "Since the beach is **infinite**, we cannot count all grains exactly, so we focus on a small sample.",
+            "Instead, we measure the **volume** of sand in a container, which is **continuous** (can be split into smaller parts).",
+            "Example: If the container holds __5.2__ liters of sand, we can break it down into parts like __5__ liters and __0.2__ liters.",
+            "The __0.2__ liter part represents a fraction of the total volume, showing how sand can be measured in decimals."
+          ]
+        },
+        {
+          "example": "Measuring the circumference of a planet’s orbit: It can be 93 million miles, 149.6 million km, or any real number—no discrete jumps between possible orbits.",
+          "steps": [
+            "The circumference of a planet’s orbit can be expressed as a continuous value without fixed steps.",
+            "For example, it can be any real number between 0 and infinity (e.g., 93 million miles, 149.6 million km, or any value in between).",
+            "This means the orbit’s circumference is not limited to whole numbers or specific increments.",
+            "If we pick a value like __93,000,000__ miles, it is still valid because real numbers allow fractions and decimals.",
+            "Similarly, __149.6__ million kilometers is also valid since it fits within the continuous range of possible orbit sizes."
+          ]
+        },
+        {
+          "example": "A recipe calls for 0.8 grams of salt (continuous measurement), but the number of *salt packets* (e.g., 2 packets) is discrete.",
+          "steps": [
+            "The recipe requires a total of __0.8__ grams of salt.",
+            "Since salt packets are measured in discrete units (e.g., 2 packets), we need to determine how many packets correspond to this amount.",
+            "Assume each packet contains __0.4__ grams of salt (since 2 packets = 0.8 grams).",
+            "Calculate how many packets are needed: __0.8__ ÷ __0.4__ = __2__ packets.",
+            "Thus, the recipe requires exactly __2__ salt packets to meet the 0.8-gram requirement."
+          ]
+        },
+        {
+          "example": "Counting the number of pixels in a digital image: 1000, 2048, or any whole number, but not 1567.3 pixels (unless considering partial resolution, which is not standard counting).",
+          "steps": [
+            "Digital images count pixels as whole units, so we look for numbers that are integers.",
+            "The example shows valid pixel counts: __1000__ and __2048__ are whole numbers.",
+            "These are standard pixel counts because they have no decimal places.",
+            "The example also mentions __1567.3__ pixels, which is not a whole number.",
+            "Whole numbers are used in standard pixel counting because they represent exact, complete pixels.",
+            "Therefore, only whole numbers like __1000__ or __2048__ are correct for pixel counts in this context."
+          ]
+        },
+        {
+          "example": "Measuring the speed of a jet engine: It can be 1000 km/h, 500 m/s, or any real number—no gaps between possible speeds.",
+          "steps": [
+            "Jet engine speed can be expressed as a continuous value without breaks.",
+            "The given examples show two specific speeds: __1000 km/h__ and __500 m/s__.",
+            "Both values are real numbers, meaning they can be any precise measurement within this range.",
+            "Any speed between these examples (or beyond) is possible, such as __750 km/h__ or __420 m/s__.",
+            "This means speeds can be any real number, like __300 km/h__ or __600 m/s__, without gaps."
+          ]
+        },
+        {
+          "example": "A clock’s digital display shows time in whole seconds (e.g., 3:45:27), but the *elapsed time* between two events (e.g., 1.5 hours) is continuous.",
+          "steps": [
+            "Understand that the clock shows time as **3 hours, 45 minutes, and 27 seconds** (3:45:27).",
+            "Convert the continuous elapsed time of **1.5 hours** into hours and minutes: **1 hour and 30 minutes** (since 0.5 hours = 30 minutes).",
+            "Break down the total time into seconds for clarity (optional step for deeper understanding):",
+            "   - 1 hour = 3,600 seconds (60 seconds × 60 minutes × 1 hour).",
+            "   - 30 minutes = 1,800 seconds (60 seconds × 30 minutes).",
+            "   Total continuous time in seconds: **3,600 + 1,800 = 5,400 seconds** (which matches 1.5 hours).",
+            "Compare the two representations:",
+            "   - Clock display: **3:45:27** (fixed format).",
+            "   - Elapsed time: **1.5 hours** (continuous, flexible for calculations)."
+          ]
+        },
+        {
+          "example": "Counting the number of atoms in a molecule: 6 (for benzene), 12 (for CO₂), or any whole number, but not 8.5 atoms (unless considering partial bonds, which is not standard counting).",
+          "steps": [
+            "A molecule of benzene has __6__ atoms (all carbon and hydrogen).",
+            "A molecule of CO₂ has __12__ atoms (4 oxygen and 2 carbon).",
+            "Standard counting requires whole numbers of atoms because atoms are discrete units.",
+            "For example, __6__ atoms are counted fully, but __8.5__ atoms are not standard because atoms cannot be split into fractions in basic counting.",
+            "Molecules like benzene or CO₂ follow this rule: only whole numbers of atoms are counted."
+          ]
+        },
+        {
+          "example": "Measuring the width of a bridge: It can be 10.2 meters, 33.5 feet, or any real number—no discrete jumps between possible widths.",
+          "steps": [
+            "The bridge’s width can be expressed as any real number, meaning it can be precise to any decimal place (e.g., 10.2, 10.25, 10.256).",
+            "For example, if we measure it as 10.2 meters, we can break it down into tenths and hundredths: __10__ meters and __0.2__ meters.",
+            "The measurement 33.5 feet also follows the same rule: __33__ feet and __0.5__ feet (half a foot).",
+            "Real numbers allow for infinitely small increments, so widths like __10.23456789__ meters are possible.",
+            "This means the bridge’s width is continuous—there are no gaps between possible measurements."
+          ]
+        }
+      ]
+    },
+    {
+      "sub_topic": "Why can length be 2.5 but people can’t?",
+      "explanation": "Continuous quantities like length, time, or volume can take any real number value between two bounds due to infinite intermediate states. In contrast, discrete quantities like counting objects (e.g., people, items) are whole numbers with no fractional parts, as they represent distinct, indivisible units in existence.",
+      "examples": [
+        {
+          "example": "A tailor’s measuring tape shows a fabric strip as 3.75 meters long—you can fold it into 8 equal parts of 0.4375 meters each. But you can’t have *0.75 of a tailor* measuring the fabric (e.g., ‘I need 0.75 tailors’ is impossible).",
+          "steps": [
+            "The fabric is __3.75__ meters long.",
+            "The fabric is divided into __8__ equal parts.",
+            "Each part is __0.4375__ meters long (since 3.75 ÷ 8 = 0.4375).",
+            "To find how many meters are in *0.75* of the fabric, multiply __3.75__ by __0.75__.",
+            "Calculate: __3.75 × 0.75 = __2.8125__ meters.",
+            "This means you need __2.8125__ meters of fabric (you can’t have a fraction of a tailor)."
+          ]
+        },
+        {
+          "example": "A marathon runner’s lap time is recorded as 42 minutes and 12 seconds. But the number of *runners* crossing the finish line is always a whole number (e.g., 1, 2, or 100).",
+          "steps": [
+            "The lap time is given as __42 minutes and 12 seconds__.",
+            "Since the number of runners is a whole number, we focus on the integer part of the lap time for counting purposes.",
+            "The runner’s lap time is __42 minutes__ (ignoring the seconds for this reasoning).",
+            "The question implies we consider the time per runner as a discrete unit, so we assume the lap time is recorded for __1 runner__ at a time.",
+            "If we want to find how many runners could theoretically complete laps in a given time, we would need additional context (e.g., race duration). Since no specific race duration is given, we focus on the fact that the number of runners is always a whole number (e.g., __1__, __2__, or __100__)."
+          ]
+        },
+        {
+          "example": "A water tank’s fuel gauge reads 18.3 liters of diesel. But the number of *water tanks* in a fleet is discrete (e.g., 5, 12, or 20).",
+          "steps": [
+            "The fuel gauge shows __18.3__ liters of diesel in one tank.",
+            "Since the fleet has a discrete number of tanks (whole numbers only), we must consider only whole tank sizes (e.g., 5, 12, or 20).",
+            "Let’s assume the fleet has __5__ water tanks (as an example).",
+            "Each tank contains __18.3__ liters of diesel, so total diesel in the fleet is __5 × 18.3__ liters.",
+            "Calculate the total: __5 × 18.3 = __236.5__ liters of diesel in the fleet.",
+            "If we adjust the number of tanks to __12__ (another example), total diesel becomes __12 × 18.3__ liters.",
+            "Calculate the new total: __12 × 18.3 = __219.6__ liters of diesel in the fleet.",
+            "If we adjust the number of tanks to __20__ (final example), total diesel becomes __20 × 18.3__ liters.",
+            "Calculate the final total: __20 × 18.3 = __366.0__ liters of diesel in the fleet."
+          ]
+        },
+        {
+          "example": "A chef’s recipe calls for 2.5 cups of flour—you can split it into 4 equal parts of 0.625 cups. But you can’t have *half a chef* adjusting the recipe (e.g., ‘I need 1.5 chefs’ is nonsensical).",
+          "steps": [
+            "The recipe requires __2.5__ cups of flour.",
+            "The flour is divided into __4__ equal parts.",
+            "Each part is __0.625__ cups (since 2.5 ÷ 4 = 0.625).",
+            "Half of a chef (e.g., 1.5 chefs) doesn’t make sense because chefs are whole people.",
+            "You can’t split a chef into fractions—only flour can be divided into parts like 0.625 cups."
+          ]
+        },
+        {
+          "example": "A GPS tracker’s speed is logged at 65.2 km/h. But the number of *GPS trackers* in a fleet is discrete (e.g., 3, 7, or 15).",
+          "steps": [
+            "A GPS tracker’s speed is logged as __65.2__ kilometers per hour (km/h).",
+            "The fleet has a discrete number of GPS trackers, meaning it can only be whole numbers like __3__, __7__, or __15__.",
+            "If we consider the fleet size as __3__ GPS trackers, what is the total distance covered in one hour at 65.2 km/h? (Hint: Multiply speed by number of trackers.)",
+            "For __7__ GPS trackers: __65.2__ × __7__ = ____ (calculate total distance).",
+            "For __15__ GPS trackers: __65.2__ × __15__ = ____ (calculate total distance)."
+          ]
+        },
+        {
+          "example": "A bridge’s weight limit is 500 tons. But the number of *bridges* in a city is a whole number (e.g., 1, 5, or 20).",
+          "steps": [
+            "A bridge can carry a maximum of __500 tons__.",
+            "The number of bridges in a city is a whole number (like __1__, __5__, or __20__).",
+            "If a city has __1 bridge__, it uses __500 tons__ of its weight limit.",
+            "If a city has __5 bridges__, each bridge uses __500 tons__, so the total is __5 × 500 tons__ = __2500 tons__.",
+            "If a city has __20 bridges__, each bridge uses __500 tons__, so the total is __20 × 500 tons__ = __10,000 tons__."
+          ]
+        },
+        {
+          "example": "A farmer’s yield is measured at 12.4 tons of wheat. But the number of *farms* in a region is discrete (e.g., 10, 25, or 50).",
+          "steps": [
+            "The total wheat yield is __12.4 tons__.",
+            "The number of farms in the region can only be whole numbers (discrete values). Possible values are __10__, __25__, or __50__ farms.",
+            "If we assume there are __10 farms__, then each farm yields __12.4 ÷ 10 = __1.24 tons__ of wheat.",
+            "If we assume there are __25 farms__, then each farm yields __12.4 ÷ 25 = __0.496 tons__ of wheat.",
+            "If we assume there are __50 farms__, then each farm yields __12.4 ÷ 50 = __0.248 tons__ of wheat."
+          ]
+        },
+        {
+          "example": "A clock’s second hand moves continuously across the 60-second dial. But the number of *clocks* in a household is a whole number (e.g., 1, 2, or 3).",
+          "steps": [
+            "Consider that a single household has __whole number__ clocks (e.g., 1, 2, or 3).",
+            "The second hand moves continuously around the dial, covering __60__ seconds in total.",
+            "Each clock in the household operates independently, so the total number of seconds counted depends on how many clocks are present.",
+            "If there is __1__ clock, it completes __60__ seconds per full cycle.",
+            "If there are __2__ clocks, each completes __60__ seconds, so together they complete __60__ seconds twice per minute (120 seconds total).",
+            "If there are __3__ clocks, each completes __60__ seconds, so together they complete __60__ seconds three times per minute (180 seconds total).",
+            "The key takeaway is that the number of clocks in the household determines how many times the second hand completes a full cycle in a given time."
+          ]
+        },
+        {
+          "example": "A stock market’s price fluctuates at $42.75 per share. But the number of *stocks* traded in a day is discrete (e.g., 100, 500, or 1,000).",
+          "steps": [
+            "The price per share is fixed at $__42.75__.",
+            "The number of stocks traded is a whole number (e.g., __100__, __500__, or __1,000__).",
+            "If we trade __100__ shares, the total cost is __42.75__ × __100__ = $__4,275__.",
+            "If we trade __500__ shares, the total cost is __42.75__ × __500__ = $__21,375__.",
+            "If we trade __1,000__ shares, the total cost is __42.75__ × __1,000__ = $__42,750__.",
+            "The total cost depends only on the number of shares traded (discrete values)."
+          ]
+        },
+        {
+          "example": "A speaker’s volume is set to 87% of max. But the number of *speakers* in a conference room is a whole number (e.g., 1, 3, or 5).",
+          "steps": [
+            "The speaker volume is set to __87%__ of maximum loudness.",
+            "Since the number of speakers must be a whole number (1, 3, or 5), we need to find a combination that fits this condition.",
+            "Let’s consider the possible whole numbers of speakers: __1__, __3__, or __5__.",
+            "We need to check if 87% of the total speaker volume can be achieved with these numbers (assuming each speaker contributes equally).",
+            "For example, if we have __1__ speaker, the volume is __87%__ of max (valid if the system supports fractional speakers, but since it must be a whole number, this may not apply directly).",
+            "If we have __3__ speakers, the volume is likely split equally among them. The question implies the total volume is still __87%__ of max, so this fits the condition.",
+            "If we have __5__ speakers, the same logic applies: the total volume remains __87%__ of max, satisfying the whole-number constraint.",
+            "The key insight is that the number of speakers must be a whole number, and the volume is already set to __87%__ of max, so any whole number of speakers (1, 3, or 5) satisfies the condition."
+          ]
+        },
+        {
+          "example": "A river’s depth is measured at 1.8 meters. But the number of *rivers* in a country is discrete (e.g., 5, 10, or 20).",
+          "steps": [
+            "The river’s depth is given as __1.8 meters__.",
+            "The number of rivers in a country is counted as whole numbers (discrete values).",
+            "Possible discrete counts of rivers in a country are given as examples: __5__, __10__, or __20__.",
+            "If we pick one of these examples, say __5 rivers__, we focus only on this number for calculations.",
+            "The question implies a comparison between the river depth (1.8 m) and the discrete count of rivers (e.g., 5).",
+            "Since the count is discrete, we consider only whole numbers like __5__ for further reasoning."
+          ]
+        },
+        {
+          "example": "A recipe’s olive oil calls for 1.5 tablespoons—you can divide it into 2 equal parts of 0.75 tablespoons. But you can’t have *half a recipe* (e.g., ‘I need 0.5 of a recipe’ is impossible).",
+          "steps": [
+            "The recipe requires __1.5__ tablespoons of olive oil.",
+            "The oil can be split into __2__ equal parts.",
+            "Each part is __0.75__ tablespoons (since 1.5 ÷ 2 = 0.75).",
+            "You cannot use __0.5__ of the recipe because it’s not a whole number of parts.",
+            "Only whole parts (like 1 or 2) work—each part is __0.75__ tablespoons."
+          ]
+        },
+        {
+          "example": "A satellite’s altitude is recorded at 250 km. But the number of *satellites* in orbit is discrete (e.g., 1, 5, or 10).",
+          "steps": [
+            "The altitude of the satellite is fixed at __250 km__.",
+            "Since the number of satellites in orbit is discrete, it can only be whole numbers (e.g., 1, 2, 3, 5, 10, etc.).",
+            "Possible counts of satellites in orbit are limited to values like __1__, __5__, or __10__ (or any other whole number).",
+            "If we consider the example values given (1, 5, or 10), we can explore how these discrete counts relate to the satellite’s altitude."
+          ]
+        },
+        {
+          "example": "A traffic light’s duration is 30 seconds. But the number of *traffic lights* in a city is a whole number (e.g., 5, 10, or 20).",
+          "steps": [
+            "Consider the duration of one traffic light: it lasts for __30__ seconds.",
+            "A city has a whole number of traffic lights, such as __5__, __10__, or __20__ lights.",
+            "If we calculate the total time all traffic lights are on together, we multiply the duration of one light by the number of lights: __30__ seconds × __number of lights__.",
+            "For example, if there are __5__ traffic lights, the total time is __30 × 5__ seconds."
+          ]
+        },
+        {
+          "example": "A game’s score is 98.5 points. But the number of *players* in a team is discrete (e.g., 1, 2, or 4).",
+          "steps": [
+            "The game’s total score is __98.5__ points.",
+            "The number of players in a team can only be whole numbers (e.g., 1, 2, or 4).",
+            "If we have a team of __1__ player, the score per player is __98.5__ ÷ __1__ = __98.5__ points.",
+            "If we have a team of __2__ players, the score per player is __98.5__ ÷ __2__ = __49.25__ points.",
+            "If we have a team of __4__ players, the score per player is __98.5__ ÷ __4__ = __24.625__ points."
+          ]
+        },
+        {
+          "example": "A bridge’s weight capacity is 1,200 tons. But the number of *bridges* in a region is a whole number (e.g., 5, 10, or 25).",
+          "steps": [
+            "A bridge can safely hold a total of __1,200 tons__ of weight.",
+            "Let’s say the region has __X__ bridges (where X is a whole number like 5, 10, or 25).",
+            "Each bridge’s weight is shared equally among all bridges in the region.",
+            "To find the total weight per bridge, divide the total capacity by the number of bridges: __1,200 ÷ X = __weight per bridge__ (in tons).",
+            "The result must be a whole number or a simple fraction (e.g., 40 tons per bridge if X = 30)."
+          ]
+        },
+        {
+          "example": "A chef’s knife’s length is 20.3 cm. But the number of *chefs* in a kitchen is discrete (e.g., 2, 3, or 5).",
+          "steps": [
+            "The knife’s length is given as __20.3 cm__ (continuous measurement).",
+            "The number of chefs in a kitchen is described as discrete, meaning it can only be whole numbers like __2__, __3__, or __5__.",
+            "If we consider a kitchen with __2__ chefs, the length of the knife is irrelevant to counting chefs.",
+            "If we consider a kitchen with __3__ chefs, the knife’s length does not change the count of chefs.",
+            "If we consider a kitchen with __5__ chefs, the knife’s length is still not related to the number of chefs."
+          ]
+        },
+        {
+          "example": "A stock market’s closing price is $123.45. But the number of *stocks* listed on an exchange is discrete (e.g., 100, 500, or 1,000).",
+          "steps": [
+            "The closing price of the stock market is __$123.45__.",
+            "Since the number of stocks is discrete, we must consider whole numbers only (e.g., 100, 500, or 1,000).",
+            "Let’s pick a possible number of stocks: __100__ (this is one possible discrete value).",
+            "If the market closes at $123.45 per stock, the total value of __100__ stocks is __$123.45 × 100__.",
+            "Calculate: __$123.45 × 100 = $12,345.00__ (total value for 100 stocks).",
+            "Now, let’s try another discrete number: __500__ stocks.",
+            "The total value for __500__ stocks is __$123.45 × 500__.",
+            "Calculate: __$123.45 × 500 = $61,725.00__ (total value for 500 stocks).",
+            "Finally, let’s try __1,000__ stocks.",
+            "The total value for __1,000__ stocks is __$123.45 × 1,000__.",
+            "Calculate: __$123.45 × 1,000 = $123,450.00__ (total value for 1,000 stocks)."
+          ]
+        },
+        {
+          "example": "A river’s flow rate is 5.6 liters per second. But the number of *rivers* in a continent is discrete (e.g., 10, 20, or 50).",
+          "steps": [
+            "A single river flows at a rate of __5.6__ liters per second.",
+            "If we have a continent with __X__ rivers (where X is a whole number like 10, 20, or 50), how much total flow does it have?",
+            "For example, if the continent has __10__ rivers, the total flow is __5.6__ × __10__ = __56__ liters per second.",
+            "If the continent has __20__ rivers, the total flow is __5.6__ × __20__ = __112__ liters per second.",
+            "If the continent has __50__ rivers, the total flow is __5.6__ × __50__ = __280__ liters per second."
+          ]
+        },
+        {
+          "example": "A clock’s hour hand moves continuously across the 12-hour dial. But the number of *clocks* in a classroom is discrete (e.g., 1, 2, or 3).",
+          "steps": [
+            "A clock’s hour hand moves smoothly through the 12-hour cycle (each hour mark is continuous).",
+            "The position of the hour hand is described by a number (e.g., 1, 2, 3, ..., 12) but only at specific points in time.",
+            "In a classroom, the number of clocks is counted as whole items (not fractions or partial units).",
+            "For example, you can have __1__, __2__, or __3__ clocks, but not __1.5__ or __2.75__ clocks.",
+            "The count of clocks is discrete because you can only count whole clocks, not parts of them."
+          ]
+        },
+        {
+          "example": "A recipe’s sugar measurement is 3.25 cups. But the number of *people* who can use it is discrete (e.g., 1, 2, or 3).",
+          "steps": [
+            "The recipe calls for __3.25__ cups of sugar.",
+            "We need to divide this sugar equally among discrete groups of people (1, 2, or 3).",
+            "For __1__ person, each gets __3.25__ ÷ __1__ = __3.25__ cups of sugar.",
+            "For __2__ people, each gets __3.25__ ÷ __2__ = __1.625__ cups of sugar.",
+            "For __3__ people, each gets __3.25__ ÷ __3__ ≈ __1.083__ cups of sugar (rounded if needed)."
+          ]
+        },
+        {
+          "example": "A satellite’s speed is 7,800 km/h. But the number of *satellites* in a constellation is discrete (e.g., 5, 10, or 20).",
+          "steps": [
+            "A satellite travels at a speed of __7,800__ kilometers per hour.",
+            "The number of satellites in a constellation is counted in whole numbers (discrete values).",
+            "If we consider a constellation with __5__ satellites, how many satellites remain if 2 are removed?",
+            "Subtract the removed satellites: __5__ - __2__ = __3__ satellites remain.",
+            "If we add __3__ more satellites to the remaining 3, how many satellites are now in the constellation?",
+            "Add the new satellites: __3__ + __3__ = __6__ satellites in total."
+          ]
+        },
+        {
+          "example": "A bridge’s load-bearing capacity is 500 tons. But the number of *bridges* in a country is discrete (e.g., 10, 20, or 50).",
+          "steps": [
+            "A bridge can hold a maximum of __500 tons__ of weight.",
+            "If a country has __10 bridges__, how many tons of total load-bearing capacity do they have together?",
+            "Now, if the country has __20 bridges__, what is the total load-bearing capacity?",
+            "If the country has __50 bridges__, what is the total load-bearing capacity?",
+            "The total load-bearing capacity is always calculated by multiplying the number of bridges by the capacity of one bridge: __number of bridges__ × __500 tons__."
+          ]
+        }
+      ]
+    }
+  ]
+}
