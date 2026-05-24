@@ -5,8 +5,9 @@
   <mat-sidenav
     #drawer
     class="side-nav"
-    [mode]="'side'"
-    [opened]="menuOpened">
+    [mode]="sidenavMode"
+    [opened]="menuOpened"
+    (openedChange)="menuOpened = $event">
 
     <div class="menu-header">
 

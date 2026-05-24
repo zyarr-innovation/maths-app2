@@ -10,6 +10,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
+import { BreakpointObserver } from '@angular/cdk/layout';
 
 import { SampleComponent } from './sample/sample.component';
 
@@ -33,15 +34,34 @@ import { SampleComponent } from './sample/sample.component';
 export class AppComponent implements OnInit {
 
   menuOpened = true;
+  sidenavMode: 'side' | 'over' = 'side';
 
   jsonFiles: string[] = [];
 
   selectedFile = '';
 
-  constructor(private http: HttpClient) {}
+  constructor(
+    private http: HttpClient,
+    private breakpointObserver: BreakpointObserver
+  ) {}
 
   ngOnInit(): void {
     this.loadJsonFileList();
+    this.observeBreakpoints();
+  }
+
+  observeBreakpoints() {
+    this.breakpointObserver
+      .observe(['(max-width: 900px)'])
+      .subscribe((result) => {
+        if (result.matches) {
+          this.menuOpened = false;
+          this.sidenavMode = 'over';
+        } else {
+          this.menuOpened = true;
+          this.sidenavMode = 'side';
+        }
+      });
   }
 
   loadJsonFileList() {
@@ -67,6 +87,9 @@ export class AppComponent implements OnInit {
 
   selectFile(file: string) {
     this.selectedFile = file;
+    if (this.sidenavMode === 'over') {
+      this.menuOpened = false;
+    }
   }
 
   getDisplayName(file: string): string {

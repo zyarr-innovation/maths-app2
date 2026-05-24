@@ -3,105 +3,156 @@
 :host {
   display: block;
   min-height: 100vh;
-  background: linear-gradient(135deg, #eef2ff 0%, #f5f3ff 40%, #fdf2f8 100%);
-  padding: 24px;
+  background: radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.04) 0px, transparent 50%),
+              radial-gradient(at 50% 0%, rgba(236, 72, 153, 0.02) 0px, transparent 50%),
+              radial-gradient(at 100% 0%, rgba(139, 92, 246, 0.04) 0px, transparent 50%),
+              #f8fafc;
+  padding: 0;
   box-sizing: border-box;
 }
 
 .page-container {
   width: 100%;
-  max-width: 1500px;
-  margin: auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .topic-banner {
-  background: linear-gradient(135deg, #4f46e5, #7c3aed);
-  color: white;
-  font-size: 2rem;
-  font-weight: 700;
-  padding: 24px;
-  border-radius: 20px;
-  margin-bottom: 28px;
-  text-align: center;
-  box-shadow: 0 10px 30px rgba(79, 70, 229, 0.2);
+  background-color: #ffffff;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  color: #0f172a;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 800;
+  padding: 28px 32px;
+  border-radius: 16px;
+  margin-bottom: 32px;
+  text-align: left;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.01), 0 10px 30px -10px rgba(99, 102, 241, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  overflow: hidden;
+  letter-spacing: -0.5px;
+}
+
+.topic-banner::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  background: linear-gradient(to bottom, #4f46e5, #818cf8);
 }
 
 .sections-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 18px;
 }
 
 .section-panel {
-  border-radius: 18px !important;
+  border-radius: 14px !important;
   overflow: hidden;
-  background: white;
-  box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(226, 232, 240, 0.8) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.01),
+              0 10px 25px -5px rgba(99, 102, 241, 0.03),
+              0 8px 16px -8px rgba(99, 102, 241, 0.03) !important;
+  margin-bottom: 4px;
+  backdrop-filter: blur(8px);
+  transition: all 0.2s ease;
 }
 
 .section-header {
-  background: linear-gradient(135deg, #6366f1, #8b5cf6);
-  color: white;
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #f1f5f9;
+  transition: background-color 0.2s ease;
+  min-height: 64px !important;
+}
+
+.section-header:hover {
+  background: linear-gradient(to right, #ffffff, #f8fafc) !important;
 }
 
 .section-header mat-panel-title {
-  color: white;
-  font-size: 1.2rem;
+  color: #0f172a !important;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.05rem;
   font-weight: 700;
 }
 
 .section-description {
-  padding: 24px;
-  font-size: 1rem;
-  line-height: 1.8;
-  color: #374151;
-  background: #fafafa;
-  border-bottom: 1px solid #eeeeee;
+  padding: 20px 24px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #475569; /* Soft Slate */
+  background-color: #fafbfd;
+  border-bottom: 1px solid #e2e8f0;
 }
 
 .examples-grid {
   display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
+  flex-direction: column;
+  gap: 20px;
   padding: 24px;
-  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .example-card {
-  flex: 1 1 480px;
-  max-width: 700px;
-  border-radius: 18px !important;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 12px !important;
   overflow: hidden;
-  background: linear-gradient(145deg, #ffffff, #f8fafc);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-  transition: all 0.3s ease;
+  background-color: #ffffff;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.01),
+              0 8px 20px -6px rgba(99, 102, 241, 0.02),
+              0 6px 12px -6px rgba(99, 102, 241, 0.02);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .example-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 14px 32px rgba(0,0,0,0.12);
+  border-color: #cbd5e1;
+  box-shadow: 0 4px 16px rgba(99, 102, 241, 0.06);
 }
 
 mat-card-header {
-  background: linear-gradient(135deg, #ec4899, #8b5cf6);
-  padding: 18px !important;
+  background: linear-gradient(to right, #f8fafc, #ffffff) !important;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 16px 20px !important;
+  position: relative;
+}
+
+mat-card-header::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: linear-gradient(to bottom, #6366f1, #8b5cf6);
 }
 
 mat-card-title {
-  color: white !important;
-  font-size: 1rem !important;
-  line-height: 1.6 !important;
+  color: #334155 !important;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 0.95rem !important;
+  line-height: 1.5 !important;
   font-weight: 600 !important;
 }
 
 mat-card-content {
-  padding: 24px !important;
+  padding: 24px 20px !important;
 }
 
 .math-problem {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 12px;
 }
 
 .problem-line {
@@ -109,58 +160,74 @@ mat-card-content {
   flex-wrap: wrap;
   align-items: center;
   gap: 8px;
-  line-height: 2.2;
+  line-height: 2.4;
+  padding: 12px 18px;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  border-left: 3px solid #e2e8f0;
+  transition: all 0.2s ease;
+}
+
+.problem-line:hover {
+  background-color: #f1f5f9;
+  border-left-color: #cbd5e1;
 }
 
 .math-text {
-  font-size: 1.05rem;
-  color: #1f2937;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.025rem;
+  color: #334155;
   font-weight: 500;
+  letter-spacing: -0.1px;
 }
 
 /* INPUT WRAPPER */
 .input-wrapper {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 6px;
   position: relative;
-  top: -10px;
+  margin: 0 2px;
 }
 
 /* INPUT FIELD */
 .math-input-field {
-  margin-bottom: -1.25em;
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  vertical-align: middle;
 }
 
 .math-input-field input {
   text-align: center;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 0.975rem;
+  color: #0f172a;
 }
 
 /* HINT */
 .hint-circle {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  background: #6366f1;
-  color: white;
+  background-color: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  color: #64748b;
   font-size: 11px;
-  font-weight: bold;
+  font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
+  cursor: help;
   user-select: none;
-  transition: all 0.2s ease;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hint-circle:hover {
-  transform: scale(1.1);
-  background: #7c3aed;
+  transform: scale(1.1) translateY(-1px);
+  background-color: #eef2ff;
+  border-color: #a5b4fc;
+  color: #4f46e5;
+  box-shadow: 0 2px 8px rgba(79, 70, 229, 0.15);
 }
 
 /* HIDE MAT SUBSCRIPT */
@@ -173,73 +240,109 @@ mat-card-content {
 }
 
 ::ng-deep .mat-mdc-form-field-infix {
-  min-height: 42px !important;
-  padding-top: 8px !important;
-  padding-bottom: 8px !important;
+  min-height: 38px !important;
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
 }
 
 ::ng-deep .mat-mdc-text-field-wrapper {
-  background: white;
+  background-color: #ffffff !important;
+  border-radius: 8px !important;
+  transition: all 0.2s ease;
 }
 
-/* ===========================
-   ✅ CORRECT STATE
-=========================== */
+::ng-deep .mdc-text-field--outlined {
+  --mdc-outlined-text-field-outline-color: #cbd5e1 !important;
+  --mdc-outlined-text-field-focus-outline-color: #4f46e5 !important;
+  --mdc-outlined-text-field-hover-outline-color: #94a3b8 !important;
+}
+
+/* ====================================
+   🔥 INTERACTIVE GLOWING INPUT HALOS
+==================================== */
+::ng-deep .math-input-field .mdc-text-field--outlined:focus-within {
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.12) !important;
+  border-radius: 8px !important;
+}
+
+/* ✅ CORRECT STATE */
 ::ng-deep .math-input-field.is-correct .mdc-text-field--outlined {
-  --mdc-outlined-text-field-outline-color: #16a34a !important;
-  --mdc-outlined-text-field-focus-outline-color: #16a34a !important;
+  --mdc-outlined-text-field-outline-color: #22c55e !important;
+  --mdc-outlined-text-field-focus-outline-color: #22c55e !important;
+  --mdc-outlined-text-field-hover-outline-color: #22c55e !important;
+}
+
+::ng-deep .math-input-field.is-correct .mat-mdc-text-field-wrapper {
+  background-color: #f0fdf4 !important;
 }
 
 ::ng-deep .math-input-field.is-correct input {
   color: #16a34a !important;
 }
 
-/* ===========================
-   ❌ INCORRECT STATE (FIXED)
-=========================== */
+::ng-deep .math-input-field.is-correct .mdc-notched-outline__leading,
+::ng-deep .math-input-field.is-correct .mdc-notched-outline__notch,
+::ng-deep .math-input-field.is-correct .mdc-notched-outline__trailing {
+  border-color: #22c55e !important;
+}
+
+::ng-deep .math-input-field.is-correct .mdc-text-field--outlined:focus-within {
+  box-shadow: 0 0 0 4px rgba(34, 197, 94, 0.15) !important;
+}
+
+/* ❌ INCORRECT STATE */
 ::ng-deep .math-input-field.mat-form-field-invalid .mdc-text-field--outlined {
-  --mdc-outlined-text-field-outline-color: #dc2626 !important;
-  --mdc-outlined-text-field-focus-outline-color: #dc2626 !important;
+  --mdc-outlined-text-field-outline-color: #ef4444 !important;
+  --mdc-outlined-text-field-focus-outline-color: #ef4444 !important;
+  --mdc-outlined-text-field-hover-outline-color: #ef4444 !important;
+}
+
+::ng-deep .math-input-field.mat-form-field-invalid .mat-mdc-text-field-wrapper {
+  background-color: #fef2f2 !important;
 }
 
 ::ng-deep .math-input-field.mat-form-field-invalid input {
   color: #dc2626 !important;
 }
 
-/* OPTIONAL: stronger override for stubborn cases */
 ::ng-deep .math-input-field.mat-form-field-invalid .mdc-notched-outline__leading,
 ::ng-deep .math-input-field.mat-form-field-invalid .mdc-notched-outline__notch,
 ::ng-deep .math-input-field.mat-form-field-invalid .mdc-notched-outline__trailing {
-  border-color: #dc2626 !important;
+  border-color: #ef4444 !important;
+}
+
+::ng-deep .math-input-field.mat-form-field-invalid .mdc-text-field--outlined:focus-within {
+  box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.15) !important;
 }
 
 /* ERROR HINT */
 .error-hint {
-  color: red;
+  color: #ef4444;
   font-size: 10px;
   font-weight: bold;
 }
 
-/* RESPONSIVE */
+/* RESPONSIVE CSS */
 @media (max-width: 900px) {
-  .examples-grid {
-    flex-direction: column;
-  }
-
-  .example-card {
-    width: 100%;
-    max-width: 100%;
-  }
-
   .topic-banner {
     font-size: 1.5rem;
-    padding: 18px;
+    padding: 22px 24px;
+    margin-bottom: 24px;
+  }
+
+  .examples-grid {
+    padding: 16px;
   }
 }
 
 @media (max-width: 600px) {
   :host {
-    padding: 12px;
+    padding: 12px 4px;
+  }
+
+  .topic-banner {
+    font-size: 1.3rem;
+    padding: 16px 20px;
   }
 
   .section-description {
@@ -247,14 +350,21 @@ mat-card-content {
   }
 
   .examples-grid {
-    padding: 16px;
+    padding: 12px;
+    gap: 16px;
   }
 
   mat-card-content {
-    padding: 16px !important;
+    padding: 14px !important;
   }
 
   .math-text {
     font-size: 0.95rem;
+  }
+
+  .problem-line {
+    padding: 8px 12px;
+    gap: 6px;
+    line-height: 2.2;
   }
 }
