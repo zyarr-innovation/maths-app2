@@ -372,20 +372,20 @@ mat-card-content {
 
 /* Placeholder Styling */
 ::ng-deep .math-input-field input::placeholder {
-  color: #505253 !important;
+  color: #474849 !important;
   /* Slate 400 - beautifully light and elegant */
-  opacity: 0.8 !important;
+  opacity: 0.5 !important;
   font-weight: 500 !important;
 }
 
 ::ng-deep .math-input-field.is-correct input::placeholder {
   color: #86efac !important;
   /* Soft green */
-  opacity: 0.7 !important;
+  opacity: 0.8 !important;
 }
 
 ::ng-deep .math-input-field.mat-form-field-invalid input::placeholder {
   color: #fca5a5 !important;
   /* Soft red */
-  opacity: 0.7 !important;
+  opacity: 0.6 !important;
 }

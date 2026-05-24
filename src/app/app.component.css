@@ -145,19 +145,42 @@
 }
 
 .verification-btn {
-  border-radius: 8px !important;
-  font-family: 'Inter', sans-serif;
-  font-size: 0.85rem !important;
-  font-weight: 600 !important;
-  border-color: #e2e8f0 !important;
-  color: #4f46e5 !important;
-  transition: all 0.2s ease !important;
+  border-radius: 10px !important;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.875rem !important;
+  font-weight: 700 !important;
+  background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%) !important;
+  color: #ffffff !important;
+  border: none !important;
+  padding: 8px 18px !important;
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.2) !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.verification-btn .btn-icon {
+  font-size: 18px !important;
+  width: 18px !important;
+  height: 18px !important;
+  margin: 0 !important;
 }
 
 .verification-btn:hover {
-  background-color: #f1f5f9 !important;
-  border-color: #cbd5e1 !important;
-  color: #4338ca !important;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(99, 102, 241, 0.35) !important;
+  background: linear-gradient(135deg, #4f46e5 0%, #3730a3 100%) !important;
+}
+
+.verification-btn.active {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%) !important;
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.2) !important;
+}
+
+.verification-btn.active:hover {
+  background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%) !important;
+  box-shadow: 0 6px 16px rgba(239, 68, 68, 0.35) !important;
 }
 
 .content-wrapper {

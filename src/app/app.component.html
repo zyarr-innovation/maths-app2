@@ -81,11 +81,15 @@
       <!-- VERIFICATION BUTTON (isolated part for easy removal/commenting out later) -->
       @if (showVerifyButton) {
         <button
-          mat-stroked-button
+          mat-flat-button
           class="verification-btn"
+          [class.active]="showVerificationAnswers"
           (click)="toggleVerification()"
         >
-          {{ showVerificationAnswers ? 'Hide Answers' : 'Verify' }}
+          <mat-icon class="btn-icon">
+            {{ showVerificationAnswers ? 'visibility_off' : 'visibility' }}
+          </mat-icon>
+          <span>{{ showVerificationAnswers ? 'Hide Answers' : 'Verify' }}</span>
         </button>
       }
       <!-- END OF VERIFICATION BUTTON -->

@@ -119,14 +119,16 @@ export class SampleComponent implements OnInit, OnChanges {
           ...example,
           processedLines: example.steps.map((line: string) => {
             const parts: LinePart[] = [];
-            const segments = line.split(/(__.*?__|____|______)/g);
+            const segments = line.split(/(__.*?__|_{3,})/g);
             let blanksInLineCount = 0;
 
             segments.forEach((segment: string) => {
               if (!segment) return;
 
-              // Empty blank (e.g., ____ or ______)
-              if (segment === '____' || segment === '______') {
+              const isTransitionBlank = /^_{3,}$/.test(segment);
+
+              // Empty blank (e.g., ____ or ______ or _____)
+              if (isTransitionBlank) {
                 const id = blankCounter++;
                 const solvedValue = this.solveDynamicBlank(line, exampleNumbers, exampleBlanks, blanksInLineCount);
                 blanksInLineCount++;
@@ -192,44 +194,54 @@ export class SampleComponent implements OnInit, OnChanges {
 
   // Dynamic blank solver (Can be easily commented out or deleted later)
   private solveDynamicBlank(line: string, exampleNumbers: number[], prevBlanks: Blank[], blanksInLineCount: number): string {
-    // 1. Fraction check: e.g. __8__ out of __15__ → ____/____
-    if (line.includes('/') && line.includes('out of')) {
-      const match = line.match(/__\s*(\d+)\s*__\s+out\s+of\s+__\s*(\d+)\s*__/);
-      if (match) {
-        if (blanksInLineCount === 0) return match[1];
-        if (blanksInLineCount === 1) return match[2];
+    // 1. Fraction check: if the line contains a fraction representation (e.g., contains '/' and empty blanks)
+    if (line.includes('/') && (line.includes('out of') || line.includes('fraction') || line.includes('ratio') || line.includes('→'))) {
+      const lineNums = this.extractNumbers(line);
+      if (lineNums.length >= 2) {
+        if (blanksInLineCount === 0) return lineNums[0].toString();
+        if (blanksInLineCount === 1) return lineNums[1].toString();
       }
     }
 
     // 2. Simple equation check containing "=" and a blank
-    if (line.includes('=') && (line.includes('____') || line.includes('______') || line.includes('_____'))) {
+    if (line.includes('=')) {
       const parts = line.split('=');
       const leftStr = parts[0];
       const rightStr = parts[1];
 
-      // Extract left and right numbers
-      const leftNums = this.extractNumbers(leftStr);
+      // Clean leftStr to isolate equation from pre-text descriptions
+      let cleanLeft = leftStr;
+      const separators = [':', ';', ',', 'problem'];
+      separators.forEach(sep => {
+        if (cleanLeft.includes(sep)) {
+          const partsSep = cleanLeft.split(sep);
+          cleanLeft = partsSep[partsSep.length - 1];
+        }
+      });
+
+      // Extract left and right numbers from isolated parts
+      const leftNums = this.extractNumbers(cleanLeft);
       const rightNums = this.extractNumbers(rightStr);
 
       if (leftNums.length > 0 && rightNums.length > 0) {
         const B = leftNums[0];
         const C = rightNums[0];
 
-        if (leftStr.includes('+')) {
+        if (cleanLeft.includes('+')) {
           return (C - B).toString();
-        } else if (leftStr.includes('-') || leftStr.includes('–')) {
-          const blankIndex = leftStr.indexOf('___');
-          const minusIndex = leftStr.search(/[-–—]/);
+        } else if (cleanLeft.includes('-') || cleanLeft.includes('–')) {
+          const blankIndex = cleanLeft.indexOf('_');
+          const minusIndex = cleanLeft.search(/[-–—]/);
           if (blankIndex > minusIndex) {
             return (B - C).toString(); // B - x = C => x = B - C
           } else {
             return (C + B).toString(); // x - B = C => x = C + B
           }
-        } else if (leftStr.includes('×') || leftStr.includes('*')) {
+        } else if (cleanLeft.includes('×') || cleanLeft.includes('*')) {
           return (C / B).toString();
-        } else if (leftStr.includes('÷') || leftStr.includes('/')) {
-          const blankIndex = leftStr.indexOf('___');
-          const divideIndex = leftStr.search(/[÷\/]/);
+        } else if (cleanLeft.includes('÷') || cleanLeft.includes('/')) {
+          const blankIndex = cleanLeft.indexOf('_');
+          const divideIndex = cleanLeft.search(/[÷\/]/);
           if (blankIndex > divideIndex) {
             return (B / C).toString(); // B / x = C => x = B / C
           } else {
@@ -239,16 +251,16 @@ export class SampleComponent implements OnInit, OnChanges {
       }
 
       // If blank is on the right side: e.g. __18__ + __12__ = ____
-      if (rightStr.includes('___')) {
-        const leftNums = this.extractNumbers(leftStr);
+      if (rightStr.includes('_')) {
+        const leftNums = this.extractNumbers(cleanLeft);
         if (leftNums.length >= 2) {
           const A = leftNums[0];
           const B = leftNums[1];
           // Use standard operations
-          if (leftStr.includes('+')) return (A + B).toString();
-          if (leftStr.includes('-') || leftStr.includes('–')) return (A - B).toString();
-          if (leftStr.includes('×') || leftStr.includes('*')) return (A * B).toString();
-          if (leftStr.includes('÷') || leftStr.includes('/')) return (A / B).toString();
+          if (cleanLeft.includes('+')) return (A + B).toString();
+          if (cleanLeft.includes('-') || cleanLeft.includes('–')) return (A - B).toString();
+          if (cleanLeft.includes('×') || cleanLeft.includes('*')) return (A * B).toString();
+          if (cleanLeft.includes('÷') || cleanLeft.includes('/')) return (A / B).toString();
         }
       }
     }
