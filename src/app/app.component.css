@@ -227,3 +227,30 @@
     height: 16px !important;
   }
 }
+
+@media (max-width: 500px) {
+  .verification-btn .btn-text {
+    display: none !important;
+  }
+
+  .verification-btn {
+    padding: 0 !important;
+    min-width: 36px !important;
+    width: 36px !important;
+    height: 36px !important;
+    border-radius: 50% !important;
+    justify-content: center !important;
+    box-shadow: 0 3px 8px rgba(99, 102, 241, 0.25) !important;
+  }
+
+  .verification-btn.active {
+    box-shadow: 0 3px 8px rgba(239, 68, 68, 0.25) !important;
+  }
+
+  .verification-btn .btn-icon {
+    margin: 0 !important;
+    font-size: 18px !important;
+    width: 18px !important;
+    height: 18px !important;
+  }
+}
