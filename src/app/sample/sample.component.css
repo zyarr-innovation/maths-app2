@@ -338,35 +338,36 @@ mat-card-content {
 
 @media (max-width: 600px) {
   :host {
-    padding: 12px 4px;
+    padding: 6px 2px;
   }
 
   .topic-banner {
-    font-size: 1.3rem;
-    padding: 16px 20px;
+    font-size: 1.2rem;
+    padding: 14px 16px;
+    margin-bottom: 16px;
   }
 
   .section-description {
-    padding: 16px;
+    padding: 14px 16px;
   }
 
   .examples-grid {
-    padding: 12px;
-    gap: 16px;
+    padding: 6px !important;
+    gap: 12px;
   }
 
   mat-card-content {
-    padding: 14px !important;
+    padding: 12px 8px !important;
   }
 
   .math-text {
-    font-size: 0.95rem;
+    font-size: 0.925rem;
   }
 
   .problem-line {
-    padding: 8px 12px;
-    gap: 6px;
-    line-height: 2.2;
+    padding: 8px 10px;
+    gap: 4px;
+    line-height: 2.0;
   }
 }
 
