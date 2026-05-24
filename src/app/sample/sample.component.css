@@ -4,9 +4,9 @@
   display: block;
   min-height: 100vh;
   background: radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.04) 0px, transparent 50%),
-              radial-gradient(at 50% 0%, rgba(236, 72, 153, 0.02) 0px, transparent 50%),
-              radial-gradient(at 100% 0%, rgba(139, 92, 246, 0.04) 0px, transparent 50%),
-              #f8fafc;
+    radial-gradient(at 50% 0%, rgba(236, 72, 153, 0.02) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(139, 92, 246, 0.04) 0px, transparent 50%),
+    #f8fafc;
   padding: 0;
   box-sizing: border-box;
 }
@@ -59,8 +59,8 @@
   background: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(226, 232, 240, 0.8) !important;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.01),
-              0 10px 25px -5px rgba(99, 102, 241, 0.03),
-              0 8px 16px -8px rgba(99, 102, 241, 0.03) !important;
+    0 10px 25px -5px rgba(99, 102, 241, 0.03),
+    0 8px 16px -8px rgba(99, 102, 241, 0.03) !important;
   margin-bottom: 4px;
   backdrop-filter: blur(8px);
   transition: all 0.2s ease;
@@ -88,7 +88,8 @@
   padding: 20px 24px;
   font-size: 0.95rem;
   line-height: 1.6;
-  color: #475569; /* Soft Slate */
+  color: #475569;
+  /* Soft Slate */
   background-color: #fafbfd;
   border-bottom: 1px solid #e2e8f0;
 }
@@ -110,8 +111,8 @@
   background-color: #ffffff;
   border: 1px solid rgba(226, 232, 240, 0.8);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.01),
-              0 8px 20px -6px rgba(99, 102, 241, 0.02),
-              0 6px 12px -6px rgba(99, 102, 241, 0.02);
+    0 8px 20px -6px rgba(99, 102, 241, 0.02),
+    0 6px 12px -6px rgba(99, 102, 241, 0.02);
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -367,4 +368,24 @@ mat-card-content {
     gap: 6px;
     line-height: 2.2;
   }
+}
+
+/* Placeholder Styling */
+::ng-deep .math-input-field input::placeholder {
+  color: #505253 !important;
+  /* Slate 400 - beautifully light and elegant */
+  opacity: 0.8 !important;
+  font-weight: 500 !important;
+}
+
+::ng-deep .math-input-field.is-correct input::placeholder {
+  color: #86efac !important;
+  /* Soft green */
+  opacity: 0.7 !important;
+}
+
+::ng-deep .math-input-field.mat-form-field-invalid input::placeholder {
+  color: #fca5a5 !important;
+  /* Soft red */
+  opacity: 0.7 !important;
 }

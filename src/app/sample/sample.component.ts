@@ -63,6 +63,10 @@ export class SampleComponent implements OnInit, OnChanges {
 
   processedSections: any[] = [];
 
+  // VERIFICATION MODE (Can be easily commented out or deleted later)
+  @Input() showVerificationAnswers = true;
+  // END OF VERIFICATION MODE
+
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
@@ -102,90 +106,203 @@ export class SampleComponent implements OnInit, OnChanges {
   }
 
   processData() {
-
     this.blanks = [];
-
     let blankCounter = 0;
 
     this.processedSections = this.data.sub_topics.map((subTopic: any) => ({
-
       ...subTopic,
+      processedExamples: subTopic.examples.map((example: any) => {
+        const exampleNumbers: number[] = [];
+        const exampleBlanks: Blank[] = [];
 
-      processedExamples: subTopic.examples.map((example: any) => ({
+        return {
+          ...example,
+          processedLines: example.steps.map((line: string) => {
+            const parts: LinePart[] = [];
+            const segments = line.split(/(__.*?__|____|______)/g);
+            let blanksInLineCount = 0;
 
-        ...example,
+            segments.forEach((segment: string) => {
+              if (!segment) return;
 
-        processedLines: example.steps.map((line: string) => {
+              // Empty blank (e.g., ____ or ______)
+              if (segment === '____' || segment === '______') {
+                const id = blankCounter++;
+                const solvedValue = this.solveDynamicBlank(line, exampleNumbers, exampleBlanks, blanksInLineCount);
+                blanksInLineCount++;
 
-          const parts: LinePart[] = [];
+                const newBlank: Blank = {
+                  id,
+                  correctValue: solvedValue,
+                  userValue: '',
+                  status: 'empty',
+                  hint: solvedValue ? solvedValue : '?'
+                };
 
-          const segments = line.split(/(__.*?__|____)/g);
+                this.blanks.push(newBlank);
+                exampleBlanks.push(newBlank);
 
-          segments.forEach((segment: string) => {
+                parts.push({
+                  type: 'input',
+                  inputId: id,
+                  charLen: Math.max(solvedValue.length + 4, 8)
+                });
+              }
+              // Explicit blank with answer (e.g., __72__)
+              else if (segment.startsWith('__') && segment.endsWith('__')) {
+                const inner = segment.slice(2, -2).trim();
+                const id = blankCounter++;
 
-            if (!segment) return;
+                // Track explicit numbers encountered to help solve future empty blanks
+                const parsedVal = parseFloat(inner);
+                if (!isNaN(parsedVal)) {
+                  exampleNumbers.push(parsedVal);
+                }
 
-            // Empty blank
-            if (segment === '____') {
+                const newBlank: Blank = {
+                  id,
+                  correctValue: inner,
+                  userValue: '',
+                  status: 'empty',
+                  hint: inner
+                };
 
-              const id = blankCounter++;
+                this.blanks.push(newBlank);
+                exampleBlanks.push(newBlank);
 
-              this.blanks.push({
-                id,
-                correctValue: '',
-                userValue: '',
-                status: 'empty',
-                hint: '?'
-              });
+                parts.push({
+                  type: 'input',
+                  inputId: id,
+                  charLen: Math.max(inner.length + 4, 8)
+                });
+              } else {
+                parts.push({
+                  type: 'text',
+                  value: segment
+                });
+              }
+            });
 
-              parts.push({
-                type: 'input',
-                inputId: id,
-                charLen: 8
-              });
-            }
-
-            // Expression / number / variable
-            else if (
-              segment.startsWith('__') &&
-              segment.endsWith('__')
-            ) {
-
-              const inner = segment.slice(2, -2).trim();
-
-              const id = blankCounter++;
-
-              this.blanks.push({
-                id,
-                correctValue: inner,
-                userValue: '',
-                status: 'empty',
-                hint: inner
-              });
-
-              parts.push({
-                type: 'input',
-                inputId: id,
-                charLen: Math.max(inner.length + 4, 8)
-              });
-            }
-
-            else {
-
-              parts.push({
-                type: 'text',
-                value: segment
-              });
-            }
-
-          });
-
-          return parts;
-        })
-
-      }))
-
+            return parts;
+          })
+        };
+      })
     }));
+  }
+
+  // Dynamic blank solver (Can be easily commented out or deleted later)
+  private solveDynamicBlank(line: string, exampleNumbers: number[], prevBlanks: Blank[], blanksInLineCount: number): string {
+    // 1. Fraction check: e.g. __8__ out of __15__ → ____/____
+    if (line.includes('/') && line.includes('out of')) {
+      const match = line.match(/__\s*(\d+)\s*__\s+out\s+of\s+__\s*(\d+)\s*__/);
+      if (match) {
+        if (blanksInLineCount === 0) return match[1];
+        if (blanksInLineCount === 1) return match[2];
+      }
+    }
+
+    // 2. Simple equation check containing "=" and a blank
+    if (line.includes('=') && (line.includes('____') || line.includes('______') || line.includes('_____'))) {
+      const parts = line.split('=');
+      const leftStr = parts[0];
+      const rightStr = parts[1];
+
+      // Extract left and right numbers
+      const leftNums = this.extractNumbers(leftStr);
+      const rightNums = this.extractNumbers(rightStr);
+
+      if (leftNums.length > 0 && rightNums.length > 0) {
+        const B = leftNums[0];
+        const C = rightNums[0];
+
+        if (leftStr.includes('+')) {
+          return (C - B).toString();
+        } else if (leftStr.includes('-') || leftStr.includes('–')) {
+          const blankIndex = leftStr.indexOf('___');
+          const minusIndex = leftStr.search(/[-–—]/);
+          if (blankIndex > minusIndex) {
+            return (B - C).toString(); // B - x = C => x = B - C
+          } else {
+            return (C + B).toString(); // x - B = C => x = C + B
+          }
+        } else if (leftStr.includes('×') || leftStr.includes('*')) {
+          return (C / B).toString();
+        } else if (leftStr.includes('÷') || leftStr.includes('/')) {
+          const blankIndex = leftStr.indexOf('___');
+          const divideIndex = leftStr.search(/[÷\/]/);
+          if (blankIndex > divideIndex) {
+            return (B / C).toString(); // B / x = C => x = B / C
+          } else {
+            return (C * B).toString(); // x / B = C => x = C * B
+          }
+        }
+      }
+
+      // If blank is on the right side: e.g. __18__ + __12__ = ____
+      if (rightStr.includes('___')) {
+        const leftNums = this.extractNumbers(leftStr);
+        if (leftNums.length >= 2) {
+          const A = leftNums[0];
+          const B = leftNums[1];
+          // Use standard operations
+          if (leftStr.includes('+')) return (A + B).toString();
+          if (leftStr.includes('-') || leftStr.includes('–')) return (A - B).toString();
+          if (leftStr.includes('×') || leftStr.includes('*')) return (A * B).toString();
+          if (leftStr.includes('÷') || leftStr.includes('/')) return (A / B).toString();
+        }
+      }
+    }
+
+    // 3. Fallback based on step keywords & active numbers
+    const lineLower = line.toLowerCase();
+    if (exampleNumbers.length >= 2) {
+      const A = exampleNumbers[exampleNumbers.length - 2];
+      const B = exampleNumbers[exampleNumbers.length - 1];
+
+      if (lineLower.includes('+') || lineLower.includes('add') || lineLower.includes('total') || lineLower.includes('sum') || lineLower.includes('combine') || lineLower.includes('together') || lineLower.includes('altogether')) {
+        return (A + B).toString();
+      }
+      if (lineLower.includes('-') || lineLower.includes('–') || lineLower.includes('subtract') || lineLower.includes('remain') || lineLower.includes('left') || lineLower.includes('remove') || lineLower.includes('minus') || lineLower.includes('less')) {
+        return (A - B).toString();
+      }
+      if (lineLower.includes('×') || lineLower.includes('*') || lineLower.includes('multiply') || lineLower.includes('times')) {
+        return (A * B).toString();
+      }
+      if (lineLower.includes('÷') || lineLower.includes('/') || lineLower.includes('divide') || lineLower.includes('split') || lineLower.includes('share')) {
+        return (A / B).toString();
+      }
+    }
+
+    // 4. Ultimate fallback: carry over the last calculated answer in this example
+    if (prevBlanks.length > 0) {
+      for (let i = prevBlanks.length - 1; i >= 0; i--) {
+        if (prevBlanks[i].correctValue) {
+          return prevBlanks[i].correctValue;
+        }
+      }
+    }
+
+    return '';
+  }
+
+  private extractNumbers(str: string): number[] {
+    const nums: number[] = [];
+    const doubleUnderscoreMatches = str.match(/__\s*(\d+\.?\d*)\s*__/g);
+    if (doubleUnderscoreMatches) {
+      doubleUnderscoreMatches.forEach(m => {
+        const val = parseFloat(m.replace(/__/g, '').trim());
+        if (!isNaN(val)) nums.push(val);
+      });
+    } else {
+      const rawMatches = str.match(/(\d+\.?\d*)/g);
+      if (rawMatches) {
+        rawMatches.forEach(m => {
+          const val = parseFloat(m);
+          if (!isNaN(val)) nums.push(val);
+        });
+      }
+    }
+    return nums;
   }
 
   onKeyup(id: number) {

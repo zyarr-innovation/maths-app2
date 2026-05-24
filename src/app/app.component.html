@@ -75,6 +75,21 @@
 
       </div>
 
+      <!-- Spacer to push button to the right -->
+      <span class="toolbar-spacer"></span>
+
+      <!-- VERIFICATION BUTTON (isolated part for easy removal/commenting out later) -->
+      @if (showVerifyButton) {
+        <button
+          mat-stroked-button
+          class="verification-btn"
+          (click)="toggleVerification()"
+        >
+          {{ showVerificationAnswers ? 'Hide Answers' : 'Verify' }}
+        </button>
+      }
+      <!-- END OF VERIFICATION BUTTON -->
+
     </mat-toolbar>
 
     <div class="content-wrapper">
@@ -82,7 +97,8 @@
       @if (selectedFile) {
 
         <app-sample
-          [filePath]="'assets/json/' + selectedFile">
+          [filePath]="'assets/json/' + selectedFile"
+          [showVerificationAnswers]="showVerificationAnswers">
         </app-sample>
 
       } @else {

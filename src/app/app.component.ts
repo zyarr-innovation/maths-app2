@@ -36,6 +36,14 @@ export class AppComponent implements OnInit {
   menuOpened = true;
   sidenavMode: 'side' | 'over' = 'side';
 
+  // VERIFICATION MODE (Can be easily commented out or deleted later)
+  showVerifyButton = true; // Set to false to completely hide the "Verify" button from the toolbar
+  showVerificationAnswers = false; // Starts as false (inactive) by default
+  toggleVerification() {
+    this.showVerificationAnswers = !this.showVerificationAnswers;
+  }
+  // END OF VERIFICATION MODE
+
   jsonFiles: string[] = [];
 
   selectedFile = '';
@@ -43,7 +51,7 @@ export class AppComponent implements OnInit {
   constructor(
     private http: HttpClient,
     private breakpointObserver: BreakpointObserver
-  ) {}
+  ) { }
 
   ngOnInit(): void {
     this.loadJsonFileList();
@@ -66,23 +74,23 @@ export class AppComponent implements OnInit {
 
   loadJsonFileList() {
     this.http
-    .get<string[]>('assets/json/files.json')
-    .subscribe({
-      next: (files) => {
-        this.jsonFiles = files.sort((a, b) => {
-          const numA = parseInt(a.split('.')[0], 10);
-          const numB = parseInt(b.split('.')[0], 10);
-          return numA - numB;
-        });
+      .get<string[]>('assets/json/files.json')
+      .subscribe({
+        next: (files) => {
+          this.jsonFiles = files.sort((a, b) => {
+            const numA = parseInt(a.split('.')[0], 10);
+            const numB = parseInt(b.split('.')[0], 10);
+            return numA - numB;
+          });
 
-        if (this.jsonFiles.length > 0) {
-          this.selectedFile = this.jsonFiles[0];
+          if (this.jsonFiles.length > 0) {
+            this.selectedFile = this.jsonFiles[0];
+          }
+        },
+        error: (err) => {
+          console.error(err);
         }
-      },
-      error: (err) => {
-        console.error(err);
-      }
-    });
+      });
   }
 
   selectFile(file: string) {

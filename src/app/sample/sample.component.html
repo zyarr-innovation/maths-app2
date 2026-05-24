@@ -71,6 +71,7 @@
                       [(ngModel)]="blanks[part.inputId!].userValue"
                       (keyup)="onKeyup(part.inputId!)"
                       autocomplete="off"
+                      [placeholder]="showVerificationAnswers ? blanks[part.inputId!].correctValue : ''"
                     />
 
                     @if (blanks[part.inputId!]?.status === 'incorrect') {

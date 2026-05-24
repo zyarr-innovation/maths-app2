@@ -140,6 +140,26 @@
   letter-spacing: -0.2px;
 }
 
+.toolbar-spacer {
+  flex: 1 1 auto;
+}
+
+.verification-btn {
+  border-radius: 8px !important;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  border-color: #e2e8f0 !important;
+  color: #4f46e5 !important;
+  transition: all 0.2s ease !important;
+}
+
+.verification-btn:hover {
+  background-color: #f1f5f9 !important;
+  border-color: #cbd5e1 !important;
+  color: #4338ca !important;
+}
+
 .content-wrapper {
   padding: 32px;
   max-width: 1200px;
