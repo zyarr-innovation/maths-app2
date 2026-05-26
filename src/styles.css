@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -13,7 +14,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6, .mat-expansion-panel-header, .topic-banner {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.mat-expansion-panel-header,
+.topic-banner {
   font-family: 'Plus Jakarta Sans', sans-serif !important;
 }
 
@@ -40,10 +48,11 @@ h1, h2, h3, h4, h5, h6, .mat-expansion-panel-header, .topic-banner {
    🖨️ PREMIUM PRINT STYLES (PDF EXPORT OPTIMIZATIONS)
    ========================================================================== */
 @page {
-  margin: 12mm 15mm 12mm 15mm !important;
+  margin: 12mm 2mm 2mm 2mm !important;
 }
 
 @media print {
+
   /* 1. Hide interactive/navigation elements */
   mat-sidenav,
   .side-nav,
@@ -57,7 +66,12 @@ h1, h2, h3, h4, h5, h6, .mat-expansion-panel-header, .topic-banner {
   }
 
   /* 2. Break free from viewport-locked layout container restrictions and dynamic sidenav margins */
-  html, body, :host,
+  html,
+  body,
+  app-root,
+  app-sample,
+  .page-container,
+  :host,
   mat-sidenav-container,
   mat-sidenav-content,
   .layout-container,
@@ -89,5 +103,60 @@ h1, h2, h3, h4, h5, h6, .mat-expansion-panel-header, .topic-banner {
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
   }
-}
 
+  /* 4. Ultimate pagination fix: Remove flex, grid, and overflow constraints globally for print */
+  .sections-wrapper,
+  .examples-grid,
+  .section-panel,
+  mat-expansion-panel,
+  .mat-expansion-panel,
+  .mat-expansion-panel-content,
+  .mat-expansion-panel-body,
+  .mat-expansion-panel-header {
+    display: block !important;
+    float: none !important;
+    position: static !important;
+    overflow: visible !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    page-break-inside: auto !important;
+    break-inside: auto !important;
+    page-break-before: auto !important;
+    break-before: auto !important;
+    page-break-after: auto !important;
+    break-after: auto !important;
+  }
+
+  /* Force individual cards to print as blocks with spacing and avoid splitting inside them */
+  .example-card {
+    display: block !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    overflow: visible !important;
+    position: static !important;
+    margin-bottom: 16px !important;
+  }
+
+  .problem-line {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    overflow: visible !important;
+    position: static !important;
+  }
+
+  .section-header,
+  mat-expansion-panel-header,
+  .mat-expansion-panel-header,
+  .section-description {
+    page-break-after: auto !important;
+    break-after: auto !important;
+    page-break-inside: auto !important;
+    break-inside: auto !important;
+    page-break-before: auto !important;
+    break-before: auto !important;
+  }
+}

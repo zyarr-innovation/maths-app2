@@ -6,7 +6,8 @@ import {
   OnInit,
   OnChanges,
   SimpleChanges,
-  HostListener
+  HostListener,
+  ChangeDetectorRef
 } from '@angular/core';
 
 import { CommonModule } from '@angular/common';
@@ -72,18 +73,25 @@ export class SampleComponent implements OnInit, OnChanges {
 
   saveAsPdf() {
     this.isPrinting = true;
-    // Brief timeout to let Angular update the template bindings (expanding all panels) before printing
+    this.cdr.detectChanges(); // Force Angular to run change detection instantly, expanding all panels in the DOM
+    
+    // Wait 500ms for Angular Material expansion panel transitions (usually 225ms-250ms) to fully complete.
+    // This ensures all inline heights are settled to 'auto' before print preview opens.
     setTimeout(() => {
       window.print();
-    }, 150);
+    }, 500);
   }
 
   @HostListener('window:afterprint')
   onAfterPrint() {
     this.isPrinting = false;
+    this.cdr.detectChanges(); // Force layout restore instantly after printing dialog closes
   }
 
-  constructor(private http: HttpClient) { }
+  constructor(
+    private http: HttpClient,
+    private cdr: ChangeDetectorRef
+  ) { }
 
   ngOnInit(): void {
 

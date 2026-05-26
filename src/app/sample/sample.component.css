@@ -440,7 +440,7 @@ mat-card-content {
   .save-pdf-btn .btn-text {
     display: none !important;
   }
-  
+
   .save-pdf-btn {
     padding: 0 !important;
     width: 42px !important;
@@ -452,6 +452,7 @@ mat-card-content {
    🖨️ SECTION-SPECIFIC PRINT CUSTOMIZATIONS
    ========================================================================== */
 @media print {
+
   /* Hide the Save as PDF button and spacer within the banner */
   .save-pdf-btn,
   .banner-spacer {
@@ -460,16 +461,86 @@ mat-card-content {
 
   /* Allow the section panel to break across pages, but style it nicely */
   .section-panel {
+    display: block !important;
+    position: static !important;
     margin-bottom: 24px !important;
     border: 1px solid #cbd5e1 !important;
     box-shadow: none !important;
     background-color: #ffffff !important;
     border-radius: 14px !important;
+    overflow: visible !important; /* Allow panel to break across pages */
+    page-break-inside: auto !important;
+    break-inside: auto !important;
+    page-break-before: auto !important;
+    break-before: auto !important;
+    page-break-after: auto !important;
+    break-after: auto !important;
+  }
+
+  /* Force internal wrappers to be visible and breakable, avoiding block shifting */
+  ::ng-deep .mat-expansion-panel-content,
+  ::ng-deep .mat-expansion-panel-body,
+  .sections-wrapper,
+  .examples-grid {
+    overflow: visible !important;
+    display: block !important;
+    height: auto !important;
+    position: static !important;
+    page-break-inside: auto !important;
+    break-inside: auto !important;
+    page-break-before: auto !important;
+    break-before: auto !important;
+    page-break-after: auto !important;
+    break-after: auto !important;
+  }
+
+  /* 1. COMPACT HEADERS AND DESCRIPTION */
+  .topic-banner {
+    padding: 12px 16px !important;
+    margin-bottom: 16px !important;
+    font-size: 1.35rem !important;
+    border-radius: 10px !important;
+    box-shadow: none !important;
+  }
+
+  .section-header {
+    min-height: 48px !important;
+  }
+
+  ::ng-deep .mat-expansion-panel-header-title {
+    font-size: 0.95rem !important;
+  }
+
+  .section-description {
+    padding: 10px 16px !important;
+    font-size: 0.85rem !important;
+    line-height: 1.4 !important;
+    border-bottom: 1px solid #e2e8f0 !important;
+  }
+
+  /* Override browser default 'break-after: avoid' on headers to allow subtopic to start printing
+     immediately even if its first cards have to be pushed to the next page. */
+  .section-header,
+  ::ng-deep mat-expansion-panel-header,
+  ::ng-deep .mat-expansion-panel-header,
+  .section-description {
+    page-break-after: auto !important;
+    break-after: auto !important;
+    page-break-inside: auto !important;
+    break-inside: auto !important;
+    page-break-before: auto !important;
+    break-before: auto !important;
   }
 
   /* Don't print the collapse/expand indicator arrow */
   ::ng-deep .mat-expansion-indicator {
     display: none !important;
+  }
+
+  /* 2. COMPACT EXAMPLES GRID AND CARDS */
+  .examples-grid {
+    padding: 12px !important;
+    gap: 12px !important;
   }
 
   .example-card {
@@ -478,21 +549,34 @@ mat-card-content {
     border: 1px solid #e2e8f0 !important;
     box-shadow: none !important;
     background-color: #ffffff !important;
-    border-radius: 12px !important;
-    margin-bottom: 4px !important;
+    border-radius: 10px !important;
+    margin-bottom: 8px !important;
   }
 
+  mat-card-header {
+    padding: 10px 14px !important;
+  }
+
+  mat-card-content {
+    padding: 12px 14px !important;
+  }
+
+  /* 3. COMPACT PROBLEM LINES */
   .problem-line {
     page-break-inside: avoid !important;
     break-inside: avoid !important;
+    padding: 6px 12px !important;
+    gap: 6px !important;
+    line-height: 1.8 !important;
     background-color: #f8fafc !important;
     border-left: 3px solid #cbd5e1 !important;
+    border-radius: 6px !important;
   }
 
   /* Ensure inputs have transparent borders or nice light borders and show values clearly */
   ::ng-deep .mat-mdc-text-field-wrapper {
     background-color: #ffffff !important;
-    border-radius: 8px !important;
+    border-radius: 6px !important;
   }
 
   ::ng-deep .math-input-field.is-correct .mat-mdc-text-field-wrapper {
@@ -508,7 +592,18 @@ mat-card-content {
   }
 
   /* Hide shadows which can print as weird dark solid grays */
-  .topic-banner, .section-panel, .example-card {
+  .topic-banner,
+  .section-panel,
+  .example-card {
     box-shadow: none !important;
+  }
+
+  /* Reset local component host layout */
+  :host {
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+    position: static !important;
+    background: none !important;
   }
 }
