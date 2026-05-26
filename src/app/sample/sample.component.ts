@@ -5,7 +5,8 @@ import {
   Input,
   OnInit,
   OnChanges,
-  SimpleChanges
+  SimpleChanges,
+  HostListener
 } from '@angular/core';
 
 import { CommonModule } from '@angular/common';
@@ -66,6 +67,21 @@ export class SampleComponent implements OnInit, OnChanges {
   // VERIFICATION MODE (Can be easily commented out or deleted later)
   @Input() showVerificationAnswers = true;
   // END OF VERIFICATION MODE
+
+  isPrinting = false;
+
+  saveAsPdf() {
+    this.isPrinting = true;
+    // Brief timeout to let Angular update the template bindings (expanding all panels) before printing
+    setTimeout(() => {
+      window.print();
+    }, 150);
+  }
+
+  @HostListener('window:afterprint')
+  onAfterPrint() {
+    this.isPrinting = false;
+  }
 
   constructor(private http: HttpClient) { }
 

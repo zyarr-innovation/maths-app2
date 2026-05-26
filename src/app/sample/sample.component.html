@@ -3,14 +3,30 @@
 <div class="page-container">
 
   <div class="topic-banner">
-    {{ data?.topic }}
+    <span>{{ data?.topic }}</span>
+    <span class="banner-spacer"></span>
+    <button
+      mat-flat-button
+      class="save-pdf-btn"
+      (click)="saveAsPdf()"
+    >
+      <mat-icon class="btn-icon">
+        picture_as_pdf
+      </mat-icon>
+      <span class="btn-text">Save as PDF</span>
+    </button>
   </div>
 
   <div class="sections-wrapper">
 
     @for (section of processedSections; track section.sub_topic) {
 
-    <mat-expansion-panel class="section-panel">
+    <mat-expansion-panel
+      class="section-panel"
+      [expanded]="isPrinting || section.expanded"
+      (opened)="section.expanded = true"
+      (closed)="section.expanded = false"
+    >
 
       <mat-expansion-panel-header class="section-header">
         <mat-panel-title>

@@ -35,3 +35,59 @@ h1, h2, h3, h4, h5, h6, .mat-expansion-panel-header, .topic-banner {
 ::-webkit-scrollbar-thumb:hover {
   background: #94a3b8;
 }
+
+/* ==========================================================================
+   🖨️ PREMIUM PRINT STYLES (PDF EXPORT OPTIMIZATIONS)
+   ========================================================================== */
+@page {
+  margin: 12mm 15mm 12mm 15mm !important;
+}
+
+@media print {
+  /* 1. Hide interactive/navigation elements */
+  mat-sidenav,
+  .side-nav,
+  .top-toolbar,
+  .pin-btn,
+  .verification-btn,
+  .save-pdf-btn,
+  .hint-circle,
+  .toolbar-spacer {
+    display: none !important;
+  }
+
+  /* 2. Break free from viewport-locked layout container restrictions and dynamic sidenav margins */
+  html, body, :host,
+  mat-sidenav-container,
+  mat-sidenav-content,
+  .layout-container,
+  .content-area,
+  .content-wrapper {
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+    position: static !important;
+    background: #ffffff !important;
+    box-shadow: none !important;
+    transform: none !important;
+    margin: 0 !important;
+    margin-left: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .content-wrapper {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  /* 3. Instruct printer to render precise CSS colors, halos, and gradients */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
+
