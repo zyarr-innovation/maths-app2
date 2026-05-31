@@ -1,0 +1,1037 @@
+{
+  "topic": "Tables as Input/Output Machines",
+  "sub_topics": [
+    {
+      "sub_topic": "Mapping Time to Quantities: Hours to Distance",
+      "explanation": "This sub-topic involves constructing and interpreting tables that relate time (in hours) to measurable distances covered, often under constant speed conditions. The examples explore how time spent directly correlates with distance traveled, emphasizing proportional reasoning and the concept of speed as a constant multiplier. The focus is on deriving distance from time using the formula **Distance = Speed × Time**, with tables serving as visual representations of this relationship across varied contexts and scenarios.",
+      "examples": [
+        {
+          "example": "A hiking trail has a gradient where every 1 hour of ascent covers 300 meters. How far does a hiker climb in 0.5 hours, 1.5 hours, and 2.5 hours?",
+          "steps": [
+            "Understand the rate: __300 meters__ are climbed in __1 hour__.",
+            "For __0.5 hours__, calculate: __300 meters/hour__ × __0.5 hours__ = __150 meters__ climbed.",
+            "For __1.5 hours__, calculate: __300 meters/hour__ × __1.5 hours__ = __450 meters__ climbed.",
+            "For __2.5 hours__, calculate: __300 meters/hour__ × __2.5 hours__ = __750 meters__ climbed."
+          ]
+        },
+        {
+          "example": "A drone flies at a constant altitude of 12 km/h. If it takes 0.5 hours to cover a certain distance, what is the distance in kilometers?",
+          "steps": [
+            "The drone's speed is __12 km/h__ (distance per hour).",
+            "The time taken is __0.5 hours__.",
+            "To find distance, multiply speed by time: __speed × time__.",
+            "Calculate: __12 km/h × 0.5 h__ = __6 km__.",
+            "The drone covers __6__ kilometers in total."
+          ]
+        },
+        {
+          "example": "A ferry boat travels 45 km in 1.5 hours. What distance does it cover in 2 hours, 3 hours, and 4 hours?",
+          "steps": [
+            "First, find the speed of the ferry boat by dividing the distance by the time taken: __45 km ÷ 1.5 hours = __27 km/h__.",
+            "For 2 hours: Multiply the speed by 2 hours: __27 km/h × 2 hours = __54 km__.",
+            "For 3 hours: Multiply the speed by 3 hours: __27 km/h × 3 hours = __81 km__.",
+            "For 4 hours: Multiply the speed by 4 hours: __27 km/h × 4 hours = __108 km__."
+          ]
+        },
+        {
+          "example": "A marathon runner’s pace is 5 minutes per kilometer. How far does she run in 30 minutes, 1 hour, and 1 hour 15 minutes?",
+          "steps": [
+            "The runner’s pace is __5__ minutes per kilometer.",
+            "For __30__ minutes: __30__ ÷ __5__ = __6__ kilometers.",
+            "For __1 hour (60 minutes)__: __60__ ÷ __5__ = __12__ kilometers.",
+            "For __1 hour 15 minutes (75 minutes)__: __75__ ÷ __5__ = __15__ kilometers."
+          ]
+        },
+        {
+          "example": "A train’s speed is 80 km/h. If it departs at 8:00 AM and arrives at 10:30 AM, what is the distance covered?",
+          "steps": [
+            "The train travels at a speed of __80__ kilometers per hour.",
+            "Departure time is __8:00 AM__ and arrival time is __10:30 AM__.",
+            "Calculate the total time traveled: From 8:00 AM to 10:30 AM is __2 hours and 30 minutes__.",
+            "Convert 30 minutes into hours: __30 minutes = 0.5 hours__.",
+            "Total travel time = __2 + 0.5 = 2.5 hours__.",
+            "Use the formula: Distance = Speed × Time. So, __80 km/h × 2.5 h = __80 × 2.5__ kilometers.",
+            "Calculate the multiplication: __80 × 2.5 = __200__ kilometers."
+          ]
+        },
+        {
+          "example": "A cyclist rides at 18 km/h. If she rides for 1 hour, 1.5 hours, and 2 hours, what are the distances covered?",
+          "steps": [
+            "The cyclist's speed is __18 km/h__.",
+            "For the first ride of __1 hour__, distance covered = __18 km/h__ × __1 h__ = __18 km__.",
+            "For the second ride of __1.5 hours__, distance covered = __18 km/h__ × __1.5 h__ = __27 km__.",
+            "For the third ride of __2 hours__, distance covered = __18 km/h__ × __2 h__ = __36 km__."
+          ]
+        },
+        {
+          "example": "A scooter’s speed is 25 km/h. How far does it travel in 0.25 hours, 0.5 hours, and 1 hour?",
+          "steps": [
+            "The scooter travels at a constant speed of __25__ kilometers per hour.",
+            "For 0.25 hours, calculate distance by multiplying speed by time: __25__ × __0.25__ = __6.25__ km.",
+            "For 0.5 hours, calculate distance: __25__ × __0.5__ = __12.5__ km.",
+            "For 1 hour, calculate distance: __25__ × __1__ = __25__ km."
+          ]
+        },
+        {
+          "example": "A boat’s speed is 30 km/h in still water. If it takes 2 hours to cross a river with a current of 5 km/h, what is the total distance covered?",
+          "steps": [
+            "The boat’s speed in still water is __30 km/h__.",
+            "The river’s current speed is __5 km/h__ and works against the boat.",
+            "The effective speed of the boat relative to the ground is __30 km/h - 5 km/h__ (since the current opposes the boat).",
+            "Calculate the effective speed: __30 - 5 = 25 km/h__.",
+            "The boat travels for __2 hours__ at this speed.",
+            "Distance covered = speed × time: __25 km/h × 2 h = __50 km__.",
+            "Therefore, the total distance covered is __50 kilometers__."
+          ]
+        },
+        {
+          "example": "A delivery truck drives at 60 km/h. If it starts at 9:00 AM and stops at 12:00 PM, what is the distance covered?",
+          "steps": [
+            "The truck's speed is __60__ kilometers per hour.",
+            "The truck starts driving at __9:00 AM__ and stops at __12:00 PM__.",
+            "From 9:00 AM to 12:00 PM is __3__ hours.",
+            "Distance covered = speed × time → __60__ km/h × __3__ h = __180__ kilometers."
+          ]
+        },
+        {
+          "example": "A runner’s speed is 4 km/h. How far does she run in 1 hour, 1.5 hours, and 2.5 hours?",
+          "steps": [
+            "The runner’s speed is __4__ kilometers per hour.",
+            "For 1 hour: __4__ km/h × __1__ hour = __4__ kilometers run.",
+            "For 1.5 hours: Break it down—1 hour is __4__ km, and half an hour is half of 4 km, so __2__ kilometers. Total: __4__ + __2__ = __6__ kilometers.",
+            "For 2.5 hours: Break it down—2 hours is __8__ kilometers, and half an hour is __2__ kilometers. Total: __8__ + __2__ = __10__ kilometers."
+          ]
+        },
+        {
+          "example": "A train travels 100 km in 2 hours. What distance does it cover in 3 hours, 4 hours, and 5 hours?",
+          "steps": [
+            "First, find the speed of the train by dividing the distance by the time: __100 km ÷ 2 hours = __50 km/h__.",
+            "For 3 hours: Multiply the speed by 3 hours: __50 km/h × 3 hours = __150 km__.",
+            "For 4 hours: Multiply the speed by 4 hours: __50 km/h × 4 hours = __200 km__.",
+            "For 5 hours: Multiply the speed by 5 hours: __50 km/h × 5 hours = __250 km__."
+          ]
+        },
+        {
+          "example": "A cyclist rides at 20 km/h. If she rides for 1 hour, 2 hours, and 3 hours, what are the distances covered?",
+          "steps": [
+            "The cyclist rides at a speed of __20__ kilometers per hour.",
+            "For the first hour, distance covered = __1__ hour × __20__ km/h = __20__ km.",
+            "For the second hour, distance covered = __2__ hours × __20__ km/h = __40__ km.",
+            "For the third hour, distance covered = __3__ hours × __20__ km/h = __60__ km.",
+            "The distances covered for each time increment are: 1 hour → __20__ km, 2 hours → __40__ km, 3 hours → __60__ km."
+          ]
+        },
+        {
+          "example": "A marathon runner completes 10 km in 1 hour. How far does she run in 1.5 hours, 2 hours, and 2.5 hours?",
+          "steps": [
+            "The runner runs at a speed of __10__ km per hour.",
+            "For 1 hour, the distance covered is __10__ km (given).",
+            "To find distance for 1.5 hours, multiply __10__ km/h × 1.5 hours = __15__ km.",
+            "For 2 hours, multiply __10__ km/h × 2 hours = __20__ km.",
+            "For 2.5 hours, multiply __10__ km/h × 2.5 hours = __25__ km."
+          ]
+        },
+        {
+          "example": "A boat travels 30 km in 1.5 hours. What distance does it cover in 2 hours, 3 hours, and 4 hours?",
+          "steps": [
+            "First, find the boat’s speed by dividing the distance by time: __30 km ÷ 1.5 hours = __20 km/h__.",
+            "For 2 hours: __20 km/h × 2 hours = __40 km__ covered.",
+            "For 3 hours: __20 km/h × 3 hours = __60 km__ covered.",
+            "For 4 hours: __20 km/h × 4 hours = __80 km__ covered."
+          ]
+        },
+        {
+          "example": "A train travels 120 km in 2 hours. What distance does it cover in 3 hours, 4 hours, and 5 hours?",
+          "steps": [
+            "First, find the speed of the train by dividing the distance by the time: __120 km ÷ 2 hours = __60 km/h.",
+            "For 3 hours: Multiply the speed by 3 hours: __60 km/h × 3 hours = __180 km.",
+            "For 4 hours: Multiply the speed by 4 hours: __60 km/h × 4 hours = __240 km.",
+            "For 5 hours: Multiply the speed by 5 hours: __60 km/h × 5 hours = __300 km."
+          ]
+        },
+        {
+          "example": "A cyclist rides at a constant speed of 15 km/h. How far does she travel in 2 hours, 3 hours, and 4 hours?",
+          "steps": [
+            "The cyclist’s speed is __15 km/h__.",
+            "For 2 hours: __15__ × __2__ = __30__ km traveled.",
+            "For 3 hours: __15__ × __3__ = __45__ km traveled.",
+            "For 4 hours: __15__ × __4__ = __60__ km traveled."
+          ]
+        },
+        {
+          "example": "A car’s speedometer shows 60 km/h. If the driver drives for 1 hour, 2 hours, and 3 hours, what are the total distances covered?",
+          "steps": [
+            "The car’s speed is __60 km/h__.",
+            "For the first hour, the distance covered is __60 km__ (since 60 km/h × 1 h = 60 km).",
+            "For the second hour, the distance covered is __60 km__ (since 60 km/h × 2 h = 120 km).",
+            "For the third hour, the distance covered is __60 km__ (since 60 km/h × 3 h = 180 km).",
+            "Now, add the distances: __60 + 60 + 60 = 180 km__ total distance covered."
+          ]
+        },
+        {
+          "example": "A marathon runner completes 10 km in 1 hour. How far does she run in 1 hour, 1.5 hours, and 2 hours?",
+          "steps": [
+            "The runner runs __10__ km in __1__ hour.",
+            "For 1 hour, the distance is already given as __10__ km.",
+            "For 1.5 hours, calculate half an hour first: __10__ km ÷ 2 = __5__ km for half an hour.",
+            "Add the distance for half an hour to the full hour: __10__ km + __5__ km = __15__ km for 1.5 hours.",
+            "For 2 hours, double the distance from 1 hour: __10__ km × 2 = __20__ km."
+          ]
+        },
+        {
+          "example": "A drone flies at 10 km/h. If it takes 1.5 hours to cover a certain distance, what is the distance in kilometers?",
+          "steps": [
+            "The drone's speed is __10__ kilometers per hour.",
+            "The time taken is __1.5__ hours.",
+            "Distance is calculated by multiplying speed by time: __speed__ × __time__ = __distance__",
+            "Substitute the values: __10__ × __1.5__ = __15__ kilometers"
+          ]
+        },
+        {
+          "example": "A ferry boat travels 45 km in 1.5 hours. What distance does it cover in 1 hour, 2 hours, and 3 hours?",
+          "steps": [
+            "First, find the speed of the ferry boat by dividing the distance by the time taken: __45 km ÷ 1.5 hours = __27 km/h__.",
+            "For 1 hour: Multiply the speed by 1 hour: __27 km/h × 1 hour = __27 km__.",
+            "For 2 hours: Multiply the speed by 2 hours: __27 km/h × 2 hours = __54 km__.",
+            "For 3 hours: Multiply the speed by 3 hours: __27 km/h × 3 hours = __81 km__."
+          ]
+        },
+        {
+          "example": "A scooter’s speed is 25 km/h. How far does it travel in 0.5 hours, 1 hour, and 1.5 hours?",
+          "steps": [
+            "The scooter travels at a constant speed of __25__ km per hour.",
+            "For 0.5 hours, calculate distance by multiplying speed by time: __25__ × __0.5__ = __12.5__ km.",
+            "For 1 hour, calculate distance: __25__ × __1__ = __25__ km.",
+            "For 1.5 hours, calculate distance: __25__ × __1.5__ = __37.5__ km."
+          ]
+        }
+      ]
+    },
+    {
+      "sub_topic": "Scaling Time to Cost: Hours to Expenses",
+      "explanation": "This sub-topic involves analyzing tables that convert time spent into financial outcomes, focusing on linear cost structures (e.g., hourly wages) and scenarios where time influences diminishing returns (e.g., overtime). The goal is to interpret these relationships to calculate expenses based on hours worked or invested in tasks across diverse contexts.",
+      "examples": [
+        {
+          "example": "A bakery charges $0.75 per hour for custom cake decorations. How much would it cost to decorate a cake for 12 hours, 24 hours, and 36 hours of labor?",
+          "steps": [
+            "The cost per hour is $0.75.",
+            "For 12 hours of labor: __0.75__ × __12__ = ____ dollars needed.",
+            "For 24 hours of labor: __0.75__ × __24__ = ____ dollars needed.",
+            "For 36 hours of labor: __0.75__ × __36__ = ____ dollars needed."
+          ]
+        },
+        {
+          "example": "A farmer’s hourly wage for harvesting crops is $12. What is the total cost for 9 hours, 18 hours, and 45 hours of work?",
+          "steps": [
+            "Calculate the cost for 9 hours of work: $12 × __9__ = $__108__.",
+            "Calculate the cost for 18 hours of work: $12 × __18__ = $__216__.",
+            "Calculate the cost for 45 hours of work: $12 × __45__ = $__540__.",
+            "Add the costs together: $108 + $216 + $540 = $__864__ total cost."
+          ]
+        },
+        {
+          "example": "A video editor bills $30/hour for post-production services. Calculate the total cost for editing 6 hours, 12 hours, and 20 hours of footage.",
+          "steps": [
+            "The hourly rate is __$30__ per hour.",
+            "Calculate the cost for editing __6__ hours: __$30__ × __6__ = __$180__.",
+            "Calculate the cost for editing __12__ hours: __$30__ × __12__ = __$360__.",
+            "Calculate the cost for editing __20__ hours: __$30__ × __20__ = __$600__.",
+            "Add the costs together: __$180__ + __$360__ + __$600__ = __$1,140__ total cost."
+          ]
+        },
+        {
+          "example": "A gym membership costs $45/month, but the first 5 hours of use per month are free. If a member uses 10 hours, 15 hours, and 22 hours in a month, how much do they pay?",
+          "steps": [
+            "The gym charges $45 per month for unlimited hours, but the first __5__ hours are free.",
+            "The member uses a total of __10__ + __15__ + __22__ hours in one month.",
+            "Calculate the total hours used: __10__ + __15__ = __25__ hours.",
+            "Add the remaining hours: __25__ + __22__ = __47__ hours total.",
+            "Since the first __5__ hours are free, subtract them from the total: __47__ - __5__ = __42__ hours that cost money.",
+            "Calculate the cost for the paid hours: __42__ hours × $45/hour = $__1890__ (if calculated correctly).",
+            "However, since the membership is capped at $45/month regardless of hours used beyond the free tier, the member pays only the fixed monthly fee: **$45** (since the first 5 hours are free and the rest are covered by the monthly rate)."
+          ]
+        },
+        {
+          "example": "A freelance writer charges $0.10 per word for research articles. If she spends 3 hours, 6 hours, and 12 hours researching a 5,000-word article, what is the total cost?",
+          "steps": [
+            "The writer charges __$0.10__ per word.",
+            "The total number of words in the article is __5,000__.",
+            "First, calculate the total hours spent researching: __3__ + __6__ + __12__ = __21__ hours.",
+            "Determine the number of words written per hour. Since the article is __5,000__ words long, assume the writer writes at a constant rate (this step is implied by the problem).",
+            "Calculate the total cost by multiplying the number of words by the cost per word: __5,000__ words × __$0.10__/word = __$500__."
+          ]
+        },
+        {
+          "example": "A mechanic’s labor rate is $60/hour, but there’s a $50 fixed service fee per visit. What is the total cost for 4 visits where the mechanic works 5 hours, 10 hours, and 15 hours each?",
+          "steps": [
+            "First, identify the fixed cost per visit: __$50__.",
+            "Calculate the labor cost for the first visit (5 hours): __$60/hour × 5 hours = $300__.",
+            "Add the fixed fee to the labor cost for the first visit: __$300 + $50 = $350__ for the first visit.",
+            "Calculate the labor cost for the second visit (10 hours): __$60/hour × 10 hours = $600__.",
+            "Add the fixed fee to the labor cost for the second visit: __$600 + $50 = $650__ for the second visit.",
+            "Calculate the labor cost for the third visit (15 hours): __$60/hour × 15 hours = $900__.",
+            "Add the fixed fee to the labor cost for the third visit: __$900 + $50 = $950__ for the third visit.",
+            "The fourth visit has the same labor hours as the third visit (15 hours). Calculate labor cost: __$60/hour × 15 hours = $900__.",
+            "Add the fixed fee to the labor cost for the fourth visit: __$900 + $50 = $950__ for the fourth visit.",
+            "Sum the costs of all four visits: __$350 + $650 + $950 + $950 = $2900__."
+          ]
+        },
+        {
+          "example": "A coffee shop offers a ‘happy hour’ discount: the first 3 hours of work are free, and the remaining hours cost $15/hour. If a barista works 8 hours, 12 hours, and 20 hours, how much do they earn?",
+          "steps": [
+            "First, calculate the total hours worked by the barista: __8__ + __12__ + __20__ = __40__ hours total.",
+            "Break down the 40 hours into the free period and paid period: The first __3__ hours are free.",
+            "Subtract the free hours from the total: __40__ - __3__ = __37__ hours remaining.",
+            "Determine the cost for the remaining hours: Each hour costs $__15__.",
+            "Calculate the total earnings for the paid hours: __37__ hours × $__15__/hour = $__555__.",
+            "Add the free hours' earnings (which is $__0__) to the paid earnings: $__555__ + $__0__ = $__555__ total earnings."
+          ]
+        },
+        {
+          "example": "A data analyst’s hourly rate is $80, but they receive a $20 bonus for every 5 hours worked. Calculate earnings for 7 hours, 14 hours, and 28 hours of work.",
+          "steps": [
+            "Start with the hourly rate: __$80__ per hour worked.",
+            "Calculate base earnings for 7 hours: __7__ × __$80__ = __$560__.",
+            "Determine how many 5-hour blocks are in 7 hours: __7__ ÷ __5__ = __1__ full block (with 2 hours remaining).",
+            "Add the bonus for the full 5-hour block: __$20__ (since only 1 full block exists).",
+            "Total earnings for 7 hours: __$560__ + __$20__ = __$580__.",
+            "Calculate base earnings for 14 hours: __14__ × __$80__ = __$1120__.",
+            "Determine how many 5-hour blocks are in 14 hours: __14__ ÷ __5__ = __2__ full blocks.",
+            "Add the bonus for the 2 full 5-hour blocks: __2__ × __$20__ = __$40__.",
+            "Total earnings for 14 hours: __$1120__ + __$40__ = __$1160__.",
+            "Calculate base earnings for 28 hours: __28__ × __$80__ = __$2240__.",
+            "Determine how many 5-hour blocks are in 28 hours: __28__ ÷ __5__ = __5__ full blocks.",
+            "Add the bonus for the 5 full 5-hour blocks: __5__ × __$20__ = __$100__.",
+            "Total earnings for 28 hours: __$2240__ + __$100__ = __$2340__."
+          ]
+        },
+        {
+          "example": "A car rental company charges $0.05 per minute for the first 30 minutes, then $1.00 per minute. If a driver rents a car for 15 minutes, 45 minutes, and 1 hour, what is the total cost?",
+          "steps": [
+            "First, let’s break down the rental time into segments of 30 minutes each (since pricing changes after the first 30 minutes).",
+            "The driver rents the car for __15__ minutes. Since this is less than 30 minutes, the cost is calculated as: __15__ minutes × $0.05/minute = $__0.75__.",
+            "Next, the driver rents for __45__ minutes. Subtract the first 30 minutes: __45__ - __30__ = __15__ minutes remaining. Cost for these 15 minutes: __15__ × $1.00/minute = $__15.00__.",
+            "Then, the driver rents for __1 hour (60 minutes). Subtract the first 30 minutes: __60__ - __30__ = __30__ minutes remaining. Cost for these 30 minutes: __30__ × $1.00/minute = $__30.00__.",
+            "Now, add the costs from all segments: $__0.75__ + $__15.00__ + $__30.00__ = $__45.75__ total cost."
+          ]
+        },
+        {
+          "example": "A teacher’s hourly rate is $40, but they receive a $10 stipend per day worked. If they teach 3 classes (each 45 minutes) for 5 days, 10 days, and 20 days, how much do they earn?",
+          "steps": [
+            "First, calculate the total number of days worked: __5__ days + __10__ days + __20__ days = __35__ days.",
+            "Determine the total stipend earned: __$10__ per day × __35__ days = __$350__.",
+            "Calculate the total hours worked: Each class is 45 minutes, and there are 3 classes per day. Convert 45 minutes to hours: __45__ minutes ÷ __60__ minutes/hour = __0.75__ hours per class.",
+            "Total hours per day: __3__ classes × __0.75__ hours/class = __2.25__ hours/day.",
+            "Total hours for all days: __2.25__ hours/day × __35__ days = __73.5__ hours.",
+            "Calculate earnings from hourly rate: __$40__/hour × __73.5__ hours = __$2,940__.",
+            "Add the stipend to the hourly earnings: __$2,940__ + __$350__ = __$3,290__ total earnings."
+          ]
+        },
+        {
+          "example": "A landscaping crew charges **$25/hour** for mowing lawns, but they get **$10 per square foot** for trimming hedges. If they spend **6 hours**, **12 hours**, and **24 hours** mowing a **500 sq ft** yard, what is the total cost?",
+          "steps": [
+            "First, calculate the total hours spent mowing: __6__ + __12__ + __24__ = __42__ hours.",
+            "Next, find the total earnings from mowing: __42__ hours × **$25/hour** = **$1050**.",
+            "Calculate earnings from trimming hedges: __500 sq ft__ × **$10/sq ft** = **$5000**.",
+            "Add the earnings from mowing and trimming: **$1050** + **$5000** = **$6050**."
+          ]
+        },
+        {
+          "example": "A software company offers a ‘premium’ support plan: the first 2 hours of troubleshooting are free, and the remaining hours cost $50/hour. If a customer uses 3 hours, 8 hours, and 15 hours of support, how much do they pay?",
+          "steps": [
+            "The customer uses a total of __3__ + __8__ + __15__ = __26__ hours of support combined.",
+            "The first __2__ hours are free.",
+            "Subtract the free hours from the total: __26__ - __2__ = __24__ hours remain.",
+            "The remaining __24__ hours cost $50 per hour.",
+            "Calculate the cost for the remaining hours: __24__ × $50 = $__1200__."
+          ]
+        },
+        {
+          "example": "A farmer’s crop yield is $0.80 per hour of labor, but they pay $15/hour for equipment rental. If they spend 10 hours, 20 hours, and 30 hours working the field, what is the net profit?",
+          "steps": [
+            "First, calculate the total hours worked: __10__ + __20__ + __30__ = __60__ hours.",
+            "Next, calculate total earnings from labor: $0.80/hour × __60__ hours = $__48.00__.",
+            "Calculate total equipment rental cost: $15/hour × __60__ hours = $__900.00__.",
+            "Subtract total costs from total earnings: $__48.00__ - $__900.00__ = -$__852.00__ (net loss)."
+          ]
+        },
+        {
+          "example": "A travel agency charges $0.15 per mile for fuel, but offers a $20 discount for booking flights over 1,000 miles. If a trip covers 800 miles, 1,200 miles, and 1,500 miles, what is the total cost?",
+          "steps": [
+            "Calculate the cost for the 800-mile trip without discount: __0.15__ × __800__ = ____ dollars.",
+            "Check if the 800-mile trip qualifies for the discount: Since 800 miles is **not** over 1,000 miles, no discount applies. Cost remains ____ dollars.",
+            "Calculate the cost for the 1,200-mile trip with discount: __0.15__ × __1,200__ = ____ dollars. Subtract the $20 discount: ____ - __20__ = ____ dollars.",
+            "Calculate the cost for the 1,500-mile trip with discount: __0.15__ × __1,500__ = ____ dollars. Subtract the $20 discount: ____ - __20__ = ____ dollars.",
+            "Add the costs for all trips: ____ (800 miles) + ____ (1,200 miles) + ____ (1,500 miles) = ____ total cost."
+          ]
+        },
+        {
+          "example": "A call center agent earns $12/hour but gets a $3 bonus for every 5 calls answered. If they answer 20 calls, 40 calls, and 80 calls in a day, how much do they earn?",
+          "steps": [
+            "First, calculate the total number of calls answered in the day: __20__ + __40__ + __80__ = __140__ calls.",
+            "Determine how many sets of 5 calls are in 140 calls: __140__ ÷ __5__ = __28__ sets.",
+            "Calculate the total bonus earned: __28__ sets × $3 per set = $__96__.",
+            "Next, calculate the base earnings for 8 hours (assuming standard workday): __8__ hours × $12/hour = $__96__.",
+            "Add the bonus to the base earnings: $__96__ (base) + $__96__ (bonus) = $__192__ total earnings."
+          ]
+        },
+        {
+          "example": "A plumber’s labor rate is $70/hour, but they charge a $100 fixed fee per job. If they work 4 hours, 8 hours, and 12 hours on a job, what is the total cost?",
+          "steps": [
+            "The fixed fee for the job is __$100__.",
+            "Calculate the labor cost for the first 4 hours: __$70__ × __4__ = __$280__.",
+            "Calculate the labor cost for the next 8 hours: __$70__ × __8__ = __$560__.",
+            "Calculate the labor cost for the last 12 hours: __$70__ × __12__ = __$840__.",
+            "Add all labor costs together: __$280__ + __$560__ + __$840__ = __$1,680__.",
+            "Add the fixed fee to the total labor cost: __$1,680__ + __$100__ = __$1,780__."
+          ]
+        },
+        {
+          "example": "A book publisher offers a ‘early-bird’ discount: the first 10 hours of editing are free, and the remaining hours cost $25/hour. If an author spends 12 hours, 18 hours, and 25 hours editing a manuscript, how much do they pay?",
+          "steps": [
+            "First, calculate the total number of editing hours: __12__ + __18__ + __25__ = __55__ hours total.",
+            "The first __10__ hours are free.",
+            "Subtract the free hours from the total: __55__ - __10__ = __45__ hours that cost money.",
+            "The remaining __45__ hours cost $25 per hour.",
+            "Calculate the total cost: __45__ × $25 = $__1,125__"
+          ]
+        },
+        {
+          "example": "A construction crew charges $50/hour for labor, but gets $20 per hour for overtime (after 8 hours). If they work 9 hours, 16 hours, and 24 hours on a project, what is the total cost?",
+          "steps": [
+            "First, identify the base rate: labor is __$50/hour__ for the first 8 hours.",
+            "Next, identify the overtime rate: after 8 hours, overtime is __$20/hour__.",
+            "Break down the 9-hour workday into parts: __8__ hours at labor rate + __1__ hour at overtime rate.",
+            "Calculate cost for 9 hours: (__8__ × $50) + (__1__ × $20) = __$460__.",
+            "Break down the 16-hour workday: __8__ hours at labor rate + __8__ hours at overtime rate.",
+            "Calculate cost for 16 hours: (__8__ × $50) + (__8__ × $20) = __$760__.",
+            "Break down the 24-hour workday: __8__ hours at labor rate + __16__ hours at overtime rate.",
+            "Calculate cost for 24 hours: (__8__ × $50) + (__16__ × $20) = __$1,280__.",
+            "Add the costs for all hours: __$460__ + __$760__ + __$1,280__ = __$2,500__ total cost."
+          ]
+        },
+        {
+          "example": "A musician’s gig fee is $50/hour, but they receive a $100 per-show bonus for performances over 2 hours. If they play for 1 hour, 2 hours, and 3 hours at a venue, how much do they earn?",
+          "steps": [
+            "Calculate earnings for a 1-hour performance: $50/hour × 1 hour = $__50__",
+            "Check if the 1-hour performance qualifies for the bonus: Since it is **not** over 2 hours, no bonus applies.",
+            "Total earnings for 1 hour: $__50__ + $0 = $__50__",
+            "Calculate earnings for a 2-hour performance: $50/hour × 2 hours = $__100__",
+            "Check if the 2-hour performance qualifies for the bonus: Since it is **not** over 2 hours, no bonus applies.",
+            "Total earnings for 2 hours: $__100__ + $0 = $__100__",
+            "Calculate earnings for a 3-hour performance: $50/hour × 3 hours = $__150__",
+            "Check if the 3-hour performance qualifies for the bonus: Since it is **over** 2 hours, add the $100 bonus.",
+            "Total earnings for 3 hours: $__150__ + $__100__ = $__250__",
+            "Sum all earnings from all performances: $__50__ (1h) + $__100__ (2h) + $__250__ (3h) = $__400__"
+          ]
+        },
+        {
+          "example": "A retail store offers a ‘buy 5 hours of labor, get 1 hour free’ deal. If a manager works 10 hours, 15 hours, and 25 hours in a week, how much do they earn after discounts?",
+          "steps": [
+            "The deal is: for every **5 hours worked**, you get **1 hour free**.",
+            "First, calculate the total hours worked in a week: __10__ + __15__ + __25__ = __50__ hours.",
+            "Determine how many full 5-hour groups are in 50 hours: __50 ÷ 5__ = __10__ groups.",
+            "For each group of 5 hours, the manager gets 1 hour free: __10__ groups × 1 hour = __10__ free hours.",
+            "Subtract the free hours from the total hours worked: __50__ - __10__ = __40__ paid hours.",
+            "The manager earns only the paid hours: __40__ hours worked in total."
+          ]
+        }
+      ]
+    },
+    {
+      "sub_topic": "Time to Volume: Hours to Output Production",
+      "explanation": "This sub-topic involves analyzing how time (in hours) directly correlates with measurable output volumes across various real-world scenarios. The focus is on calculating total production based on a given hourly rate, emphasizing efficiency and scaling. Tables serve as a visual tool to represent linear relationships between time and output, enabling quick computation of results for different durations.",
+      "examples": [
+        {
+          "example": "A wind turbine generates 1500 kWh of electricity per hour. Calculate the total energy produced in 3 hours, 7 hours, and 12 hours.",
+          "steps": [
+            "The turbine produces __1500__ kWh of electricity each hour.",
+            "For 3 hours: __1500__ × __3__ = __4500__ kWh total energy.",
+            "For 7 hours: __1500__ × __7__ = __10500__ kWh total energy.",
+            "For 12 hours: __1500__ × __12__ = __18000__ kWh total energy."
+          ]
+        },
+        {
+          "example": "A coffee shop serves 120 customers per hour. What is the total number of customers served in 4 hours, 10 hours, and 20 hours?",
+          "steps": [
+            "The shop serves __120__ customers every hour.",
+            "For 4 hours: __120__ × __4__ = __480__ customers served.",
+            "For 10 hours: __120__ × __10__ = __1,200__ customers served.",
+            "For 20 hours: __120__ × __20__ = __2,400__ customers served."
+          ]
+        },
+        {
+          "example": "A solar panel farm produces 4000 liters of water per hour through desalination. How many liters are produced in 5 hours, 15 hours, and 30 hours?",
+          "steps": [
+            "First, calculate the amount of water produced in 5 hours: __4000__ liters/hour × 5 hours = __20000__ liters.",
+            "Next, calculate the amount of water produced in 15 hours: __4000__ liters/hour × 15 hours = __60000__ liters.",
+            "Then, calculate the amount of water produced in 30 hours: __4000__ liters/hour × 30 hours = __120000__ liters."
+          ]
+        },
+        {
+          "example": "A call center handles 80 calls per hour. What is the total number of calls handled in 2 hours, 6 hours, and 18 hours?",
+          "steps": [
+            "The call center handles __80__ calls every hour.",
+            "For 2 hours: __80__ calls/hour × __2__ hours = __160__ calls.",
+            "For 6 hours: __80__ calls/hour × __6__ hours = __480__ calls.",
+            "For 18 hours: __80__ calls/hour × __18__ hours = __1440__ calls."
+          ]
+        },
+        {
+          "example": "A farmer harvests 120 bushels of wheat per hour. Calculate the total bushels harvested in 3 hours, 8 hours, and 24 hours.",
+          "steps": [
+            "The farmer harvests __120__ bushels per hour.",
+            "For 3 hours: __120__ × __3__ = __360__ bushels harvested.",
+            "For 8 hours: __120__ × __8__ = __960__ bushels harvested.",
+            "For 24 hours: __120__ × __24__ = __2880__ bushels harvested."
+          ]
+        },
+        {
+          "example": "A data center stores 200 GB of data per hour. How many GB are stored in 5 hours, 10 hours, and 40 hours?",
+          "steps": [
+            "Calculate data stored in 1 hour: __200__ GB.",
+            "For 5 hours: __200__ × __5__ = __1000__ GB.",
+            "For 10 hours: __200__ × __10__ = __2000__ GB.",
+            "For 40 hours: __200__ × __40__ = __8000__ GB."
+          ]
+        },
+        {
+          "example": "A printing press outputs 5000 pages per hour. What is the total number of pages printed in 2 hours, 7 hours, and 15 hours?",
+          "steps": [
+            "The press prints __5000__ pages in one hour.",
+            "For 2 hours: __5000__ × __2__ = __10000__ pages.",
+            "For 7 hours: __5000__ × __7__ = __35000__ pages.",
+            "For 15 hours: __5000__ × __15__ = __75000__ pages.",
+            "Now, add the totals together: __10000__ + __35000__ + __75000__ = __115000__ pages."
+          ]
+        },
+        {
+          "example": "A wind farm generates 25000 kWh per hour. Calculate the total energy produced in 4 hours, 12 hours, and 36 hours.",
+          "steps": [
+            "Energy produced in one hour is __25000__ kWh.",
+            "For 4 hours: Multiply __25000__ kWh × __4__ hours = __100000__ kWh.",
+            "For 12 hours: Multiply __25000__ kWh × __12__ hours = __300000__ kWh.",
+            "For 36 hours: Multiply __25000__ kWh × __36__ hours = __900000__ kWh."
+          ]
+        },
+        {
+          "example": "A bakery produces 150 pastries per hour. How many pastries are made in 3 hours, 10 hours, and 25 hours?",
+          "steps": [
+            "First, calculate pastries made in 3 hours: __150__ pastries/hour × 3 hours = __450__ pastries.",
+            "Next, calculate pastries made in 10 hours: __150__ pastries/hour × 10 hours = __1500__ pastries.",
+            "Then, calculate pastries made in 25 hours: __150__ pastries/hour × 25 hours = __3750__ pastries."
+          ]
+        },
+        {
+          "example": "A solar farm generates 30000 kWh per hour. What is the total energy produced in 6 hours, 15 hours, and 48 hours?",
+          "steps": [
+            "Energy produced in one hour is __30000__ kWh.",
+            "For 6 hours: Multiply __30000__ kWh × __6__ hours = __180000__ kWh.",
+            "For 15 hours: Multiply __30000__ kWh × __15__ hours = __450000__ kWh.",
+            "For 48 hours: Multiply __30000__ kWh × __48__ hours = __1440000__ kWh."
+          ]
+        },
+        {
+          "example": "A recycling plant processes 500 tons of waste per hour. Calculate the total tons processed in 2 hours, 9 hours, and 30 hours.",
+          "steps": [
+            "The plant processes __500__ tons per hour.",
+            "For 2 hours: __500__ × __2__ = __1000__ tons processed.",
+            "For 9 hours: __500__ × __9__ = __4500__ tons processed.",
+            "For 30 hours: __500__ × __30__ = __15000__ tons processed."
+          ]
+        },
+        {
+          "example": "A call center handles 1000 calls per hour. How many calls are handled in 5 hours, 12 hours, and 50 hours?",
+          "steps": [
+            "First, calculate calls for 5 hours: __1000__ calls/hour × __5__ hours = __5000__ calls.",
+            "Next, calculate calls for 12 hours: __1000__ calls/hour × __12__ hours = __12000__ calls.",
+            "Then, calculate calls for 50 hours: __1000__ calls/hour × __50__ hours = __50000__ calls."
+          ]
+        },
+        {
+          "example": "A hydroelectric plant produces 12000 kWh per hour. What is the total energy produced in 3 hours, 10 hours, and 40 hours?",
+          "steps": [
+            "The plant produces __12000__ kWh every hour.",
+            "For 3 hours, calculate: __12000__ × __3__ = __36000__ kWh.",
+            "For 10 hours, calculate: __12000__ × __10__ = __120000__ kWh.",
+            "For 40 hours, calculate: __12000__ × __40__ = __480000__ kWh."
+          ]
+        },
+        {
+          "example": "A farm grows 200 kg of vegetables per hour. Calculate the total kg grown in 4 hours, 16 hours, and 64 hours.",
+          "steps": [
+            "The farm grows __200__ kg of vegetables each hour.",
+            "For 4 hours: __200__ × __4__ = __800__ kg of vegetables are grown.",
+            "For 16 hours: __200__ × __16__ = __3200__ kg of vegetables are grown.",
+            "For 64 hours: __200__ × __64__ = __12800__ kg of vegetables are grown."
+          ]
+        },
+        {
+          "example": "A data center stores 50000 MB per hour. How many MB are stored in 7 hours, 20 hours, and 80 hours?",
+          "steps": [
+            "First, calculate the storage for 7 hours: __50000__ MB/hour × 7 hours = __350000__ MB.",
+            "Next, calculate the storage for 20 hours: __50000__ MB/hour × 20 hours = __1000000__ MB.",
+            "Then, calculate the storage for 80 hours: __50000__ MB/hour × 80 hours = __4000000__ MB."
+          ]
+        },
+        {
+          "example": "A factory produces 3000 units per hour. What is the total number of units produced in 5 hours, 12 hours, and 60 hours?",
+          "steps": [
+            "The factory produces __3000__ units every hour.",
+            "For 5 hours, calculate: __5__ × __3000__ = __15000__ units.",
+            "For 12 hours, calculate: __12__ × __3000__ = __36000__ units.",
+            "For 60 hours, calculate: __60__ × __3000__ = __180000__ units."
+          ]
+        },
+        {
+          "example": "A solar panel array generates 18000 kWh per hour. Calculate the total energy produced in 6 hours, 15 hours, and 72 hours.",
+          "steps": [
+            "Energy produced in one hour is __18000__ kWh.",
+            "For 6 hours: Multiply __18000__ kWh × __6__ hours = __108000__ kWh.",
+            "For 15 hours: Multiply __18000__ kWh × __15__ hours = __270000__ kWh.",
+            "For 72 hours: Multiply __18000__ kWh × __72__ hours = __1,296,000__ kWh."
+          ]
+        },
+        {
+          "example": "A printing shop prints 2500 sheets per hour. How many sheets are printed in 3 hours, 10 hours, and 50 hours?",
+          "steps": [
+            "The shop prints __2500__ sheets every hour.",
+            "For 3 hours: __2500__ × __3__ = __7500__ sheets are printed.",
+            "For 10 hours: __2500__ × __10__ = __25000__ sheets are printed.",
+            "For 50 hours: __2500__ × __50__ = __125000__ sheets are printed."
+          ]
+        },
+        {
+          "example": "A wind turbine generates 10000 kWh per hour. What is the total energy produced in 4 hours, 12 hours, and 48 hours?",
+          "steps": [
+            "Energy produced in 1 hour = __10000__ kWh.",
+            "For 4 hours: Multiply __10000__ kWh × __4__ hours = __40000__ kWh.",
+            "For 12 hours: Multiply __10000__ kWh × __12__ hours = __120000__ kWh.",
+            "For 48 hours: Multiply __10000__ kWh × __48__ hours = __480000__ kWh."
+          ]
+        },
+        {
+          "example": "A farm harvests 1800 apples per hour. Calculate the total apples harvested in 5 hours, 15 hours, and 75 hours.",
+          "steps": [
+            "First, calculate apples harvested in 5 hours: __1800__ apples/hour × __5__ hours = __9000__ apples.",
+            "Next, calculate apples harvested in 15 hours: __1800__ apples/hour × __15__ hours = __27000__ apples.",
+            "Then, calculate apples harvested in 75 hours: __1800__ apples/hour × __75__ hours = __135000__ apples."
+          ]
+        }
+      ]
+    },
+    {
+      "sub_topic": "Time to Energy: Hours to Resource Consumption",
+      "explanation": "This sub-topic involves analyzing how time spent on various activities correlates with energy consumption, resource depletion, or sustainability impacts. Tables act as calculators for determining efficiency, cost, or environmental impact over different durations. The focus is on balancing time inputs with measurable outputs (e.g., energy saved, fuel used, or battery life).",
+      "examples": [
+        {
+          "example": "A wind turbine operates at 1200 kWh per hour. Calculate the total energy generated in 7 days (168 hours), 1 month (30 days), and 6 months (180 days).",
+          "steps": [
+            "The turbine generates __1200__ kWh of energy each hour.",
+            "For 7 days (168 hours), calculate: __1200__ × __168__ = ____ kWh total.",
+            "For 1 month (30 days), calculate: __1200__ × __30__ = ____ kWh total.",
+            "For 6 months (180 days), calculate: __1200__ × __180__ = ____ kWh total."
+          ]
+        },
+        {
+          "example": "A farmer’s irrigation system uses 0.5 gallons of water per hour. How much water is consumed in 1 week (7 hours/day × 7 days), 2 weeks, and 3 weeks?",
+          "steps": [
+            "The system uses __0.5__ gallons of water per hour.",
+            "Calculate the total hours in 1 week: __7 hours/day × 7 days = __49__ hours.",
+            "Calculate water used in 1 week: __0.5__ gallons/hour × __49__ hours = __24.5__ gallons.",
+            "Calculate the total hours in 2 weeks: __49__ hours × 2 = __98__ hours.",
+            "Calculate water used in 2 weeks: __0.5__ gallons/hour × __98__ hours = __49__ gallons.",
+            "Calculate the total hours in 3 weeks: __49__ hours × 3 = __147__ hours.",
+            "Calculate water used in 3 weeks: __0.5__ gallons/hour × __147__ hours = __73.5__ gallons."
+          ]
+        },
+        {
+          "example": "A home’s LED lights consume 15 watts each. If 12 lights are used continuously, what is the total energy used in 1 day, 1 week, and 1 month?",
+          "steps": [
+            "Each LED light uses __15__ watts.",
+            "There are __12__ lights running continuously.",
+            "Calculate energy per day: __15__ watts × __12__ lights × __24__ hours = __3,600__ watt-hours.",
+            "Energy for 1 week: __3,600__ watt-hours × __7__ days = __25,200__ watt-hours.",
+            "Energy for 1 month (assume 30 days): __3,600__ watt-hours/day × __30__ days = __108,000__ watt-hours."
+          ]
+        },
+        {
+          "example": "A solar-powered water heater generates 500 liters per hour. How many liters are produced in 24 hours, 48 hours, and 72 hours?",
+          "steps": [
+            "First, calculate liters produced in 1 hour: __500__ liters.",
+            "For 24 hours: Multiply __500__ liters/hour × __24__ hours = __12,000__ liters.",
+            "For 48 hours: Multiply __500__ liters/hour × __48__ hours = __24,000__ liters.",
+            "For 72 hours: Multiply __500__ liters/hour × __72__ hours = __36,000__ liters."
+          ]
+        },
+        {
+          "example": "A commuter train uses 3000 kWh per 100 km. If it runs for 5 hours at 120 km/h, how much energy is consumed?",
+          "steps": [
+            "First, calculate the total distance traveled: speed is 120 km/h and time is 5 hours. Distance = __120__ km/h × __5__ h = __600__ km.",
+            "Next, find the energy consumption rate per kilometer: 3000 kWh is used for 100 km. So, energy per km = __3000__ kWh ÷ __100__ km = __30__ kWh/km.",
+            "Now, multiply the total distance by the energy per kilometer: __600__ km × __30__ kWh/km = __18000__ kWh."
+          ]
+        },
+        {
+          "example": "A drone’s battery lasts 20 minutes per flight. If it flies 3 times daily for 1 hour each, how many flights can it complete in 1 day, 3 days, and 1 week? (Table: Hours → Flights)",
+          "steps": [
+            "First, determine how many minutes are in one flight: __20__ minutes.",
+            "Each flight takes __1__ hour, which is __60__ minutes.",
+            "Calculate how many flights fit into one hour by dividing total flight time by flight duration: __60__ ÷ __20__ = __3__ flights per hour.",
+            "The drone flies __3__ times daily for __1__ hour each, so total flights per day = __3__ flights/hour × __1__ hour = __3__ flights.",
+            "For 3 days: __3__ flights/day × __3__ days = __9__ flights.",
+            "For 1 week (7 days): __3__ flights/day × __7__ days = __21__ flights."
+          ]
+        },
+        {
+          "example": "A greenhouse uses 2000 kWh per hour for heating. If it operates 8 hours a day for 5 days, what is the total energy cost?",
+          "steps": [
+            "First, calculate the energy used per day: __2000__ kWh/hour × __8__ hours/day = __16000__ kWh/day.",
+            "Next, calculate the total energy used over 5 days: __16000__ kWh/day × __5__ days = __80000__ kWh total."
+          ]
+        },
+        {
+          "example": "A solar farm produces 1500 kWh per hour. What is the total energy output in 12 hours, 24 hours, and 48 hours?",
+          "steps": [
+            "The solar farm produces __1500__ kWh each hour.",
+            "For 12 hours, multiply __1500__ by __12__: __1500 × 12 = __18000__ kWh.",
+            "For 24 hours, multiply __1500__ by __24__: __1500 × 24 = __36000__ kWh.",
+            "For 48 hours, multiply __1500__ by __48__: __1500 × 48 = __72000__ kWh."
+          ]
+        },
+        {
+          "example": "A car’s fuel tank holds 50 liters. If it consumes 1 liter per 10 km, how far can it travel in 3 hours at 60 km/h?",
+          "steps": [
+            "The car’s fuel tank can hold __50__ liters of fuel.",
+            "The car uses __1__ liter of fuel for every __10__ kilometers traveled.",
+            "First, calculate how many kilometers the car can travel with the full tank: __50__ liters ÷ __1__ liter/10 km = __500__ kilometers.",
+            "The car’s speed is __60__ km/h. To find out how far it travels in __3__ hours, multiply: __60__ km/h × __3__ h = __180__ kilometers.",
+            "The question asks for the distance it can travel based on fuel consumption, so we use the fuel calculation: __500__ kilometers."
+          ]
+        },
+        {
+          "example": "A data center’s cooling system uses 1500 kWh per hour. If it runs 24/7 for 1 week, what is the total energy consumption?",
+          "steps": [
+            "The system uses __1500__ kWh of energy each hour.",
+            "A week has __7__ days.",
+            "Each day runs for __24__ hours.",
+            "Total hours in one week = __7__ days × __24__ hours/day = __168__ hours.",
+            "Total energy consumption = __1500__ kWh/hour × __168__ hours = __252,000__ kWh."
+          ]
+        },
+        {
+          "example": "A beekeeper’s hive produces 1 liter of honey per 10 hours of foraging. If a beekeeper collects honey 5 hours daily, how much honey is produced in 1 week, 1 week + 1 day, and 1 week + 2 days?",
+          "steps": [
+            "Honey production rate: __1__ liter per __10__ hours of foraging.",
+            "Daily foraging time: __5__ hours.",
+            "Calculate honey produced in one day: __1__ liter ÷ __10__ hours × __5__ hours = __0.5__ liters.",
+            "One week has __7__ days.",
+            "Honey produced in 1 week: __0.5__ liters/day × __7__ days = __3.5__ liters.",
+            "One week + 1 day = __8__ days.",
+            "Honey produced in 1 week + 1 day: __0.5__ liters/day × __8__ days = __4.0__ liters.",
+            "One week + 2 days = __9__ days.",
+            "Honey produced in 1 week + 2 days: __0.5__ liters/day × __9__ days = __4.5__ liters."
+          ]
+        },
+        {
+          "example": "A solar panel array generates 250 kWh per hour. What is the total energy produced in 1 day, 1 week, and 1 month (30 days)? (Table: Hours → Energy)",
+          "steps": [
+            "First, calculate energy produced in **1 day** (24 hours):",
+            "Energy per day = 250 kWh × 24 hours = __5000__ kWh",
+            "Next, calculate energy produced in **1 week** (7 days):",
+            "Energy per week = 5000 kWh × 7 days = __35000__ kWh",
+            "Then, calculate energy produced in **1 month (30 days)** using the daily total:",
+            "Energy per month = 5000 kWh × 30 days = __150000__ kWh"
+          ]
+        },
+        {
+          "example": "A farmer’s tractor uses 10 liters of diesel per hour. If it operates 6 hours daily for 10 days, how much diesel is consumed?",
+          "steps": [
+            "The tractor uses __10__ liters of diesel every hour.",
+            "It operates for __6__ hours each day.",
+            "Calculate the daily fuel usage: __10__ liters/hour × __6__ hours/day = __60__ liters/day.",
+            "The tractor operates for __10__ days.",
+            "Calculate the total fuel used: __60__ liters/day × __10__ days = __600__ liters."
+          ]
+        },
+        {
+          "example": "A smartphone’s battery lasts 12 hours on a single charge. If it’s used 5 hours daily, how many days can it last on one charge? (Table: Hours → Days)",
+          "steps": [
+            "The battery lasts __12__ hours on one charge.",
+            "The smartphone is used for __5__ hours each day.",
+            "To find out how many days it lasts, divide the total battery time by the daily usage: __12__ ÷ __5__ hours/day = __2.4__ days.",
+            "Since we can’t have a fraction of a day in this context, the battery will last for __2__ full days with some remaining charge."
+          ]
+        },
+        {
+          "example": "A wind turbine’s energy output is 800 kWh per hour. What is the total energy produced in 1 day, 1 week, and 1 month (30 days)? (Table: Hours → Energy)",
+          "steps": [
+            "A wind turbine produces __800__ kWh of energy every hour.",
+            "First, calculate energy for 1 day (24 hours): __800__ × __24__ = __19,200__ kWh.",
+            "Next, calculate energy for 1 week (7 days): __19,200__ × __7__ = __130,400__ kWh.",
+            "For 1 month (30 days), calculate energy: __19,200__ × __30__ = __576,000__ kWh."
+          ]
+        },
+        {
+          "example": "A farmer’s irrigation system uses 0.3 gallons per hour. If it runs 4 hours daily for 15 days, how much water is used?",
+          "steps": [
+            "The system uses __0.3__ gallons of water per hour.",
+            "It runs for __4__ hours each day.",
+            "Calculate the daily water usage: __0.3__ × __4__ = __1.2__ gallons per day.",
+            "It runs for __15__ days.",
+            "Calculate the total water used over 15 days: __1.2__ × __15__ = __18__ gallons."
+          ]
+        },
+        {
+          "example": "A drone’s battery lasts 15 minutes per flight. If it flies 4 times daily for 1 hour each, how many flights can it complete in 1 week?",
+          "steps": [
+            "First, determine how many minutes are in one flight: __15__ minutes.",
+            "Next, check how many flights happen in one hour: The drone flies __4__ times daily for 1 hour each.",
+            "Calculate how many minutes the drone can fly in one day: __4__ flights × __15__ minutes/flight = __60__ minutes/day.",
+            "Convert daily flight minutes to hours: __60__ minutes ÷ __60__ minutes/hour = __1__ flight-hour per day.",
+            "Determine the number of flights per day: Since it flies 4 times daily for 1 hour each, it completes __4__ flights per day.",
+            "Calculate total flights in one week: __4__ flights/day × __7__ days/week = __28__ flights/week."
+          ]
+        },
+        {
+          "example": "A home’s solar panels generate 400 kWh per hour. What is the total energy produced in 24 hours, 48 hours, and 96 hours?",
+          "steps": [
+            "Energy produced in one hour = __400__ kWh.",
+            "For 24 hours, multiply the hourly energy by 24: __400__ × __24__ = __9600__ kWh.",
+            "For 48 hours, multiply the hourly energy by 48: __400__ × __48__ = __19200__ kWh.",
+            "For 96 hours, multiply the hourly energy by 96: __400__ × __96__ = __38400__ kWh."
+          ]
+        },
+        {
+          "example": "A car’s fuel efficiency is 20 km/L. If it uses 2 liters per hour, how far does it travel in 3 hours, 6 hours, and 12 hours?",
+          "steps": [
+            "Fuel efficiency is __20 km per liter__ (km/L).",
+            "The car uses __2 liters per hour__.",
+            "Calculate distance for 3 hours: __2 liters/hour × 3 hours = __6 liters__ used.",
+            "Distance covered in 3 hours: __6 liters × 20 km/L = __120 km__.",
+            "Repeat for 6 hours: __2 liters/hour × 6 hours = __12 liters__ used.",
+            "Distance covered in 6 hours: __12 liters × 20 km/L = __240 km__.",
+            "Repeat for 12 hours: __2 liters/hour × 12 hours = __24 liters__ used.",
+            "Distance covered in 12 hours: __24 liters × 20 km/L = __480 km__."
+          ]
+        },
+        {
+          "example": "A beekeeper’s hive produces 2 liters of honey per 15 hours of foraging. If a beekeeper collects honey 3 hours daily, how much honey is produced in 1 week?",
+          "steps": [
+            "First, find out how much honey is produced in one 15-hour period: __2__ liters.",
+            "Next, determine how many 15-hour periods are in one day when the beekeeper works for __3__ hours: __15__ ÷ __3__ = __5__ periods.",
+            "Calculate honey produced in one day: __2__ liters × __5__ periods = __10__ liters.",
+            "Determine how many days are in one week: __7__ days.",
+            "Finally, calculate total honey produced in one week: __10__ liters × __7__ days = __70__ liters."
+          ]
+        },
+        {
+          "example": "A data center’s energy use is 5000 kWh per hour. What is the total energy consumption in 1 day, 1 week, and 1 month (30 days)? (Table: Hours → Energy)",
+          "steps": [
+            "Energy use is __5000__ kWh per hour.",
+            "Calculate energy for 1 day (24 hours): __5000__ × __24__ = __120,000__ kWh.",
+            "Calculate energy for 1 week (7 days): __120,000__ × __7__ = __840,000__ kWh.",
+            "Calculate energy for 1 month (30 days): __120,000__ × __30__ = __3,600,000__ kWh."
+          ]
+        }
+      ]
+    },
+    {
+      "sub_topic": "Time to Accuracy: Hours to Precision in Learning",
+      "explanation": "This sub-topic explores how cumulative time invested in learning activities correlates with precision and mastery of a skill. It emphasizes measuring improvement over time, particularly through tables that reveal patterns such as linear growth (consistent practice), exponential growth (intensive sessions), or diminishing returns (plateaus). The core idea is that time is a measurable tool for assessing skill development, where structured practice sessions can lead to measurable accuracy improvements over time.",
+      "examples": [
+        {
+          "example": "A data scientist trains for 6 hours weekly on coding algorithms. How many hours does she spend in 1 month, 3 months, and 12 months?",
+          "steps": [
+            "First, determine how many weeks are in 1 month. Typically, we use __4__ weeks (assuming 4 weeks/month for simplicity).",
+            "Calculate total training hours for 1 month: __6__ hours/week × __4__ weeks = __24__ hours.",
+            "For 3 months: __24__ hours/month × __3__ months = __72__ hours.",
+            "For 12 months: __24__ hours/month × __12__ months = __288__ hours."
+          ]
+        },
+        {
+          "example": "A painter dedicates 2 hours daily to sketching. What is the total time spent in 1 week, 2 months, and 5 months?",
+          "steps": [
+            "A painter works for __2__ hours each day.",
+            "First, calculate time spent in 1 week (7 days): __2__ hours/day × __7__ days = __14__ hours.",
+            "Next, calculate time spent in 2 months (assuming 30 days/month): __2__ hours/day × __30__ days/month × __2__ months = __120__ hours.",
+            "Then, calculate time spent in 5 months (using the same 30 days/month assumption): __2__ hours/day × __30__ days/month × __5__ months = __300__ hours.",
+            "Add all the times together: __14__ hours + __120__ hours + __300__ hours = __434__ hours total."
+          ]
+        },
+        {
+          "example": "A pilot completes 10 hours of flight training per month. How many hours does she accumulate in 6 months, 12 months, and 24 months?",
+          "steps": [
+            "Each month, the pilot trains for __10__ hours.",
+            "For 6 months, calculate: __10__ × __6__ = __60__ hours.",
+            "For 12 months, calculate: __10__ × __12__ = __120__ hours.",
+            "For 24 months, calculate: __10__ × __24__ = __240__ hours."
+          ]
+        },
+        {
+          "example": "A software engineer practices debugging for 4 hours daily. What is the total debugging time in 10 days, 30 days, and 90 days?",
+          "steps": [
+            "The engineer practices debugging for __4__ hours each day.",
+            "Calculate the total time for __10__ days: __4__ × __10__ = __40__ hours.",
+            "Calculate the total time for __30__ days: __4__ × __30__ = __120__ hours.",
+            "Calculate the total time for __90__ days: __4__ × __90__ = __360__ hours."
+          ]
+        },
+        {
+          "example": "A chess grandmaster reviews games for 3 hours per week. How many hours does she spend in 4 weeks, 8 weeks, and 1 year?",
+          "steps": [
+            "The grandmaster reviews games for __3__ hours each week.",
+            "For 4 weeks, calculate: __3__ hours/week × __4__ weeks = __12__ hours.",
+            "For 8 weeks, calculate: __3__ hours/week × __8__ weeks = __24__ hours.",
+            "A year has __52__ weeks. Calculate for 1 year: __3__ hours/week × __52__ weeks = __156__ hours."
+          ]
+        },
+        {
+          "example": "A chef trains for 5 hours daily on knife skills. What is the total training time in 5 days, 15 days, and 60 days?",
+          "steps": [
+            "Daily training time is __5__ hours.",
+            "For 5 days: __5__ hours/day × __5__ days = __25__ hours total.",
+            "For 15 days: __5__ hours/day × __15__ days = __75__ hours total.",
+            "For 60 days: __5__ hours/day × __60__ days = __300__ hours total."
+          ]
+        },
+        {
+          "example": "A mathematician solves problems for 2 hours nightly. How many hours does she spend in 1 week, 4 weeks, and 10 weeks?",
+          "steps": [
+            "A mathematician solves problems for __2__ hours each night.",
+            "There are __7__ nights in one week (since a week has 7 days).",
+            "For 1 week, she spends __2__ × __7__ = __14__ hours solving problems.",
+            "For 4 weeks, she spends __14__ × __4__ = __56__ hours solving problems.",
+            "For 10 weeks, she spends __14__ × __10__ = __140__ hours solving problems."
+          ]
+        },
+        {
+          "example": "A musician practices scales for 1 hour daily. What is the total practice time in 30 days, 90 days, and 365 days?",
+          "steps": [
+            "Each day, the musician practices for __1__ hour.",
+            "To find the total practice time in 30 days, multiply __1__ hour/day by __30__ days: __1__ × __30__ = __30__ hours.",
+            "For 90 days, repeat the multiplication: __1__ × __90__ = __90__ hours.",
+            "For 365 days, calculate again: __1__ × __365__ = __365__ hours."
+          ]
+        },
+        {
+          "example": "A mechanic spends 3 hours per week on maintenance. How many hours does she spend in 2 months, 6 months, and 2 years?",
+          "steps": [
+            "First, determine the number of weeks in 2 months. Since 1 month ≈ 4 weeks, __2 months__ ≈ __8 weeks__.",
+            "Calculate hours for 2 months: __3 hours/week__ × __8 weeks__ = __24 hours__.",
+            "Next, determine the number of weeks in 6 months. Since 1 month ≈ 4 weeks, __6 months__ ≈ __24 weeks__.",
+            "Calculate hours for 6 months: __3 hours/week__ × __24 weeks__ = __72 hours__.",
+            "Now, determine the number of weeks in 2 years. There are __52 weeks/year__, so __2 years__ = __104 weeks__.",
+            "Calculate hours for 2 years: __3 hours/week__ × __104 weeks__ = __312 hours__."
+          ]
+        },
+        {
+          "example": "A linguist studies vocabulary for 1.5 hours daily. What is the total study time in 1 month, 3 months, and 12 months?",
+          "steps": [
+            "First, determine how many days are in 1 month. Assume __30__ days (for simplicity).",
+            "Calculate daily study time: __1.5__ hours.",
+            "Total study time for 1 month: __1.5__ hours/day × __30__ days = __45__ hours.",
+            "For 3 months: __45__ hours × __3__ = __135__ hours.",
+            "For 12 months: __45__ hours × __12__ = __540__ hours."
+          ]
+        },
+        {
+          "example": "A software tester performs 5 hours of testing weekly. How many hours does she spend in 2 weeks, 4 weeks, and 16 weeks?",
+          "steps": [
+            "The tester works __5__ hours each week.",
+            "For 2 weeks, calculate: __5__ hours/week × __2__ weeks = __10__ hours.",
+            "For 4 weeks, calculate: __5__ hours/week × __4__ weeks = __20__ hours.",
+            "For 16 weeks, calculate: __5__ hours/week × __16__ weeks = __80__ hours."
+          ]
+        },
+        {
+          "example": "A gardener practices pruning for 2 hours weekly. What is the total time spent in 3 months, 6 months, and 2 years?",
+          "steps": [
+            "First, determine the number of weeks in 3 months. Assume 4 weeks per month: __4__ weeks × __3__ months = __12__ weeks.",
+            "Calculate total time for 3 months: __2__ hours × __12__ weeks = __24__ hours.",
+            "Next, determine the number of weeks in 6 months: __4__ weeks × __6__ months = __24__ weeks.",
+            "Calculate total time for 6 months: __2__ hours × __24__ weeks = __48__ hours.",
+            "Determine the number of weeks in 2 years. Assume 52 weeks per year: __52__ weeks × __2__ years = __104__ weeks.",
+            "Calculate total time for 2 years: __2__ hours × __104__ weeks = __208__ hours."
+          ]
+        },
+        {
+          "example": "A pilot trains for 15 hours per month. How many hours does she accumulate in 6 months, 12 months, and 24 months?",
+          "steps": [
+            "First, calculate the total training hours for 1 month: __15__ hours.",
+            "For 6 months, multiply the monthly hours by 6: __15__ × __6__ = __90__ hours.",
+            "For 12 months, multiply the monthly hours by 12: __15__ × __12__ = __180__ hours.",
+            "For 24 months, multiply the monthly hours by 24: __15__ × __24__ = __360__ hours."
+          ]
+        },
+        {
+          "example": "A graphic designer spends 3 hours daily on design refinement. What is the total time spent in 10 days, 30 days, and 90 days?",
+          "steps": [
+            "The designer works for __3__ hours each day.",
+            "To find the total time for 10 days, multiply __3__ hours/day by __10__ days: __3__ × __10__ = __30__ hours.",
+            "For 30 days, multiply again: __3__ hours/day × __30__ days = __90__ hours.",
+            "For 90 days, multiply: __3__ hours/day × __90__ days = __270__ hours."
+          ]
+        },
+        {
+          "example": "A historian researches for 4 hours weekly. How many hours does she spend in 4 weeks, 8 weeks, and 1 year?",
+          "steps": [
+            "First, calculate the total hours for 1 week: __4__ hours.",
+            "For 4 weeks: __4__ hours/week × __4__ weeks = __16__ hours.",
+            "For 8 weeks: __4__ hours/week × __8__ weeks = __32__ hours.",
+            "For 1 year (assuming 52 weeks): __4__ hours/week × __52__ weeks = __208__ hours."
+          ]
+        },
+        {
+          "example": "A chef trains for 7 hours daily on plating techniques. What is the total training time in 5 days, 15 days, and 60 days?",
+          "steps": [
+            "Daily training time is __7__ hours.",
+            "For 5 days: __7__ × __5__ = __35__ hours total.",
+            "For 15 days: __7__ × __15__ = __105__ hours total.",
+            "For 60 days: __7__ × __60__ = __420__ hours total."
+          ]
+        },
+        {
+          "example": "A mathematician solves problems for 3 hours nightly. How many hours does she spend in 1 week, 4 weeks, and 10 weeks?",
+          "steps": [
+            "First, calculate the number of hours worked in one night: __3__ hours.",
+            "Determine how many nights are in one week: __7__ nights.",
+            "Multiply the nightly hours by the number of nights in one week: __3__ × __7__ = __21__ hours per week.",
+            "For 4 weeks, multiply the weekly hours by 4: __21__ × __4__ = __84__ hours in 4 weeks.",
+            "For 10 weeks, multiply the weekly hours by 10: __21__ × __10__ = __210__ hours in 10 weeks."
+          ]
+        },
+        {
+          "example": "A musician practices for 1.5 hours daily. What is the total practice time in 30 days, 90 days, and 365 days?",
+          "steps": [
+            "Daily practice time is __1.5__ hours.",
+            "Calculate total practice time for __30__ days: __1.5__ × __30__ = __45__ hours.",
+            "Calculate total practice time for __90__ days: __1.5__ × __90__ = __135__ hours.",
+            "Calculate total practice time for __365__ days: __1.5__ × __365__ = __547.5__ hours."
+          ]
+        },
+        {
+          "example": "A mechanic spends 4 hours per week on diagnostics. How many hours does she spend in 2 months, 6 months, and 2 years?",
+          "steps": [
+            "First, determine the number of weeks in 2 months. Since 1 month ≈ 4 weeks, __2 months__ ≈ __8 weeks__.",
+            "Calculate hours for 2 months: __4 hours/week__ × __8 weeks__ = __32 hours__.",
+            "Next, determine the number of weeks in 6 months. Since 1 month ≈ 4 weeks, __6 months__ ≈ __24 weeks__.",
+            "Calculate hours for 6 months: __4 hours/week__ × __24 weeks__ = __96 hours__.",
+            "Now, determine the number of weeks in 2 years. There are 52 weeks in 1 year, so __2 years__ = __104 weeks__.",
+            "Calculate hours for 2 years: __4 hours/week__ × __104 weeks__ = __416 hours__."
+          ]
+        },
+        {
+          "example": "A linguist studies grammar for 2 hours daily. What is the total study time in 1 month, 3 months, and 12 months?",
+          "steps": [
+            "A day has __30__ days (assuming a 30-day month for simplicity).",
+            "Daily study time is __2__ hours.",
+            "Calculate total study time for 1 month: __2__ hours/day × __30__ days = __60__ hours.",
+            "For 3 months: __60__ hours/month × __3__ months = __180__ hours.",
+            "For 12 months: __60__ hours/month × __12__ months = __720__ hours."
+          ]
+        }
+      ]
+    }
+  ]
+}
