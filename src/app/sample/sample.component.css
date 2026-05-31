@@ -1,0 +1,609 @@
+/* sample.component.css */
+
+:host {
+  display: block;
+  min-height: 100vh;
+  background: radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.04) 0px, transparent 50%),
+    radial-gradient(at 50% 0%, rgba(236, 72, 153, 0.02) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(139, 92, 246, 0.04) 0px, transparent 50%),
+    #f8fafc;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.topic-banner {
+  background-color: #ffffff;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  color: #0f172a;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 800;
+  padding: 28px 32px;
+  border-radius: 16px;
+  margin-bottom: 32px;
+  text-align: left;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.01), 0 10px 30px -10px rgba(99, 102, 241, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  overflow: hidden;
+  letter-spacing: -0.5px;
+}
+
+.topic-banner::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  background: linear-gradient(to bottom, #4f46e5, #818cf8);
+}
+
+.sections-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.section-panel {
+  border-radius: 14px !important;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(226, 232, 240, 0.8) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.01),
+    0 10px 25px -5px rgba(99, 102, 241, 0.03),
+    0 8px 16px -8px rgba(99, 102, 241, 0.03) !important;
+  margin-bottom: 4px;
+  backdrop-filter: blur(8px);
+  transition: all 0.2s ease;
+}
+
+.section-header {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #f1f5f9;
+  transition: background-color 0.2s ease;
+  min-height: 64px !important;
+}
+
+.section-header:hover {
+  background: linear-gradient(to right, #ffffff, #f8fafc) !important;
+}
+
+.section-header mat-panel-title {
+  color: #0f172a !important;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.section-description {
+  padding: 20px 24px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #475569;
+  /* Soft Slate */
+  background-color: #fafbfd;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.examples-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 24px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.example-card {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 12px !important;
+  overflow: hidden;
+  background-color: #ffffff;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.01),
+    0 8px 20px -6px rgba(99, 102, 241, 0.02),
+    0 6px 12px -6px rgba(99, 102, 241, 0.02);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.example-card:hover {
+  border-color: #cbd5e1;
+  box-shadow: 0 4px 16px rgba(99, 102, 241, 0.06);
+}
+
+mat-card-header {
+  background: linear-gradient(to right, #f8fafc, #ffffff) !important;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 16px 20px !important;
+  position: relative;
+}
+
+mat-card-header::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: linear-gradient(to bottom, #6366f1, #8b5cf6);
+}
+
+mat-card-title {
+  color: #334155 !important;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 0.95rem !important;
+  line-height: 1.5 !important;
+  font-weight: 600 !important;
+}
+
+mat-card-content {
+  padding: 24px 20px !important;
+}
+
+.math-problem {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.problem-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  line-height: 2.4;
+  padding: 12px 18px;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  border-left: 3px solid #e2e8f0;
+  transition: all 0.2s ease;
+}
+
+.problem-line:hover {
+  background-color: #f1f5f9;
+  border-left-color: #cbd5e1;
+}
+
+.math-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.025rem;
+  color: #334155;
+  font-weight: 500;
+  letter-spacing: -0.1px;
+}
+
+/* INPUT WRAPPER */
+.input-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+  margin: 0 2px;
+}
+
+/* INPUT FIELD */
+.math-input-field {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.math-input-field input {
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.975rem;
+  color: #0f172a;
+}
+
+/* HINT */
+.hint-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  color: #64748b;
+  font-size: 11px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: help;
+  user-select: none;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hint-circle:hover {
+  transform: scale(1.1) translateY(-1px);
+  background-color: #eef2ff;
+  border-color: #a5b4fc;
+  color: #4f46e5;
+  box-shadow: 0 2px 8px rgba(79, 70, 229, 0.15);
+}
+
+/* HIDE MAT SUBSCRIPT */
+::ng-deep .mat-mdc-form-field-subscript-wrapper {
+  display: none !important;
+}
+
+::ng-deep .mat-mdc-form-field-flex {
+  align-items: center !important;
+}
+
+::ng-deep .mat-mdc-form-field-infix {
+  min-height: 38px !important;
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+}
+
+::ng-deep .mat-mdc-text-field-wrapper {
+  background-color: #ffffff !important;
+  border-radius: 8px !important;
+  transition: all 0.2s ease;
+}
+
+::ng-deep .mdc-text-field--outlined {
+  --mdc-outlined-text-field-outline-color: #cbd5e1 !important;
+  --mdc-outlined-text-field-focus-outline-color: #4f46e5 !important;
+  --mdc-outlined-text-field-hover-outline-color: #94a3b8 !important;
+}
+
+/* ====================================
+   🔥 INTERACTIVE GLOWING INPUT HALOS
+==================================== */
+::ng-deep .math-input-field .mdc-text-field--outlined:focus-within {
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.12) !important;
+  border-radius: 8px !important;
+}
+
+/* ✅ CORRECT STATE */
+::ng-deep .math-input-field.is-correct .mdc-text-field--outlined {
+  --mdc-outlined-text-field-outline-color: #22c55e !important;
+  --mdc-outlined-text-field-focus-outline-color: #22c55e !important;
+  --mdc-outlined-text-field-hover-outline-color: #22c55e !important;
+}
+
+::ng-deep .math-input-field.is-correct .mat-mdc-text-field-wrapper {
+  background-color: #f0fdf4 !important;
+}
+
+::ng-deep .math-input-field.is-correct input {
+  color: #16a34a !important;
+}
+
+::ng-deep .math-input-field.is-correct .mdc-notched-outline__leading,
+::ng-deep .math-input-field.is-correct .mdc-notched-outline__notch,
+::ng-deep .math-input-field.is-correct .mdc-notched-outline__trailing {
+  border-color: #22c55e !important;
+}
+
+::ng-deep .math-input-field.is-correct .mdc-text-field--outlined:focus-within {
+  box-shadow: 0 0 0 4px rgba(34, 197, 94, 0.15) !important;
+}
+
+/* ❌ INCORRECT STATE */
+::ng-deep .math-input-field.mat-form-field-invalid .mdc-text-field--outlined {
+  --mdc-outlined-text-field-outline-color: #ef4444 !important;
+  --mdc-outlined-text-field-focus-outline-color: #ef4444 !important;
+  --mdc-outlined-text-field-hover-outline-color: #ef4444 !important;
+}
+
+::ng-deep .math-input-field.mat-form-field-invalid .mat-mdc-text-field-wrapper {
+  background-color: #fef2f2 !important;
+}
+
+::ng-deep .math-input-field.mat-form-field-invalid input {
+  color: #dc2626 !important;
+}
+
+::ng-deep .math-input-field.mat-form-field-invalid .mdc-notched-outline__leading,
+::ng-deep .math-input-field.mat-form-field-invalid .mdc-notched-outline__notch,
+::ng-deep .math-input-field.mat-form-field-invalid .mdc-notched-outline__trailing {
+  border-color: #ef4444 !important;
+}
+
+::ng-deep .math-input-field.mat-form-field-invalid .mdc-text-field--outlined:focus-within {
+  box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.15) !important;
+}
+
+/* ERROR HINT */
+.error-hint {
+  color: #ef4444;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+/* RESPONSIVE CSS */
+@media (max-width: 900px) {
+  .topic-banner {
+    font-size: 1.5rem;
+    padding: 22px 24px;
+    margin-bottom: 24px;
+  }
+
+  .examples-grid {
+    padding: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  :host {
+    padding: 6px 2px;
+  }
+
+  .topic-banner {
+    font-size: 1.2rem;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+  }
+
+  .section-description {
+    padding: 14px 16px;
+  }
+
+  .examples-grid {
+    padding: 6px !important;
+    gap: 12px;
+  }
+
+  mat-card-content {
+    padding: 12px 8px !important;
+  }
+
+  .math-text {
+    font-size: 0.925rem;
+  }
+
+  .problem-line {
+    padding: 8px 10px;
+    gap: 4px;
+    line-height: 2.0;
+  }
+}
+
+/* Placeholder Styling */
+::ng-deep .math-input-field input::placeholder {
+  color: #474849 !important;
+  /* Slate 400 - beautifully light and elegant */
+  opacity: 0.5 !important;
+  font-weight: 500 !important;
+}
+
+::ng-deep .math-input-field.is-correct input::placeholder {
+  color: #86efac !important;
+  /* Soft green */
+  opacity: 0.8 !important;
+}
+
+::ng-deep .math-input-field.mat-form-field-invalid input::placeholder {
+  color: #fca5a5 !important;
+  /* Soft red */
+  opacity: 0.6 !important;
+}
+
+/* ==========================================================================
+   💎 PREMIUM 'SAVE AS PDF' BUTTON & SPACING
+   ========================================================================== */
+.banner-spacer {
+  flex: 1 1 auto;
+}
+
+.save-pdf-btn {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%) !important;
+  color: #ffffff !important;
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  font-weight: 600 !important;
+  border-radius: 10px !important;
+  padding: 0 18px !important;
+  height: 42px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.2) !important;
+  transition: all 0.2s ease !important;
+  border: none !important;
+  flex-shrink: 0;
+}
+
+.save-pdf-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(79, 70, 229, 0.3) !important;
+  background: linear-gradient(135deg, #4338ca 0%, #6d28d9 100%) !important;
+}
+
+.save-pdf-btn:active {
+  transform: translateY(0);
+}
+
+.save-pdf-btn .btn-icon {
+  margin: 0 !important;
+  font-size: 20px !important;
+  width: 20px !important;
+  height: 20px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Small screen optimization: compress text, show icon only if extremely narrow */
+@media (max-width: 650px) {
+  .save-pdf-btn .btn-text {
+    display: none !important;
+  }
+
+  .save-pdf-btn {
+    padding: 0 !important;
+    width: 42px !important;
+    justify-content: center !important;
+  }
+}
+
+/* ==========================================================================
+   🖨️ SECTION-SPECIFIC PRINT CUSTOMIZATIONS
+   ========================================================================== */
+@media print {
+
+  /* Hide the Save as PDF button and spacer within the banner */
+  .save-pdf-btn,
+  .banner-spacer {
+    display: none !important;
+  }
+
+  /* Allow the section panel to break across pages, but style it nicely */
+  .section-panel {
+    display: block !important;
+    position: static !important;
+    margin-bottom: 24px !important;
+    border: 1px solid #cbd5e1 !important;
+    box-shadow: none !important;
+    background-color: #ffffff !important;
+    border-radius: 14px !important;
+    overflow: visible !important; /* Allow panel to break across pages */
+    page-break-inside: auto !important;
+    break-inside: auto !important;
+    page-break-before: auto !important;
+    break-before: auto !important;
+    page-break-after: auto !important;
+    break-after: auto !important;
+  }
+
+  /* Force internal wrappers to be visible and breakable, avoiding block shifting */
+  ::ng-deep .mat-expansion-panel-content,
+  ::ng-deep .mat-expansion-panel-body,
+  .sections-wrapper,
+  .examples-grid {
+    overflow: visible !important;
+    display: block !important;
+    height: auto !important;
+    position: static !important;
+    page-break-inside: auto !important;
+    break-inside: auto !important;
+    page-break-before: auto !important;
+    break-before: auto !important;
+    page-break-after: auto !important;
+    break-after: auto !important;
+  }
+
+  /* 1. COMPACT HEADERS AND DESCRIPTION */
+  .topic-banner {
+    padding: 12px 16px !important;
+    margin-bottom: 16px !important;
+    font-size: 1.35rem !important;
+    border-radius: 10px !important;
+    box-shadow: none !important;
+  }
+
+  .section-header {
+    min-height: 48px !important;
+  }
+
+  ::ng-deep .mat-expansion-panel-header-title {
+    font-size: 0.95rem !important;
+  }
+
+  .section-description {
+    padding: 10px 16px !important;
+    font-size: 0.85rem !important;
+    line-height: 1.4 !important;
+    border-bottom: 1px solid #e2e8f0 !important;
+  }
+
+  /* Override browser default 'break-after: avoid' on headers to allow subtopic to start printing
+     immediately even if its first cards have to be pushed to the next page. */
+  .section-header,
+  ::ng-deep mat-expansion-panel-header,
+  ::ng-deep .mat-expansion-panel-header,
+  .section-description {
+    page-break-after: auto !important;
+    break-after: auto !important;
+    page-break-inside: auto !important;
+    break-inside: auto !important;
+    page-break-before: auto !important;
+    break-before: auto !important;
+  }
+
+  /* Don't print the collapse/expand indicator arrow */
+  ::ng-deep .mat-expansion-indicator {
+    display: none !important;
+  }
+
+  /* 2. COMPACT EXAMPLES GRID AND CARDS */
+  .examples-grid {
+    padding: 12px !important;
+    gap: 12px !important;
+  }
+
+  .example-card {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    border: 1px solid #e2e8f0 !important;
+    box-shadow: none !important;
+    background-color: #ffffff !important;
+    border-radius: 10px !important;
+    margin-bottom: 8px !important;
+  }
+
+  mat-card-header {
+    padding: 10px 14px !important;
+  }
+
+  mat-card-content {
+    padding: 12px 14px !important;
+  }
+
+  /* 3. COMPACT PROBLEM LINES */
+  .problem-line {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    padding: 6px 12px !important;
+    gap: 6px !important;
+    line-height: 1.8 !important;
+    background-color: #f8fafc !important;
+    border-left: 3px solid #cbd5e1 !important;
+    border-radius: 6px !important;
+  }
+
+  /* Ensure inputs have transparent borders or nice light borders and show values clearly */
+  ::ng-deep .mat-mdc-text-field-wrapper {
+    background-color: #ffffff !important;
+    border-radius: 6px !important;
+  }
+
+  ::ng-deep .math-input-field.is-correct .mat-mdc-text-field-wrapper {
+    background-color: #f0fdf4 !important;
+  }
+
+  ::ng-deep .math-input-field.mat-form-field-invalid .mat-mdc-text-field-wrapper {
+    background-color: #fef2f2 !important;
+  }
+
+  ::ng-deep .math-input-field input {
+    color: #0f172a !important;
+  }
+
+  /* Hide shadows which can print as weird dark solid grays */
+  .topic-banner,
+  .section-panel,
+  .example-card {
+    box-shadow: none !important;
+  }
+
+  /* Reset local component host layout */
+  :host {
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+    position: static !important;
+    background: none !important;
+  }
+}

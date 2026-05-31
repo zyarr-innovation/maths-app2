@@ -1,0 +1,254 @@
+===== FILE: src/app/app.component.css =====
+
+
+=====================================================
+
+
+===== FILE: src/app/app.config.ts =====
+import { ApplicationConfig, provideZoneChangeDetection } from '@angular/core';
+import { provideRouter } from '@angular/router';
+import { provideHttpClient } from '@angular/common/http';
+
+import { routes } from './app.routes';
+
+export const appConfig: ApplicationConfig = {
+  providers: [
+    provideZoneChangeDetection({ eventCoalescing: true }), 
+    provideRouter(routes),
+    provideHttpClient(),
+  ]
+};
+
+
+=====================================================
+
+
+===== FILE: src/app/app.component.ts =====
+import { Component, OnInit } from '@angular/core';
+import { RouterOutlet, ActivatedRoute } from '@angular/router';
+import { SampleComponent } from './sample/sample.component';
+import { ProblemParserService, Section } from './problem_parser.service';
+
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [RouterOutlet, SampleComponent], // This will work now
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css'
+})
+export class AppComponent implements OnInit {
+  workbookSections: Section[] = [];
+
+  constructor(private parserService: ProblemParserService,
+    private route: ActivatedRoute
+  ) {}
+
+  ngOnInit() {
+    // 3. Listen for changes in the address line parameters
+    this.route.queryParams.subscribe(params => {
+      const fileId = params['file']; // Checks for ?file=X
+      
+      // 4. Determine which file to load
+      // If ?file=2 is in URL, use answers2.txt, otherwise default to answers.txt
+      let fileName = 'guided_workbook_answers.txt';
+      
+      if (fileId) {
+        fileName = `guided_workbook_answers${fileId}.txt`;
+      }
+
+      this.loadWorkbook(fileName);
+    });
+  }
+
+  private loadWorkbook(fileName: string) {
+    this.parserService.getWorkbookData(fileName).subscribe({
+      next: (data) => this.workbookSections = data,
+      error: (err) => {
+      console.error(`File ${fileName} not found or inaccessible, loading default.`);
+        this.loadWorkbook('guided_workbook_answers.txt');
+        this.workbookSections = []
+      }
+    });
+  }
+}
+
+=====================================================
+
+
+===== FILE: src/app/app.routes.ts =====
+import { Routes } from '@angular/router';
+
+export const routes: Routes = [];
+
+
+=====================================================
+
+
+===== FILE: src/app/problem_parser.service.ts =====
+import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
+import { map, Observable } from 'rxjs';
+
+export interface Example {
+  id: string;
+  description: string;
+  lines: string[];
+}
+
+export interface Section {
+  title: string;
+  level: number;
+  examples: Example[];
+}
+
+@Injectable({
+  providedIn: 'root'
+})
+export class ProblemParserService {
+  constructor(private http: HttpClient) { }
+  // This function reads the file and pipes it through the parser
+  getWorkbookData(filePath: string): Observable<Section[]> {
+    return this.http.get(filePath, { responseType: 'text' }).pipe(
+      map(rawText => this.parseText(rawText))
+    );
+  }
+
+  parseText(rawText: string): Section[] {
+    const sections: Section[] = [];
+    const lines = rawText.split('\n');
+
+    let currentSection: Section | null = null;
+    let currentExample: Example | null = null;
+
+    for (let line of lines) {
+      // 1. Create a trimmed version for identification logic ONLY
+      // We use trimEnd() for the actual storage to preserve leading tabs/spaces
+      const trimmedLine = line.trim();
+
+      // Skip horizontal separators or completely empty lines
+      if (trimmedLine.startsWith('____')) continue;
+
+      // 2. Identify Headings (e.g., # Header)
+      if (trimmedLine.startsWith('#')) {
+        const match = trimmedLine.match(/^(#+)\s*(.*)/);
+        if (match) {
+          currentSection = {
+            title: match[2],
+            level: match[1].length,
+            examples: []
+          };
+          sections.push(currentSection);
+
+          // Start an 'Intro' block to catch text appearing before the first 'Step'
+          currentExample = {
+            id: 'Intro',
+            description: 'Problem Description',
+            lines: []
+          };
+          currentSection.examples.push(currentExample);
+        }
+      }
+
+      // 3. Identify Example or Step start (e.g., "Step 1: ...")
+      // We use the trimmed version to check the prefix
+      else if (/^(ex|step)/i.test(trimmedLine)) {
+        const separatorIndex = line.indexOf(':');
+
+        if (separatorIndex !== -1) {
+          currentExample = {
+            id: line.substring(0, separatorIndex).trim(),
+            description: line.substring(separatorIndex + 1).trim(),
+            lines: []
+          };
+        } else {
+          // Fallback if there is no colon
+          currentExample = {
+            id: trimmedLine,
+            description: '',
+            lines: []
+          };
+        }
+
+        if (currentSection) {
+          currentSection.examples.push(currentExample);
+        }
+      }
+
+      // 4. Content Lines
+      else if (currentExample) {
+        /* CRITICAL CHANGE: 
+           We push the original 'line' (not trimmedLine) to preserve 
+           the tab characters (\t) and leading spaces for alignment.
+           We use trimEnd() just to clean up the trailing newline artifacts.
+        */
+        currentExample.lines.push(line.trimEnd());
+      }
+    }
+
+    // Final Clean up: Remove 'Intro' blocks if they remained empty
+    sections.forEach(s => {
+      s.examples = s.examples.filter(e => e.id !== 'Intro' || e.lines.length > 0);
+    });
+
+    return sections;
+  }
+}
+
+=====================================================
+
+
+===== FILE: src/app/app.component.html =====
+@if (workbookSections.length > 0) {
+  <app-sample [sections]="workbookSections"></app-sample>
+} @else {
+  <p>Loading workbook...</p>
+}
+
+<router-outlet />
+
+=====================================================
+
+
+===== FILE: src/main.ts =====
+import { bootstrapApplication } from '@angular/platform-browser';
+import { appConfig } from './app/app.config';
+import { AppComponent } from './app/app.component';
+
+bootstrapApplication(AppComponent, appConfig)
+  .catch((err) => console.error(err));
+
+
+=====================================================
+
+
+===== FILE: src/index.html =====
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Workbook</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="mat-typography">
+  <app-root></app-root>
+</body>
+</html>
+
+
+=====================================================
+
+
+===== FILE: src/styles.css =====
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+=====================================================
+
+

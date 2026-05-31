@@ -1,0 +1,429 @@
+{
+  "topic": "Inverse Operations",
+  "sub_topics": [
+    {
+      "sub_topic": "Addition ↔ Subtraction",
+      "explanation": "Addition and subtraction are inverse operations where subtraction reverses addition, and addition reverses subtraction. These operations help solve problems by identifying the missing value through the inverse relationship. Examples should cover real-world contexts, varying difficulty levels, and diverse scenarios to reinforce understanding.",
+      "examples": [
+        {
+          "example": "A grocery store has 45 kg of rice. If they sell 12 kg to a customer, how much remains?",
+          "steps": [
+            "The store starts with __45__ kg of rice.",
+            "They sell __12__ kg to a customer.",
+            "Subtract the sold amount from the initial amount: __45__ – __12__ = __33__ kg remain."
+          ]
+        },
+        {
+          "example": "Emma has 72 stickers. She buys 28 more from a friend. How many does she have now?",
+          "steps": [
+            "Emma starts with __72__ stickers.",
+            "She buys __28__ more stickers from a friend.",
+            "To find the total, add __72__ + __28__.",
+            "Calculate: __72__ + __28__ = __100__ stickers."
+          ]
+        },
+        {
+          "example": "A clock shows 3:45. If the time is decreased by 1 hour and 30 minutes, what is the new time?",
+          "steps": [
+            "The current time is __3:45__.",
+            "Subtracting 1 hour from 3:45 gives us __2:45__ (since 3:45 minus 1 hour = 2:45).",
+            "Now subtract the remaining 30 minutes from 2:45: __2:45 - 30 minutes = __2:15__.",
+            "The new time after decreasing by 1 hour and 30 minutes is __2:15__."
+          ]
+        },
+        {
+          "example": "A bakery made 120 cupcakes. If 45 were sold, how many are left?",
+          "steps": [
+            "The bakery initially made __120__ cupcakes.",
+            "They sold __45__ cupcakes.",
+            "Subtract the sold cupcakes from the total: __120__ - __45__ = __75__ cupcakes remain."
+          ]
+        },
+        {
+          "example": "A train travels at 60 km/h. How long will it take to cover 300 km?",
+          "steps": [
+            "The train's speed is __60 km/h__.",
+            "The distance to cover is __300 km__.",
+            "To find time, divide distance by speed: __300 ÷ 60__ hours.",
+            "Calculate: __300 ÷ 60 = __5__ hours.",
+            "Thus, the train will take __5__ hours to cover 300 km."
+          ]
+        },
+        {
+          "example": "A farmer has 180 apples. If he sells 90, how many are left?",
+          "steps": [
+            "The farmer starts with __180__ apples.",
+            "He sells __90__ apples.",
+            "Subtract the sold apples from the total: __180__ – __90__ = __90__ apples remain."
+          ]
+        },
+        {
+          "example": "A pizza is cut into 12 slices. If 5 slices are eaten, how many remain?",
+          "steps": [
+            "The pizza is cut into __12__ slices.",
+            "I eat __5__ slices from the pizza.",
+            "Subtract the eaten slices from the total: __12__ - __5__ = __7__ slices remain."
+          ]
+        },
+        {
+          "example": "A library has 200 books. If 50 are checked out, how many are still available?",
+          "steps": [
+            "The library starts with __200__ books.",
+            "The number of books checked out is __50__.",
+            "Subtract the checked-out books from the total: __200__ – __50__ = __150__ books remaining."
+          ]
+        },
+        {
+          "example": "A shopper has $75. If they spend $35 on groceries, how much money is left?",
+          "steps": [
+            "The shopper starts with __75__ dollars.",
+            "They spend __35__ dollars on groceries.",
+            "Subtract the spent amount from the initial amount: __75__ - __35__ = __40__ dollars remaining."
+          ]
+        },
+        {
+          "example": "A baker has 300 cookies. If they give 150 to a charity event, how many are left?",
+          "steps": [
+            "The baker starts with __300__ cookies.",
+            "They give away __150__ cookies to charity.",
+            "Subtract the given cookies from the total: __300__ - __150__ = __150__ cookies remain."
+          ]
+        },
+        {
+          "example": "A car travels 150 miles in 5 hours. What is its speed?",
+          "steps": [
+            "The car travels a total of __150__ miles.",
+            "It takes __5__ hours to cover this distance.",
+            "To find speed, divide the total distance by the total time: __150 ÷ 5 = __30__ miles per hour.",
+            "The question asks for the speed in terms of time (5 hours), so multiply the speed by the time: __30 mph × 5 hours = __150__ miles (to verify).",
+            "The actual speed is the result of the division step: __30 mph__."
+          ]
+        },
+        {
+          "example": "A farmer has 250 kg of wheat. If 75 kg are used for flour, how much remains?",
+          "steps": [
+            "The farmer starts with __250__ kg of wheat.",
+            "The farmer uses __75__ kg of wheat for flour.",
+            "Subtract the used wheat from the total: __250__ – __75__ = __175__ kg remain."
+          ]
+        },
+        {
+          "example": "A train travels at 80 km/h. How far will it go in 4 hours?",
+          "steps": [
+            "The train's speed is __80__ kilometers per hour.",
+            "The time traveled is __4__ hours.",
+            "To find the distance, multiply speed by time: __80__ × __4__ = __320__ kilometers."
+          ]
+        },
+        {
+          "example": "A bakery has 150 pastries. If 30 are sold, how many are left?",
+          "steps": [
+            "The bakery starts with __150__ pastries.",
+            "The bakery sells __30__ pastries.",
+            "Subtract the sold pastries from the total: __150__ - __30__ = __120__ pastries remain."
+          ]
+        },
+        {
+          "example": "A shopper has $100. If they spend $40 on books, how much is left?",
+          "steps": [
+            "The shopper starts with __$100__ money.",
+            "They spend __$40__ on books.",
+            "Subtract the spent amount from the initial amount: __$100__ - __$40__ = __$60__ remaining."
+          ]
+        },
+        {
+          "example": "A farmer has 400 kg of apples. If 100 kg are sold, how many are left?",
+          "steps": [
+            "The farmer starts with __400__ kg of apples.",
+            "The farmer sells __100__ kg of apples.",
+            "Subtract the sold apples from the total: __400__ - __100__ = __300__ kg remain."
+          ]
+        },
+        {
+          "example": "A clock shows 9:00. If the time is increased by 2 hours and 15 minutes, what is the new time?",
+          "steps": [
+            "The current time is __9:00__.",
+            "Add __2__ hours to 9:00: __9:00 + 2 hours = 11:00__.",
+            "Now add __15__ minutes to 11:00: __11:00 + 15 minutes = 11:15__.",
+            "The new time is therefore __11:15__."
+          ]
+        },
+        {
+          "example": "A shopper has 500 coins. If they spend 200 coins on candy, how many are left?",
+          "steps": [
+            "The shopper starts with __500__ coins.",
+            "They spend __200__ coins on candy.",
+            "Subtract the spent coins from the total: __500__ – __200__ = __300__ coins remain."
+          ]
+        },
+        {
+          "example": "A train travels 120 km in 3 hours. What is its speed?",
+          "steps": [
+            "The train covers a total distance of __120__ kilometers.",
+            "It takes __3__ hours to travel that distance.",
+            "To find speed, we divide the distance by the time: __120 ÷ 3 = __40__ km/h.",
+            "The question asks for the speed in terms of distance covered per hour, so the answer is __40__ km/h."
+          ]
+        },
+        {
+          "example": "A baker has 600 donuts. If 200 are given to a school event, how many are left?",
+          "steps": [
+            "The baker starts with __600__ donuts.",
+            "The baker gives away __200__ donuts to the school event.",
+            "Subtract the given donuts from the total: __600__ - __200__ = __400__ donuts remain."
+          ]
+        }
+      ]
+    },
+    {
+      "sub_topic": "Undoing actions",
+      "explanation": "Undoing actions involves reversing a series of operations to return to the original state. This is essential in problem-solving when dealing with transformations, adjustments, or sequential changes. The key is to reverse operations in reverse order, ensuring accuracy by systematically undoing each step. Examples should cover real-world scenarios, mathematical transformations, and varied contexts to enhance comprehension and application.",
+      "examples": [
+        {
+          "example": "A chef starts with 150 grams of flour. She adds 20 grams for a recipe, then accidentally uses 35 grams more. If she wants to return to the original amount, how much flour should she remove? (Undo the addition: 150 + 35 = 185, then undo the initial addition: 185 - 20 = 165 grams.)",
+          "steps": [
+            "The chef starts with __150__ grams of flour.",
+            "She adds __20__ grams to the flour, making it __150__ + __20__ = __170__ grams.",
+            "Then she accidentally uses __35__ grams more, so the flour becomes __170__ - __35__ = __135__ grams.",
+            "To undo the accidental use of __35__ grams, she needs to add back __35__ grams, making it __135__ + __35__ = __170__ grams again.",
+            "Now, to return to the original amount of __150__ grams, she needs to remove the extra __170__ - __150__ = __20__ grams from the flour.",
+            "The chef should remove __20__ grams to return to the original amount."
+          ]
+        },
+        {
+          "example": "A library has 40 books in a shelf. 12 books are checked out, then 8 more are returned. How many books are on the shelf now? (Undo the return: 40 - 8 = 32, then undo the checkout: 32 + 12 = 44.)",
+          "steps": [
+            "Start with __40__ books on the shelf.",
+            "Books checked out: __12__ books are removed.",
+            "Books remaining after checkout: __40__ - __12__ = __28__ books.",
+            "Books returned: __8__ books are added back.",
+            "Books after return: __28__ + __8__ = __36__ books.",
+            "Now undo the return step (as per the hint): __40__ - __8__ = __32__ books.",
+            "Undo the checkout step (as per the hint): __32__ + __12__ = __44__ books remain on the shelf."
+          ]
+        },
+        {
+          "example": "A student’s test score was initially 85. It was increased by 3 points due to a correction, then decreased by 5 points after a review. What is the final score?",
+          "steps": [
+            "The student’s starting score is __85__.",
+            "The score was increased by __3__ points: __85__ + __3__ = __88__.",
+            "The score was then decreased by __5__ points: __88__ - __5__ = __83__.",
+            "The final score after these changes is __83__."
+          ]
+        },
+        {
+          "example": "A farmer has 70 apples. He sells 15 to a market, then receives 25 more from another farm. How many apples does he have now? (Undo the receipt: 70 - 25 = 45, then undo the sale: 45 + 15 = 60.)",
+          "steps": [
+            "The farmer starts with __70__ apples.",
+            "He sells __15__ apples to the market.",
+            "After selling, the farmer has __70__ - __15__ = __55__ apples left.",
+            "He then receives __25__ more apples from another farm.",
+            "Now, the farmer has __55__ + __25__ = __80__ apples.",
+            "The problem suggests undoing the receipt first: __70__ - __25__ = __45__ apples remain after receiving.",
+            "Next, undo the sale: __45__ + __15__ = __60__ apples are left.",
+            "So, the farmer has __60__ apples now."
+          ]
+        },
+        {
+          "example": "A clock starts at 12:00 AM. It is set back by 4 hours due to a time correction, then advanced by 2 hours later. What is the current time? (Undo the advance: 12:00 AM - 2 hours = 10:00 PM, then undo the initial correction: 10:00 PM + 4 hours = 2:00 AM.)",
+          "steps": [
+            "The clock starts at __12:00 AM__.",
+            "It is set back by __4 hours__: __12:00 AM - 4 hours = __8:00 PM__.",
+            "Next, it is advanced by __2 hours__: __8:00 PM + 2 hours = __10:00 PM__.",
+            "The problem states to undo the advance first: subtract __2 hours__ from the current time: __10:00 PM - 2 hours = __8:00 PM__.",
+            "Now, undo the initial correction by adding back the __4 hours__: __8:00 PM + 4 hours = __2:00 AM__."
+          ]
+        },
+        {
+          "example": "A number is divided by 7, then increased by 14. If the result is 28, what was the original number? (Undo the addition: 28 - 14 = 14, then undo the division: 14 * 7 = 98.)",
+          "steps": [
+            "The final result after operations is __28__.",
+            "The problem states to undo the addition first: subtract __14__ from the result.",
+            "Now we have __28__ - __14__ = __14__ left.",
+            "Next, undo the division by 7: multiply the remaining number by 7.",
+            "So, __14__ * __7__ = __98__ is the original number."
+          ]
+        },
+        {
+          "example": "A train starts from Station A at 8:00 AM. It arrives at Station B 3 hours later, then departs 1 hour after reaching B. What time does it depart from Station B?",
+          "steps": [
+            "The train starts at Station A at __8:00 AM__.",
+            "It arrives at Station B after __3 hours__.",
+            "Calculate arrival time at Station B: __8:00 AM + 3 hours = 11:00 AM__.",
+            "The train departs from Station B __1 hour after arrival__.",
+            "Calculate departure time from Station B: __11:00 AM + 1 hour = 12:00 PM__."
+          ]
+        },
+        {
+          "example": "A recipe calls for 3 cups of milk, but the cook mistakenly uses 5 cups. If she wants to reduce the milk by 2 cups, how much should she use? (Undo the addition: 3 + 2 = 5, then subtract 2: 5 - 2 = 3 cups.)",
+          "steps": [
+            "The recipe originally calls for __3__ cups of milk.",
+            "The cook mistakenly added __2__ extra cups, making the total __5__ cups (3 + 2).",
+            "The cook wants to undo this mistake by removing __2__ cups from the total.",
+            "Subtract the extra cups: __5__ - __2__ = __3__ cups.",
+            "Now the correct amount of milk to use is __3__ cups."
+          ]
+        },
+        {
+          "example": "A student’s grade was initially 78%. It was increased by 2% due to a bonus, then decreased by 1% after a final review. What is the final percentage? (Undo the decrease: 78 + 1 = 79, then undo the increase: 79 - 2 = 77%).",
+          "steps": [
+            "The student’s starting grade is __78%__.",
+            "The grade is increased by __2%__ due to a bonus.",
+            "New grade after increase: __78% + 2% = 80%__ (temporarily).",
+            "The final review decreases the grade by __1%__ (undoing this step first).",
+            "Subtract the decrease: __80% - 1% = 79%__ (temporary result).",
+            "Now undo the increase by subtracting the bonus: __79% - 2% = 77%__.",
+            "The final grade after undoing both changes is __77%.__"
+          ]
+        },
+        {
+          "example": "A bakery starts with 500 cookies. 120 are sold, then 80 more are baked. How many cookies are available now? (Undo the baking: 500 - 80 = 420, then undo the sales: 420 + 120 = 540.)",
+          "steps": [
+            "The bakery starts with __500__ cookies.",
+            "The bakery sells __120__ cookies.",
+            "After sales, the remaining cookies are __500__ - __120__ = __380__.",
+            "Then, __80__ more cookies are baked.",
+            "Undo the baking step: subtract the baked cookies from the remaining: __380__ - __80__ = __300__.",
+            "Now, add the baked cookies back to the remaining: __300__ + __80__ = __380__ (reconfirming the correct approach).",
+            "The problem suggests undoing baking first: subtract __80__ from the initial amount: __500__ - __80__ = __420__ cookies after baking is undone.",
+            "Next, undo the sales by adding back the sold cookies: __420__ + __120__ = __540__ cookies available now."
+          ]
+        },
+        {
+          "example": "A number is squared (x²), then multiplied by 5. If the result is 125, what was the original number?",
+          "steps": [
+            "The problem states the number is squared, so let’s call the original number __x__ and write: __x²__.",
+            "This squared number is then multiplied by 5, so we have: __5 × x²__.",
+            "The result of this operation is given as 125, so: __5 × x² = 125__.",
+            "To undo the multiplication by 5, divide both sides by 5: __125 ÷ 5 = 25__.",
+            "Now we have: __x² = 25__ (this is the result after undoing multiplication).",
+            "To undo the squaring, take the square root of both sides: __√25 = 5__.",
+            "Therefore, the original number is __5__."
+          ]
+        },
+        {
+          "example": "A garden has 10 rows of vegetables. 4 rows are removed, then 6 new rows are added. How many rows are there now? (Undo the addition: 10 - 6 = 4, then undo the removal: 4 + 4 = 8.)",
+          "steps": [
+            "Start with __10__ rows of vegetables in the garden.",
+            "Remove __4__ rows: __10__ - __4__ = __6__ rows remain.",
+            "Undo the addition step first: Subtract the added rows from the original count (10 - 6 = __4__).",
+            "Now, undo the removal: Add back the removed rows: __4__ + __4__ = __8__ rows in total."
+          ]
+        },
+        {
+          "example": "A student’s homework score was initially 60 points. It was increased by 5 points for correct formatting, then decreased by 3 points for incomplete answers. What is the final score? (Undo the decrease: 60 + 3 = 63, then undo the increase: 63 - 5 = 58.)",
+          "steps": [
+            "The student starts with a score of __60__ points.",
+            "The score is increased by __5__ points for correct formatting.",
+            "Now the score is __60__ + __5__ = __65__ points.",
+            "The score is then decreased by __3__ points for incomplete answers.",
+            "To undo the decrease, add back __3__ points: __65__ + __3__ = __68__ points.",
+            "To undo the increase, subtract the original increase: __68__ - __5__ = __63__ points.",
+            "The final score is correctly calculated as __63__ - __5__ = __58__ points."
+          ]
+        },
+        {
+          "example": "A train travels at 60 km/h for 2 hours, then slows down to 40 km/h for 3 hours. If the speed was increased by 20 km/h for the first segment, how far did it travel in total? (Undo the speed change: 60 - 20 = 40 km/h for the first segment, then calculate: 40 * 2 = 80 km, then 40 * 3 = 120 km. Total: 80 + 120 = 200 km.)",
+          "steps": [
+            "The train’s original speed for the first segment is __60__ km/h.",
+            "The speed was increased by __20__ km/h, so the new speed is __60 + 20__ km/h. (Undo this by using __60 - 20 = 40__ km/h for the first segment calculation.)",
+            "The train travels at this adjusted speed for __2__ hours.",
+            "Distance covered in the first segment: __40__ km/h × __2__ h = __80__ km.",
+            "The train then travels at __40__ km/h for __3__ hours.",
+            "Distance covered in the second segment: __40__ km/h × __3__ h = __120__ km.",
+            "Total distance traveled: __80__ km + __120__ km = __200__ km."
+          ]
+        },
+        {
+          "example": "A recipe requires 2 tablespoons of oil, but the cook uses 4 tablespoons. If she wants to reduce the oil by 1 tablespoon, how much should she use? (Undo the addition: 2 + 1 = 3, then subtract 1: 3 - 1 = 2 tablespoons.)",
+          "steps": [
+            "The recipe originally calls for __2__ tablespoons of oil.",
+            "The cook mistakenly added __1__ extra tablespoon, making the total __2__ + __1__ = __3__ tablespoons.",
+            "The cook wants to reduce the oil by __1__ tablespoon.",
+            "Subtract the reduction from the current amount: __3__ - __1__ = __2__ tablespoons.",
+            "She should use __2__ tablespoons of oil."
+          ]
+        },
+        {
+          "example": "A clock starts at 9:00 PM. It is set forward by 5 hours, then corrected back by 2 hours. What is the current time?",
+          "steps": [
+            "The clock starts at __9:00 PM__.",
+            "First, the clock is set forward by __5 hours__: __9:00 PM + 5 hours = 2:00 AM (next day).",
+            "Next, the clock is corrected back by __2 hours__: __2:00 AM - 2 hours = __10:00 PM (same day).",
+            "The current time after undoing the correction is __10:00 PM__ (this is the intermediate step before the final forward shift).",
+            "Now, undo the forward shift by subtracting the 5 hours from the corrected time: __10:00 PM - 5 hours = 7:00 PM__."
+          ]
+        },
+        {
+          "example": "A number is divided by 9, then increased by 18. If the result is 36, what was the original number? (Undo the addition: 36 - 18 = 18, then undo the division: 18 * 9 = 162.)",
+          "steps": [
+            "The final result after operations is __36__.",
+            "The problem states we first divided the number by 9, so we undo this by multiplying the result by 9: __36__ ÷ 9 = __4__ (but this is not directly needed for the next step).",
+            "Next, the number was increased by 18, so we undo this by subtracting 18 from the final result: __36__ - __18__ = __18__.",
+            "Now we have the original number before division: __18__.",
+            "To find the original number before division, we divide the result by 9: __18__ ÷ 9 = __2__ (but this is not directly needed for the next step).",
+            "The correct undo steps are given in the problem: __18__ (from subtraction) is the number before division.",
+            "Now multiply this by 9 to reverse the division: __18__ * 9 = __162__ (this is the original number before any operations)."
+          ]
+        },
+        {
+          "example": "A student’s test score was initially 90. It was increased by 4 points due to a correction, then decreased by 2 points after a review. What is the final score? (Undo the decrease: 90 + 2 = 92, then undo the increase: 92 - 4 = 88.)",
+          "steps": [
+            "The student’s starting score is __90__ points.",
+            "The score was increased by __4__ points: __90__ + __4__ = __94__.",
+            "The reviewer then decreased the score by __2__ points: __94__ - __2__ = __92__.",
+            "The problem suggests undoing the decrease first by adding back __2__ points: __90__ + __2__ = __92__ (verification).",
+            "Now undo the increase by subtracting the __4__ points added earlier: __92__ - __4__ = __88__.",
+            "The final score after undoing both changes is __88__."
+          ]
+        },
+        {
+          "example": "A farmer has 100 kg of wheat. He sells 25 kg, then receives 30 kg from another farm. How many kg of wheat does he have now? (Undo the receipt: 100 - 30 = 70, then undo the sale: 70 + 25 = 95 kg.)",
+          "steps": [
+            "The farmer starts with __100__ kg of wheat.",
+            "He sells __25__ kg of wheat.",
+            "After selling, the farmer has __100__ - __25__ = __75__ kg left.",
+            "Next, he receives __30__ kg from another farm.",
+            "Now, the farmer has __75__ + __30__ = __105__ kg of wheat.",
+            "The problem suggests undoing the receipt first: subtract the received amount from the original: __100__ - __30__ = __70__ kg.",
+            "Then undo the sale by adding back the sold amount: __70__ + __25__ = __95__ kg.",
+            "The final amount of wheat is __95__ kg."
+          ]
+        },
+        {
+          "example": "A clock starts at 4:00 AM. It is set back by 3 hours, then advanced by 1 hour. What is the current time?",
+          "steps": [
+            "The clock starts at __4:00 AM__.",
+            "The clock is set back by __3 hours__: __4:00 AM - 3 hours = __1:00 AM__.",
+            "Next, the clock is advanced by __1 hour__: __1:00 AM + 1 hour = __2:00 AM__.",
+            "The current time on the clock is now __2:00 AM__."
+          ]
+        },
+        {
+          "example": "A number is multiplied by 8, then increased by 16. If the result is 80, what was the original number?",
+          "steps": [
+            "The problem states the final result is __80__.",
+            "First, the number was multiplied by 8. To undo this, divide the result by 8: __80 ÷ 8 = 10__.",
+            "Next, the number was increased by 16. To undo this addition, subtract 16 from the result: __10 - 16 = -6__.",
+            "The negative result (-6) suggests a possible error in the initial undo steps. Let’s re-evaluate the undo process correctly:",
+            "The correct undo steps are given in the problem: subtract 16 first: __80 - 16 = 64__.",
+            "Then divide by 8: __64 ÷ 8 = 8__.",
+            "So, the original number was __8__."
+          ]
+        },
+        {
+          "example": "A student’s grade was initially 88%. It was increased by 1% due to a bonus, then decreased by 3% after a final review. What is the final percentage? (Undo the decrease: 88 + 3 = 91, then undo the increase: 91 - 1 = 90%).",
+          "steps": [
+            "The student’s starting grade is __88%__.",
+            "The grade is increased by __1%__ due to a bonus.",
+            "New grade after increase: __88% + 1% = 89%__ (temporarily).",
+            "The grade is then decreased by __3%__ after review.",
+            "To undo the decrease, add __3%__ back: __88% + 3% = 91%__ (temporary undo).",
+            "Now undo the increase by subtracting __1%__: __91% - 1% = 90%__.",
+            "The final grade is __90%.__"
+          ]
+        }
+      ]
+    }
+  ]
+}

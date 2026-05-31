@@ -1,0 +1,739 @@
+{
+  "topic": "Part–Whole Thinking",
+  "sub_topics": [
+    {
+      "sub_topic": "Breaking numbers apart",
+      "explanation": "Breaking numbers apart involves decomposing a whole number into its constituent parts by tens and ones, or other meaningful units, to understand place value and foundational arithmetic operations. This skill helps in visualizing numbers as combinations of addends, facilitating addition, subtraction, and mental math. The approach emphasizes the additive nature of numbers, where the sum of parts equals the whole.",
+      "examples": [
+        {
+          "example": "23 is 20 and 3",
+          "steps": [
+            "Break down the number 23 into its parts using addition:",
+            "First part is __20__ (the tens place).",
+            "Second part is __3__ (the ones place).",
+            "Verify: __20__ + __3__ = __23__"
+          ]
+        },
+        {
+          "example": "47 is 40 + 7",
+          "steps": [
+            "The number 47 is broken down into two parts: __40__ and __7__.",
+            "We can write this as: __40__ + __7__ = 47.",
+            "Now, let’s verify: __40__ + __7__ equals __47__."
+          ]
+        },
+        {
+          "example": "100 is 100 and 0",
+          "steps": [
+            "The number 100 is expressed as its face value: __100__.",
+            "The number 100 can also be broken down into its place values: __100__ (hundreds place) and __0__ (units place).",
+            "This means 100 is written as: __100__ (one hundred) and __0__ (zero units)."
+          ]
+        },
+        {
+          "example": "6 is 4 and 2 (with a remainder of 0)",
+          "steps": [
+            "The number 6 is divided into two parts: __4__ and __2__.",
+            "Check if 4 and 2 add up to the original number: __4__ + __2__ = __6__.",
+            "Since there is no extra amount left over, the remainder is __0__."
+          ]
+        },
+        {
+          "example": "30 is 20 + 10",
+          "steps": [
+            "The total sum is made up of two parts: __20__ and __10__.",
+            "Add the two parts together: __20__ + __10__ = __30__."
+          ]
+        },
+        {
+          "example": "19 is 10 + 9",
+          "steps": [
+            "Break down the number 19 into two parts using addition: _10_ + _9_",
+            "Verify that _10_ + _9_ equals 19 by counting: 10 + 9 = 19",
+            "Confirm the decomposition is correct: _19_ is indeed the sum of _10_ and _9_"
+          ]
+        },
+        {
+          "example": "50 is 50 + 0",
+          "steps": [
+            "The number 50 is written as itself: __50__.",
+            "Adding 0 to 50 means keeping the same amount: __50 + 0 = 50__.",
+            "Since adding nothing does not change the value, the result remains the same: __50__."
+          ]
+        },
+        {
+          "example": "8 is 5 + 3",
+          "steps": [
+            "The sum of 5 and 3 is given as 8.",
+            "Break down the addition: Start with __5__.",
+            "Add __3__ to the initial amount: __5__ + __3__ = __8__."
+          ]
+        },
+        {
+          "example": "70 is 70 + 0",
+          "steps": [
+            "The number 70 is written as itself: __70__.",
+            "Adding 0 to 70 means keeping the same amount: __70 + 0 = 70__.",
+            "Since adding nothing does not change the value, the result remains __70__."
+          ]
+        },
+        {
+          "example": "24 is 20 + 4",
+          "steps": [
+            "The number 24 is broken down into two parts: __20__ and __4__.",
+            "We see that __20__ is a whole ten-unit group.",
+            "The remaining part is __4__, which is less than ten.",
+            "So, 24 can be expressed as the sum of these two parts: __20__ + __4__"
+          ]
+        },
+        {
+          "example": "A bakery has 56 cupcakes. If 30 are sold, how many remain? Break 56 into parts to solve: 56 is 50 and 6, then 50 - 30 = 20, and 6 - 0 = 6, so 20 + 6 = 26 remain.",
+          "steps": [
+            "The bakery starts with __56__ cupcakes.",
+            "Break 56 into two parts: 50 and 6.",
+            "First, subtract the sold cupcakes from the 50 part: 50 - 30 = __20__ cupcakes remain here.",
+            "Now look at the remaining 6 cupcakes: 6 - 0 = __6__ cupcakes remain here.",
+            "Add the two parts together: __20__ + __6__ = __26__ cupcakes remain in total."
+          ]
+        },
+        {
+          "example": "A farmer has 93 apples. He splits them into baskets of 10 and 5. How many baskets does he need? Break 93 into 90 and 3, then 90 ÷ 10 = 9 baskets for the tens, and 3 ÷ 5 = 0.6 (so 1 basket for 5), totaling 10 baskets.",
+          "steps": [
+            "The farmer has a total of __93__ apples.",
+            "The apples are split into two types of baskets: one that holds __10__ apples and another that holds __5__ apples.",
+            "Break 93 apples into two parts: __90__ apples and __3__ apples.",
+            "Calculate how many baskets of 10 apples are needed: __90 ÷ 10 = __9__ baskets.",
+            "Now, calculate how many baskets of 5 apples are needed for the remaining __3__ apples: Since 3 is less than 5, only __1__ basket is needed (because 5 > 3).",
+            "Add the baskets together: __9__ (baskets of 10) + __1__ (basket of 5) = __10__ baskets total."
+          ]
+        },
+        {
+          "example": "A clock shows 3:45. How many minutes until 4:00?",
+          "steps": [
+            "At 3:45, the clock shows __45__ minutes past the hour.",
+            "Break down the 45 minutes into __40__ and __5__ minutes.",
+            "From 3:00 to 3:45, it takes __45__ minutes (40 + 5).",
+            "To reach 4:00, subtract the remaining minutes from 60: __60__ - __45__ = __15__ minutes left.",
+            "Therefore, there are __15__ minutes until 4:00."
+          ]
+        },
+        {
+          "example": "A train travels 120 miles in 2 hours. How far does it travel per hour? Break 120 into 100 and 20, then 100 ÷ 2 = 50 miles/hour, and 20 ÷ 2 = 10 miles/hour, totaling 60 miles/hour.",
+          "steps": [
+            "The train travels a total of __120__ miles in __2__ hours.",
+            "We split the total distance into two parts: __100__ miles and __20__ miles.",
+            "Divide the first part (100 miles) by the number of hours (2): __100 ÷ 2 = 50__ miles per hour.",
+            "Divide the second part (20 miles) by the number of hours (2): __20 ÷ 2 = 10__ miles per hour.",
+            "Add the results together to find the speed: __50__ + __10__ = __60__ miles per hour."
+          ]
+        },
+        {
+          "example": "A pizza is cut into 8 slices. If 3 slices are eaten, how many remain? Break 8 into 7 and 1, then 7 - 3 = 4, and 1 - 0 = 1, so 4 + 1 = 5 remain.",
+          "steps": [
+            "The pizza is cut into __8__ slices.",
+            "The slices are split into __7__ and __1__ (7 + 1 = 8).",
+            "Subtract the eaten slices from the first group: __7__ - __3__ = __4__ slices remain in this group.",
+            "The second group has __1__ slice and no slices are eaten here, so __1__ - __0__ = __1__ slice remains.",
+            "Add the remaining slices from both groups: __4__ + __1__ = __5__ slices remain on the pizza."
+          ]
+        },
+        {
+          "example": "A library has 145 books. If 50 are checked out, how many are left? Break 145 into 140 and 5, then 140 - 50 = 90, and 5 - 0 = 5, so 90 + 5 = 95 remain.",
+          "steps": [
+            "Start with the total number of books: __145__.",
+            "Break 145 into two parts: 140 and 5 (__140__ + __5__ = __145__).",
+            "Remove 50 books from the 140: __140__ - __50__ = __90__ books remain.",
+            "Now look at the remaining 5 books: __5__ - __0__ = __5__ books remain.",
+            "Add the remaining books together: __90__ + __5__ = __95__ books left in the library."
+          ]
+        },
+        {
+          "example": "A recipe requires 250 grams of flour. If you have 200 grams, how much more is needed? Break 250 into 200 and 50, then 200 - 200 = 0, and 50 - 0 = 50, so 50 grams more are needed.",
+          "steps": [
+            "The recipe needs a total of __250__ grams of flour.",
+            "You currently have __200__ grams of flour.",
+            "Break the required amount into two parts: __200__ grams and __50__ grams.",
+            "Subtract the amount you have from the first part: __200__ - __200__ = __0__ grams.",
+            "Now subtract the remaining amount from the second part: __50__ - __0__ = __50__ grams.",
+            "Therefore, you need an additional __50__ grams of flour."
+          ]
+        },
+        {
+          "example": "A marathon is 26.2 miles. If a runner completes 10 miles, how many miles are left? Break 26 into 20 and 6, then 20 - 10 = 10, and 6 - 0 = 6, so 10 + 6 = 16 miles remain.",
+          "steps": [
+            "A marathon is __26.2__ miles in total.",
+            "The runner completes __10__ miles.",
+            "Break the remaining distance into two parts: __20__ miles and __6__ miles.",
+            "Subtract the completed miles from the first part: __20__ - __10__ = __10__ miles left in the first part.",
+            "The second part is __6__ miles minus __0__ miles (since 10 miles have already been completed): __6__ - __0__ = __6__ miles.",
+            "Add the remaining miles from both parts: __10__ + __6__ = __16__ miles left in the marathon."
+          ]
+        },
+        {
+          "example": "A clock shows 12:50. How many minutes until 1:00? Break 50 into 50, then 50 + 10 = 60 minutes to add to 12:50 to reach 1:00.",
+          "steps": [
+            "At 12:50, the clock shows __50__ minutes past the hour.",
+            "Since 12:50 + 10 minutes = 12:60 (which is actually 1:00), we need to account for the extra minute past 60.",
+            "The remaining minutes to reach the next hour are __10__ (from 50 to 60).",
+            "Because 50 + 10 = 60, we add these minutes to the current time to reach 1:00.",
+            "Thus, there are __10__ minutes left until 1:00 after accounting for the full hour cycle."
+          ]
+        },
+        {
+          "example": "A bag contains 17 marbles. If 8 are removed, how many are left? Break 17 into 10 and 7, then 10 - 8 = 2, and 7 - 0 = 7, so 2 + 7 = 9 remain.",
+          "steps": [
+            "Start with a total of __17__ marbles in the bag.",
+            "Break the 17 marbles into two groups: __10__ and __7__.",
+            "Remove 8 marbles from the first group of 10: __10__ - __8__ = __2__ marbles left in this group.",
+            "Remove 0 marbles from the second group of 7 (since only 8 marbles were removed in total).",
+            "The second group still has __7__ marbles remaining.",
+            "Add the marbles left from both groups: __2__ + __7__ = __9__ marbles remain in the bag."
+          ]
+        },
+        {
+          "example": "A train travels 300 miles in 5 hours. How far does it travel per hour? Break 300 into 300, then 300 ÷ 5 = 60 miles/hour.",
+          "steps": [
+            "The train travels a total of __300__ miles.",
+            "The trip takes __5__ hours.",
+            "To find the distance per hour, divide the total miles by the number of hours: __300 ÷ 5__.",
+            "Calculate the division: __300 ÷ 5 = 60__ miles per hour."
+          ]
+        },
+        {
+          "example": "A pizza is cut into 12 slices. If 4 slices are eaten, how many remain? Break 12 into 10 and 2, then 10 - 4 = 6, and 2 - 0 = 2, so 6 + 2 = 8 remain.",
+          "steps": [
+            "The pizza is cut into __12__ slices in total.",
+            "The 12 slices are split into two groups: __10__ slices and __2__ slices.",
+            "The first group (10 slices) has __4__ eaten, so __10__ - __4__ = __6__ slices remain.",
+            "The second group (2 slices) has __0__ eaten, so __2__ - __0__ = __2__ slices remain.",
+            "Add the remaining slices from both groups: __6__ + __2__ = __8__ slices remain."
+          ]
+        },
+        {
+          "example": "A farmer has 150 kg of wheat. If 70 kg are sold, how many are left? Break 150 into 150, then 150 - 70 = 80 kg remain.",
+          "steps": [
+            "The farmer starts with __150__ kg of wheat.",
+            "The farmer sells __70__ kg of wheat.",
+            "Subtract the sold amount from the total: __150__ - __70__ = __80__ kg remain."
+          ]
+        },
+        {
+          "example": "A clock shows 9:25. How many minutes until 10:00? Break 25 into 25, then 25 + 35 = 60 minutes to add to 9:25 to reach 10:00.",
+          "steps": [
+            "At 9:25, the clock shows __25__ minutes past the hour.",
+            "To reach the next hour (10:00), we need to add __35__ minutes to the current time (since 60 - 25 = 35).",
+            "Break down the remaining minutes: __25__ minutes + __35__ minutes = __60__ minutes total needed to reach 10:00."
+          ]
+        }
+      ]
+    },
+    {
+      "sub_topic": "Multiple Decompositions",
+      "explanation": "Multiple decompositions involve expressing a number in various ways by splitting it into different combinations of addends, factors, or parts. This reinforces understanding of number relationships, flexibility in problem-solving, and foundational concepts for multiplication and division. The goal is to explore all possible valid combinations beyond simple two-part splits, including cases involving subtraction or larger numbers.",
+      "examples": [
+        {
+          "example": "12 can be expressed as 8 + 4, 7 + 5, 6 + 6, 9 + 3, 10 + 2, 11 + 1, 12 + 0, 13 - 1",
+          "steps": [
+            "Start with the first pair: 8 + 4 = __12__",
+            "Check if 8 + 4 works: Yes, it equals 12.",
+            "Next pair: 7 + 5 = __12__",
+            "Check if 7 + 5 works: Yes, it equals 12.",
+            "Next pair: 6 + 6 = __12__",
+            "Check if 6 + 6 works: Yes, it equals 12.",
+            "Next pair: 9 + 3 = __12__",
+            "Check if 9 + 3 works: Yes, it equals 12.",
+            "Next pair: 10 + 2 = __12__",
+            "Check if 10 + 2 works: Yes, it equals 12.",
+            "Next pair: 11 + 1 = __12__",
+            "Check if 11 + 1 works: Yes, it equals 12.",
+            "Next pair: 12 + 0 = __12__",
+            "Check if 12 + 0 works: Yes, it equals 12.",
+            "Last pair: 13 - 1 = __12__",
+            "Check if 13 - 1 works: Yes, it equals 12."
+          ]
+        },
+        {
+          "example": "25 can be 15 + 10, 20 + 5, 18 + 7, 14 + 11, 22 + 3, 26 - 1, 16 + 9",
+          "steps": [
+            "Look at the first pair: 15 + 10 = 25. What is the sum of these two numbers? __15 + 10 = __",
+            "Check if the sum matches 25: __25__ == 25. ✅ Correct!",
+            "Next pair: 20 + 5. What is the sum? __20 + 5 = __",
+            "Verify: __25__ == 25. ✅ Correct!",
+            "Third pair: 18 + 7. What is the sum? __18 + 7 = __",
+            "Verify: __25__ == 25. ✅ Correct!",
+            "Fourth pair: 14 + 11. What is the sum? __14 + 11 = __",
+            "Verify: __25__ == 25. ✅ Correct!",
+            "Fifth pair: 22 + 3. What is the sum? __22 + 3 = __",
+            "Verify: __25__ == 25. ✅ Correct!",
+            "Sixth pair: 26 - 1. What is the result? __26 - 1 = __",
+            "Verify: __25__ == 25. ✅ Correct!",
+            "Seventh pair: 16 + 9. What is the sum? __16 + 9 = __",
+            "Verify: __25__ == 25. ✅ Correct!"
+          ]
+        },
+        {
+          "example": "40 can be 25 + 15, 30 + 10, 28 + 12, 20 + 20, 35 + 5, 45 - 5, 18 + 22",
+          "steps": [
+            "Start with the total number: __40__",
+            "Break it into two parts where the first number is 25: __25__ + __15__ = 40",
+            "Try another split: __30__ + __10__ = 40",
+            "Next split: __28__ + __12__ = 40",
+            "Another way: __20__ + __20__ = 40",
+            "Split where the first number is 35: __35__ + __5__ = 40",
+            "Subtract to find the result: __45__ - __5__ = 40",
+            "Split using addition: __18__ + __22__ = 40"
+          ]
+        },
+        {
+          "example": "50 can be 30 + 20, 25 + 25, 35 + 15, 40 + 10, 45 + 5, 55 - 5, 20 + 30",
+          "steps": [
+            "Start with the first pair: 30 + 20 = __50__ (checks if it equals 50).",
+            "Next, check 25 + 25 = __50__ (verify the sum).",
+            "Then, 35 + 15 = __50__ (add these two numbers).",
+            "Now, 40 + 10 = __50__ (verify the sum).",
+            "Next, 45 + 5 = __50__ (add these two numbers).",
+            "Then, 55 - 5 = __50__ (subtract to check).",
+            "Finally, 20 + 30 = __50__ (add these two numbers)."
+          ]
+        },
+        {
+          "example": "7 can be 5 + 2, 4 + 3, 3 + 4, 2 + 5, 6 + 1, 7 + 0, 8 - 1",
+          "steps": [
+            "Start with the first pair: __5__ + __2__ = __7__",
+            "Next, try the second pair: __4__ + __3__ = __7__",
+            "Now, check the third pair: __3__ + __4__ = __7__",
+            "Move to the fourth pair: __2__ + __5__ = __7__",
+            "Look at the fifth pair: __6__ + __1__ = __7__",
+            "Next, consider the sixth pair: __7__ + __0__ = __7__",
+            "Finally, examine the last pair: __8__ - __1__ = __7__"
+          ]
+        },
+        {
+          "example": "16 can be 10 + 6, 8 + 8, 9 + 7, 12 + 4, 14 + 2, 17 - 1, 5 + 11",
+          "steps": [
+            "Look at the first pair: 10 + 6 = 16. Does this add up correctly? (__10__ + __6__ = __16__)",
+            "Check the second pair: 8 + 8 = 16. Does this work? (__8__ + __8__ = __16__)",
+            "Verify the third pair: 9 + 7 = 16. Does this hold true? (__9__ + __7__ = __16__)",
+            "Test the fourth pair: 12 + 4 = 16. Is this correct? (__12__ + __4__ = __16__)",
+            "Confirm the fifth pair: 14 + 2 = 16. Does this equal 16? (__14__ + __2__ = __16__)",
+            "Now check the subtraction: 17 - 1 = 16. Is this right? (__17__ - __1__ = __16__)",
+            "Finally, check the last pair: 5 + 11 = 16. Does this equal 16? (__5__ + __11__ = __16__)"
+          ]
+        },
+        {
+          "example": "60 can be 40 + 20, 30 + 30, 25 + 35, 50 + 10, 45 + 15, 65 - 5, 28 + 32",
+          "steps": [
+            "Look at the first pair: 40 + 20 = __60__ (Check if this equals 60).",
+            "Next, check 30 + 30 = __60__ (Does this also equal 60?).",
+            "Now, try 25 + 35 = __60__ (Verify this sum).",
+            "Check 50 + 10 = __60__ (Does this combination work?).",
+            "Next, 45 + 15 = __60__ (Confirm the sum).",
+            "For subtraction, 65 - 5 = __60__ (Verify the result).",
+            "Finally, 28 + 32 = __60__ (Check this last addition)."
+          ]
+        },
+        {
+          "example": "8 can be 4 + 4, 3 + 5, 2 + 6, 1 + 7, 8 + 0, 9 - 1, 6 + 2",
+          "steps": [
+            "Start with the number __8__.",
+            "Break it into two parts where the first number is 4: __4__ + __4__ = __8__",
+            "Break it into two parts where the first number is 3: __3__ + __5__ = __8__",
+            "Break it into two parts where the first number is 2: __2__ + __6__ = __8__",
+            "Break it into two parts where the first number is 1: __1__ + __7__ = __8__",
+            "Add 0 to 8 to keep the total the same: __8__ + __0__ = __8__",
+            "Subtract 1 from 9 to get 8: __9__ - __1__ = __8__",
+            "Break it into two parts where the first number is 6: __6__ + __2__ = __8__"
+          ]
+        },
+        {
+          "example": "90 can be 50 + 40, 60 + 30, 75 + 15, 90 + 0, 80 + 10, 95 - 5, 35 + 55",
+          "steps": [
+            "Break down the first combination: 90 is made up of __50__ and __40__.",
+            "Verify: __50__ + __40__ = __90__ (correct).",
+            "Next combination: 90 is made up of __60__ and __30__.",
+            "Verify: __60__ + __30__ = __90__ (correct).",
+            "Third combination: 90 is made up of __75__ and __15__.",
+            "Verify: __75__ + __15__ = __90__ (correct).",
+            "Fourth combination: 90 is made up of __90__ and __0__.",
+            "Verify: __90__ + __0__ = __90__ (correct).",
+            "Fifth combination: 90 is made up of __80__ and __10__.",
+            "Verify: __80__ + __10__ = __90__ (correct).",
+            "Sixth combination: 90 is made up of __95__ and subtract __5__.",
+            "Verify: __95__ - __5__ = __90__ (correct).",
+            "Seventh combination: 90 is made up of __35__ and __55__.",
+            "Verify: __35__ + __55__ = __90__ (correct)."
+          ]
+        },
+        {
+          "example": "10 can be 7 + 3, 5 + 5, 6 + 4, 8 + 2, 9 + 1, 10 + 0, 11 - 1",
+          "steps": [
+            "Look at the first pair: 7 and 3. What is 7 plus 3? __7 + 3 = __",
+            "Check if this equals 10: __7 + 3 = 10__? (Yes/No)",
+            "Next pair: 5 and 5. What is 5 plus 5? __5 + 5 = __",
+            "Check if this equals 10: __5 + 5 = 10__? (Yes/No)",
+            "Next pair: 6 and 4. What is 6 plus 4? __6 + 4 = __",
+            "Check if this equals 10: __6 + 4 = 10__? (Yes/No)",
+            "Next pair: 8 and 2. What is 8 plus 2? __8 + 2 = __",
+            "Check if this equals 10: __8 + 2 = 10__? (Yes/No)",
+            "Next pair: 9 and 1. What is 9 plus 1? __9 + 1 = __",
+            "Check if this equals 10: __9 + 1 = 10__? (Yes/No)",
+            "Next pair: 10 and 0. What is 10 plus 0? __10 + 0 = __",
+            "Check if this equals 10: __10 + 0 = 10__? (Yes/No)",
+            "Last pair: 11 and -1. What is 11 minus 1? __11 - 1 = __",
+            "Check if this equals 10: __11 - 1 = 10__? (Yes/No)"
+          ]
+        },
+        {
+          "example": "32 can be 20 + 12, 16 + 16, 18 + 14, 25 + 7, 30 + 2, 35 - 3, 10 + 22",
+          "steps": [
+            "Look at the first pair: 20 + 12 = 32. Does this add up correctly? (__20__ + __12__ = __32__?)",
+            "Check the second pair: 16 + 16 = 32. Does this work? (__16__ + __16__ = __32__?)",
+            "Verify the third pair: 18 + 14 = 32. Does this hold true? (__18__ + __14__ = __32__?)",
+            "Test the fourth pair: 25 + 7 = 32. Does this equal 32? (__25__ + __7__ = __32__?)",
+            "Confirm the fifth pair: 30 + 2 = 32. Does this work? (__30__ + __2__ = __32__?)",
+            "Now check the subtraction: 35 - 3 = 32. Does this equal 32? (__35__ - __3__ = __32__?)",
+            "Finally, check the last pair: 10 + 22 = 32. Does this hold true? (__10__ + __22__ = __32__?)"
+          ]
+        },
+        {
+          "example": "45 can be 30 + 15, 25 + 20, 35 + 10, 40 + 5, 50 - 5, 22 + 23, 15 + 30",
+          "steps": [
+            "Look at the first pair: __30__ + __15__ = __45__",
+            "Check if this adds up to 45: __30__ + __15__ = __45__ ✔️",
+            "Next pair: __25__ + __20__ = __45__",
+            "Verify: __25__ + __20__ = __45__ ✔️",
+            "Third pair: __35__ + __10__ = __45__",
+            "Verify: __35__ + __10__ = __45__ ✔️",
+            "Fourth pair: __40__ + __5__ = __45__",
+            "Verify: __40__ + __5__ = __45__ ✔️",
+            "Fifth option: __50__ - __5__ = __45__",
+            "Verify: __50__ - __5__ = __45__ ✔️",
+            "Sixth option: __22__ + __23__ = __45__",
+            "Verify: __22__ + __23__ = __45__ ✔️",
+            "Last option: __15__ + __30__ = __45__",
+            "Verify: __15__ + __30__ = __45__ ✔️"
+          ]
+        },
+        {
+          "example": "200 can be 150 + 50, 100 + 100, 120 + 80, 180 + 20, 200 + 0, 210 - 10, 70 + 130",
+          "steps": [
+            "Start with the first pair: 150 + 50. What is the sum? __150 + 50 = __",
+            "Check if this equals 200: __150 + 50__ should equal __200__ (yes/no)?",
+            "Next pair: 100 + 100. What is the sum? __100 + 100 = __",
+            "Check if this equals 200: __100 + 100__ should equal __200__ (yes/no)?",
+            "Third pair: 120 + 80. What is the sum? __120 + 80 = __",
+            "Check if this equals 200: __120 + 80__ should equal __200__ (yes/no)?",
+            "Fourth pair: 180 + 20. What is the sum? __180 + 20 = __",
+            "Check if this equals 200: __180 + 20__ should equal __200__ (yes/no)?",
+            "Fifth pair: 200 + 0. What is the sum? __200 + 0 = __",
+            "Check if this equals 200: __200 + 0__ should equal __200__ (yes/no)?",
+            "Sixth pair: 210 - 10. What is the result? __210 - 10 = __",
+            "Check if this equals 200: __210 - 10__ should equal __200__ (yes/no)?",
+            "Seventh pair: 70 + 130. What is the sum? __70 + 130 = __",
+            "Check if this equals 200: __70 + 130__ should equal __200__ (yes/no)?"
+          ]
+        },
+        {
+          "example": "14 can be 10 + 4, 7 + 7, 8 + 6, 9 + 5, 11 + 3, 13 + 1, 14 + 0, 15 - 1",
+          "steps": [
+            "Start with the number __14__ and think of ways to split it into two parts.",
+            "First way: __10__ + __4__ = __14__ (because 10 + 4 equals 14).",
+            "Second way: __7__ + __7__ = __14__ (because 7 + 7 equals 14).",
+            "Third way: __8__ + __6__ = __14__ (because 8 + 6 equals 14).",
+            "Fourth way: __9__ + __5__ = __14__ (because 9 + 5 equals 14).",
+            "Fifth way: __11__ + __3__ = __14__ (because 11 + 3 equals 14).",
+            "Sixth way: __13__ + __1__ = __14__ (because 13 + 1 equals 14).",
+            "Seventh way: __14__ + __0__ = __14__ (because adding nothing doesn’t change the number).",
+            "Eighth way: Think of 14 as __15__ and subtract __1__ to get __14__ (because 15 - 1 equals 14)."
+          ]
+        },
+        {
+          "example": "56 can be 40 + 16, 30 + 26, 28 + 28, 50 + 6, 55 + 1, 60 - 4, 20 + 36",
+          "steps": [
+            "Start with the first pair: 40 + 16 = __56__ (check if this equals 56).",
+            "Next, check 30 + 26 = __56__ (verify if this sums to 56).",
+            "Now, look at 28 + 28 = __56__ (confirm the total).",
+            "For 50 + 6, calculate: 50 + 6 = __56__ (verify the sum).",
+            "Check 55 + 1: 55 + 1 = __56__ (confirm the total).",
+            "For 60 - 4, calculate: 60 - 4 = __56__ (verify the result).",
+            "Finally, check 20 + 36: 20 + 36 = __56__ (confirm the sum)."
+          ]
+        },
+        {
+          "example": "72 can be 40 + 32, 36 + 36, 30 + 42, 60 + 12, 70 + 2, 75 - 3, 25 + 47",
+          "steps": [
+            "Look at the first pair: 40 + 32. What is the sum of these two numbers? __40 + 32 = __",
+            "Check if the total matches 72: __ + __ = __72__? (Yes/No)",
+            "Next pair: 36 + 36. What is the sum? __36 + 36 = __",
+            "Verify: __ + __ = __72__? (Yes/No)",
+            "Third pair: 30 + 42. What is the sum? __30 + 42 = __",
+            "Verify: __ + __ = __72__? (Yes/No)",
+            "Fourth pair: 60 + 12. What is the sum? __60 + 12 = __",
+            "Verify: __ + __ = __72__? (Yes/No)",
+            "Fifth pair: 70 + 2. What is the sum? __70 + 2 = __",
+            "Verify: __ + __ = __72__? (Yes/No)",
+            "Sixth pair: 75 - 3. What is the result? __75 - 3 = __",
+            "Verify: __ = __72__? (Yes/No)",
+            "Seventh pair: 25 + 47. What is the sum? __25 + 47 = __",
+            "Verify: __ + __ = __72__? (Yes/No)"
+          ]
+        },
+        {
+          "example": "3 can be 2 + 1, 1 + 2, 3 + 0, 4 - 1, 0 + 3, 5 - 2",
+          "steps": [
+            "Break down the number 3 into two parts where the first part is 2: __2__ + __1__ = 3",
+            "Break down the number 3 into two parts where the first part is 1: __1__ + __2__ = 3",
+            "Add 3 to 0 to get 3: __3__ + __0__ = 3",
+            "Start with 4 and subtract 1 to get 3: __4__ - __1__ = 3",
+            "Start with 0 and add 3 to get 3: __0__ + __3__ = 3",
+            "Start with 5 and subtract 2 to get 3: __5__ - __2__ = 3"
+          ]
+        },
+        {
+          "example": "84 can be expressed as 50 + 34, 40 + 44, 35 + 49, 80 + 4, 85 - 1, 25 + 59, 10 + 74",
+          "steps": [
+            "Break down 84 into two parts where the first number is 50: ____ + 34 = 84",
+            "Verify: 50 + 34 = 84 ✔️",
+            "Next, try a first number of 40: ____ + 44 = 84",
+            "Verify: 40 + 44 = 84 ✔️",
+            "Now try a first number of 35: ____ + 49 = 84",
+            "Verify: 35 + 49 = 84 ✔️",
+            "Next, try a first number of 80: ____ + 4 = 84",
+            "Verify: 80 + 4 = 84 ✔️",
+            "Now consider subtraction: 85 - ____ = 84",
+            "Verify: 85 - 1 = 84 ✔️",
+            "Finally, try adding two parts: 25 + ____ = 84",
+            "Verify: 25 + 59 = 84 ✔️",
+            "Lastly, try adding parts: 10 + ____ = 84",
+            "Verify: 10 + 74 = 84 ✔️"
+          ]
+        },
+        {
+          "example": "9 can be 5 + 4, 6 + 3, 7 + 2, 8 + 1, 9 + 0, 10 - 1, 4 + 5",
+          "steps": [
+            "Start with the first pair: 5 + 4 = __9__",
+            "Check the second pair: 6 + 3 = __9__",
+            "Verify the third pair: 7 + 2 = __9__",
+            "Look at the fourth pair: 8 + 1 = __9__",
+            "Consider the fifth pair: 9 + 0 = __9__",
+            "Now try subtraction: 10 - 1 = __9__",
+            "Finally, check the last pair: 4 + 5 = __9__"
+          ]
+        },
+        {
+          "example": "100 can be expressed as 75 + 25, 50 + 50, 60 + 40, 100 + 0, 105 - 5, 30 + 70, 20 + 80",
+          "steps": [
+            "Break down the first pair: 100 = __75__ + __25__",
+            "Verify: __75__ + __25__ = 100 ✔️",
+            "Next pair: 100 = __50__ + __50__",
+            "Verify: __50__ + __50__ = 100 ✔️",
+            "Third pair: 100 = __60__ + __40__",
+            "Verify: __60__ + __40__ = 100 ✔️",
+            "Fourth pair: 100 = __100__ + __0__",
+            "Verify: __100__ + __0__ = 100 ✔️",
+            "Fifth expression: 100 = __105__ - __5__",
+            "Verify: __105__ - __5__ = 100 ✔️",
+            "Sixth pair: 100 = __30__ + __70__",
+            "Verify: __30__ + __70__ = 100 ✔️",
+            "Last pair: 100 = __20__ + __80__",
+            "Verify: __20__ + __80__ = 100 ✔️"
+          ]
+        }
+      ]
+    },
+    {
+      "sub_topic": "Visual: Bar Models",
+      "explanation": "Bar models are visual representations of part-whole relationships using rectangular bars to depict quantities and their divisions. They help students understand how parts combine to form a whole, reinforcing concepts of addition, subtraction, multiplication, division, and remainders through concrete visuals. These models are particularly useful for breaking down complex problems into simpler, intuitive segments.",
+      "examples": [
+        {
+          "example": "A bar representing 48 cm divided into two parts: one part is 30 cm (for a book) and the other is 18 cm (for a pencil).",
+          "steps": [
+            "The total length of the bar is __48__ cm.",
+            "The first part (book) is __30__ cm long.",
+            "The second part (pencil) is __18__ cm long.",
+            "To verify, check if the parts add up: __30__ + __18__ = __48__ cm (matches the total length)."
+          ]
+        },
+        {
+          "example": "A bar of length 50 divided into parts of 25 and 25 (with a focus on equal division in a classroom activity).",
+          "steps": [
+            "The bar is __50__ units long in total.",
+            "It is divided into two equal parts.",
+            "Each part is __25__ units long.",
+            "Verify: __25__ + __25__ = __50__ units (total length matches)."
+          ]
+        },
+        {
+          "example": "A bar showing 60 minutes split into 40 minutes (for a lesson) and 20 minutes (for a break).",
+          "steps": [
+            "The total time is __60__ minutes.",
+            "The lesson takes up __40__ minutes of this time.",
+            "The break takes up __20__ minutes of this time.",
+            "To find how much time is left after the lesson, subtract the lesson time from the total: __60__ - __40__ = __20__ minutes.",
+            "The break time is already given as __20__ minutes, which matches the remaining time after the lesson."
+          ]
+        },
+        {
+          "example": "A bar of length 72 divided into parts of 56 and 16 (with a focus on finding the difference between two quantities).",
+          "steps": [
+            "The bar is divided into two parts: one part is __56__ units long.",
+            "The other part is __16__ units long.",
+            "To find the total length, add the two parts: __56__ + __16__ = __72__ units (which matches the given bar length).",
+            "The question asks for the difference between the two parts, so subtract the smaller part from the larger one: __56__ - __16__ = __40__ units."
+          ]
+        },
+        {
+          "example": "A bar representing 90 liters split into 60 liters (for water in a tank) and 30 liters (for water spilled).",
+          "steps": [
+            "The total amount of water is represented as __90__ liters.",
+            "The tank contains __60__ liters of water.",
+            "The spilled water amounts to __30__ liters.",
+            "To find the difference between the total and spilled water, subtract the spilled amount from the total: __90__ - __30__ = __60__ liters in the tank."
+          ]
+        },
+        {
+          "example": "A bar of length 100 divided into parts of 70 and 30 (with a focus on place value and remainder).",
+          "steps": [
+            "The bar is split into two parts: one part is __70__ units long, and the other part is __30__ units long.",
+            "Add the two parts together: __70__ + __30__ = __100__ units.",
+            "Since the total length is exactly 100, there is no remainder left over."
+          ]
+        },
+        {
+          "example": "A bar showing 84 apples divided into 56 apples (packaged in boxes) and 28 apples (left over).",
+          "steps": [
+            "The total number of apples is __84__.",
+            "The apples are split into two parts: __56__ apples in boxes and __28__ apples left over.",
+            "To find how many apples are in the boxes, subtract the leftover apples from the total: __84__ - __28__ = __56__ apples in boxes.",
+            "The remaining apples are already given as __28__ apples left over."
+          ]
+        },
+        {
+          "example": "A bar of length 120 divided into parts of 80 and 40 (with a focus on sharing equally among 4 groups).",
+          "steps": [
+            "The total length of the bar is __120__ units.",
+            "The bar is divided into two parts: one of __80__ units and another of __40__ units.",
+            "To share equally among 4 groups, first find the total number of groups: __4__ groups.",
+            "Calculate the total length per group by dividing the total length by the number of groups: __120 ÷ 4 = __",
+            "The first part (80 units) divided by 4 groups gives __80 ÷ 4 = __ units per group.",
+            "The second part (40 units) divided by 4 groups gives __40 ÷ 4 = __ units per group.",
+            "Verify the total length per group by adding the contributions from both parts: __80 ÷ 4 + 40 ÷ 4 = __ units per group."
+          ]
+        },
+        {
+          "example": "A bar representing 150 grams of sugar divided into 100 grams (for a recipe) and 50 grams (for extra).",
+          "steps": [
+            "The total amount of sugar is __150__ grams.",
+            "The amount for the recipe is __100__ grams.",
+            "The amount for extra is __50__ grams.",
+            "To confirm, __100__ + __50__ = __150__ grams (matches the total)."
+          ]
+        },
+        {
+          "example": "A bar of length 180 divided into parts of 120 and 60 (with a focus on ratio and proportion).",
+          "steps": [
+            "The bar is divided into two parts: one part is __120__ units long.",
+            "The other part is __60__ units long.",
+            "Check if the parts add up to the total length: __120__ + __60__ = __180__ units.",
+            "To find the ratio of the two parts, divide the larger part by the smaller one: __120__ ÷ __60__ = __2__ (the ratio is 2:1).",
+            "If the 120-unit part represents 2 parts of the total, what fraction does the 60-unit part represent? __60__ ÷ __180__ = __1/3__ of the total bar."
+          ]
+        },
+        {
+          "example": "A bar showing 200 tickets sold, divided into 150 tickets (for adults) and 50 tickets (for children).",
+          "steps": [
+            "The total number of tickets sold is __200__.",
+            "The number of adult tickets sold is __150__.",
+            "The number of child tickets sold is __50__.",
+            "To verify, add the adult and child tickets: __150__ + __50__ = __200__ tickets sold in total."
+          ]
+        },
+        {
+          "example": "A bar of length 250 divided into parts of 180 and 70 (with a focus on subtraction and estimation).",
+          "steps": [
+            "The total length of the bar is __250__ units.",
+            "One part of the bar is __180__ units long.",
+            "Subtract the first part from the total: __250__ - __180__ = __70__ units remain.",
+            "The remaining part is __70__ units, which matches the second part described in the example."
+          ]
+        },
+        {
+          "example": "A bar representing 300 students in a school divided into 200 students (for grades 1-3) and 100 students (for grades 4-6).",
+          "steps": [
+            "The total number of students is represented as __300__.",
+            "The bar is split into two parts: one part shows __200__ students (grades 1-3).",
+            "The other part shows __100__ students (grades 4-6).",
+            "To verify, check that __200__ + __100__ = __300__ students total."
+          ]
+        },
+        {
+          "example": "A bar of length 400 divided into parts of 320 and 80 (with a focus on division and remainder).",
+          "steps": [
+            "The total length of the bar is __400__ units.",
+            "The first part of the bar is __320__ units long.",
+            "Subtract the first part from the total: __400__ - __320__ = __180__ units remain.",
+            "The second part of the bar is __80__ units long.",
+            "Check if the remaining length matches the second part: __180__ - __80__ = __100__ units left over.",
+            "The division with remainder is complete: The bar is made up of __320__ and __80__ parts with a remainder of __100__ units."
+          ]
+        },
+        {
+          "example": "A bar showing 500 kg of wheat split into 350 kg (for flour) and 150 kg (for bread).",
+          "steps": [
+            "The total amount of wheat is __500__ kg.",
+            "The amount used for flour is __350__ kg.",
+            "The amount used for bread is __150__ kg.",
+            "To verify, check if the parts add up: __350__ kg + __150__ kg = __500__ kg (matches the total)."
+          ]
+        },
+        {
+          "example": "A bar of length 600 divided into parts of 450 and 150 (with a focus on multiplication and division).",
+          "steps": [
+            "The total length of the bar is __600__ units.",
+            "One part of the bar is __450__ units long.",
+            "The other part of the bar is __150__ units long.",
+            "To check if the parts add up correctly, add them together: __450__ + __150__ = __600__ units.",
+            "Now, let’s think about how many times the smaller part fits into the larger part if we consider multiplication: __450__ ÷ __150__ = __3__ (the bar is divided into 3 equal parts of 150 units)."
+          ]
+        },
+        {
+          "example": "A bar representing 700 miles of a road divided into 500 miles (for highway) and 200 miles (for rural areas).",
+          "steps": [
+            "The total length of the road is represented as __700__ miles.",
+            "The highway portion is __500__ miles.",
+            "The rural portion is __200__ miles.",
+            "To verify: __500__ + __200__ = __700__ miles (matches the total length)."
+          ]
+        },
+        {
+          "example": "A bar of length 900 divided into parts of 700 and 200 (with a focus on comparing quantities).",
+          "steps": [
+            "The bar is divided into two parts: one part is __700__ units long.",
+            "The other part is __200__ units long.",
+            "To check if the parts add up to the whole bar, we compare: __700__ + __200__ = __900__ units.",
+            "Since __700__ + __200__ equals the total length of the bar (__900__), the division is correct.",
+            "Now, to compare the two parts, we see that __700__ is __500__ units longer than __200__ (because __700__ - __200__ = __500__)."
+          ]
+        },
+        {
+          "example": "A bar showing 1,200 books in a library divided into 800 books (for fiction) and 400 books (for non-fiction).",
+          "steps": [
+            "The library has a total of __1,200__ books.",
+            "The fiction section has __800__ books.",
+            "The non-fiction section has __400__ books.",
+            "To verify, check if fiction + non-fiction equals the total: __800__ + __400__ = __1,200__ books."
+          ]
+        },
+        {
+          "example": "A bar of length 1,500 divided into parts of 1,000 and 500 (with a focus on real-world applications in commerce).",
+          "steps": [
+            "A bar is made up of one whole part of length __1,000__ units.",
+            "The remaining length after the 1,000-unit part is __1,500__ - __1,000__ = __500__ units.",
+            "The bar is now divided into two parts: one part is __1,000__ units and the other is __500__ units.",
+            "In commerce, this could represent splitting a payment of $1,500 into a $1,000 bill and a $500 bill."
+          ]
+        }
+      ]
+    }
+  ]
+}

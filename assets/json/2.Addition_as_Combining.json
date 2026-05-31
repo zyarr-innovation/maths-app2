@@ -1,0 +1,593 @@
+{
+  "topic": "Addition as Combining",
+  "sub_topics": [
+    {
+      "sub_topic": "Joining Groups",
+      "explanation": "The concept of joining groups involves combining distinct collections of objects into a single, larger group to determine the total count. It emphasizes the *part-to-whole* relationship, where the sum of individual group sizes equals the total size of the combined group. This sub-topic is foundational for understanding addition and real-world applications of combining quantities.",
+      "examples": [
+        {
+          "example": "Two bags each contain 9 marbles. If you combine them, how many marbles will be in the new bag?",
+          "steps": [
+            "Each bag has __9__ marbles.",
+            "There are __2__ bags in total.",
+            "To find the total, multiply the number of marbles in one bag by the number of bags: __9__ × __2__ = ____ marbles in the new bag."
+          ]
+        },
+        {
+          "example": "A bakery has 12 cupcakes in one display and 8 in another. If you buy one from each, how many cupcakes do you have?",
+          "steps": [
+            "The first display has __12__ cupcakes.",
+            "The second display has __8__ cupcakes.",
+            "You buy __1__ cupcake from the first display. Now there are __11__ left in it.",
+            "You buy __1__ cupcake from the second display. Now there are __7__ left in it.",
+            "You have __1__ cupcake from the first display and __1__ cupcake from the second display.",
+            "Total cupcakes you have: __1__ + __1__ = __2__"
+          ]
+        },
+        {
+          "example": "A soccer team has 11 players on the field and 2 substitutes waiting. If they bring in all substitutes, how many players are on the field now?",
+          "steps": [
+            "There are __11__ players currently on the field.",
+            "There are __2__ substitutes waiting to join the field.",
+            "The team brings in all substitutes, so add __2__ to the players on the field.",
+            "Now, __11__ + __2__ = __13__ players are on the field."
+          ]
+        },
+        {
+          "example": "A library has 15 books in one shelf and 7 on another. If you move all books to a single shelf, how many books are there in total?",
+          "steps": [
+            "Count the books on the first shelf: __15__ books.",
+            "Count the books on the second shelf: __7__ books.",
+            "Add the books from both shelves: __15__ + __7__ = __22__ books."
+          ]
+        },
+        {
+          "example": "A train station has 6 trains arriving at one platform and 4 at another. If all trains stop at the main platform, how many trains are there now?",
+          "steps": [
+            "There are __6__ trains initially at one platform.",
+            "There are __4__ trains arriving at another platform.",
+            "All trains move to the main platform: __6__ + __4__ = __10__ trains now."
+          ]
+        },
+        {
+          "example": "A garden has 14 rows of flowers with 5 flowers in each row and 9 rows of herbs with 3 herbs in each row. How many total plants are there in the garden?",
+          "steps": [
+            "First, calculate the total number of flowers: __14__ rows × __5__ flowers per row = __70__ flowers.",
+            "Next, calculate the total number of herbs: __9__ rows × __3__ herbs per row = __27__ herbs.",
+            "Now, add the flowers and herbs together to find the total plants: __70__ + __27__ = __97__ plants."
+          ]
+        },
+        {
+          "example": "A café has 11 tables occupied by groups of 2 people each and 6 empty tables. If all tables are filled with groups of 3 people, how many people will be seated?",
+          "steps": [
+            "First, calculate the number of occupied tables: __11__ tables are occupied.",
+            "Each occupied table has __2__ people, so the total number of people at occupied tables is __11__ × __2__ = __22__ people.",
+            "Next, calculate the number of empty tables: __6__ tables are empty.",
+            "All tables (occupied + empty) total: __11__ + __6__ = __17__ tables.",
+            "Now, fill all tables with groups of __3__ people each: __17__ × __3__ = __51__ people seated."
+          ]
+        },
+        {
+          "example": "A construction site has 7 trucks carrying 12 bricks each and 5 trucks carrying 8 bricks each. If all bricks are combined, how many bricks are there in total?",
+          "steps": [
+            "First, calculate the total bricks carried by the 7 trucks that each carry __12__ bricks: __7__ × __12__ = __84__ bricks.",
+            "Next, calculate the total bricks carried by the 5 trucks that each carry __8__ bricks: __5__ × __8__ = __40__ bricks.",
+            "Now, add the two totals together to find the combined number of bricks: __84__ + __40__ = __124__ bricks."
+          ]
+        },
+        {
+          "example": "A classroom has 18 students in one group and 12 in another. If they form a single group, how many students are there altogether?",
+          "steps": [
+            "There are __18__ students in the first group.",
+            "There are __12__ students in the second group.",
+            "To find the total, add the two groups together: __18__ + __12__ = ____"
+          ]
+        },
+        {
+          "example": "A farmer has 16 cows in one pasture and 9 in another. If they move all cows to a single field, how many cows are there now?",
+          "steps": [
+            "The farmer has __16__ cows in the first pasture.",
+            "The farmer has __9__ cows in the second pasture.",
+            "To find the total, add the cows from both pastures: __16__ + __9__ = ____",
+            "Now all cows are moved to a single field, so the total number of cows is __16__ + __9__ = __25__."
+          ]
+        },
+        {
+          "example": "A bookstore has 23 mystery novels in one section and 15 sci-fi novels in another. If you buy one from each section, how many books do you have?",
+          "steps": [
+            "The bookstore has __23__ mystery novels in one section.",
+            "The other section has __15__ sci-fi novels.",
+            "You buy __1__ mystery novel from the first section.",
+            "You buy __1__ sci-fi novel from the second section.",
+            "Now subtract the mystery novel from the total: __23__ - __1__ = __22__ mystery novels remain.",
+            "Now subtract the sci-fi novel from the total: __15__ - __1__ = __14__ sci-fi novels remain.",
+            "Add the books you bought together: __1__ (mystery) + __1__ (sci-fi) = __2__ books you have in total."
+          ]
+        },
+        {
+          "example": "A marathon runner completes 5 laps in one track and 3 laps in another. If they run all laps in a single track, how many laps are there in total?",
+          "steps": [
+            "The runner completes __5__ laps in the first track.",
+            "The runner completes __3__ laps in the second track.",
+            "To find the total laps, add the laps from both tracks: __5__ + __3__ = __8__ laps.",
+            "If all laps are in a single track, the total number of laps is __8__."
+          ]
+        },
+        {
+          "example": "A bakery has 19 muffins in one box and 11 in another. If you take one from each box, how many muffins do you have?",
+          "steps": [
+            "There are __19__ muffins in the first box.",
+            "There are __11__ muffins in the second box.",
+            "You take __1__ muffin from the first box. Now there are __19__ - __1__ = __18__ muffins left in it.",
+            "You take __1__ muffin from the second box. Now there are __11__ - __1__ = __10__ muffins left in it.",
+            "You have taken __1__ muffin from each box, so you have __1__ + __1__ = __2__ muffins in total."
+          ]
+        },
+        {
+          "example": "A sports team has 14 players in one division and 8 in another. If they combine their teams, how many players are there now?",
+          "steps": [
+            "The first division has __14__ players.",
+            "The second division has __8__ players.",
+            "To find the total, add the players from both divisions: __14__ + __8__ = ____"
+          ]
+        },
+        {
+          "example": "A train has 16 passengers on one car and 9 on another. If all passengers move to a single car, how many passengers are there now?",
+          "steps": [
+            "There are __16__ passengers in the first car.",
+            "There are __9__ passengers in the second car.",
+            "First, add the passengers from both cars: __16__ + __9__ = __25__ passengers total.",
+            "Now, all __25__ passengers move to a single car.",
+            "The total number of passengers in the single car is now __25__."
+          ]
+        },
+        {
+          "example": "A farmer has 22 chickens in one coop and 15 in another. If they move all chickens to a single coop, how many chickens are there now?",
+          "steps": [
+            "The farmer starts with __22__ chickens in the first coop.",
+            "The farmer has __15__ chickens in the second coop.",
+            "To find the total, add the chickens from both coops: __22__ + __15__ = ____ chickens in total."
+          ]
+        },
+        {
+          "example": "A classroom has 15 students in one group and 10 in another. If they form a single group, how many students are there altogether?",
+          "steps": [
+            "There are __15__ students in the first group.",
+            "There are __10__ students in the second group.",
+            "To find the total, add the two groups together: __15__ + __10__ = ____",
+            "The total number of students in the single group is ____."
+          ]
+        },
+        {
+          "example": "A toy store has 13 action figures in one display and 7 in another. If you pick one from each, how many total action figures have you collected?",
+          "steps": [
+            "There are __13__ action figures in the first display.",
+            "There are __7__ action figures in the second display.",
+            "You pick __1__ action figure from the first display.",
+            "You pick __1__ action figure from the second display.",
+            "Subtract the picked figures from each display: __13__ - __1__ = __12__ remaining in the first display.",
+            "Subtract the picked figures from each display: __7__ - __1__ = __6__ remaining in the second display.",
+            "Add the remaining figures from both displays: __12__ + __6__ = __18__ total action figures collected."
+          ]
+        },
+        {
+          "example": "A train station has 10 trains arriving at one platform and 6 at another. If all trains stop at the main platform, how many trains are there now?",
+          "steps": [
+            "There are __10__ trains initially at one platform.",
+            "There are __6__ trains arriving at another platform.",
+            "All trains from the second platform move to the main platform.",
+            "Now, add the trains from both platforms: __10__ + __6__ = __16__ trains at the main platform."
+          ]
+        },
+        {
+          "example": "A garden has 17 rows of vegetables with 6 plants in each row and 12 rows of fruits with 4 fruits in each row. How many total plants are there in the garden?",
+          "steps": [
+            "First, calculate the total number of vegetable plants: __17__ rows × __6__ plants per row = __102__ plants.",
+            "Next, calculate the total number of fruit plants: __12__ rows × __4__ fruits per row = __48__ plants.",
+            "Now, add the vegetable and fruit plants together: __102__ + __48__ = __150__ plants in total."
+          ]
+        }
+      ]
+    },
+    {
+      "sub_topic": "Continuing a Path",
+      "explanation": "Continuing a path involves extending a sequence of steps forward by iterative addition, where each step represents an increment of one unit. The goal is to determine the cumulative position after a series of forward movements, akin to traversing a number line or following a linear progression in real-world scenarios. This concept emphasizes understanding sequential increments and their cumulative effect on a starting point.",
+      "examples": [
+        {
+          "example": "You start at the 7th floor of a building and take 10 more elevators upward. On which floor do you arrive?",
+          "steps": [
+            "You begin on the __7__th floor.",
+            "Each elevator ride moves you up by __1__ floor.",
+            "You take __10__ more elevator rides upward.",
+            "Calculate the total number of floors climbed: __7__ + __10__ = __17__.",
+            "After the elevators, you arrive on the __17__th floor."
+          ]
+        },
+        {
+          "example": "A bee starts at the 3rd hive in a row and flies to the 11th hive. How many hives did it pass?",
+          "steps": [
+            "The bee begins at the __3rd__ hive.",
+            "The bee flies to the __11th__ hive.",
+            "To find how many hives it passed, count the number of hives between the starting and ending positions.",
+            "The difference between the starting and ending positions is __11__ - __3__ = __8__.",
+            "Since the bee lands on the 11th hive, it does not count it as passed. So subtract 1 from the difference: __8__ - __1__ = __7__ hives passed."
+          ]
+        },
+        {
+          "example": "A marathon runner starts at position 15 and completes 8 more laps. What is their final position number?",
+          "steps": [
+            "The runner begins at position __15__.",
+            "They complete __8__ additional laps.",
+            "Adding the laps to the starting position: __15__ + __8__ = __23__.",
+            "The runner’s final position number is __23__."
+          ]
+        },
+        {
+          "example": "A clock starts at 4:30 PM and ticks forward 12 more minutes. What time does it show?",
+          "steps": [
+            "The clock starts at __4:30 PM__.",
+            "Counting forward by minutes: 4:30 + 1 minute = 4:31 PM.",
+            "Add another minute: 4:31 + 1 minute = 4:32 PM.",
+            "Continue adding minutes: 4:32 + 1 minute = 4:33 PM.",
+            "Next minute: 4:33 + 1 minute = 4:34 PM.",
+            "Next minute: 4:34 + 1 minute = 4:35 PM.",
+            "Next minute: 4:35 + 1 minute = 4:36 PM.",
+            "Next minute: 4:36 + 1 minute = 4:37 PM.",
+            "Next minute: 4:37 + 1 minute = 4:38 PM.",
+            "Next minute: 4:38 + 1 minute = 4:39 PM.",
+            "Next minute: 4:39 + 1 minute = 4:40 PM.",
+            "Next minute: 4:40 + 1 minute = 4:41 PM.",
+            "Next minute: 4:41 + 1 minute = 4:42 PM.",
+            "The clock now shows __4:42 PM__ after adding 12 minutes."
+          ]
+        },
+        {
+          "example": "A train starts at a station labeled 'B' and travels 15 more stops eastward. What is the label of the final station?",
+          "steps": [
+            "The train begins at station labeled __'B'__.",
+            "It travels __15__ additional stops eastward.",
+            "Counting sequentially from 'B': B → C → D → ... → __'P'__ (since B is the 2nd letter of the alphabet, adding 15 stops lands on the 17th letter: 'P')."
+          ]
+        },
+        {
+          "example": "A snail starts at the 4th leaf of a fern and climbs 9 more leaves upward. How many leaves is it on now?",
+          "steps": [
+            "The snail begins at the __4__ leaf of the fern.",
+            "It climbs __9__ more leaves upward from that starting point.",
+            "To find the total, add __4__ + __9__.",
+            "The snail is now on the __13__ leaf."
+          ]
+        },
+        {
+          "example": "You have a savings account with $18. If you deposit 14 more dollars, how much will be in your account?",
+          "steps": [
+            "Your savings account currently has __18__ dollars.",
+            "You deposit __14__ more dollars into the account.",
+            "Now, add the deposited amount to the current balance: __18__ + __14__ = __32__ dollars in the account."
+          ]
+        },
+        {
+          "example": "A spider starts at the 2nd web strand and weaves 7 more strands downward. How many strands is it on?",
+          "steps": [
+            "The spider begins at the __2__nd web strand.",
+            "It weaves down __7__ more strands.",
+            "Counting from the starting point: __2__ + __7__ = __9__ strands."
+          ]
+        },
+        {
+          "example": "A train starts at mile marker 12 and travels 18 more miles. Where does it stop?",
+          "steps": [
+            "The train begins at mile marker __12__.",
+            "It travels an additional __18__ miles from this starting point.",
+            "To find the stopping point, add __12__ + __18__.",
+            "The calculation is __12__ + __18__ = __30__.",
+            "Therefore, the train stops at mile marker __30__."
+          ]
+        },
+        {
+          "example": "A clock starts at 9:00 AM and ticks forward 5 more hours. What time does it show?",
+          "steps": [
+            "The clock starts at __9:00 AM__.",
+            "Adding 1 hour brings the time to __10:00 AM__.",
+            "Adding another hour brings the time to __11:00 AM__.",
+            "Adding another hour brings the time to __12:00 PM (noon)__.",
+            "Adding another hour brings the time to __1:00 PM__.",
+            "Adding the final hour brings the time to __2:00 PM__."
+          ]
+        },
+        {
+          "example": "A bee starts at the 5th flower in a garden and collects 12 more flowers. How many flowers has it gathered?",
+          "steps": [
+            "The bee begins at the __5__ flower in the garden.",
+            "It collects an additional __12__ flowers from there.",
+            "To find the total, add __5__ + __12__ flowers together.",
+            "The bee has gathered __17__ flowers in total."
+          ]
+        },
+        {
+          "example": "A runner starts at position 10 and completes 6 more laps. What is their final position?",
+          "steps": [
+            "The runner begins at position __10__.",
+            "The runner completes __6__ additional laps.",
+            "Each lap increases the position by __1__.",
+            "So, the runner moves: __10__ + (__6__ × __1__) = __16__.",
+            "The final position is __16__."
+          ]
+        },
+        {
+          "example": "A clock starts at 11:45 PM and ticks forward 15 more minutes. What time does it show?",
+          "steps": [
+            "The clock starts at __11:45 PM__.",
+            "Adding __15__ minutes to 11:45 PM brings us to __12:00 AM__ (midnight).",
+            "The clock now shows __12:00 AM__."
+          ]
+        },
+        {
+          "example": "A train starts at a station labeled 'C' and travels 10 more stops westward.",
+          "steps": [
+            "The train begins at station labeled __'C'__.",
+            "The train moves __10__ stops westward from station 'C'.",
+            "Counting the stops: 'C' → 'D' → 'E' → 'F' → 'G' → 'H' → 'I' → 'J' → 'K' → 'L' → 'M'.",
+            "The final station after 10 stops is labeled __'M'__."
+          ]
+        },
+        {
+          "example": "A snail starts at the 8th leaf of a fern and climbs 3 more leaves upward. How many leaves is it on now?",
+          "steps": [
+            "The snail begins at the __8__ leaf of the fern.",
+            "It climbs __3__ more leaves upward.",
+            "Counting upward from the 8th leaf: 8 → 9, 9 → 10, 10 → 11.",
+            "Now the snail is on the __11__ leaf."
+          ]
+        },
+        {
+          "example": "You start at the 1st step of a staircase and take 12 more steps upward. On which step do you end?",
+          "steps": [
+            "You begin at the __1__st step of the staircase.",
+            "You take __12__ more steps upward from this starting point.",
+            "Counting each step: 1 + 12 = __13__",
+            "Therefore, you end on the __13__rd step."
+          ]
+        },
+        {
+          "example": "A bee starts at the 9th hive in a row and flies to the 22nd hive. How many hives did it pass?",
+          "steps": [
+            "The bee begins at the __9__ hive.",
+            "The bee flies to the __22__ hive.",
+            "To find how many hives it passes, count the number of hives between the start and end positions.",
+            "The difference between the start and end positions is __22__ - __9__ = __13__.",
+            "Since the bee lands on the 22nd hive, it does **not** count it as passed. So subtract 1: __13__ - __1__ = __12__ hives passed."
+          ]
+        },
+        {
+          "example": "A clock starts at 7:15 AM and ticks forward 20 more minutes. What time does it show?",
+          "steps": [
+            "The clock starts at __7:15 AM__.",
+            "Counting forward by minutes: 7:15 + 5 minutes = __7:20 AM__.",
+            "Counting forward by minutes: 7:20 + 5 minutes = __7:25 AM__.",
+            "Counting forward by minutes: 7:25 + 5 minutes = __7:30 AM__.",
+            "Counting forward by minutes: 7:30 + 5 minutes = __7:35 AM__.",
+            "Counting forward by minutes: 7:35 + 5 minutes = __7:40 AM__.",
+            "Counting forward by minutes: 7:40 + 5 minutes = __7:45 AM__.",
+            "Counting forward by minutes: 7:45 + 5 minutes = __7:50 AM__.",
+            "Counting forward by minutes: 7:50 + 5 minutes = __7:55 AM__.",
+            "Counting forward by minutes: 7:55 + 5 minutes = __8:00 AM__.",
+            "The clock shows __8:00 AM__ after adding 20 minutes."
+          ]
+        },
+        {
+          "example": "A train starts at mile marker 23 and travels 11 more miles. Where does it stop?",
+          "steps": [
+            "The train begins at mile marker __23__.",
+            "It travels an additional __11__ miles from this starting point.",
+            "To find the stopping point, add __23__ + __11__ = __34__ miles.",
+            "Therefore, the train stops at mile marker __34__."
+          ]
+        },
+        {
+          "example": "A runner starts at position 20 and completes 4 more laps. What is their final position number?",
+          "steps": [
+            "The runner begins at position __20__.",
+            "Each lap increases the position by __1__.",
+            "The runner completes __4__ laps.",
+            "Add the laps to the starting position: __20__ + __4__ × __1__ = __24__.",
+            "Final position is __24__."
+          ]
+        }
+      ]
+    },
+    {
+      "sub_topic": "Counting-on",
+      "explanation": "Counting-on is a mental strategy where you start from a known quantity and add a smaller quantity by counting forward incrementally. This method improves addition efficiency by avoiding recalculating from zero, focusing on adding one step at a time while tracking the total. It is particularly useful for mental math and real-world scenarios requiring quick calculations.",
+      "examples": [
+        {
+          "example": "You have 8 books. Your cousin brings you 5 more. How many books do you have now if you count on from 8?",
+          "steps": [
+            "Start with __8__ books.",
+            "Your cousin adds __5__ more books.",
+            "Count the total by adding: __8__ + __5__ = __13__ books."
+          ]
+        },
+        {
+          "example": "A farmer has 15 chickens. He sells 7 to a neighbor. How many chickens remain if you count on from 15?",
+          "steps": [
+            "The farmer starts with __15__ chickens.",
+            "He sells __7__ chickens to a neighbor.",
+            "Subtract the sold chickens: __15__ - __7__ = __8__ chickens remain.",
+            "The question asks to count on from the remaining number. Start with the remaining __8__ chickens.",
+            "Count on from __8__: __8__ + __1__ = __9__, __9__ + __1__ = __10__, __10__ + __1__ = __11__, __11__ + __1__ = __12__, __12__ + __1__ = __13__, __13__ + __1__ = __14__, __14__ + __1__ = __15__ chickens."
+          ]
+        },
+        {
+          "example": "A clock shows 3:10. If the time increases by 6 minutes, what time will it show if you count on from 3:10?",
+          "steps": [
+            "The clock currently shows the hour as __3__ and the minutes as __10__.",
+            "Adding __6__ minutes to __10__ minutes gives __16__ minutes.",
+            "Since a clock only goes up to __60__ minutes, we need to adjust: __16__ + __60__ = __76__ minutes total.",
+            "Subtract __60__ minutes to find the correct minutes: __76__ - __60__ = __16__ minutes.",
+            "The hour increases by one because we passed the 60-minute mark. So, the hour becomes __4__.",
+            "Now, the clock shows __4__:__16__."
+          ]
+        },
+        {
+          "example": "A pizza has 8 slices. You eat 3 slices. How many slices are left if you count on from 8?",
+          "steps": [
+            "Start with the total number of pizza slices: __8__.",
+            "You eat __3__ slices, so subtract them from the total: __8__ - __3__ = __5__ slices remain.",
+            "Now, count on from the remaining slices: Start at __5__ and add each slice one by one until you reach the next whole number after 8 (if applicable).",
+            "The number of slices left is __5__."
+          ]
+        },
+        {
+          "example": "A train departs with 12 passengers. 9 more board the train. How many passengers are on the train if you count on from 12?",
+          "steps": [
+            "The train starts with __12__ passengers.",
+            "Nine more passengers board the train.",
+            "Count the passengers starting from 12: __12__, __13__, __14__, __15__, __16__, __17__, __18__, __19__, __20__.",
+            "Now there are __20__ passengers on the train."
+          ]
+        },
+        {
+          "example": "A bakery has 20 muffins. They sell 7 at the start of the day. How many muffins remain if you count on from 20?",
+          "steps": [
+            "The bakery starts with __20__ muffins.",
+            "They sell __7__ muffins at the start of the day.",
+            "Subtract the sold muffins: __20__ - __7__ = __13__ muffins remain.",
+            "Now, count on from the remaining muffins: Start with __13__ and add __1__ each time until you reach __20__ (to verify the count).",
+            "The muffins remaining after selling are still __13__ (since the question asks for the remaining count after selling, not counting on)."
+          ]
+        },
+        {
+          "example": "A bag contains 16 beads. You add 9 more beads. How many beads are in the bag if you count on from 16?",
+          "steps": [
+            "Start with __16__ beads in the bag.",
+            "Add __9__ more beads to the bag.",
+            "Count on from 16 by adding 9: 16 + 1 = 17, 17 + 1 = 18, ..., up to 16 + 9 = __25__ beads."
+          ]
+        },
+        {
+          "example": "A soccer team has 18 players. They lose 5 games and each game they lose, 3 players are substituted. How many players are on the field if you count on from 18 after one substitution?",
+          "steps": [
+            "The team starts with __18__ players on the field.",
+            "They lose __1__ game (only one substitution is considered).",
+            "For this game, __3__ players are substituted out.",
+            "Subtract the substituted players: __18__ - __3__ = __15__ players remain on the field.",
+            "No additional substitutions are mentioned for this step, so the count remains at __15__ players."
+          ]
+        },
+        {
+          "example": "A farmer has 25 apples. He sells 12 to a market. How many apples are left if you count on from 25?",
+          "steps": [
+            "The farmer starts with __25__ apples.",
+            "He sells __12__ apples to the market.",
+            "Subtract the sold apples: __25__ - __12__ = __13__ apples remain.",
+            "The question asks to count on from the remaining apples, so we start counting from __13__."
+          ]
+        },
+        {
+          "example": "A clock shows 4:25. If the time increases by 11 minutes, what time will it show if you count on from 4:25?",
+          "steps": [
+            "The clock currently shows __4:25__.",
+            "Adding __11__ minutes to 25 minutes gives __36__ minutes past the hour.",
+            "Since 36 minutes is more than an hour, we subtract 60 minutes to convert it: __36 - 60 = -24__ minutes.",
+            "This means we move back __1__ hour and add the remaining minutes: __-24 + 60 = 36__ minutes past the hour after moving back an hour.",
+            "Now, subtract 1 hour from 4: __4 - 1 = 3:__",
+            "The time is now __3:36__ (3 hours and 36 minutes)."
+          ]
+        },
+        {
+          "example": "A classroom has 22 students. 10 more students join the class. How many students are in the class if you count on from 22?",
+          "steps": [
+            "Start with the initial number of students: __22__.",
+            "Add the number of students who join: __10__.",
+            "Count on from 22 by adding 10: 22, 23, 24, ..., up to __32__ students in total."
+          ]
+        },
+        {
+          "example": "A farmer has 30 cows. He sells 14 to a neighboring farm. How many cows remain if you count on from 30?",
+          "steps": [
+            "The farmer starts with __30__ cows.",
+            "He sells __14__ cows to a neighboring farm.",
+            "Subtract the sold cows: __30__ - __14__ = __16__ cows remain after selling.",
+            "The question asks to count on from 30, so we consider the remaining cows as the starting point for addition. Since no further addition is specified in the example, we focus on the remaining count: __16__ cows remain."
+          ]
+        },
+        {
+          "example": "A train has 19 passengers. 11 more board the train. How many passengers are on the train if you count on from 19?",
+          "steps": [
+            "Start with the initial number of passengers: __19__.",
+            "Count on __11__ more passengers starting from 19.",
+            "Count each passenger one by one: 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37.",
+            "Now, the total number of passengers on the train is __37__."
+          ]
+        },
+        {
+          "example": "A fruit stand has 35 oranges. They sell 18 oranges. How many oranges are left if you count on from 35?",
+          "steps": [
+            "Start with __35__ oranges on the fruit stand.",
+            "The fruit stand sells __18__ oranges.",
+            "Subtract the sold oranges: __35__ - __18__ = __17__ oranges remain.",
+            "The question asks to count on from 35, so we start counting from the remaining __17__ oranges.",
+            "Counting on means adding the next whole numbers sequentially. The next number after 17 is __18__."
+          ]
+        },
+        {
+          "example": "A clock shows 5:40. If the time increases by 13 minutes, what time will it show if you count on from 5:40?",
+          "steps": [
+            "The clock currently shows __5:40__.",
+            "Adding __13__ minutes to 40 minutes brings us to __53__ minutes past the hour.",
+            "Since there are only 60 minutes in an hour, we adjust: __53__ minutes is equivalent to __13__ minutes past the next hour (because 53 - 40 = 13).",
+            "So, 5:40 + 13 minutes = __5:53__.",
+            "The clock will now show __6:__ (the next hour) plus the remaining __13__ minutes, resulting in __6:13__."
+          ]
+        },
+        {
+          "example": "A group of hikers has 28 people. They split into teams of 5. How many hikers are left if you count on from 28 after forming 4 teams?",
+          "steps": [
+            "There are __28__ hikers in total.",
+            "Each team consists of __5__ hikers.",
+            "Form __4__ teams: __4__ × __5__ = __20__ hikers are used in teams.",
+            "Subtract the team members from the total: __28__ - __20__ = __8__ hikers remain."
+          ]
+        },
+        {
+          "example": "A bakery has 42 cupcakes. They sell 26 cupcakes. How many cupcakes are left if you count on from 42?",
+          "steps": [
+            "The bakery starts with __42__ cupcakes.",
+            "They sell __26__ cupcakes.",
+            "Subtract the sold cupcakes from the total: __42__ - __26__ = __16__ cupcakes remain.",
+            "The question asks to count on from 42, so we start counting from the remaining cupcakes: __16__."
+          ]
+        },
+        {
+          "example": "A train has 36 passengers. 23 more board the train. How many passengers are on the train if you count on from 36?",
+          "steps": [
+            "Start with the initial number of passengers: __36__.",
+            "Add the number of passengers who board the train: __23__.",
+            "Count the total passengers by adding: __36__ + __23__ = __59__."
+          ]
+        },
+        {
+          "example": "A farmer has 50 tomatoes. He sells 28 to a grocery store. How many tomatoes are left if you count on from 50?",
+          "steps": [
+            "The farmer starts with __50__ tomatoes.",
+            "He sells __28__ tomatoes to the grocery store.",
+            "Subtract the sold tomatoes: __50__ - __28__ = __22__ tomatoes remain.",
+            "The question asks to count on from 50, so we consider the remaining tomatoes as the starting point for addition.",
+            "Since no additional tomatoes are added in this example, the remaining tomatoes are __22__."
+          ]
+        },
+        {
+          "example": "A clock shows 6:15. If the time increases by 17 minutes, what time will it show if you count on from 6:15?",
+          "steps": [
+            "The clock currently shows __6:15__.",
+            "Counting forward, 6:15 plus 15 minutes brings us to __6:30__.",
+            "Now, add the remaining __2__ minutes (since 17 - 15 = 2).",
+            "Adding 2 minutes to 6:30 gives us __6:32__.",
+            "Therefore, the clock will show __6:32__ after increasing by 17 minutes."
+          ]
+        }
+      ]
+    }
+  ]
+}
