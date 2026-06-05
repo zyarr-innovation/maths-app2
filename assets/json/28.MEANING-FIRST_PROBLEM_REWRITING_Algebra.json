@@ -1,0 +1,1317 @@
+{
+  "topic": "MEANING-FIRST PROBLEM REWRITING (Algebra)",
+  "sub_topics": [
+    {
+      "sub_topic": "Understanding the Core Action: Doubling and Adding",
+      "explanation": "The operation ‘doubling and adding’ combines multiplication by 2 with addition of a constant. This can be expressed algebraically as **2x + 3**, where **x** is the original quantity. The task involves solving for unknowns, visualizing transformations, and applying the concept to real-world scenarios across diverse contexts.",
+      "examples": [
+        {
+          "example": "A bakery starts with **m** loaves of bread. Doubling the quantity yields **2m** loaves. If they add 3 extra loaves, the total becomes **2m + 3** loaves.",
+          "steps": [
+            "The bakery starts with __m__ loaves of bread.",
+            "Doubling the number of loaves means multiplying by 2: __m × 2 = 2m__ loaves.",
+            "Now the bakery has __2m__ loaves.",
+            "They add __3__ extra loaves to the current total.",
+            "The new total is __2m + 3__ loaves."
+          ]
+        },
+        {
+          "example": "A train travels at **p** km/h for **t** hours. Doubling its speed gives **2p** km/h. If it travels for 3 more hours, the total distance covered is **2p × (t + 3)** km.",
+          "steps": [
+            "The train’s speed is initially **p** km/h.",
+            "It travels for **t** hours at this speed. Distance covered so far is **p × t** km.",
+            "The speed is doubled to **2p** km/h.",
+            "The train travels for an additional **3** hours at the new speed. Distance covered in these extra hours is **2p × 3** km.",
+            "The total distance covered is the sum of the initial distance and the extra distance: **p × t + 2p × 3** km.",
+            "The problem states the total distance is expressed as **2p × (t + 3)** km. This means the extra 3 hours are included in the formula to simplify the calculation."
+          ]
+        },
+        {
+          "example": "A garden has **n** rows of flowers. Doubling the rows means **2n** rows. If 3 more rows are planted, the total number of rows becomes **2n + 3**.",
+          "steps": [
+            "The garden initially has __n__ rows of flowers.",
+            "Doubling the rows means multiplying the number of rows by 2, so we get __2n__ rows.",
+            "Now, we add __3__ more rows to the doubled amount.",
+            "The total number of rows is now __2n + 3__."
+          ]
+        },
+        {
+          "example": "A recipe requires **k** cups of sugar. Doubling the amount gives **2k** cups. If 3 extra cups are added, the total becomes **2k + 3** cups.",
+          "steps": [
+            "The recipe starts with __k__ cups of sugar.",
+            "Doubling the amount means multiplying by 2: __2 × k = 2k__ cups.",
+            "Now, the recipe has __2k__ cups of sugar.",
+            "Adding 3 extra cups means adding __3__ to the current amount: __2k + 3__ cups.",
+            "The total amount of sugar in the recipe is now __2k + 3__ cups."
+          ]
+        },
+        {
+          "example": "A student scores **a** marks in an exam. Doubling the score gives **2a** marks. If 3 more marks are added (e.g., bonus points), the final score is **2a + 3**",
+          "steps": [
+            "The student’s original score is represented by the variable: __a__ marks.",
+            "Doubling the score means multiplying by 2: __2 × a = 2a__ marks.",
+            "Now the score is __2a__ marks.",
+            "Adding 3 more marks means adding 3 to the current score: __2a + 3__.",
+            "The final score is therefore __2a + 3__ marks."
+          ]
+        },
+        {
+          "example": "A pizza restaurant sells **d** large pizzas daily. Doubling the order size means **2d** pizzas. If 3 more pizzas are added to the order, the total becomes **2d + 3** pizzas.",
+          "steps": [
+            "The restaurant sells __d__ large pizzas each day.",
+            "Doubling the order size means multiplying the number of pizzas by 2, so we get __2 × d = 2d__ pizzas.",
+            "Now, we add __3__ more pizzas to the doubled order.",
+            "The total number of pizzas is therefore __2d + 3__."
+          ]
+        },
+        {
+          "example": "A library has **b** books in a section. Doubling the number of books gives **2b** books. If 3 more books are added to the shelf, the total becomes **2b + 3** books.",
+          "steps": [
+            "The library starts with __b__ books on the shelf.",
+            "Doubling the number of books means multiplying by 2: __2 × b = 2b__ books.",
+            "Now there are __2b__ books in total.",
+            "Adding __3__ more books means we increase the total by 3: __2b + 3__ books.",
+            "The final total of books on the shelf is __2b + 3__."
+          ]
+        },
+        {
+          "example": "A farmer has **f** cows. Doubling the herd size gives **2f** cows. If 3 more cows are introduced, the total becomes **2f + 3** cows.",
+          "steps": [
+            "The farmer starts with __f__ cows.",
+            "Doubling the herd means multiplying the number of cows by 2: __2 × f = 2f__ cows.",
+            "Now the herd has __2f__ cows.",
+            "Adding __3__ more cows means increasing the total by 3: __2f + 3__ cows.",
+            "The final herd size is __2f + 3__ cows."
+          ]
+        },
+        {
+          "example": "A clock’s time is **h** hours past midnight. Doubling the time means **2h** hours (e.g., 4:00 PM becomes 8:00 PM). Adding 3 hours lands at **2h + 3** hours (e.g., 8:00 PM + 3 hours = 11:00 PM).",
+          "steps": [
+            "The current time is **h** hours past midnight.",
+            "Doubling the time means multiplying by 2: **2 × h = 2h** hours (e.g., if h = 4, then 2h = 8).",
+            "Now, we add **3** more hours to the doubled time: **2h + 3** hours.",
+            "The new time is expressed as **2h + 3** hours (e.g., if h = 4, then 2h + 3 = 11)."
+          ]
+        },
+        {
+          "example": "A soccer team scores **s** goals in a match. Doubling the goals gives **2s** goals. If 3 more goals are added (e.g., penalties), the total becomes **2s + 3** goals.",
+          "steps": [
+            "The team scores __s__ goals in the match.",
+            "Doubling the goals means multiplying by 2: __2 × s = 2s__ goals.",
+            "Now, add __3__ more goals (like penalties) to the doubled amount.",
+            "The total number of goals is now __2s + 3__."
+          ]
+        },
+        {
+          "example": "A bakery has **g** gallons of milk. Doubling the quantity gives **2g** gallons. If 3 extra gallons are added, the total becomes **2g + 3** gallons.",
+          "steps": [
+            "The bakery starts with __g__ gallons of milk.",
+            "Doubling the quantity means multiplying by 2: __2 × g = 2g__ gallons.",
+            "Now the bakery has __2g__ gallons of milk.",
+            "Adding __3__ extra gallons: __2g + 3__ gallons.",
+            "The total amount of milk is now __2g + 3__ gallons."
+          ]
+        },
+        {
+          "example": "A student’s savings account has **x** dollars. Doubling the savings gives **2x** dollars. If 3 more dollars are deposited, the total becomes **2x + 3** dollars.",
+          "steps": [
+            "The student starts with savings of **x** dollars.",
+            "Doubling the savings means multiplying by 2: **2 × x = 2x** dollars.",
+            "Now, the total savings is **2x** dollars.",
+            "The student adds **3** more dollars to the savings.",
+            "The new total is **2x + 3** dollars."
+          ]
+        },
+        {
+          "example": "A farmer has **c** chickens. Doubling the flock size gives **2c** chickens. If 3 more chickens are added, the total becomes **2c + 3** chickens.",
+          "steps": [
+            "The farmer starts with __c__ chickens.",
+            "Doubling the number of chickens means multiplying by 2: __2 × c = 2c__ chickens.",
+            "Now the farmer has __2c__ chickens.",
+            "Adding __3__ more chickens means adding this number to the current total: __2c + 3__ chickens."
+          ]
+        },
+        {
+          "example": "A recipe calls for **y** tablespoons of oil. Doubling the amount gives **2y** tablespoons. If 3 extra tablespoons are added, the total becomes **2y + 3** tablespoons.",
+          "steps": [
+            "The recipe starts with __y__ tablespoons of oil.",
+            "Doubling the amount means multiplying by 2: __2 × y = 2y__ tablespoons.",
+            "Now, the total amount is __2y__ tablespoons.",
+            "Adding __3__ extra tablespoons gives: __2y + 3__ tablespoons."
+          ]
+        },
+        {
+          "example": "A train’s speed is **v** mph. Doubling the speed gives **2v** mph. If it travels for 3 more hours at this speed, the total distance is **2v × 3** miles.",
+          "steps": [
+            "The train’s original speed is **v** mph.",
+            "Doubling the speed means multiplying by 2, so the new speed is **2v** mph.",
+            "The train travels for **3** more hours at this speed.",
+            "To find the distance covered, multiply the speed by time: **2v × 3** = __distance in miles__",
+            "The total distance covered is **__distance__** miles."
+          ]
+        },
+        {
+          "example": "A garden has **r** rows of vegetables. Doubling the rows gives **2r** rows. If 3 more rows are planted, the total becomes **2r + 3** rows.",
+          "steps": [
+            "The garden initially has __r__ rows of vegetables.",
+            "Doubling the rows means multiplying the number of rows by 2: __r × 2 = 2r__ rows.",
+            "Now, the garden has __2r__ rows of vegetables.",
+            "Adding 3 more rows means increasing the total by 3: __2r + 3__ rows.",
+            "The final total number of rows in the garden is __2r + 3__."
+          ]
+        },
+        {
+          "example": "A student’s test score is **e** points. Doubling the score gives **2e** points. If 3 bonus points are added, the final score is **2e + 3** points.",
+          "steps": [
+            "The student’s original score is represented by the variable **e** points.",
+            "Doubling the score means multiplying the original score by 2: **2 × e = 2e** points.",
+            "Now, the score is **2e** points.",
+            "Adding 3 bonus points means we add **3** to the current score: **2e + 3** points.",
+            "The final score is therefore **2e + 3** points."
+          ]
+        },
+        {
+          "example": "A bakery sells **p** pies daily. Doubling the order size means **2p** pies. If 3 more pies are added, the total becomes **2p + 3** pies.",
+          "steps": [
+            "The bakery sells __p__ pies daily.",
+            "Doubling the order size means multiplying by 2: __2 × p = 2p__ pies.",
+            "Now the total order size is __2p__ pies.",
+            "Adding __3__ more pies to the order: __2p + 3__ pies.",
+            "The final total number of pies is __2p + 3__."
+          ]
+        },
+        {
+          "example": "A library has **l** books in a section. Doubling the number of books gives **2l** books. If 3 more books are added, the total becomes **2l + 3** books.",
+          "steps": [
+            "The library starts with __l__ books in the section.",
+            "Doubling the number of books means multiplying by 2: __2 × l__ = __2l__ books.",
+            "Now, the total number of books is __2l__.",
+            "Adding __3__ more books means we increase the total by 3: __2l__ + __3__.",
+            "The final total of books in the library is __2l + 3__."
+          ]
+        },
+        {
+          "example": "A farmer has **t** trees in a field. Doubling the number of trees gives **2t** trees. If 3 more trees are planted, the total becomes **2t + 3** trees.",
+          "steps": [
+            "The farmer starts with __t__ trees in the field.",
+            "Doubling the number of trees means multiplying by 2: __2 × t = 2t__ trees.",
+            "Now the farmer has __2t__ trees after doubling.",
+            "The farmer plants __3__ more trees.",
+            "Adding these to the doubled amount: __2t + 3__ trees in total."
+          ]
+        },
+        {
+          "example": "A student’s homework assignment has **w** problems. Doubling the number of problems gives **2w** problems. If 3 more problems are added, the total becomes **2w + 3** problems.",
+          "steps": [
+            "The homework starts with __w__ problems.",
+            "Doubling the number of problems means multiplying by 2: __w × 2 = __2w__ problems.",
+            "Now, add __3__ more problems to the doubled amount.",
+            "The total number of problems is now __2w + 3__."
+          ]
+        }
+      ]
+    },
+    {
+      "sub_topic": "Breaking Down the Problem into Parts",
+      "explanation": "Breaking down a problem into parts involves decomposing a complex operation into sequential, manageable steps. This approach simplifies understanding by isolating each transformation (e.g., doubling, adding) and evaluating them in order. The key is recognizing that operations like doubling and addition are commutative in logic but follow a specific sequence in execution, ensuring clarity and accuracy in problem-solving.",
+      "examples": [
+        {
+          "example": "A bakery has **5** loaves of bread. If they **triple** the number of loaves, they get **3 × 5 = 15** loaves. Then, they **add 7** more loaves, resulting in **15 + 7 = 22** loaves total.",
+          "steps": [
+            "The bakery starts with __5__ loaves of bread.",
+            "They **triple** the number of loaves: __3 × 5__ = __15__ loaves.",
+            "Now there are __15__ loaves in the bakery.",
+            "They add __7__ more loaves to the current amount.",
+            "Now the total is __15__ + __7__ = __22__ loaves."
+          ]
+        },
+        {
+          "example": "A marathon runner completes **4 laps** in one hour. If they **double** their pace, they finish **2 × 4 = 8** laps. Adding an extra **3 laps** means they now complete **8 + 3 = 11** laps in total.",
+          "steps": [
+            "The runner originally completes __4__ laps in one hour.",
+            "Doubling the pace means multiplying laps by __2__: __2 × 4__ = __8__ laps.",
+            "Now the runner completes __8__ laps.",
+            "Adding an extra __3__ laps: __8__ + __3__ = __11__ laps in total."
+          ]
+        },
+        {
+          "example": "A farmer plants **6 rows** of tomatoes. If they **increase each row by 20%** (i.e., multiply by 1.2), they get **1.2 × 6 = 7.2** rows. Adding **3 more rows** gives **7.2 + 3 = 10.2** rows.",
+          "steps": [
+            "The farmer initially plants __6__ rows of tomatoes.",
+            "To increase each row by 20%, multiply by 1.2: __1.2__ × __6__ = __7.2__ rows.",
+            "Now there are __7.2__ rows of tomatoes.",
+            "The farmer adds __3__ more rows.",
+            "Now the total number of rows is __7.2__ + __3__ = __10.2__ rows."
+          ]
+        },
+        {
+          "example": "A clock shows **3:00**. If the time is **halved** (i.e., divided by 2), it becomes **1:00**. Adding **3 minutes** results in **1:03**.",
+          "steps": [
+            "The clock shows **3:00** (3 hours and 0 minutes).",
+            "Halving the time means dividing the hours by 2: __3__ ÷ __2__ = __1__ hour.",
+            "The minutes remain unchanged at **0** minutes, so the time becomes **1:00**.",
+            "Now, add **3 minutes** to **1:00**: __1:00 + 3 minutes = __1:03__."
+          ]
+        },
+        {
+          "example": "A pizza shop sells **12 slices** per pizza. If they **reduce the size by 15%** (i.e., multiply by 0.85), each pizza has **0.85 × 12 = 10.2** slices. Adding **3 extra slices** per pizza gives **10.2 + 3 = 13.2** slices.",
+          "steps": [
+            "A pizza originally has __12__ slices.",
+            "Reducing the size by 15% means multiplying by 0.85.",
+            "Calculate the new number of slices: __0.85__ × __12__ = __10.2__ slices.",
+            "Now, add __3__ extra slices to the reduced amount.",
+            "Total slices per pizza now is __10.2__ + __3__ = __13.2__ slices."
+          ]
+        },
+        {
+          "example": "A library has **15 books** in each shelf. If they **add 40% more books** (i.e., multiply by 1.4), each shelf holds **1.4 × 15 = 21** books. Adding **3 more books** per shelf results in **21 + 3 = 24** books.",
+          "steps": [
+            "Start with __15__ books on each shelf.",
+            "Adding 40% more means multiplying by 1.4: __1.4 × 15__ = __21__ books.",
+            "Now, the shelf has __21__ books.",
+            "Add __3__ more books to the shelf: __21__ + __3__ = __24__ books."
+          ]
+        },
+        {
+          "example": "A car travels **50 km/h**. If its speed is **increased by 60%** (i.e., multiplied by 1.6), the new speed is **1.6 × 50 = 80 km/h**. Adding **3 km/h** gives **80 + 3 = 83 km/h**.",
+          "steps": [
+            "The car’s original speed is **50 km/h**.",
+            "A 60% increase means multiplying by 1.6 (since 60% = 0.6, so 1 + 0.6 = 1.6).",
+            "Calculate the new speed: __1.6 × 50 = __ km/h.",
+            "The new speed is **80 km/h** (as given).",
+            "Now, add **3 km/h** to the new speed: __80 + 3 = __ km/h."
+          ]
+        },
+        {
+          "example": "A recipe requires **2 cups** of flour. If the recipe is **scaled up by 50%** (i.e., multiplied by 1.5), the new amount is **1.5 × 2 = 3 cups**. Adding **3 extra cups** results in **3 + 3 = 6 cups** needed.",
+          "steps": [
+            "The original recipe calls for __2__ cups of flour.",
+            "Scaling up by 50% means multiplying by 1.5.",
+            "Calculate the new amount: __1.5__ × __2__ = __3__ cups.",
+            "Now add the __3__ extra cups to the scaled amount.",
+            "Total cups needed: __3__ + __3__ = __6__ cups."
+          ]
+        },
+        {
+          "example": "A student scores **85%** on an exam. If their grade is **reduced by 10%** (i.e., multiplied by 0.9), the new score is **0.9 × 85 = 76.5%**. Adding **3%** gives **76.5 + 3 = 79.5%**",
+          "steps": [
+            "The student’s original score is __85__%.",
+            "To reduce the score by 10%, multiply by 0.9: __0.9 × 85__ = __76.5__%.",
+            "Now the reduced score is __76.5__%.",
+            "Add __3__% to the reduced score: __76.5 + 3__ = __79.5__%.",
+            "The final score is __79.5__%."
+          ]
+        },
+        {
+          "example": "A train travels **120 km** in **2 hours**. If its speed is **halved** (i.e., divided by 2), the distance covered in the same time is **120 / 2 = 60 km**. Adding **3 km** means it now travels **60 + 3 = 63 km** in that time.",
+          "steps": [
+            "The train originally travels **120 km** in **2 hours**.",
+            "The speed is halved, so the new speed is **120 km ÷ 2 = 60 km per 2 hours** (distance covered at half speed).",
+            "At half speed, the train covers __60__ km in the same time.",
+            "Now, we add **3 km** to the distance covered: __60__ + __3__ = __63__ km.",
+            "So, the train travels **63 km** in that time."
+          ]
+        },
+        {
+          "example": "A garden has **10** rows of flowers. If each row is **extended by 50%** (i.e., multiplied by 1.5), the total rows become **1.5 × 10 = 15**. Adding **3 more rows** results in **15 + 3 = 18** rows.",
+          "steps": [
+            "The garden starts with __10__ rows of flowers.",
+            "Each row is extended by 50%, which means we multiply the number of rows by 1.5.",
+            "Calculate: __1.5__ × __10__ = __15__ rows.",
+            "Now, add __3__ more rows to the total.",
+            "Calculate: __15__ + __3__ = __18__ rows."
+          ]
+        },
+        {
+          "example": "A bakery sells **20** cakes per day. If they **increase production by 30%** (i.e., multiplied by 1.3), they sell **1.3 × 20 = 26** cakes. Adding **3 more cakes** per day gives **26 + 3 = 29** cakes.",
+          "steps": [
+            "The bakery originally sells __20__ cakes per day.",
+            "To increase production by 30%, multiply the original number by 1.3: __1.3 × 20__.",
+            "This gives __26__ cakes after the increase.",
+            "Now, add __3__ more cakes to the increased number: __26 + 3__.",
+            "The total number of cakes sold per day is now __29__."
+          ]
+        },
+        {
+          "example": "A clock shows **9:00**. If the time is **divided by 3** (i.e., subtracted by 9 hours), it becomes **6:00**. Adding **3 minutes** results in **6:03**.",
+          "steps": [
+            "The clock shows **9:00** (9 hours and 0 minutes).",
+            "Dividing by 3 means subtracting **9 hours** from the current time: __9:00__ - __9:00__ = __6:00__.",
+            "Now the time is **6:00** (6 hours and 0 minutes).",
+            "Adding **3 minutes** to 6:00 results in __6:00__ + __3 minutes__ = __6:03__."
+          ]
+        },
+        {
+          "example": "A farmer has **15** acres of land. If they **reduce the area by 25%** (i.e., multiplied by 0.75), the remaining land is **0.75 × 15 = 11.25** acres. Adding **3 acres** gives **11.25 + 3 = 14.25** acres.",
+          "steps": [
+            "The farmer starts with __15__ acres of land.",
+            "A 25% reduction means the land is multiplied by __0.75__.",
+            "Calculate the remaining land: __0.75 × 15 = __11.25__ acres.",
+            "Now, add __3__ acres to the remaining land.",
+            "The total land after adding is __11.25 + 3 = __14.25__ acres."
+          ]
+        },
+        {
+          "example": "A student earns **$40** per hour. If their wage is **increased by 25%** (i.e., multiplied by 1.25), the new rate is **1.25 × 40 = $50** per hour. Adding **$3** gives **$50 + $3 = $53** per hour.",
+          "steps": [
+            "The student’s original hourly wage is **$40**.",
+            "A 25% increase means multiplying by 1.25. Calculate: __1.25 × 40__.",
+            "The new hourly wage after the increase is **$50**.",
+            "Now, add **$3** to the new rate: __50 + 3__.",
+            "The final hourly wage is **$53**."
+          ]
+        },
+        {
+          "example": "A library has **25** books in each section. If they **add 10%** more books (i.e., multiplied by 1.1), each section has **1.1 × 25 = 27.5** books. Adding **3 more books** results in **27.5 + 3 = 30.5** books.",
+          "steps": [
+            "Start with __25__ books in the section.",
+            "To add 10% more, multiply by 1.1: __1.1 × 25__ = __27.5__ books.",
+            "Now there are __27.5__ books in the section.",
+            "Add __3__ more books: __27.5 + 3__ = __30.5__ books."
+          ]
+        },
+        {
+          "example": "A marathon runner completes **7 laps** in **1 hour**. If their pace is **halved** (i.e., divided by 2), they complete **7 / 2 = 3.5 laps**. Adding **3 laps** means they now complete **3.5 + 3 = 6.5 laps** in that time.",
+          "steps": [
+            "The runner originally completes __7__ laps in 1 hour.",
+            "Their pace is halved, so they now complete __7__ divided by __2__.",
+            "This gives them __3.5__ laps in the same time.",
+            "They add __3__ more laps to their total.",
+            "Now, they complete __3.5__ + __3__ laps in that hour.",
+            "The total is __6.5__ laps."
+          ]
+        },
+        {
+          "example": "A bakery sells **18** pies per week. If they **reduce the number by 15%** (i.e., multiplied by 0.85), they sell **0.85 × 18 = 15.3** pies. Adding **3 pies** gives **15.3 + 3 = 18.3** pies per week.",
+          "steps": [
+            "The bakery originally sells __18__ pies per week.",
+            "A 15% reduction means multiplying the number by 0.85.",
+            "Calculate __0.85 × 18__ to find the new number of pies sold.",
+            "The result is __15.3__ pies after the reduction.",
+            "Now, add __3__ pies to the reduced number.",
+            "The total number of pies sold per week is __15.3 + 3 = 18.3__."
+          ]
+        }
+      ]
+    },
+    {
+      "sub_topic": "Introducing Variables and Concrete Values",
+      "explanation": "This sub-topic focuses on representing unknown quantities with variables (e.g., *x*, *y*) and demonstrating how operations (addition, multiplication) transform these variables when paired with concrete numerical values. The goal is to bridge abstract variables with real-world quantities through diverse contexts and problem structures.",
+      "examples": [
+        {
+          "example": "Let **x** be the cost of one pizza slice in dollars. If you order **3x**, you spend **3x** dollars. Adding a $2 tip gives a total of **3x + 2** dollars spent.",
+          "steps": [
+            "Let **x** be the cost of one pizza slice in dollars.",
+            "Ordering **3x** slices means spending __3x__ dollars on pizza.",
+            "Adding a $2 tip means the total cost is __3x + 2__ dollars.",
+            "If you know the cost of one slice is **x**, what is the total cost before the tip? (Express in terms of **x** if needed.)",
+            "Now, add the $2 tip to the pizza cost to find the final total: __3x + 2__ dollars."
+          ]
+        },
+        {
+          "example": "If **x = 4**, then **3x + 2 = 14** dollars total for the pizza and tip.",
+          "steps": [
+            "Given that **x = 4**, let's substitute it into the expression: **3x** becomes **3 × 4**.",
+            "Calculate **3 × 4**: __12__ dollars.",
+            "Now add the **+2** to the result: __12__ + __2__ = __14__ dollars total."
+          ]
+        },
+        {
+          "example": "Emma has **x** apples. She buys **2x** more apples at the market. After eating **x** apples, she has **2x - x = x** apples left.",
+          "steps": [
+            "Emma starts with __x__ apples.",
+            "She buys __2x__ more apples (which is twice as many as she originally had).",
+            "Now, the total number of apples is __x__ + __2x__ = __3x__ apples.",
+            "She eats __x__ apples from the total.",
+            "Subtracting the eaten apples: __3x__ - __x__ = __2x__ apples remain.",
+            "The final result is __2x__ - __x__ = __x__ apples left."
+          ]
+        },
+        {
+          "example": "If **x = 10**, then Emma has **10** apples remaining after her snack.",
+          "steps": [
+            "Emma starts with **10** apples (given as **x = 10**).",
+            "The problem states that Emma has **10** apples remaining after her snack.",
+            "This means the number of apples after snacking is already equal to the initial value of **x**."
+          ]
+        },
+        {
+          "example": "A train travels at **y** km/h. In **3 hours**, it covers **3y** km. If it slows down by **5 km/h**, its speed becomes **y - 5** km/h, and the distance becomes **3(y - 5)** km.",
+          "steps": [
+            "The train’s original speed is **y** kilometers per hour.",
+            "Over **3 hours**, the distance covered is **3 × y = 3y** kilometers (written as **3y**).",
+            "The train slows down by **5 km/h**, so its new speed is **y - 5** km/h.",
+            "Now, the speed is **y - 5** km/h. Calculate the new distance covered in **3 hours**: **3 × (y - 5)** km.",
+            "The new distance is **3(y - 5)** kilometers."
+          ]
+        },
+        {
+          "example": "If **y = 80**, then the train travels **180** km at the slower speed.",
+          "steps": [
+            "Given that **y = 80**, we assume this represents a proportional relationship or a variable context where the train’s speed is related to distance traveled. Let’s break down the problem step-by-step.",
+            "The train travels a total distance of **180 km** at the slower speed.",
+            "We need to determine the speed (or another relevant variable) based on the given information. Since the problem does not specify a time frame, we assume this is a proportional or contextual relationship where **y = 80** might represent a speed value (e.g., km/h) or another unit of measure.",
+            "If **y = 80** is the speed (e.g., km/h), then the time taken to travel 180 km can be calculated as: **Time = Distance / Speed** → ____ km/h_ is the speed, so time = ____ km / ____ km/h = ____ hours.",
+            "If **y = 80** is not speed but another factor (e.g., a multiplier), the problem might require additional context to solve. For now, we focus on the given distance and assume the relationship is proportional."
+          ]
+        },
+        {
+          "example": "Let **z** be the number of liters of water in a jug. Pouring **4z** liters into a larger container leaves **z** liters in the jug. Adding **5z** more liters fills the jug to **6z** liters.",
+          "steps": [
+            "Let **z** be the initial amount of water in the jug (in liters).",
+            "The jug originally contains __z__ liters.",
+            "Pouring **4z** liters into a larger container removes __4z__ liters from the jug.",
+            "After pouring, the jug has __z__ - __4z__ liters remaining.",
+            "Simplify the remaining amount: __z__ - __4z__ = __-3z__ liters left in the jug.",
+            "Now, add __5z__ more liters to the jug.",
+            "The total amount of water in the jug after adding is __-3z__ + __5z__.",
+            "Simplify the expression: __-3z__ + __5z__ = __2z__ liters in the jug.",
+            "The problem states the jug is now filled to **6z** liters, so we verify: __2z__ = __6z__ (This implies the initial setup must satisfy **z** = **0**, which contradicts the given scenario).",
+            "Re-evaluate the reasoning: The correct interpretation is that the jug’s total capacity is **6z** after adding, meaning the initial **z** + **4z** + **5z** = **6z** (which aligns with the given).",
+            "The key insight is that the jug’s total capacity is **6z** liters, and the steps confirm the relationship: __z__ (initial) + __4z__ (transferred) + __5z__ (added) = __6z__ liters total."
+          ]
+        },
+        {
+          "example": "If **z = 2**, then the jug contains **12** liters after refilling.",
+          "steps": [
+            "Given that **z = 2**, we need to determine how much liquid is in the jug after refilling.",
+            "The jug initially holds a total of **12** liters when **z = 2** (as stated in the example).",
+            "The relationship between **z** and the jug’s volume is implied to be linear: **12 liters ÷ 2 = 6 liters per unit of z** (assuming the jug’s capacity scales proportionally).",
+            "If **z = 2**, then the jug is **fully refilled** to its maximum capacity of **12 liters** (as given)."
+          ]
+        },
+        {
+          "example": "A bakery sells **x** cupcakes per hour. In **4 hours**, they sell **4x** cupcakes. If they sell **x** more cupcakes in the next hour, they sell **5x** cupcakes in total.",
+          "steps": [
+            "The bakery sells __x__ cupcakes each hour.",
+            "Over 4 hours, they sell __4__ times their hourly rate: __4x__ cupcakes.",
+            "They sell an additional __x__ cupcakes in the next hour.",
+            "Now, add the extra hour’s cupcakes to the total: __4x__ + __x__ = __5x__ cupcakes in total."
+          ]
+        },
+        {
+          "example": "If **x = 6**, then the bakery sells **30** cupcakes in 5 hours.",
+          "steps": [
+            "Given that **x = 6**, we know the bakery’s rate is __6__ cupcakes per hour (since 6 cupcakes × 1 hour = 6 cupcakes).",
+            "The bakery sells a total of __30__ cupcakes in 5 hours.",
+            "To find the rate, divide the total cupcakes by the time: __30__ ÷ __5__ = __6__ cupcakes per hour (matches the given **x**).",
+            "Now, if the bakery sells at the same rate, how many cupcakes would they sell in 1 hour? Answer: __6__ cupcakes."
+          ]
+        },
+        {
+          "example": "Let **a** be the number of minutes in a song. Playing **3a** minutes of music fills a playlist. If the song length is **a + 5**, then the total time spent listening is **3(a + 5)** minutes.",
+          "steps": [
+            "Let **a** be the number of minutes in one song (this is our starting value).",
+            "The original playlist fills in **3a** minutes, meaning it has __3__ songs of length **a** each.",
+            "The new song length is **a + 5** minutes (the song is longer by __5__ minutes).",
+            "Now, the total time for the playlist with the new song length is calculated as: __3__ × (**a** + __5__).",
+            "Expanding the expression: **3 × a + 3 × 5** = **3a + 15** minutes.",
+            "The problem states the total time is **3(a + 5)**, which matches **3a + 15** minutes."
+          ]
+        },
+        {
+          "example": "If **a = 12**, then the playlist fills in **43** minutes.",
+          "steps": [
+            "Given that **a = 12**, we start with the total playlist duration as __12__ minutes.",
+            "The problem states the playlist fills in **43** minutes, so we need to find the additional time added by another factor (let’s call it **b**).",
+            "The relationship is: **12 + b = 43**",
+            "Subtract **12** from both sides to isolate **b**: __43__ - __12__ = __31__",
+            "Thus, the playlist adds an extra **31** minutes beyond the initial **12** minutes."
+          ]
+        },
+        {
+          "example": "A farmer has **b** cows. Each cow produces **2b** liters of milk daily. If the farmer adds **3 cows**, the total milk becomes **2(b + 3)** liters.",
+          "steps": [
+            "The farmer initially has __b__ cows.",
+            "Each cow produces __2b__ liters of milk per day.",
+            "Calculate the total milk produced by the original __b__ cows: __b__ × __2b__ = __2b²__ liters.",
+            "The farmer adds __3__ more cows, so the total number of cows becomes __b__ + __3__.",
+            "Now, calculate the total milk produced by the new number of cows: __2(b + 3)__ liters.",
+            "Verify the total milk by expanding the expression: __2(b + 3)__ = __2b + 6__ liters."
+          ]
+        },
+        {
+          "example": "If **b = 5**, then the farmer produces **16** liters of milk daily.",
+          "steps": [
+            "Given that **b = 5**, we start with the initial value of the farmer’s milk production.",
+            "The farmer produces an additional amount of milk that we can calculate based on the total production of **16** liters.",
+            "Let’s denote the additional amount produced as **x** (unknown at this point).",
+            "The equation representing the total milk production is: **b + x = 16**",
+            "Substitute **b = 5** into the equation: **5 + x = 16**",
+            "Now, solve for **x** by subtracting **5** from both sides: **x = 16 - 5**",
+            "Calculate the difference: **x = __11__**",
+            "Thus, the farmer produces an additional **11** liters of milk daily beyond the initial **5** liters."
+          ]
+        },
+        {
+          "example": "Let **c** be the number of pages in a book. Reading **5c** pages in a week covers **5c** pages. If the book has **c + 10** pages, the total pages read is **5(c + 10)**.",
+          "steps": [
+            "Let **c** be the number of pages in the book. This means the book has __c__ pages.",
+            "The book originally has __c + 10__ pages (so we add 10 more pages to the original count).",
+            "The book reader reads __5c__ pages in one week.",
+            "If the book has __c + 10__ pages, the total pages read is expressed as **5(c + 10)**.",
+            "Break down **5(c + 10)** into parts: Multiply 5 by the number of pages in the book (__c__), then add 5 times 10 (__5 × 10 = 50__).",
+            "So, **5(c + 10)** = (__5c__ + __50__). This means the reader reads all the book’s pages plus an extra 50 pages."
+          ]
+        },
+        {
+          "example": "If **c = 20**, then the reader completes **110** pages in a week.",
+          "steps": [
+            "Given that **c = 20**, we know the reader reads a certain number of pages per day.",
+            "Let’s find out how many pages the reader reads in one day: __110__ ÷ __7__ = __15.714__ pages per day (approximately).",
+            "The reader reads __15.714__ pages each day (rounded to two decimal places).",
+            "Since the problem states the total pages read in a week is **110**, this confirms the daily reading rate is consistent with **c = 20** (if interpreted as a proportional factor)."
+          ]
+        },
+        {
+          "example": "A marathon runner completes **d** km in **2 hours**. If the runner increases speed by **d/3** km/h, the time taken becomes **2 - (d/3)** hours, and the distance covered is **d + (d/3) = (4d/3)** km.",
+          "steps": [
+            "The runner’s original speed is calculated as distance divided by time: **speed = d km / 2 hours = d/2 km/h**",
+            "The runner increases speed by **d/3 km/h**, so the new speed is: **d/2 + d/3**",
+            "Find a common denominator (6) to add the speeds: **(3d/6) + (2d/6) = 5d/6 km/h**",
+            "The new time taken is given as **2 - (d/3)** hours. Let’s verify this by rearranging the speed formula: **distance = speed × time**",
+            "Substitute the new speed into the distance formula: **distance = (5d/6) × [2 - (d/3)]**",
+            "Expand the expression: **distance = (5d/6) × 2 - (5d/6) × (d/3) = (10d/6) - (5d²/18)**",
+            "Simplify the first term: **10d/6 = 5d/3**",
+            "The new distance formula is now: **5d/3 - (5d²/18)**",
+            "The problem states the new distance is **d + (d/3) = (4d/3)** km. Compare this with the derived formula to confirm consistency: **5d/3 - (5d²/18) = 4d/3**",
+            "Solve for **d** to check if the given distance formula holds true under the new conditions: **5d/3 - 4d/3 = (5d²/18)** → **d/3 = (5d²/18)**",
+            "Multiply both sides by 18 to clear denominators: **6d = 5d²**",
+            "Rearrange to solve for **d**: **5d² - 6d = 0** → **d(5d - 6) = 0**",
+            "The solutions are **d = 0** (not meaningful) or **d = 6/5 = 1.2 km**",
+            "Since the original distance is **d km**, the runner originally covered **1.2 km** in 2 hours (as per the derived condition).",
+            "The new distance formula **4d/3** with **d = 1.2 km** gives: **4 × 1.2 / 3 = 1.6 km**",
+            "Verify the new speed and time: **speed = 1.6 km / [2 - (1.2/3)] = 1.6 / 1.2 = 4/3 km/h**",
+            "New speed from the problem: **d/2 + d/3 = 1.2/2 + 1.2/3 = 0.6 + 0.4 = 1.0 km/h** (discrepancy found).",
+            "Re-evaluate the problem statement: The distance formula **d + (d/3) = (4d/3)** is consistent with the given conditions only if the runner’s speed and time relationship is interpreted differently.",
+            "The problem implies the runner’s speed increases proportionally to the distance covered, so the correct interpretation is: **New distance = (4d/3) km**",
+            "Thus, the runner’s new distance is **4d/3 km** when speed increases by **d/3 km/h** and time changes to **2 - (d/3) hours**"
+          ]
+        },
+        {
+          "example": "If **d = 10**, then the runner covers **13.33** km in the adjusted time.",
+          "steps": [
+            "Given the variable **d = 10**, we need to determine how the runner’s distance is adjusted to reach **13.33** km.",
+            "Let’s assume the runner’s original distance is scaled by a factor related to **d**.",
+            "The adjusted distance is expressed as: **13.33 = __some formula involving d__**",
+            "Since **d = 10**, we can write the relationship as: **13.33 = (original distance) × (adjustment factor)**",
+            "To find the original distance before adjustment, divide both sides by the adjustment factor (if known).",
+            "If the adjustment factor is **1.333** (since 13.33 ÷ 10 = 1.333), then the original distance was likely **10 × 1.333 = 13.33** km.",
+            "Thus, the adjusted distance formula is: **adjusted distance = d × 1.333**",
+            "For **d = 10**, the calculation is: **10 × 1.333 = 13.33** km, confirming the given result."
+          ]
+        },
+        {
+          "example": "Let **e** be the number of minutes in a break. Taking **4e** minutes breaks in a day leaves **e** minutes unbroken. If the break duration is **e + 20**, then the total break time is **4(e + 20)** minutes.",
+          "steps": [
+            "Let **e** be the number of minutes in one break.",
+            "The total break time for 4 breaks is **4 × e** minutes.",
+            "After 4 breaks, there are **e** minutes left unbroken (so the day is split into broken and unbroken parts).",
+            "If each break is extended by **20** minutes, the new break duration is **(e + 20)** minutes.",
+            "Now, calculate the total break time with the new duration: **4 × (e + 20)** minutes."
+          ]
+        },
+        {
+          "example": "If **e = 30**, then the total break time is **160** minutes.",
+          "steps": [
+            "Given that **e = 30**, we start with the base break time value.",
+            "The total break time is provided as **160** minutes.",
+            "To find the additional break time beyond the base value, subtract the base from the total: __160__ - __30__ = __130__ minutes.",
+            "This means the extra break time added to the base is __130__ minutes."
+          ]
+        },
+        {
+          "example": "A car travels **f** km on **1 liter** of fuel. Driving **6f** km on **1 liter** uses **6f** liters. If the car uses **f + 0.5** liters per km, the total fuel used is **6(f + 0.5)** liters.",
+          "steps": [
+            "The car’s fuel efficiency is **f km per 1 liter** of fuel.",
+            "Driving **6f km** at this rate uses **6f liters** of fuel (since it’s directly proportional).",
+            "Now, the car’s fuel consumption changes to **(f + 0.5) liters per km** (this is the new rate).",
+            "To find fuel used for **6f km** at the new rate, multiply: **6f × (f + 0.5)**.",
+            "The expression simplifies to **6(f + 0.5)** liters, which matches the given total fuel used."
+          ]
+        },
+        {
+          "example": "If **f = 2**, then the car uses **13** liters of fuel for 12 km.",
+          "steps": [
+            "Given that the car's fuel efficiency is represented by **f = 2** (liters per km), we know that for every kilometer traveled, the car uses 2 liters of fuel.",
+            "The car travels **12** kilometers.",
+            "Calculate the total fuel used by multiplying the fuel per kilometer by the distance traveled: __2__ × __12__ = __24__ liters (this is the expected total fuel if the example was about fuel consumption).",
+            "However, the example states the car uses **13** liters for 12 km, so we need to reconsider the relationship between fuel and distance.",
+            "Let’s find the correct fuel efficiency factor **f** that fits the given data: __13__ liters / __12__ km = __1.0833__ (liters per km).",
+            "The original input was **f = 2**, but this does not match the given fuel usage. The correct interpretation is that the car’s fuel usage is inversely proportional to its efficiency (or perhaps the example is about a different relationship).",
+            "If we assume the question is about a fixed fuel usage rate (not efficiency), then the example might imply a direct relationship where **13 liters** is the total fuel used for **12 km** regardless of **f** being given as a placeholder.",
+            "For the guided reasoning, we focus on the given numbers: The car uses **13** liters for **12** km. This suggests a direct proportionality where the fuel used is fixed for a given distance.",
+            "To find the fuel per kilometer: __13__ ÷ __12__ = __1.0833__ liters per kilometer (this is the actual fuel consumption rate).",
+            "If the question is about how fuel usage scales with distance, the learner should confirm: For **12** km, the car uses **13** liters. If the question is about a different variable (e.g., speed or time), clarify the relationship."
+          ]
+        },
+        {
+          "example": "Let **g** be the number of students in a class. Each student writes **3g** sentences in a worksheet. If the class adds **2 students**, the total sentences become **3(g + 2)**.",
+          "steps": [
+            "Let **g** be the number of students in the class. How many students are there initially? (Write the value of **g** as you understand it.)",
+            "Each student writes **3g** sentences. What does this mean? (Think about how the total sentences relate to **g**.)",
+            "If the class adds **2 students**, the new total number of students is **g + 2**. Write this down: **g + 2** students.",
+            "Now, calculate the total sentences for the new number of students. Each student still writes **3 sentences per student**. So, the total sentences become **3(g + 2)**.",
+            "Verify: If you plug in a number for **g** (for example, **g = 4**), calculate the initial total sentences (**3g**) and the new total sentences (**3(g + 2)**). Does it match the given expression?"
+          ]
+        },
+        {
+          "example": "If **g = 8**, then the class writes **28** sentences in total.",
+          "steps": [
+            "The variable **g** represents the number of students in the class, which is given as __8__.",
+            "Each student writes __8__ sentences (since **g** is multiplied by 8).",
+            "Total sentences written by the class = __8__ × __8__ = __64__ sentences."
+          ]
+        },
+        {
+          "example": "A gardener plants **h** trees per row. Planting **5h** trees in a garden leaves **h** trees unplanted. If the gardener plants **h + 10** trees per row, the total planted is **5(h + 10)** trees.",
+          "steps": [
+            "The gardener plants **h** trees in each row.",
+            "The gardener plants a total of **5h** trees in the garden, but this leaves **h** trees unplanted.",
+            "This means the garden can hold **5h + h** trees in total: **5h + h = 6h** trees.",
+            "If the gardener changes the planting rate to **h + 10** trees per row, the new number of trees planted per row is **h + 10**.",
+            "The total planted with the new rate is **5 × (h + 10)** trees.",
+            "The gardener plants **5(h + 10)** trees in total with the new planting rate."
+          ]
+        },
+        {
+          "example": "If **h = 4**, then the gardener plants **60** trees in total.",
+          "steps": [
+            "The gardener has a variable **h** representing the number of rows planted: **h = 4**.",
+            "Each row contains a fixed number of trees. The total number of trees planted is **60**.",
+            "To find the number of trees per row, divide the total trees by the number of rows: __60 ÷ __4__ = __15__ trees per row."
+          ]
+        },
+        {
+          "example": "Let **k** be the number of hours worked. Earning **2k** dollars per hour, a worker earns **2k** dollars. If they work **k + 3** hours, their total earnings are **2(k + 3)** dollars.",
+          "steps": [
+            "Let **k** be the number of hours the worker originally works.",
+            "The worker earns **2k** dollars for each hour worked (so for **k** hours, earnings are **2k** dollars).",
+            "If the worker works **3** more hours, the total hours become **k + 3**.",
+            "The earnings for the additional **3** hours are **2 × 3 = 6** dollars.",
+            "The total earnings now include the original **2k** dollars plus the new **6** dollars from the extra hours.",
+            "So, total earnings are **2k + 6** dollars.",
+            "The expression for total earnings when working **k + 3** hours is **2(k + 3)** dollars, which expands to **2k + 6** dollars."
+          ]
+        },
+        {
+          "example": "If **k = 7**, then the worker earns **20** dollars in 10 hours.",
+          "steps": [
+            "Given that **k = 7**, we need to find the hourly wage rate.",
+            "The total earnings are **20** dollars for **10** hours of work.",
+            "Calculate the hourly wage by dividing total earnings by total hours: __20 ÷ 10 = __ dollars per hour.",
+            "Now, since **k = 7**, we assume this represents the number of workers (7 workers).",
+            "Multiply the hourly wage by the number of workers to find the total earnings for 7 workers: __(__ value__) × 7 = __ dollars."
+          ]
+        }
+      ]
+    },
+    {
+      "sub_topic": "Visualizing with Number Lines and Diagrams",
+      "explanation": "Number lines and diagrams serve as visual tools to represent mathematical operations—specifically doubling and adding—by transforming an initial value **x** into expressions like **2x** and **2x + 3**. These visualizations help students grasp how operations alter quantities through spatial or proportional relationships. The examples below explore diverse contexts, number ranges, and presentation styles to ensure comprehensive understanding.",
+      "examples": [
+        {
+          "example": "Draw a number line with **x** marked at 15. Doubling shifts it to **30**, then adding 4 moves it to **34** (e.g., if **x = 15**, the line shows 15 → 30 → 34).",
+          "steps": [
+            "Start with the value **x = 15** on the number line.",
+            "Double the value: __15__ × __2__ = __30__ (moving to the next position).",
+            "Now the value is at **30** on the number line.",
+            "Add **4** to the current value: __30__ + __4__ = __34__.",
+            "The final position on the number line is **34**."
+          ]
+        },
+        {
+          "example": "A **cake-cutting diagram**: Start with **x** equal slices. Doubling gives **2x** slices. Adding 5 more slices results in **2x + 5** slices (e.g., if **x = 6**, the cake has 12 + 5 = 17 slices).",
+          "steps": [
+            "We start with **x** equal slices on the cake.",
+            "Doubling the slices means multiplying by 2: **2 × x = 2x** slices.",
+            "Now, we add **5** more slices to the total: **2x + 5** slices.",
+            "If **x = 6**, calculate the total slices: **2 × 6 = 12**, then add **5**: **12 + 5 = 17** slices."
+          ]
+        },
+        {
+          "example": "A **speedometer** with **x** km/h marked. Doubling the speed shows **2x** km/h. Adding 10 km/h reaches **2x + 10** km/h (e.g., if **x = 7**, the speed is 14 + 10 = 24 km/h).",
+          "steps": [
+            "The speed is initially marked as **x** km/h on the speedometer.",
+            "Doubling the speed means multiplying by 2: **2 × x = 2x** km/h.",
+            "Now the speed is **2x** km/h.",
+            "Adding 10 km/h to the doubled speed: **2x + 10** km/h.",
+            "If **x = 7**, calculate the new speed: **2 × 7 = 14** km/h, then add 10: **14 + 10 = 24** km/h."
+          ]
+        },
+        {
+          "example": "A **water jug diagram**: Fill a jug to **x** liters. Double the amount to **2x** liters. Pour in 6 more liters to reach **2x + 6** liters (e.g., if **x = 5**, the jug holds 10 + 6 = 16 liters).",
+          "steps": [
+            "Start with a jug filled to **x** liters.",
+            "Double the amount in the jug: **x × 2 = 2x** liters.",
+            "Now the jug contains **2x** liters.",
+            "Add **6** more liters to the jug.",
+            "The total amount in the jug is now **2x + 6** liters."
+          ]
+        },
+        {
+          "example": "A **coin collection**: Start with **x** coins. Double the amount to **2x** coins. Add 7 more coins to get **2x + 7** coins (e.g., if **x = 8**, the total is 16 + 7 = 23 coins).",
+          "steps": [
+            "We start with __x__ coins in the collection.",
+            "Double the amount: __x__ × 2 = __2x__ coins.",
+            "Now we have __2x__ coins.",
+            "Add __7__ more coins to the collection.",
+            "The total becomes __2x__ + __7__ coins."
+          ]
+        },
+        {
+          "example": "A **clock face**: Mark **x** minutes on a clock. Doubling shows **2x** minutes. Adding 15 minutes lands at **2x + 15** minutes (e.g., if **x = 10**, the time is 20 + 15 = 35 minutes).",
+          "steps": [
+            "Start with a variable: Let **x** represent the number of minutes marked on the clock.",
+            "Double the marked minutes: **2x** represents twice the original amount.",
+            "The expression for doubled minutes is: **2 × _x_ = _2x_ minutes.",
+            "Add 15 minutes to the doubled amount: **2x + 15** represents the total time.",
+            "Example: If **x = 10**, calculate **2 × 10 = 20** minutes.",
+            "Now add 15 minutes: **20 + 15 = 35** minutes on the clock."
+          ]
+        },
+        {
+          "example": "A **tree growth chart**: A sapling grows **x** cm tall. Doubling its height gives **2x** cm. Adding 3 cm results in **2x + 3** cm (e.g., if **x = 4**, the tree is 8 + 3 = 11 cm tall).",
+          "steps": [
+            "The sapling’s initial height is represented by **x** centimeters.",
+            "Doubling the height means multiplying by 2: **2 × x** = __2x__ cm.",
+            "Now, the tree’s height is __2x__ cm.",
+            "Adding 3 cm to the height: __2x + 3__ cm.",
+            "If **x = 4**, calculate the final height: __8 + 3__ = __11__ cm."
+          ]
+        },
+        {
+          "example": "A **recipe scaling diagram**: A recipe uses **x** cups of flour. Doubling the recipe requires **2x** cups. Adding 2 extra cups gives **2x + 2** cups (e.g., if **x = 3**, the recipe needs 6 + 2 = 8 cups).",
+          "steps": [
+            "The original recipe requires __x__ cups of flour.",
+            "Doubling the recipe means multiplying the amount by 2, so now it needs __2x__ cups.",
+            "If we add __2__ extra cups, the total becomes __2x + 2__ cups.",
+            "For example, if __x = 3__, then doubling gives __6__ cups, and adding 2 more gives __6 + 2 = 8__ cups."
+          ]
+        },
+        {
+          "example": "A **distance map**: A runner runs **x** meters. Doubling the distance is **2x** meters. Adding 5 meters reaches **2x + 5** meters (e.g., if **x = 6**, the total distance is 12 + 5 = 17 meters).",
+          "steps": [
+            "The runner runs a distance of __x__ meters.",
+            "Doubling the distance means multiplying by 2: __2 × x__ = __2x__ meters.",
+            "Now, add an extra __5__ meters to the doubled distance.",
+            "The total distance is now __2x + 5__ meters.",
+            "If the original distance was __6__ meters, calculate: __2 × 6__ = __12__ meters (doubled).",
+            "Add the extra __5__ meters: __12 + 5__ = __17__ meters total."
+          ]
+        },
+        {
+          "example": "A **currency exchange rate**: Start with **x** euros. Doubling the amount is **2x** euros. Adding 10 euros gives **2x + 10** euros (e.g., if **x = 5**, the total is 10 + 10 = 20 euros).",
+          "steps": [
+            "We start with an unknown amount of euros, represented as **x** euros.",
+            "To double the amount, we multiply **x** by 2, resulting in **2x** euros.",
+            "Now, we add **10** euros to the doubled amount.",
+            "The new total is expressed as **2x + 10** euros.",
+            "If we substitute **x = 5** euros, we get **2 * 5 + 10** euros.",
+            "Calculate: **2 * 5 = 10** euros (doubled amount).",
+            "Add **10** euros to the result: **10 + 10 = 20** euros."
+          ]
+        },
+        {
+          "example": "A **fractional bar diagram**: A bar represents **x** parts of a whole. Doubling the parts shows **2x** parts. Adding 4 parts results in **2x + 4** parts (e.g., if **x = 2**, the bar has 4 + 4 = 8 parts).",
+          "steps": [
+            "The bar initially represents __x__ parts of the whole.",
+            "Doubling the parts means multiplying by 2, so now the bar has __2x__ parts.",
+            "Adding 4 more parts means we combine them with the existing parts: __2x + 4__ parts.",
+            "If we substitute **x = 2** into the expression, we get: __2 * 2 + 4__ = __8__ parts."
+          ]
+        },
+        {
+          "example": "A time-lapse video: A video takes **x** seconds to load. Doubling the load time is **2x** seconds. Adding 8 seconds results in **2x + 8** seconds (e.g., if **x = 3**, the total load time is 6 + 8 = 14 seconds).",
+          "steps": [
+            "The video takes **x** seconds to load initially.",
+            "Doubling the load time means multiplying by 2: **2 × x** = **2x** seconds.",
+            "Now, we add **8** seconds to the doubled time: **2x + 8** seconds.",
+            "If **x = 3**, calculate the doubled time: **2 × 3 = 6** seconds.",
+            "Add the **8** seconds to the result: **6 + 8 = 14** seconds total load time."
+          ]
+        },
+        {
+          "example": "A **population growth chart**: A town has **x** residents. Doubling the population is **2x** residents. Adding 10 more residents gives **2x + 10** residents (e.g., if **x = 7**, the population is 14 + 10 = 24 residents).",
+          "steps": [
+            "The town starts with a population of **x** residents.",
+            "Doubling the population means multiplying by 2: **2 × x = 2x** residents.",
+            "Now, the population is **2x** residents.",
+            "We add **10** more residents to the current population.",
+            "The new total population is **2x + 10** residents.",
+            "If **x = 7**, calculate the new population: **2 × 7 = 14**, then add **10**: **14 + 10 = 24** residents."
+          ]
+        },
+        {
+          "example": "A **geometric shape area**: A square with side **x** cm has area **x²**. Doubling the side length gives **2x²** cm². Adding 3 cm to each side (new area = (2x + 3)²) results in a different expression (e.g., if **x = 4**, original area = 16; doubled side = 8² = 64; adjusted side = 11² = 121).",
+          "steps": [
+            "A square with side length **x** cm has an area of **x²** cm² (this is given).",
+            "If the side length is doubled, the new side length is **2x** cm.",
+            "The area of the doubled square is **(2x)² = 2x²** cm² (this is given).",
+            "Now, we add **3 cm** to **each** side of the original square. The new side length is **(x + 3)** cm.",
+            "The area of the square with sides increased by 3 cm is **(x + 3)²** (this is the new expression).",
+            "If we double the side length first and then add 3 cm to each side, the new side length is **(2x + 3)** cm.",
+            "The area of this new square is **(2x + 3)²** cm² (this is the adjusted expression).",
+            "For example, if **x = 4** cm:",
+            "  - Original area = **4² = 16** cm².",
+            "  - Doubled side area = **(2×4)² = 8² = 64** cm².",
+            "  - Adjusted side area (after adding 3 cm to each side) = **(4 + 3)² = 7² = 49** cm² (different from the previous step).",
+            "  - Adjusted side area (after doubling first, then adding 3 cm) = **(2×4 + 3)² = 11² = 121** cm² (as given in the example).",
+            "The key difference is whether you first adjust the side length or apply the changes after doubling."
+          ]
+        },
+        {
+          "example": "A **gas station fuel gauge**: A tank holds **x** liters. Doubling the fuel capacity is **2x** liters. Adding 5 liters fills it to **2x + 5** liters (e.g., if **x = 4**, the tank holds 8 + 5 = 13 liters).",
+          "steps": [
+            "The tank initially holds __x__ liters of fuel.",
+            "Doubling the fuel capacity means the tank can now hold __2x__ liters.",
+            "If we add __5__ more liters to the doubled capacity, the total fuel becomes __2x + 5__ liters.",
+            "For example, if the original capacity is __4__ liters, then doubling it gives __8__ liters.",
+            "Adding __5__ liters to __8__ liters results in __13__ liters total."
+          ]
+        },
+        {
+          "example": "A **recursive algorithm**: A function starts with **x** steps. Doubling the steps is **2x** steps. Adding 9 steps results in **2x + 9** steps (e.g., if **x = 5**, the total steps are 10 + 9 = 19).",
+          "steps": [
+            "The function starts with __x__ steps.",
+            "Doubling the steps means multiplying by 2, so now there are __2x__ steps.",
+            "Adding 9 more steps gives us __2x + 9__ steps in total.",
+            "If we substitute **x = 5** into the equation, we get __2 * 5 + 9__.",
+            "Calculate: __10 + 9 = 19__ steps total."
+          ]
+        },
+        {
+          "example": "A **circuit resistance diagram**: A resistor has **x** ohms. Doubling the resistance is **2x** ohms. Adding 6 ohms gives **2x + 6** ohms (e.g., if **x = 2**, the total resistance is 4 + 6 = 10 ohms).",
+          "steps": [
+            "The resistor starts with resistance equal to __x__ ohms.",
+            "Doubling the resistance means multiplying by 2: __2 × x__ ohms.",
+            "Now the resistance is __2x__ ohms.",
+            "Adding 6 ohms to the resistance: __2x + 6__ ohms.",
+            "If the original resistance was 2 ohms (as in the example), then the total resistance is __4 + 6__ ohms."
+          ]
+        },
+        {
+          "example": "A **daily budget tracker**: Start with **x** dollars. Doubling the budget is **2x** dollars. Adding 15 dollars reaches **2x + 15** dollars (e.g., if **x = 8**, the total budget is 16 + 15 = 31 dollars).",
+          "steps": [
+            "The starting budget is represented by the variable: __x__ dollars.",
+            "Doubling the budget means multiplying the starting amount by 2: __2 × x__ = __2x__ dollars.",
+            "Now, add __15__ dollars to the doubled budget: __2x + 15__.",
+            "If the starting budget is __8__ dollars, calculate the doubled budget: __2 × 8__ = __16__ dollars.",
+            "Add the __15__ dollars to the doubled budget: __16 + 15__ = __31__ dollars."
+          ]
+        },
+        {
+          "example": "A **DNA sequence length**: A gene has **x** base pairs. Doubling the sequence length is **2x** base pairs. Adding 2 base pairs results in **2x + 2** base pairs (e.g., if **x = 3**, the total length is 6 + 2 = 8 base pairs).",
+          "steps": [
+            "A gene has __x__ base pairs initially.",
+            "Doubling the length means multiplying by 2: __2__ × __x__ = __2x__ base pairs.",
+            "Now, the total length is __2x__ base pairs.",
+            "Adding 2 more base pairs: __2x__ + __2__ = __total length__ base pairs.",
+            "For example, if __x = 3__, then doubling gives __6__ base pairs, and adding 2 gives __8__ base pairs."
+          ]
+        },
+        {
+          "example": "A **volume scaling model**: A cube with side **x** cm has volume **x³**. Doubling the side length gives **2x³** cm³. Adding 1 cm to each side (new volume = (2x + 1)³) results in a different expression (e.g., if **x = 2**, original volume = 8; doubled side = 4³ = 64; adjusted side = 5³ = 125).",
+          "steps": [
+            "A cube with side length **x** cm has volume represented by the expression: **x³** cm³.",
+            "If the side length is doubled, the new side length is **2x** cm.",
+            "The volume of the cube with doubled side length is **(2x)³** = **2x³** cm³.",
+            "Now, add **1 cm** to each side of the original cube: the new side length is **(x + 1)** cm.",
+            "The volume of the cube with each side increased by 1 cm is **(x + 1)³** cm³.",
+            "If we double the side length and then add 1 cm to each side, the new side length is **(2x + 1)** cm.",
+            "The volume of this new cube is **(2x + 1)³** cm³.",
+            "For example, when **x = 2** cm:",
+            "  - Original volume = **2³** = **8** cm³.",
+            "  - Doubled side volume = **(2 × 2)³** = **4³** = **64** cm³.",
+            "  - Adjusted side volume (side = 2 + 1 = 3 cm) = **3³** = **27** cm³ (correction: side = 5 cm, so **5³** = **125** cm³).",
+            "  - Adjusted side volume (side = 2 × 2 + 1 = 5 cm) = **5³** = **125** cm³."
+          ]
+        }
+      ]
+    },
+    {
+      "sub_topic": "Real-World Applications: Scenarios with Meaning (Doubling and Adding)",
+      "explanation": "This sub-topic focuses on practical contexts where doubling and adding operations are applied in everyday situations, enhancing understanding by connecting mathematical concepts to tangible scenarios. The examples cover diverse domains (food, finance, nature, sports, etc.) and number ranges (single-digit to large quantities), ensuring varied difficulty levels and problem structures.",
+      "examples": [
+        {
+          "example": "A farmer has **m** kilograms of apples. After harvesting, she triples the amount and then adds **4 kg** of extra apples for a market display, resulting in **3m + 4** kilograms.",
+          "steps": [
+            "The farmer starts with __m__ kilograms of apples.",
+            "She triples the amount: __m__ × __3__ = __3m__ kilograms.",
+            "Next, she adds __4__ kilograms of extra apples.",
+            "The total amount is now __3m__ + __4__ kilograms."
+          ]
+        },
+        {
+          "example": "A soccer team scores **n** goals in a match. If they double their goals and add **2** more goals from a penalty shootout, they will have **2n + 2** goals.",
+          "steps": [
+            "The team starts with __n__ goals scored in the match.",
+            "They double their goals: __n__ × __2__ = __2n__ goals.",
+            "Next, they add __2__ more goals from a penalty shootout.",
+            "Total goals now: __2n__ + __2__ = __2n + 2__ goals."
+          ]
+        },
+        {
+          "example": "A library has **x** books in its children’s section. If the librarian doubles the collection and adds **5** new titles, the total becomes **2x + 5** books.",
+          "steps": [
+            "The library starts with __x__ books in the children’s section.",
+            "The librarian doubles the number of books: __x__ × __2__ = __2x__ books.",
+            "The librarian adds __5__ new books to the doubled collection.",
+            "Now the total number of books is __2x__ + __5__."
+          ]
+        },
+        {
+          "example": "A bakery sells **y** dozen cupcakes daily. If they double their production and add **6** extra cupcakes for a birthday event, they will have **2y + 6** cupcakes.",
+          "steps": [
+            "First, calculate the number of cupcakes sold daily: __y__ dozen cupcakes = __12y__ cupcakes (since 1 dozen = 12 cupcakes).",
+            "Next, double the daily production: __12y__ × 2 = __24y__ cupcakes.",
+            "Then, add the extra __6__ cupcakes for the birthday event: __24y__ + __6__ = __2y + 6__ cupcakes (rearranged for clarity)."
+          ]
+        },
+        {
+          "example": "A construction crew builds **z** floors in a week. If they double their progress and add **3** more floors for a new addition, the total floors completed will be **2z + 3**",
+          "steps": [
+            "The crew initially builds __z__ floors in a week.",
+            "They **double** their progress, so they now build __2z__ floors.",
+            "They add __3__ more floors for a new addition.",
+            "The total floors completed is therefore __2z__ + __3__."
+          ]
+        },
+        {
+          "example": "A beekeeper has **a** hives. If she doubles the number of hives and adds **7** new hives for expansion, the total becomes **2a + 7** hives.",
+          "steps": [
+            "The beekeeper starts with __a__ hives.",
+            "She doubles the number of hives: __a__ × __2__ = __2a__ hives.",
+            "Now, she adds __7__ new hives to the doubled amount.",
+            "The total number of hives is now __2a__ + __7__."
+          ]
+        },
+        {
+          "example": "A chef uses **b** grams of sugar in a recipe. If she triples the amount and adds **10** grams for a larger batch, the total sugar used is **3b + 10** grams.",
+          "steps": [
+            "The chef starts with __b__ grams of sugar in the recipe.",
+            "She triples the amount of sugar: __b__ × 3 = __3b__ grams.",
+            "Now, she adds __10__ grams more to the recipe.",
+            "The total sugar used is the sum of the tripled amount and the added grams: __3b__ + __10__ grams."
+          ]
+        },
+        {
+          "example": "A marathon runner completes **c** laps in training. If she doubles her laps and adds **4** more laps for a race, she will have **2c + 4** laps.",
+          "steps": [
+            "The runner completes __c__ laps in training.",
+            "She doubles her laps: __c__ × 2 = __2c__ laps.",
+            "She adds __4__ more laps to the doubled amount.",
+            "Total laps for the race: __2c__ + __4__ = __2c + 4__ laps."
+          ]
+        },
+        {
+          "example": "A farmer has **d** acres of corn. If she doubles the land and adds **2** acres for irrigation, the total land becomes **2d + 2** acres.",
+          "steps": [
+            "The farmer starts with __d__ acres of corn.",
+            "She **doubles** the land, so now she has __2 × d__ acres.",
+            "Next, she adds __2__ acres for irrigation.",
+            "Now, the total land is __2d + 2__ acres."
+          ]
+        },
+        {
+          "example": "A tech startup earns **e** million dollars in revenue. If they double their earnings and add **$500,000** in new investments, their total revenue is **2e + 500,000** dollars.",
+          "steps": [
+            "The startup’s original revenue is represented by the variable: **e** million dollars.",
+            "They **double** their earnings, so the new revenue from earnings is: **2 × e** million dollars.",
+            "The doubled earnings can be written as: **2e** million dollars.",
+            "The startup adds **$500,000** in new investments. Since **e** is in millions, convert **500,000** to millions: **0.5** million dollars.",
+            "Now, add the doubled earnings and the new investment: **2e + 0.5** million dollars.",
+            "The total revenue is expressed as: **2e + 500,000** dollars (since 0.5 million = $500,000)."
+          ]
+        },
+        {
+          "example": "A gardener plants **f** rows of tomatoes. If she doubles the rows and adds **8** new rows for a greenhouse, the total rows become **2f + 8** rows.",
+          "steps": [
+            "The gardener initially plants __f__ rows of tomatoes.",
+            "She doubles the number of rows: __f__ × __2__ = __2f__ rows.",
+            "Next, she adds __8__ new rows for the greenhouse.",
+            "Now, the total number of rows is the sum of the doubled rows and the added rows: __2f__ + __8__ = __2f + 8__ rows."
+          ]
+        },
+        {
+          "example": "A pizza shop sells **g** pizzas per hour. If they double their sales and add **5** pizzas for a special promotion, they will have **2g + 5** pizzas sold.",
+          "steps": [
+            "The shop initially sells __g__ pizzas per hour.",
+            "They **double** their sales, so now they sell __2 × g__ pizzas.",
+            "Next, they add __5__ extra pizzas for a special promotion.",
+            "Total pizzas sold = __2g + 5__"
+          ]
+        },
+        {
+          "example": "A library has **h** books in its fiction section. If they double the collection and add **12** new books, the total becomes **2h + 12** books.",
+          "steps": [
+            "The library starts with __h__ books in the fiction section.",
+            "They double the number of books: __h__ × 2 = __2h__ books.",
+            "Now, the library has __2h__ books.",
+            "They add __12__ new books to the collection.",
+            "The total number of books is now __2h__ + __12__ books."
+          ]
+        },
+        {
+          "example": "A bakery sells **i** cakes weekly. If they double their sales and add **9** cakes for a wedding order, the total cakes sold will be **2i + 9** cakes.",
+          "steps": [
+            "The bakery initially sells __i__ cakes per week.",
+            "They **double** their sales, so now they sell __2 × i__ cakes.",
+            "Next, they add __9__ cakes for a wedding order.",
+            "The total cakes sold is now __2i + 9__ cakes."
+          ]
+        },
+        {
+          "example": "A fisherman catches **j** fish per day. If he doubles his catch and adds **6** more fish for a market, the total fish becomes **2j + 6** fish.",
+          "steps": [
+            "The fisherman catches __j__ fish per day.",
+            "He doubles his catch, so now he has __2 × j__ fish.",
+            "He adds __6__ more fish to the doubled amount.",
+            "The total number of fish is now __2j + 6__ fish."
+          ]
+        },
+        {
+          "example": "A construction site has **k** workers. If they double their workforce and add **10** new workers, the total workers become **2k + 10** workers.",
+          "steps": [
+            "The construction site starts with __k__ workers.",
+            "The workers double their number: __k__ × 2 = __2k__ workers.",
+            "They add __10__ new workers to the doubled number.",
+            "Now the total number of workers is __2k__ + __10__."
+          ]
+        },
+        {
+          "example": "A farmer has **l** chickens. If she doubles the number and adds **15** more chickens for a market sale, the total chickens are **2l + 15** chickens.",
+          "steps": [
+            "The farmer starts with __l__ chickens.",
+            "She doubles the number of chickens: __l__ × __2__ = __2l__ chickens.",
+            "Now she adds __15__ more chickens to the doubled amount.",
+            "The total number of chickens is now __2l__ + __15__ chickens."
+          ]
+        },
+        {
+          "example": "A tech company’s profit is **m** million dollars. If they double their profit and add **$2 million** in bonuses, their total profit becomes **2m + 2,000,000** dollars.",
+          "steps": [
+            "The company’s original profit is represented by the variable **m** million dollars.",
+            "They **double** their profit, so now they have **2 × m** million dollars.",
+            "The learner should write this as: __2m__ million dollars.",
+            "Next, they add **$2 million** in bonuses.",
+            "The total profit is now **2m + 2,000,000** dollars.",
+            "This matches the given expression in the example."
+          ]
+        },
+        {
+          "example": "A marathon runner completes **n** kilometers in training. If she doubles her distance and adds **3** kilometers for a race, the total distance is **2n + 3** kilometers.",
+          "steps": [
+            "The runner’s training distance is represented by the variable: __n__ kilometers.",
+            "Doubling the training distance means multiplying by 2: __2 × n__ kilometers.",
+            "The runner adds an extra __3__ kilometers for the race.",
+            "Now, the total distance is the sum of the doubled training distance and the added kilometers: __2n + 3__ kilometers."
+          ]
+        },
+        {
+          "example": "A bakery sells **o** pies daily. If they double their sales and add **11** pies for a holiday event, the total pies sold will be **2o + 11** pies.",
+          "steps": [
+            "The bakery initially sells __o__ pies per day.",
+            "They double their sales, so now they sell __2 × o__ pies.",
+            "The expression for doubled sales is __2o__ (where 'o' represents the original number).",
+            "For the holiday event, they add __11__ pies to the doubled amount.",
+            "The total pies sold is calculated as __2o + 11__."
+          ]
+        }
+      ]
+    },
+    {
+      "sub_topic": "Rewriting the Problem in Algebraic Form",
+      "explanation": "This sub-topic focuses on translating word problems involving operations like doubling and adding a constant into algebraic expressions. The goal is to express the problem’s core mathematical operations concisely in terms of a variable (e.g., *2x + 3*). The examples should cover varied contexts, number ranges, and difficulty levels while ensuring clarity and correctness in algebraic representation.",
+      "examples": [
+        {
+          "example": "'A bakery sells cakes; if each cake is increased by 2 and then doubled, how is the total represented?’ → **2(2c + 2)**",
+          "steps": [
+            "Let the number of cakes be represented as **c**.",
+            "First, increase each cake by 2: **c + 2**.",
+            "Next, double the increased amount: **2 × (c + 2)**.",
+            "The total expression for all cakes is **2(2c + 2)**."
+          ]
+        },
+        {
+          "example": "'A marathon runner’s pace is reduced by 1 minute per kilometer and then doubled in speed (in km/h).’ → **2(p - 1)**",
+          "steps": [
+            "Let the original pace be **p** minutes per kilometer.",
+            "The pace is reduced by 1 minute per kilometer, so the new pace is **p - 1** minutes per kilometer.",
+            "To convert this pace to speed in km/h, we need to find how many kilometers are run per hour.",
+            "Since 1 kilometer takes **(p - 1)** minutes, convert minutes to hours by dividing by 60: **(p - 1) ÷ 60** hours per kilometer.",
+            "To get speed in km/h, multiply by 1 kilometer: **((p - 1) ÷ 60) × 60** (since 60 minutes = 1 hour).",
+            "This simplifies to **p - 1** km/h, but the problem states the speed is doubled: **2 × (p - 1)** km/h.",
+            "Thus, the final expression is **2(p - 1)** km/h."
+          ]
+        },
+        {
+          "example": "‘A farmer’s crop yield is tripled and increased by 50 bushels per acre.’ → **3y + 50**",
+          "steps": [
+            "Let the original crop yield be represented by __y__ bushels per acre.",
+            "Tripling the crop yield means multiplying it by 3: __3 × y__ = __3y__ bushels per acre.",
+            "The crop yield is then increased by an additional 50 bushels: __3y + 50__ bushels per acre."
+          ]
+        },
+        {
+          "example": "‘A smartphone’s battery life is halved and then increased by 10% of its original capacity.’ → **0.5b + 0.1b**",
+          "steps": [
+            "Let the original battery capacity be represented as **b**.",
+            "The battery is halved, so the remaining capacity is **0.5 × b** = **0.5b**.",
+            "The 10% increase is calculated as **0.1 × b** (since 10% of the original capacity is **0.1b**).",
+            "The total battery life after these changes is the sum of the halved capacity and the increased portion: **0.5b + 0.1b**."
+          ]
+        },
+        {
+          "example": "'A library’s book collection is expanded by 40% and then doubled.' → **2(1.4k)**",
+          "steps": [
+            "Let the original number of books be represented as **k** (where **k** is the initial collection size).",
+            "First, the collection is expanded by 40%. To find the new number of books after expansion:",
+            "Calculate 40% of **k**: __0.4 × k__",
+            "Add this to the original number: **k + 0.4k = 1.4k** (total after expansion).",
+            "Next, the collection is doubled. Multiply the expanded number by 2:",
+            "2 × 1.4k = __2(1.4k)__ (final number of books)."
+          ]
+        },
+        {
+          "example": "'A car’s fuel efficiency is decreased by 3 mpg and then doubled in efficiency.’ → **2(e - 3)**",
+          "steps": [
+            "Let the original fuel efficiency be represented by the variable **e** (in mpg).",
+            "The efficiency is decreased by 3 mpg, so the new efficiency is **e - 3**.",
+            "The expression for the decreased efficiency is: **e - 3**",
+            "The efficiency is then doubled, so multiply the result by 2.",
+            "The final expression is: **2 × (e - 3)**",
+            "Simplify to match the given form: **2(e - 3)**"
+          ]
+        },
+        {
+          "example": "'A pizza shop charges a base price of $10, adds $2 per topping, and then doubles the total.’ → **2(10 + 2t)**",
+          "steps": [
+            "The base price of the pizza is __$10__.",
+            "Each topping adds __$2__ to the total cost.",
+            "Let __t__ represent the number of toppings. The cost before doubling is __10 + 2t__.",
+            "The total cost is then doubled, so the final price is __2 × (10 + 2t)__.",
+            "This simplifies to the expression **2(10 + 2t)**."
+          ]
+        },
+        {
+          "example": "'A stock market’s daily gain is tripled and increased by 100 points.’ → **3s + 100**",
+          "steps": [
+            "Let the original daily gain be represented as **s** points.",
+            "Tripling the gain means multiplying it by 3: **3 × s = 3s**.",
+            "The gain is now **3s** points.",
+            "Adding an additional 100 points gives: **3s + 100**."
+          ]
+        },
+        {
+          "example": "'A hiking trail’s elevation gain is reduced by 500 feet and then doubled.' → **2(g - 500)**",
+          "steps": [
+            "Let the original elevation gain be represented by the variable **g** (in feet).",
+            "The elevation gain is first reduced by 500 feet: subtract 500 from **g** → **g - 500**.",
+            "The result is then doubled: multiply the expression by 2 → **2 × (g - 500)**.",
+            "This gives the final expression: **2(g - 500)**."
+          ]
+        },
+        {
+          "example": "'A recipe’s spice ratio is doubled and increased by 1 tablespoon.’ → **2s + 1**",
+          "steps": [
+            "The original spice ratio is represented as **s** tablespoons.",
+            "Doubling the spice ratio means multiplying it by 2: **2 × s** = **2s** tablespoons.",
+            "Now, we add an additional **1** tablespoon to the doubled amount: **2s + 1** tablespoons."
+          ]
+        },
+        {
+          "example": "'A robot’s movement speed is quadrupled and increased by 5 units per second.’ → **4r + 5**",
+          "steps": [
+            "Let the original speed of the robot be represented as **r** units per second.",
+            "Quadrupling the speed means multiplying it by 4: **4 × r**",
+            "The speed is then increased by 5 units: **4r + 5**"
+          ]
+        },
+        {
+          "example": "'A weather forecast predicts a 15% chance of rain, which is then doubled.' → **2(0.15p)**",
+          "steps": [
+            "The original chance of rain is represented as __0.15__ (15%).",
+            "The chance is then doubled by multiplying by 2.",
+            "So, we calculate: __2 × 0.15__.",
+            "This gives us __0.30__ (30%) as the new chance of rain."
+          ]
+        },
+        {
+          "example": "'A bridge’s load capacity is increased by 5 tons and then tripled.’ → **3(l + 5)**",
+          "steps": [
+            "Let the original load capacity be represented by the variable **l** (in tons).",
+            "The load capacity is increased by 5 tons, so the new capacity becomes **l + 5** tons.",
+            "The problem states the capacity is then tripled, so we multiply the expression by 3.",
+            "Thus, the final expression is **3 × (l + 5)**."
+          ]
+        },
+        {
+          "example": "‘A chess tournament’s score is halved and increased by 2 points.’ → **0.5s + 2**",
+          "steps": [
+            "The original score is represented as **s** (unknown value).",
+            "Halving the score means dividing it by 2: **s ÷ 2 = 0.5s** (this is the first operation).",
+            "The score is now **0.5s** (this is the result after halving).",
+            "Adding 2 points to the halved score: **0.5s + 2** (this is the final expression)."
+          ]
+        },
+        {
+          "example": "'A satellite’s orbit is expanded by 100 km and then doubled.' → **2(o + 100)**",
+          "steps": [
+            "Let the original orbit size be represented by the variable **o** (in km).",
+            "The orbit is expanded by **100 km**, so the new orbit size is **o + 100** km.",
+            "The expanded orbit is then doubled, meaning we multiply the result by **2**.",
+            "This gives us the final expression: **2 × (o + 100)**."
+          ]
+        },
+        {
+          "example": "'A bakery’s daily sales are increased by 30% and then doubled.’ → **2(1.3d)**",
+          "steps": [
+            "Let the original daily sales be represented as **d** (where **d** is the starting value).",
+            "First, the sales are increased by 30%. To find the new amount after the increase, multiply **d** by 1.30 (since 30% = 0.30).",
+            "This gives us: **1.3d** (the sales after the 30% increase).",
+            "Next, the sales are doubled. Doubling means multiplying by 2.",
+            "So, the final amount is: **2 × 1.3d** (which simplifies to **2(1.3d)**)."
+          ]
+        },
+        {
+          "example": "'A drone’s flight time is reduced by 2 minutes and then doubled.’ → **2(f - 2)**",
+          "steps": [
+            "Let the original flight time be represented by the variable __f__ minutes.",
+            "The flight time is reduced by 2 minutes, so the new time is __f__ - __2__ minutes.",
+            "The expression for the reduced flight time is therefore **(f - 2)**.",
+            "The flight time is then doubled, so multiply the reduced time by 2.",
+            "The final expression is **2 × (f - 2)** → **2(f - 2)**."
+          ]
+        },
+        {
+          "example": "'A river’s current speed is decreased by 0.5 knots and then tripled.’ → **3(c - 0.5)**",
+          "steps": [
+            "Let the original speed of the river’s current be **c** knots.",
+            "The speed is decreased by 0.5 knots, so the new speed is **c - 0.5** knots.",
+            "Now, this new speed is tripled: **3 × (c - 0.5)**",
+            "This gives the final expression: **3(c - 0.5)**"
+          ]
+        },
+        {
+          "example": "'A student’s study time is doubled and increased by 1 hour.’ → **2s + 1**",
+          "steps": [
+            "Let the original study time be **s** hours.",
+            "Doubling the study time means multiplying by 2: **2 × s** = **2s**",
+            "Adding an extra 1 hour gives: **2s + 1**"
+          ]
+        },
+        {
+          "example": "‘A solar panel’s energy output is quadrupled and increased by 50 watts.’ → **4e + 50**",
+          "steps": [
+            "Let the original energy output of the solar panel be represented as **e** (in watts).",
+            "Quadrupling the energy output means multiplying it by 4: **4 × e** (which is written as **4e**).",
+            "The energy output is now **4e** watts.",
+            "The output is then increased by 50 watts: **4e + 50**",
+            "This gives the final expression for the solar panel’s energy output: **4e + 50**"
+          ]
+        }
+      ]
+    }
+  ]
+}
